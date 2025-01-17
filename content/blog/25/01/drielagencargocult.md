@@ -1,8 +1,8 @@
 ---
 title: "Drielagencargocult"
 author: "Karl van Heijster"
-date: 2024-11-15T09:55:24+01:00
-draft: true
+date: 2025-01-17T08:23:02+01:00
+draft: false
 comments: true
 tags: ["aannames", "intentie van code", "software ontwikkelen"]
 summary: "Goede abstracties worden niet *bedacht*. Goede abstracties worden *ontdekt*. Ze vinden pas het levenslicht als reactie op een concrete vraag van de codebase. Softwareontwikkeling is in wezen een empirische aangelegenheid."
@@ -20,7 +20,7 @@ De proxy had een `Controller` en enkele `Services` -- één voor elk extern syst
 ## Twee delen
 
 
-Om precies was het een abstractie om *twee* `HttpClients` -- één met automatische *redirects* en één zonder. Want het ene externe systeem gaf ons alle informatie die we nodig hadden in de header van een HTTP-response die de `HttpClient` zonder verdere configuratie ongemerkt zou hebben ingeslikt, en het andere niet. Het gevolg was dat de methods op de `ExternalApiService` die onder water gebruik maakten *redirects* louter en alleen door de ene service werden gebruikt. En de methods die onder water gebruik maakten van de ongeconfigureerde `HttpClient` werden gebruikt door de andere service. 
+Om precies te zijn was het een abstractie om *twee* `HttpClients` -- één met automatische *redirects* en één zonder. Want het ene externe systeem gaf ons alle informatie die we nodig hadden in de header van een HTTP-response die de `HttpClient` zonder verdere configuratie ongemerkt zou hebben ingeslikt, en het andere niet. Het gevolg was dat de methods op de `ExternalApiService` die onder water gebruik maakten *redirects* louter en alleen door de ene service werden gebruikt. En de methods die onder water gebruik maakten van de ongeconfigureerde `HttpClient` werden gebruikt door de andere service. 
 
 
 De abstractie viel uiteen in twee welonderscheiden delen, die afhankelijk waren van een implementatiedetail. Om te weten welke method in de `ExternalApiService` je aan moest roepen, moest je weet hebben van welke `HttpClient` er onder water gebruikt werd. Dat druist tegen het hele idee van abstractie in. De abstractie *verborg* juist de informatie die een gebruiker nodig had om het juiste resultaat te bereiken.
