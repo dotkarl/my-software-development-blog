@@ -1,11 +1,11 @@
 ---
 title: "Testen jullie private methods?"
 author: "Karl van Heijster"
-date: 2024-11-29T09:46:54+01:00
-draft: true
+date: 2025-01-31T08:38:24+01:00
+draft: false
 comments: true
 tags: ["testbaarheid", "testen", "unit tests"]
-summary: "\"Ja en nee. De testcode is geschreven om de logica te testen die in die `private` method zit. Dus in die zin testen we de `private` method. Maar we testen de `private` method niet door deze direct aan te roepen, nee.\" -- \"Hm.\" -- \"Er zit een verborgen veronderstelling in je vraag. Namelijk: dat een stuk code alleen wordt getest als deze direct wordt aangeroepen. Maar er is een verschil tussen de code die wordt *aangeroepen* door een test, en de code die erdoor *getest* wordt.\""
+summary: "Er zit een verborgen veronderstelling in je vraag. Namelijk: dat een stuk code alleen wordt getest als deze direct wordt aangeroepen. Maar er is een verschil tussen de code die wordt *aangeroepen* door een test, en de code die erdoor *getest* wordt."
 ---
 
 "Testen jullie `private` methods?"
