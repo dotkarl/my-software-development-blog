@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2024-09-27T08:22:09+02:00
 draft: false
 comments: true
-tags: ["functioneel programmeren", "mentaal model", "refactoren", "software ontwikkelen"]
+tags: ["functioneel programmeren", "mentaal model", "pipeline-oriented programming", "refactoren", "software ontwikkelen"]
 summary: "Ik schrijf al twee jaar op dit blog over functioneel programmeren in C#, dus je zou denken dat ik de basis inmiddels wel een beetje zou moeten beheersen -- en toch overkomt het me nog regelmatig dat ik uitroep: och, zit het *zo*! Zo had ik onlangs -- na een hoop gepiel (en een beetje hulp van Scott Wlaschin) -- een openbaring met betrekking tot de `Map`- en `Bind`-functies."
 ---
 

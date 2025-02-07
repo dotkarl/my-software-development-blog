@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2024-10-11T08:34:29+02:00
 draft: false
 comments: true
-tags: ["functioneel programmeren", "monads", "refactoren", "software ontwikkelen"]
+tags: ["functioneel programmeren", "monads", "pipeline-oriented programming", "refactoren", "software ontwikkelen"]
 summary: "Een soort van *monad*. Denk ik."
 ---
 

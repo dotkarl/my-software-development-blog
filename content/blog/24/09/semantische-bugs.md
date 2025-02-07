@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2024-09-06T08:22:56+02:00
 draft: false
 comments: true
-tags: ["bugs", "clean code", "falen", "intentie van code", "naamgeving", "professionaliteit", "requirements", "software ontwikkelaar (rol)", "vakmanschap", "verantwoordelijkheid", "werkplezier"]
+tags: ["bugs", "clean code", "falen", "intentie van code", "naamgeving", "pipeline-oriented programming", "professionaliteit", "requirements", "software ontwikkelaar (rol)", "vakmanschap", "verantwoordelijkheid", "werkplezier"]
 summary: "Voor een presentatie klooide ik wat variaties op het FizzBuzz-algoritme in elkaar. En ergens in de loop van die codeeroefening stuitte ik op een interessante bug -- hoewel, ik weet niet eens zeker of het wel een bug was. Dus: wat is een bug eigenlijk?"
 ---
 
