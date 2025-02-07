@@ -5,7 +5,7 @@ date: 2025-01-31T10:42:24+01:00
 draft: true
 comments: true
 tags: ["boeken", "mentaal model", "software architect (rol)", "software ontwikkelaar (rol)"]
-summary: "Softwareontwikkeling is geen constructieproces. Het bouwen (lees: "bouwen" -- *bouwen* is een metafoor) van een applicatie is iets fundamenteel anders dan het bouwen van een huis."
+summary: "Softwareontwikkeling is geen constructieproces. Het bouwen (lees: \"bouwen\" -- *bouwen* is een metafoor) van een applicatie is iets fundamenteel anders dan het bouwen van een huis."
 ---
 
 *(De volgende gedachten ontleen ik aan [Mark Seemanns](https://blog.ploeh.dk/)* [Code That Fits in Your Head](https://www.oreilly.com/library/view/code-that-fits/9780137464302/ "'Code That Fits in Your Head: Heuristics for Software Engineering', Mark Seemann, O'Reilly Media")*.)*
