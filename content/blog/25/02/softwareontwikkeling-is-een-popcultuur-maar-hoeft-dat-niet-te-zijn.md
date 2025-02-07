@@ -1,8 +1,8 @@
 ---
 title: "Softwareontwikkeling is een popcultuur (maar hoeft dat niet te zijn)"
 author: "Karl van Heijster"
-date: 2024-12-06T08:15:24+01:00
-draft: true
+date: 2025-02-07T08:29:45+01:00
+draft: false
 comments: true
 tags: ["aannames", "boekenclub", "verandering"]
 summary: "Het Agile manifest belooft betere manieren van softwareontwikkeling mogelijk te maken door de nadruk te leggen op \"*individuals and interactions*\" boven \"*processes and tools*\". Maar wat is Agile ontwikkeling verworden, ruim twintig jaar na het schrijven van dat manifest? -- Scrum + Jira. Oftewel: een *process* en een *tool*."
@@ -38,7 +38,7 @@ Om een nieuwe techniek te doorgronden, moet je je eigen vooronderstellingen krit
 ## Boekenclub
 
 
-Enkele maanden geleden ben ik een boekenclub begonnen (zie ook [deze blog](/blog/24/08/een-goede-ontwikkelaar-begrijpt-eerst-het-probleem/ "'Een goede ontwikkelaar begrijpt eerst het probleem'")) -- aanvankelijk met de mensen in mijn eigen team, de tweede iteratie breidde zich uit naar geïnteresseerden uit andere teams. We begonnen met [*Clean Craftsmanship*](https://www.pearson.com/en-us/subject-catalog/p/clean-craftsmanship-disciplines-standards-and-ethics/P200000009529/9780136915713 "'Clean Craftsmanship: Disciplines, Standards, and Ethics' Robert C. Martin, Addison Wesley") van [Robert "*uncle Bob*" Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) en lezen op het moment van schrijven [*Code That Fits in Your Head*](https://www.oreilly.com/library/view/code-that-fits/9780137464302/ "'Code That Fits in Your Head: Heuristics for Software Engineering', Mark Seemann, O'Reilly Media") van [Mark Seemann](https://blog.ploeh.dk/).
+Enkele maanden geleden ben ik een boekenclub begonnen (zie ook [deze blog](/blog/24/08/een-goede-ontwikkelaar-begrijpt-eerst-het-probleem/ "'Een goede ontwikkelaar begrijpt eerst het probleem'")) -- aanvankelijk met de mensen in mijn eigen team, de tweede iteratie breidde zich uit naar geïnteresseerden uit andere teams. We begonnen met [*Clean Craftsmanship*](https://www.pearson.com/en-us/subject-catalog/p/clean-craftsmanship-disciplines-standards-and-ethics/P200000009529/9780136915713 "'Clean Craftsmanship: Disciplines, Standards, and Ethics' Robert C. Martin, Addison Wesley") van [Robert "*uncle Bob*" Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) en lezen op het moment van schrijven [*Code That Fits in Your Head*](https://www.oreilly.com/library/view/code-that-fits/9780137464302/ "'Code That Fits in Your Head: Heuristics for Software Engineering', Mark Seemann, O'Reilly Media") van [Mark Seemann](https://blog.ploeh.dk/).[^2]
 
 
 Ik ben geneigd te denken dat het een succes is. Sinds we ermee begonnen zijn, heb ik enkele van mijn collega's hun meest vastgeroeste patronen in twijfel zien trekken. De stapjes die ze zetten zijn klein maar betekenisvol. Ze vragen zich af: *moet* ik het *zo* ontwikkelen? Wat als ik Martins of Seemanns advies opvolg? Levert dat op wat ze zeggen dat het oplevert?
@@ -56,7 +56,9 @@ Om tot dieper inzicht te komen, is het belangrijk om die hobbels te nemen. Om ni
 De voortgang is langzaam, stapsgewijs. Maar het doel van de boekenclub is niet om mensen in staat te stellen om zo snel mogelijk zoveel mogelijk waarde te laten leveren. Het doel is om ingesleten patronen te herkennen en uiteindelijk te doorbreken. Zodat men *op de langere termijn* in staat is om meer waarde te leveren dan nu. 
 
 
-Het doel is de oppervlakkige kennis die de popcultuur biedt, te vervangen door iets wat dieper graaft dan dat. Het middel is: lang genoeg bij ideeën stil blijven staan om tot kennis te komen die fundamenteler is dan *<span style="font-variant:small-caps;">het nieuwe ding</span> lost al mijn problemen op!*
+Het doel is -- misscihen -- de oppervlakkige kennis die de popcultuur biedt, te vervangen door iets wat dieper graaft dan dat. Het middel is: lang genoeg bij ideeën stil blijven staan om tot kennis te komen die fundamenteler is dan *<span style="font-variant:small-caps;">het nieuwe ding</span> lost al mijn problemen op!*
 
 
-[^1]: Of, in mijn geval, [Azure DevOps](https://azure.microsoft.com/en-us/products/devops). Maar het punt blijft hetzelfde.
+[^1]: Of, in mijn geval, Scrum + [Azure DevOps](https://azure.microsoft.com/en-us/products/devops). Maar het punt blijft hetzelfde.
+
+[^2]: Op het moment van publiceren hebben we het boek net uitgelezen. Seemann maakt in het eerste hoofdstuk overigens dezelfde observatie over de popculturele status van het vakgebied. 
