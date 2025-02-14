@@ -1,11 +1,11 @@
 ---
 title: "Wat houdt ons tegen continu te leveren?"
 author: "Karl van Heijster"
-date: 2024-12-06T10:49:50+01:00
-draft: true
+date: 2025-02-14T08:30:39+01:00
+draft: false
 comments: true
 tags: ["continuous delivery", "continuous integration", "scrum", "verandering"]
-summary: "CI/CD houdt meer in dan het alleen inrichten van een buildserver: het is een heel andere manier van werken. Het verlangt van je dat je je werkt anders opdeelt, dat je in kleine stapjes werkt, dat alle code die je schrijft continu van hoge kwaliteit is. *Continuous delivery* vraagt van ontwikkelaars dat ze bepaalde gewoontes -- gewoontes waar ze zich goed bij voelen -- te herzien."
+summary: "CI/CD houdt meer in dan het alleen inrichten van een buildserver: het is een heel andere manier van werken. Het verlangt van je dat je je werkt anders opdeelt, dat je in kleine stapjes werkt, dat alle code die je schrijft continu van hoge kwaliteit is. *Continuous delivery* vraagt van ontwikkelaars bepaalde gewoontes -- gewoontes waar ze zich goed bij voelen -- te herzien."
 ---
 
 Vorige week schreef ik over [een praatje](https://www.youtube.com/watch?v=eZKVxtbmtMI "'Agile and Architecture: a meeting of the undead - Einar Høst - NDC Oslo 2024', YouTube") van [Einar Høst](https://einarwh.wordpress.com/). Daarin merkt hij ironisch op dat de implementatie van [Agile](/tags/agile-ontwikkeling/ "Blogs met de tag 'agile ontwikkeling'") -- nota bene: het idee individuen en hun interacties meer waarde hebben dan processen en tools --, is verworden tot: gebruik *dit* proces met *deze* tool.
@@ -54,7 +54,7 @@ Ik pleit al enige tijd in mijn team, met een boek als [*Accelerate*](https://itr
 Johansen legt veel nadruk op het feit dat [CI/CD](https://en.wikipedia.org/wiki/CI/CD "'CI/CD', Wikipedia") meer inhoudt dan het alleen inrichten van een buildserver: het is een heel andere manier van werken. Het verlangt van je dat je je werkt anders opdeelt, dat je in kleine stapjes werkt, dat alle code die je schrijft continu van hoge kwaliteit is ([en dus gedekt door tests](/blog/24/07/goede-code-is-geteste-code/ "'Goede code is geteste code'")). 
 
 
-*Continuous delivery* vraagt van ontwikkelaars dat ze bepaalde gewoontes -- gewoontes waar ze zich goed bij voelen -- te herzien.
+*Continuous delivery* vraagt van ontwikkelaars bepaalde gewoontes -- gewoontes waar ze zich goed bij voelen -- te herzien.
 
 
 ## Wat houdt ons tegen?
@@ -67,7 +67,7 @@ Wat zijn die gewoonten? De volgende lijst komt in me op, maar is vast en zeker n
 
 - Code breken. Om continu elkaars wijzigingen te kunnen integreren, moet de code continu in werkende staat worden gehouden. Refactorslagen waarbij de tests langere tijd op rood staan -- of erger nog: zonder tests --, zijn uit den boze. 
 
-- Werken in isolatie. Het klinkt tegenintuïtief continu codewijzigingen van collega's te moeten integreren in je code. Het gezond verstand (of wat zich als zodanig maskeert) dicteert daarom: houd wijzigingen apart van elkaar en integreer pas als je klaar bent. Maar dat heeft lagere softwarekwaliteit tot gevolg, pijnlijker integraties en leidt tot werken in grotere stappen.
+- Werken in isolatie. Het klinkt tegenintuïtief continu codewijzigingen van collega's te moeten integreren in je code. Het gezond verstand (of wat zich als zodanig maskeert) dicteert daarom: houd wijzigingen apart van elkaar en integreer pas als je klaar bent. Maar dat heeft pijnlijker integraties tot gevolg en leidt tot werken in grotere stappen. En dat verlaagt de kwaliteit van de software.
 
 - Testtaken delegeren naar de tester. Wanneer jouw code onmiddellijk op de productieomgeving wordt uitgerold, is een solide [vangnet](/blog/22/09/tests-als-vangnet/ "'Tests als vangnet'") van geautomatiseerde tests een absolute noodzakelijkheid. Eerst een feature implementeren en daarna de tests schrijven om te zien of deze doet wat het moet doen, is er niet meer bij.
 
@@ -75,4 +75,4 @@ Wat zijn die gewoonten? De volgende lijst komt in me op, maar is vast en zeker n
 Al deze problemen zijn in wezen al opgelost *mits de werkwijzen worden omarmd die continuous delivery mogelijk maken*. -- De opdracht luidt nu dus: hoe krijg ik mijn collega's zover dat ze hun gekoesterde gewoontes opgeven voor een nieuwe manier van werken? 
 
 
-[^1]: Eén van [mijn favoriete boeken die ik het afgelopen jaar over softwareontwikkeling las] (LINK).
+[^1]: Eén van [mijn favoriete boeken die ik het afgelopen jaar over softwareontwikkeling las](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/ "'De beste boeken over software ontwikkeling die ik in 2024 las'").
