@@ -15,7 +15,7 @@ Eerst programmeren de programmeurs, dan testen de testers: het komt niet vaak vo
 Dan verandert ons idee van software ontwikkelen ingrijpend. In deze sessie blik ik terug op de verander(en)de manieren waarop mijn team de afgelopen jaren software heeft ontwikkeld, en welke rol tests daarin hebben gespeeld. – Wie test er? Hoe? Wanneer? En vooral: waarom? Op al die gebieden hebben we hardnekkige aannames (moeten) herzien.
 
 
-Aan het eind van deze sessie ben je je bewust van enkele ingesleten patronen in de manier waarop je software ontwikkelt en test. Het zal, met een beetje geluk, de eerste stap naar verbetering zijn.
+Aan het eind van deze sessie ben je je bewust van enkele ingesleten patronen in de manier waarop agile teams software ontwikkelen en testen. Een solide begrip van de functie van tests werpt een nieuwe blik op de verantwoordelijkheden van ontwikkelaars en testers, en stelt je in staat de eerste stap naar verbetering te zetten.
 
 
 ## Wanneer?
