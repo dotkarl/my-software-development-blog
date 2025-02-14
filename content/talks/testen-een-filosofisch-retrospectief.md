@@ -22,6 +22,7 @@ Aan het eind van deze sessie ben je je bewust van enkele ingesleten patronen in 
 
 
 - [TestNet Voorjaarsevenement](https://www.testnet.org/), 15 mei 2024
+- [Living Documentation Event](https://www.ict.eu/en/events/living-documentation-event-2025), 10 april 2025
 
 
 ## Gerelateerde blogs

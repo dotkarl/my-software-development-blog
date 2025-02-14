@@ -9,6 +9,8 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |                   |                                                      |                                                                  |
 | ----------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| 10 april 2025     | [Living Documentation Event](https://www.ict.eu/en/events/living-documentation-event-2025) | [*Testing: A philosophical retrospective*](/talks/testen-een-filosofisch-retrospectief/) |
+| <br>              |                                                      |                                                                  |
 | 26 november 2024  | [Nimma Codes](https://www.nimma.codes/)              | *De filosofische geschiedenis van een ontwerpkeuze*[^2]          |
 | 9 oktober 2024    | [TestNet Najaarsevenement](https://www.testnet.org/) | [*Wat zegt deze test?*](/talks/wat-zegt-deze-test/)              |
 | 21 juni 2024      | [Joy of Coding](https://joyofcoding.org/index.html)  | *A note on dental hygiene*[^1]                                   |
