@@ -9,7 +9,7 @@ summary: "Eerst programmeren de programmeurs, dan testen de testers: het komt ni
 speakerdeck: "352b5546ab0543a4b5670642764d0090"
 ---
 
-Eerst programmeren de programmeurs, dan testen de testers: het komt niet vaak voor dat zo'n voor de hand liggend idee zoveel misvattingen herbergt. Welk aannames liggen ten grondslag aan dat idee? En wat gebeurt er wanneer we die aannames kritisch tegen het licht houden?
+Eerst programmeren de programmeurs, dan testen de testers: het komt niet vaak voor dat zo'n voor de hand liggend idee zoveel misvattingen herbergt. Welke aannames liggen ten grondslag aan dat idee? En wat gebeurt er wanneer we die aannames kritisch tegen het licht houden?
 
 
 Dan verandert ons idee van software ontwikkelen ingrijpend. In deze sessie blik ik terug op de verander(en)de manieren waarop mijn team de afgelopen jaren software heeft ontwikkeld, en welke rol tests daarin hebben gespeeld. – Wie test er? Hoe? Wanneer? En vooral: waarom? Op al die gebieden hebben we hardnekkige aannames (moeten) herzien.
