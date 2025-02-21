@@ -1,11 +1,11 @@
 ---
 title: "Een kleine stap voor de code..."
 author: "Karl van Heijster"
-date: 2024-12-13T10:43:26+01:00
-draft: true
+date: 2025-02-21T08:14:20+01:00
+draft: false
 comments: true
 tags: ["continuous integration", "end to end tests", "falen", "leermoment", "software ontwikkelen", "web API's"]
-summary: "Het idee dat je software het best kunt ontwikkelen in heel veel heel kleine stapjes hoorde ik voor het eerst in een praatje van Clare Sudbery. Sindsdien is die notie alleen maar dieper mijn brein in gehamerd door Mark Seemanns zeer leesbare *Code That Fits in Your Head*. -- Dus toen een collega van me laatst vastliep op het omschrijven van wat authenticatielogica, sprong ik graag bij. Ik wist immers wat de juiste weg voorwaarts was: heel veel heel kleine stapjes."
+summary: "Toen een collega van me laatst vastliep op het omschrijven van wat authenticatielogica, sprong ik graag bij. Ik wist immers wat de juiste weg voorwaarts was: heel veel heel kleine stapjes. Maar zo simpel bleek het toch niet te zijn..."
 ---
 
 Het idee dat je software het best kunt ontwikkelen in heel veel heel kleine stapjes hoorde ik voor het eerst in [dit praatje](https://youtu.be/97qyNQz7fxY "'Continuous Integration: That’s Not What They Meant • Clare Sudbery • YOW! 2023', YouTube") van [Clare Sudbery](https://www.linkedin.com/in/clare-sudbery-she-her-35939540/) -- of liever: daar registreerde ik het idee voor het eerst bewust. Sindsdien is die notie alleen maar dieper mijn brein in gehamerd door [Mark Seemanns](https://blog.ploeh.dk/) zeer leesbare [*Code That Fits in Your Head*](https://www.oreilly.com/library/view/code-that-fits/9780137464302/ "'Code That Fits in Your Head: Heuristics for Software Engineering', Mark Seemann, O'Reilly Media").
@@ -14,7 +14,7 @@ Het idee dat je software het best kunt ontwikkelen in heel veel heel kleine stap
 Dus toen een collega van me laatst vastliep op het omschrijven van wat authenticatielogica, sprong ik graag bij. Ik wist immers wat de juiste weg voorwaarts was: heel veel heel kleine stapjes.
 
 
-We begonnen inderdaad voorspoedig. De [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0 "'ASP.NET Core Middleware', Microsoft documentatie") die de [autorisatie](https://en.wikipedia.org/wiki/Authorization "'Authorization', Wikipedia") van onze [Web API](https://en.wikipedia.org/wiki/Web_API "'Web API', Wikipedia") bleek ook verantwoordelijk voor de [authenticatie](https://en.wikipedia.org/wiki/Authentication "'Authentication', Wikipedia"). Dus we maakten een nieuw stukje middleware aan, splitsten de code op, maakten een [*pull request*](/tags/pull-requests/ "Blogs met de tag 'pull requests'") (PR) aan -- en door.
+We begonnen inderdaad voorspoedig. De [middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0 "'ASP.NET Core Middleware', Microsoft documentatie") die de [autorisatie](https://en.wikipedia.org/wiki/Authorization "'Authorization', Wikipedia") van onze [Web API](https://en.wikipedia.org/wiki/Web_API "'Web API', Wikipedia") regelde, bleek ook verantwoordelijk voor de [authenticatie](https://en.wikipedia.org/wiki/Authentication "'Authentication', Wikipedia"). Dus we introduceerden we een nieuw stukje middleware, splitsten de code op, maakten een [*pull request*](/tags/pull-requests/ "Blogs met de tag 'pull requests'") (PR) aan -- en door.
 
 
 ## Administrators en "gewone" gebruikers
@@ -23,7 +23,7 @@ We begonnen inderdaad voorspoedig. De [middleware](https://learn.microsoft.com/e
 De volgende stap was het scheiden van de logica die op rechten van administrators en "gewone" gebruikers checkte. Het was inefficiënt om dit op één en dezelfde plek af te handelen, want het controleren op administratorrechten was maar op een klein aantal endpoints van toepassing. Hier kwam de eerste horde op de weg: deze verantwoordelijkheden bleken niet alleen in de middleware met elkaar verweven te zijn, maar ook in de aangeroepen service.
 
 
-Nu wilden we onze services sowieso uitfaseren ten faveure van een [*vertical slice architecture*](https://www.jimmybogard.com/vertical-slice-architecture/ "'Vertical Slice Architecture', Jimmy Bogard") (zie ook [deze blog](/blog/24/05/technieken-vs-trucjes/ "'Technieken vs trucjes'")), dus we besloten de oude code niet aan te passen. In plaats daarvan creëerden we twee nieuwe [queries](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation "'Command–query separation', Wikipedia"): één voor de administratorrechten en één voor de "gewone" rechten -- uiteraard: in kleine stapjes. Met [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) ontwikkelden we de ene -- commit! --, daarna de ander -- idem!
+Nu wilden we onze services sowieso uitfaseren ten faveure van een [*vertical slice architecture*](https://www.jimmybogard.com/vertical-slice-architecture/ "'Vertical Slice Architecture', Jimmy Bogard") (zie ook [deze blog](/blog/24/05/technieken-vs-trucjes/ "'Technieken vs trucjes'")), dus we besloten de oude code niet aan te passen. In plaats daarvan creëerden we twee nieuwe [queries](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation "'Command–query separation', Wikipedia"): één voor het ophalen van de administratorrechten en één voor de "gewone" rechten -- uiteraard: in kleine stapjes. Met [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) ontwikkelden we de ene -- commit! --, daarna de ander -- idem!
 
 
 We maakten een filter aan op de endpoints van de administrator -- commit! -- en zorgden dat de oorspronkelijke middleware voor die endpoints werd omzeild -- commit!
