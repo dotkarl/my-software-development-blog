@@ -20,7 +20,7 @@ Waarom streven we naar modulariteit? Omdat niet-modulaire systemen complex zijn.
 Eén van de vele leuke dingen aan [Vlad Khononovs](https://vladikk.com/) [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024") is dat hij dat aloude idee op nieuwe en interessante manieren weet te verpakken. Hij biedt de lezer de conceptuele middelen om cohesie en koppeling met een frisse blik te bekijken, en alleen al daarom is het boek een aanrader voor iedereen die zich serieus met softwareontwikkeling bezighoudt.
 
 
-Het hart van zijn boek bestaat uit een genuanceerde ontleding van het begrip *koppeling* vanuit verschillende dimensies. Die dimensies zijn: de integratiesterkte (*integration strength*) van twee (of meer) modules, de afstand (*distance*) waarover ze met elkaar gekoppeld zijn en de grilligheid (*volatility*) van de modules in kwestie. 
+Het hart van zijn boek bestaat uit een genuanceerde ontleding van het begrip *koppeling* vanuit verschillende dimensies. Die dimensies zijn: de integratiesterkte (*integration strength*) van twee (of meer) modules, de afstand (*distance*) waarover ze met elkaar gekoppeld zijn en de grilligheid (*volatility*) van de modules in kwestie.[^2] 
 
 
 Uiteraard kunnen -- en worden -- die dimensies op hun beurt verder ontleed. Integratiesterkte beslaat bijvoorbeeld alles tussen twee modules een bepaald contract delen dat specifiek is ontworpen voor gegevensuitwisseling (contractkoppeling; lage sterkte) tot de modules die vrijelijk gebruik maken van implementatiedetails die nooit bedoeld zijn geweest voor iets anders dan privégebruik (intrusieve koppeling; hoge sterkte). En afstand beslaat alles tussen koppeling binnen één methode tot koppeling over systemen heen.
@@ -63,7 +63,9 @@ Wat betekent dit voor de begrippen *modulariteit* en *complexiteit*? Eerder defi
 <br>
 
 
-Zo geeft *Balancing Coupling in Software Design* ons de conceptuele middelen om onze kennis van goede software op een preciezer manier te beschrijven. Dat stelt ons in staat om beter te duiden waar het probleem nu eigenlijk in zit als we een complex systeem proberen te ontrafelen -- en helpt ons duidelijker uit te leggen wat we moeten doen om die complexiteit te neutraliseren.
+Zo geeft *Balancing Coupling in Software Design* ons de conceptuele middelen om onze kennis van goede software op een preciezer manier te beschrijven. Dat stelt ons in staat om beter te duiden waar het probleem nu eigenlijk in zit als we een complex systeem proberen te ontrafelen -- en helpt ons concreter uit te leggen wat we moeten doen om die complexiteit te neutraliseren.
 
 
 [^1]: Voor een bespreking van complexiteit in de context van Khononovs boek, zie [deze blog](GECOMPLICEERD_VS_COMPLEX).
+
+[^2]: In deze blog zal ik me op de eerste twee dimensies richten. De grilligheid van een module -- de mate waarin deze verandert -- is geen relevante factor voor modulariteit of complexiteit, maar wel voor stabiliteit en onderhoudbaarheid.
