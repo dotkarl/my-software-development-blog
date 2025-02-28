@@ -1,8 +1,8 @@
 ---
 title: "Over de boekenclub"
 author: "Karl van Heijster"
-date: 2024-12-20T09:10:21+01:00
-draft: true
+date: 2025-02-28T08:18:56+01:00
+draft: false
 comments: true
 tags: ["bedrijfscultuur", "boeken", "boekenclub", "leercultuur", "leermoment", "leren", "samenwerking", "teamcultuur", "verandering", "werkbalans", "werkplezier"]
 summary: "Voor de vuist weg heb ik eens geroepen: \"We zouden eigenlijk elke nieuwe werknemer een boek mee moeten geven als 'ie begint. Met als (impliciete?) boodschap: we verwachten dat je dit leest. We verwachten dat je tijd vrijmaakt voor zelfstudie.\" -- Erop terugkijkend, was dat het prille begin van de boekenclub die ik maanden later oprichtte."
@@ -20,10 +20,10 @@ Natuurlijk, niet houdt van lezen. Sommige mensen leren bijvoorbeeld liever [door
 En andere mensen... leren eigenlijk niet echt -- niet bewust, in elk geval. Ze laten zich leiden door wat er op hun pad komt in hun dagelijkse werkzaam. Als een collega een nieuwe werkwijze of techniek voorstelt, dan leren ze genoeg om daarmee te kunnen werken. En zo niet, dan coderen ze zoals ze altijd al gecodeerd hebben.
 
 
-Ideaal is dat niet. Ik heb me in gesprekken met mijn leidinggevende mijn verbazing wel eens over uitgesproken over het feit dat sommige van mijn collega's ervoor kiezen honderd procent van hun tijd aan operationele werkzaamheden te besteden. Ik begrijp de kortetermijnvoordelen daarvan, maar op de lange termijn kan zo'n werkverdeling alleen maar problemen opleveren.
+Ideaal is dat niet. Ik heb in gesprekken met mijn leidinggevende mijn verbazing wel eens over uitgesproken over het feit dat sommige van mijn collega's ervoor kiezen honderd procent van hun tijd aan operationele werkzaamheden te besteden. Ik begrijp de kortetermijnvoordelen daarvan, maar op de lange termijn kan zo'n werkverdeling alleen maar problemen opleveren.
 
 
-(En die problemen zijn niet alleen voor rekening van de werkgever. Ik heb mijn tanden meermaals stukgebeten op het willen doorvoeren van een verbetering -- [ontwikkelaars die tests schrijven](WAT_BETEKENT_HET_TESTS_TE_SCHRIJVEN), bijvoorbeeld, of [YAGNI](/blog/24/04/yagni-veronderstelt-tests/ "'YAGNI veronderstelt tests'") of [*continuous integration*](/blog/23/09/doe-je-wel-echt-aan-continuous-integration/ "'Doe je wel écht aan continuous integration?'") -- die op weerstand van het team stuitte omdat het idee te ver buiten hun comfortzone van geaccepteerde werkwijzen lag. Daar kom ik later nog op terug.)
+(En die problemen zijn niet alleen voor rekening van de werkgever. Ik heb mijn tanden meermaals stukgebeten op het willen doorvoeren van een verbetering -- [ontwikkelaars die tests schrijven](/blog/25/01/wat-betekent-het-tests-te-schrijven/ "'Wat betekent het tests te schrijven?'"), bijvoorbeeld, of [YAGNI](/blog/24/04/yagni-veronderstelt-tests/ "'YAGNI veronderstelt tests'") of [*continuous integration*](/blog/23/09/doe-je-wel-echt-aan-continuous-integration/ "'Doe je wel écht aan continuous integration?'") -- die op weerstand van het team stuitte omdat het idee te ver buiten hun comfortzone van geaccepteerde werkwijzen lag. Daar kom ik later nog op terug.)
 
 
 ## Een pril begin
@@ -83,7 +83,7 @@ De nieuwe boekenclub droeg zo bij aan een vorm van teamoverstijgende kennisdelin
 Deze keer lazen we [*Code That Fits in Your Head*](https://www.oreilly.com/library/view/code-that-fits/9780137464302/ "'Code That Fits in Your Head: Heuristics for Software Engineering', Mark Seemann, O'Reilly Media") van [Mark Seemanns](https://blog.ploeh.dk/). Ik kende het boek nog niet, maar liet me graag overtuigen door de positieve verhalen die ik erover hoorde -- en anno nu met liefde bevestig. (Ik verwacht dat het boek wel een plekje op mijn toplijst van dit jaar zal verkrijgen.)
 
 
-*Code That Fits in Your Head* zit vol concrete tips over hoe je je code eenvoudiger en beter leesbaar kan maken. Hij bepleit zijn keuzes zorgvuldig, maar is nooit wijdlopig in zijn argumentatie. Seemann is een zeer praktische gids in de zoektocht naar betere manieren om code te schrijven -- daarin schuilt de kracht van het boek.
+*Code That Fits in Your Head* zit vol concrete tips over hoe je je code eenvoudiger en beter leesbaar kan maken. Seemann bepleit zijn keuzes zorgvuldig, maar is nooit wijdlopig in zijn argumentatie. Het is een zeer praktische gids in de zoektocht naar betere manieren om code te schrijven -- daarin schuilt de kracht van het boek.
 
 
 Maar er schuilt ook een risico in. Het is verleidelijk om Seemanns lessen ter kennisgeving aan te nemen -- "ja," denk je onder het lezen regelmatig, "da's logisch." Die ogenschijnlijke vanzelfsprekendheid bracht de boekenclub die door de andere senior werd geleid ertoe om op een gegeven moment twee hoofdstukken per week te gaan lezen. Maar of dat tot betere gesprekken heeft geleid...?
@@ -101,10 +101,13 @@ Ten eerste kan gesteld worden dat de boekenclub zijn oorspronkelijke doel heeft 
 Ten tweede heeft de boekenclub ervoor gezorgd dat de kwaliteit van onze code omhoog is gegaan. Ik zie regelmatig [*pull requests*](/tags/pull-requests/ "Blogs met de tag 'pull requests'") voorbijkomen waarin de lessen van Martin en Seemann in de praktijk wordt gebracht. 
 
 
-Ten derde heeft de boekenclub het teamgevoel versterkt. Mijn collega's en ik zitten meer en meer op één lijn wat betreft het opleveren van kwalitatief hoogwaardige code. En de comfortzone van geaccepteerde is aanzienlijk uitgebreid: TDD is een haalbaar streven en [*pair programming*](/tags/pair-programming/ "Blogs met de tag 'pair programming'") is niet meer bij voorbaat inefficiënt. *Continuous integration* vindt men nog steeds wel een beetje eng -- maar daar komen we uiteindelijk wel.
+Ten derde heeft de boekenclub het teamgevoel versterkt. Mijn collega's en ik zitten meer en meer op één lijn wat betreft het opleveren van kwalitatief hoogwaardige code. En de comfortzone van geaccepteerde is aanzienlijk uitgebreid: TDD is een haalbaar streven en [*pair programming*](/tags/pair-programming/ "Blogs met de tag 'pair programming'") is niet meer bij voorbaat inefficiënt. *Continuous integration* vindt men nog steeds wel een beetje eng -- maar daar komen we uiteindelijk wel.[^1]
 
 
 Ten vierde heeft het een bijdrage geleverd in het afbreken van de barrières tussen teams. Omdat je wekelijks in gesprek gaat met mensen uit een ander team, wordt de drempel om elkaar op te zoeken een stuk lager. Naarmate de boekenclub verder zal groeien, zal onze eilandencultuur, hoop ik, steeds meer op een wad beginnen te lijken.
 
 
 Niet iedereen houdt van lezen -- niet iedereen kan daar de rust of het geduld voor vinden. Maar voor gezamenlijk leren blijken een hoop ontwikkelaars meer dan open te staan. En een boekenclub is daar een uitstekend vehikel voor. Een liefde voor lezen is een cadeau dat ik iedereen van harte gun.
+
+
+[^1]: Eén van de boeken die in Boekenclub 3.0 wordt gelezen is, niet toevallig, [*Continuous Deployment*](https://www.oreilly.com/library/view/continuous-deployment/9781098146719/ "'Continuous Deployment: Enable Faster Feedback, Safer Releases, and More Reliable Software', Valentina Servile (O'Reilly Media Inc. 2024)") van [Valentina Servile](https://www.linkedin.com/in/valentina-servile/). Ik zeg "één van de boeken", want de groep enthousiastelingen is opnieuw gegroeid en diverser geworden. De tweede groep leest [*Head First Design Patterns*](https://www.oreilly.com/library/view/head-first-design/9781492077992/ "'Head First Design Patterns (2nd Edition): Building Extensible & Maintainable Object-Oriented Software', Eric Freeman & Elisabeth Robson (O'Reilly Media Inc. 2020)").
