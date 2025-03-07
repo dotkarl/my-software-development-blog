@@ -20,7 +20,7 @@ Dit is de ultieme borrelpraatvraag: -- is *0* ontdekt of uitgevonden?
 {{< asterisk >}}
 
 
-Met de late [Wittgenstein](https://plato.stanford.edu/entries/wittgenstein/ "'Ludwig Wittgenstein', Stanford Encyclopedia of Philosophy") in het achterhoofd[^1] en een drie slokken lauwe pils achter de kiezen, zei ik: *0* is een concept, en concepten zijn mensenwerk, en dus uitgevonden.
+Met de late [Wittgenstein](https://plato.stanford.edu/entries/wittgenstein/ "'Ludwig Wittgenstein', Stanford Encyclopedia of Philosophy") in het achterhoofd[^1] en een drie slokken lauwe pils achter de kiezen, meende ik: *0* is een concept, en concepten zijn mensenwerk, en dus is *0* uitgevonden.
 
 
 Rekenen-zonder-nul is een [taalspel](https://en.wikipedia.org/wiki/Language_game_(philosophy) "'Language game (philosophy)', Wikipedia") en rekenen-met-nul is een extensie daarvan. Rekenen-zonder-nul is een spel dat op zichzelf staat, en is dus niet een incomplete versie van het "eigenlijke" rekenen-met-nul.
