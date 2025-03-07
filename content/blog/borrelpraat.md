@@ -10,6 +10,7 @@ summary: "\"Proost!\" -- en toen begon iemand over de uitvinding van het getal 0
 
 > "*The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise.*" --- Edgser W. Dijkstra
 
+<br>
 
 "Proost!" -- en toen begon iemand over de uitvinding van het getal 0, en hoe bizar het is dat er ooit een tijd is geweest dat er geen nul was. 
 
