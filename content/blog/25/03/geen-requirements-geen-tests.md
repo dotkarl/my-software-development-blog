@@ -1,8 +1,8 @@
 ---
 title: "Geen requirements, geen tests?"
 author: "Karl van Heijster"
-date: 2025-01-10T08:55:35+01:00
-draft: true
+date: 2025-03-07T08:05:39+01:00
+draft: false
 comments: true
 tags: ["mentaal model", "requirements", "testen"]
 summary: "Ontwikkelaars zeggen soms dingen als: \"Ik heb geen tests geschreven want de requirements zijn nog onduidelijk.\" Of: \"Het heeft geen zin om tests te schrijven want de requirements veranderen toch nog.\" Dit is, denk ik, een redenering die grenst aan de waanzin -- met potentieel desastreuze gevolgen bovendien. Maar het loont zich om erover te filosoferen wat ontwikkelaars ertoe drijft dit soort uitspraken te doen."
@@ -32,7 +32,7 @@ Maar werkt deze metafoor ook voor het schrijven van code? "Zijn de requirements 
 Het probleem is: de werking van code is *nooit* vaag. Je kunt geen "dikke, vage lijn" trekken in code. De lijn die je in code trekt is altijd precies: flinterdun en retestrak. De output van code wordt *volledig* gedefinieerd door haar input.[^1]
 
 
-Het idee om code net zo ongedefinieerd te laten als (op dit moment) ongedenieerde requirements, is innerlijk inconsistent.
+Het idee om code net zo ongedefinieerd te laten als (op dit moment) ongedefinieerde requirements, is innerlijk inconsistent.
 
 
 ## *First time right*
