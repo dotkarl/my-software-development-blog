@@ -38,7 +38,7 @@ Concepten zijn gereedschappen -- voor ons handelen en voor ons denken. Zoals een
 Maar dat perspectief op de zaak impliceert *niet* dat het idee (de intuïtie) dat *0* ontdekt is, er helemaal naast zit. Het *concept* (de notatie en de rol die het in het taalspel speelt) mag dan een uitvinding zijn, zou je kunnen zeggen, maar dat was het concept *uitdrukt* is iets "echts" -- dat blijkt uit het feit dat we er mee kunnen werken.
 
 
-De uitdrukking "ontdekken" is interessant in deze context. Het concept stelt ons in staat om bepaalde aspecten van de werkelijkheid op te doen lichten of te ontsluieren. En het tegendeel is natuurlijk ook waar: het concept bedekt of versluiert bepaalde aspecten van de werkelijkheid, bijvoorbeeld omdat ze binnen de context van het taalspel niet relevant zijn. ([Heidegger](https://plato.stanford.edu/entries/heidegger/ "'Martin Heidegger', Stanford Encyclopedia of Philosophy") schrijft daar onder andere over, wanneer hij zich op taal begint te richten.)
+De uitdrukking "ontdekken" is interessant in deze context. Het concept stelt ons in staat om bepaalde aspecten van de werkelijkheid op te doen lichten of te ontsluieren. ([Heidegger](https://plato.stanford.edu/entries/heidegger/ "'Martin Heidegger', Stanford Encyclopedia of Philosophy") schrijft daar onder andere over.) En het tegendeel is natuurlijk ook waar: het concept bedekt of versluiert bepaalde aspecten van de werkelijkheid, bijvoorbeeld omdat ze binnen de context van het taalspel niet relevant zijn. 
 
 
 Toch voelt de formulering vreemd, "nul bestaat echt." Dat wat de zin uit *probeert* te drukken, is ontegenzeggelijk waar. Maar of die woorden in die volgorde daar de juiste voor zijn, valt te betwisten. 
@@ -80,7 +80,7 @@ Maar softwareontwikkeling zit vol verkeerde abstracties. Vaak zijn het zulke abs
 {{< asterisk >}}
 
 
-Het getal 0 is *uitgevonden* -- ja. Maar die uitvinding *ontdekte* een voor ons relevant aspect van de werkelijkheid, binnen het domein van de getallen. 
+Het getal 0 is *uitgevonden* -- ja. Maar die uitvinding *ont*dekte een voor ons relevant aspect van de werkelijkheid binnen het domein van de getallen (waar het tot dusver *be*dekt was), en gaf haar een canonieke uitdrukking. 
 
 
 -- Iemand nog pils?
