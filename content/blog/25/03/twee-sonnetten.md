@@ -1,8 +1,8 @@
 ---
 title: "Twee sonnetten"
 author: "Karl van Heijster"
-date: 2025-01-16T16:09:03+01:00
-draft: true
+date: 2025-03-14T07:54:55+01:00
+draft: false
 comments: true
 tags: ["poëzie"]
 summary: "*De grenzen van Java, kerel, / zijn de grenzen van mijn wereld. / Daarom kan ik leven met `null`. // Maar 'n JavaScript-ontwikkelaar / z'n wereldje vind ik maar naar. / Want `undefined`, da's flauwekul.*"
