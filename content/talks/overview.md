@@ -35,6 +35,6 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 [^3]: Lightning talk, blog aanstaande.
 
-[^2]: Lightning talk, gebaseerd op [deze blog](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/).
+[^2]: Lightning talk, gebaseerd op [deze blog](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "'De filosofische geschiedenis van een ontwerpkeuze'").
 
-[^1]: Lightning talk, gebaseerd op [deze blog](/blog/24/07/testen-is-als-flossen/).
+[^1]: Lightning talk, gebaseerd op [deze blog](/blog/24/07/testen-is-als-flossen/ "'Testen is als flossen'").
