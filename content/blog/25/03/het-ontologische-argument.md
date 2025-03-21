@@ -1,8 +1,8 @@
 ---
 title: "Het ontologische argument"
 author: "Karl van Heijster"
-date: 2025-01-24T08:58:14+01:00
-draft: true
+date: 2025-03-21T08:15:52+01:00
+draft: false
 comments: true
 tags: ["intentie van code", "filosofie", "refactoren", "software ontwikkelen"]
 summary: "Onlangs pairde ik met een nieuwe collega. We hadden een refactortaak opgepakt om wat ondoorgrondelijke code rondom onze zoekindex te versimpelen. Ergens halverwege die refactorslag zei hij iets wat mijn aandacht trok."
@@ -20,7 +20,7 @@ Maar eerst: wat context. Mijn team ontwikkelt een [REST](/tags/representational-
 Onder de motorkap van dat endpoint zit een zoekindex waarin verschillende entiteiten zijn verenigd in één generiek model. Bijvoorbeeld: `AssessmentTest` kent een property `Title` en `Item` een `Name`. In het zoekmodel worden de titel en naam ondergebracht in het veld `HumanReadableIdentifier`. Op die manier houden we (1) het zoekmodel behapbaar, want het hoeft niet een aparte property te hebben voor elke property in onze domeinmodellen; en (2) isoleren we het voor wijzigingen in het model van onze entiteiten.
 
 
-Een gebruiker van onze API heeft wel weet van ons domeinmodel, maar natuurlijk niet van het onderliggende zoekmodel. Als deze dus een `AssessmentTest` zoekt met een bepaalde `Title`, dan moet dat verzoek om worden gezet naar een verzoek om te zoeken op een bepaalde `HumanReadableIdentifier`.
+Een gebruiker van onze API heeft wel weet van ons domeinmodel, maar natuurlijk niet van het onderliggende zoekmodel -- dat is "maar" een implementatiedetail. Als deze dus een `AssessmentTest` zoekt met een bepaalde `Title`, dan moet dat verzoek om worden gezet naar een verzoek om te zoeken op een bepaalde `HumanReadableIdentifier`.
 
 
 De gebruiker kan meegeven op welke property en op welke waarde hij wil zoeken middels een [JSON](https://www.json.org/json-en.html "json.org")-object dat wordt omgezet naar een `SearchFilter`:
@@ -93,7 +93,7 @@ public class SearchFilter(IQueryStrategy query)
 ```
 
 
-Deze refactoring zorgde ervoor dat we afscheid konden nemen van het switch statement. Het was nu niet meer de verantwoordeljkheid van de code die de zoekindex aanriep, om de juiste query bij de juiste `SearchFilter` te zoeken, maar de verantwoordelijkheid van de `SearchFilter` zelf.
+Deze refactoring zorgde ervoor dat we afscheid konden nemen van het switch statement. Het was nu niet meer de verantwoordeljkheid van de code die de zoekindex aanriep om de juiste query bij de juiste `SearchFilter` te zoeken, maar de verantwoordelijkheid van de `SearchFilter` zelf.
 
 
 ## Ontwerpintuïtie
@@ -117,7 +117,7 @@ Het idee ontleende ik aan [Mark Seemann](https://blog.ploeh.dk/). In hoofdstuk 7
 Maar mijn collega was het daar niet mee eens. Een extra class introduceerde in zijn beleving meer complexiteit dan dat het oploste. Hij haalde herinneringen op aan codebases die uit hun voegen barstten van objecten die subtiel van elkaar verschilden maar waarvan de programmeurs de *raison d'etre* zelf ook niet heel goed meer konden uitleggen. 
 
 
-En toen bracht hij een argument in dat me mijn oren deed spitsen: "[Ontologisch](https://en.wikipedia.org/wiki/Ontology "'Ontology', Wikipedia") zijn die twee objecten die je voorstelt volgens mij hetzelfde." -- Hoe fijn is het, om na al die jaren, eindelijk een [medefilosoof](/tags/filosofie/ "Blogs met de tag 'filosofie'") te vinden! De synapsen in mijn hersenen maakten onmiddellijk overuren om te duiden wat hij zei -- maar de programmeur in mij won het (voorlopig!) van de wijsgeer, en om de refactorslag tot een goed einde te brengen besloot ik die discussie te parkeren.
+En toen bracht hij een argument in dat me mijn oren deed spitsen: "[Ontologisch](https://en.wikipedia.org/wiki/Ontology "'Ontology', Wikipedia") zijn de twee objecten die je voorstelt volgens mij hetzelfde." -- Hoe fijn is het, om na al die jaren, eindelijk een [medefilosoof](/tags/filosofie/ "Blogs met de tag 'filosofie'") te vinden! De synapsen in mijn hersenen maakten onmiddellijk overuren om te duiden wat hij zei -- maar de programmeur in mij won het (voorlopig!) van de wijsgeer, en om de refactorslag tot een goed einde te brengen besloot ik die discussie te parkeren.
 
 
 Gelukkig is er nu geen ondoorgrondelijk stuk code dat mijn aandacht vraagt. Volgens mij bedoelde mijn collega dit: beide representaties, `SearchFilter` en `SearchFilterDto`, verwijzen naar hetzelfde *ding*, hetzelfde *zijnde* ligt aan hen ten grondslag. -- En daar ben ik het mee eens. Beide classes representeren datgene waar een gebruiker op wil kunnen filteren (wat dat dan ook voor iets moge zijn).
@@ -141,7 +141,7 @@ Als ik die stoel in code zou moeten vangen, dan zou ik daarom twee verschillende
 ## Beslissingsfactor
 
 
-Mijn stelling zou zijn: een `SearchFilterDto` beschrijft *datgene waar een gebruiker op wil filteren* vanuit het perspectief van een gebruiker, en een `SearchFilter` *datgene waar een gebruiker op wil filteren* vanuit het perspectief van het systeem. Ontologisch bezien zijn ze één en hetzelfde, maar het verschil in context zou een verschil in representatie kunnen rechtvaardigen. 
+Mijn stelling zou zijn: een `SearchFilterDto` beschrijft *datgene waar een gebruiker op wil filteren* vanuit het perspectief van een gebruiker (*viz.* de externe API), en een `SearchFilter` *datgene waar een gebruiker op wil filteren* vanuit het perspectief van het systeem (het interne model). Ontologisch bezien zijn ze één en hetzelfde, maar het verschil in context zou een verschil in representatie kunnen rechtvaardigen. 
 
 
 (Of dat hier ook het geval is, laat ik voor nu even in het midden. Dat zal pas blijken als ik een begin zou maken met die refactoring, en constateer dat dit eenvoudiger hanteerbare code oplevert. Denk aan de woorden van [George Box](https://en.wikipedia.org/wiki/George_E._P._Box "'George E. P. Box', Wikipedia"): ["*All models are wrong, but some are useful.*"](https://en.wikipedia.org/wiki/All_models_are_wrong "'All models are wrong', Wikipedia"))
