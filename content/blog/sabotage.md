@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-03-21T10:48:44+01:00
 draft: true
 comments: true
-tags: ["communicatie", "leermoment", "samenwerking"]
+tags: ["communicatie", "empathie", "leermoment", "samenwerking", "vergaderen", "vertrouwen"]
 summary: "Onlangs volgde ik een training Deep Democracy -- en werd ik bewust gemaakt van enkele valkuilen en disfunctionele patronen in samenwerking -- voor mijzelf net zozeer als voor mijn collega's. Eén van de interessantste inzichten die ik opdeed hadden te maken met sabotage: het ondermijnen van (een deel van) de groep. Dat kan op allerlei manieren gebeuren, van het maken van (sarcastische) grappen tot roddelen tot tegenwerken of zelfs staken. Het zijn allemaal voorbeelden van \"*ja* zeggen maar *nee* doen.\""
 ---
 
