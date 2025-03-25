@@ -1,7 +1,7 @@
 ---
 title: "Testen: Een filosofisch retrospectief"
 author: "Karl van Heijster"
-date: 2024-05-15T08:05:52+02:00
+date: 2025-03-25T10:14:11+01:00
 draft: false
 comments: true
 tags: ["filosofie", "leermoment", "procesverbetering", "testen"]
@@ -22,6 +22,7 @@ Aan het eind van deze sessie ben je je bewust van enkele ingesleten patronen in 
 
 
 - [TestNet Voorjaarsevenement](https://www.testnet.org/), 15 mei 2024
+- Afdelingsoverleg @ [Cito](https://www.cito.nl/) (intern), 25 maart 2025
 - [Living Documentation Event](https://www.ict.eu/en/events/living-documentation-event-2025), 10 april 2025
 
 
