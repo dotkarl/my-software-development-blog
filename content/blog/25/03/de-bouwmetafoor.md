@@ -1,8 +1,8 @@
 ---
 title: "De bouwmetafoor"
 author: "Karl van Heijster"
-date: 2025-01-31T10:42:24+01:00
-draft: true
+date: 2025-03-28T08:07:21+01:00
+draft: false
 comments: true
 tags: ["boeken", "mentaal model", "software architect (rol)", "software ontwikkelaar (rol)"]
 summary: "Softwareontwikkeling is geen constructieproces. Het bouwen (lees: \"bouwen\" -- *bouwen* is een metafoor) van een applicatie is iets fundamenteel anders dan het bouwen van een huis."
@@ -44,7 +44,7 @@ Het feit dat we als softwareontwikkelaars ook [architecten](/tags/software-archi
 De metafoor verleidt ons om te zeggen: de softwarearchitect is verantwoordelijk voor het ontwerp van het systeem. Wat betekent dat voor de programmeurs? Die zijn verantwoordelijk voor het bouwen. Dus zij zijn de bouwvakkers in dit mentale model. Hun werk wordt dan: het in de praktijk brengen van het ontwerp van de architect.
 
 
-Maar de metafoor zet ons op een verkeerd spoor. Softwareontwikkeling is geen handenwerk maar hoofdwerk. Wie programmeren platslaat tot "het ontwerp omzetten in code", loopt onvermijdelijk tegen problemen aan. (Tenzij het ontwerp gedetailleerd genoeg was om automatisch in code te kunnen worden omgezet, en in dat geval is de programmeur überhaupt overbodig.) Programmeren vraagt om analyse, inzicht, creatief vermogen.
+Maar de metafoor zet ons op een verkeerd spoor. Softwareontwikkeling is geen handenwerk maar hoofdwerk. Wie programmeren platslaat tot "het ontwerp omzetten in code", loopt onvermijdelijk tegen problemen aan. (Tenzij het ontwerp gedetailleerd genoeg was om automatisch in code te kunnen worden omgezet, en in dat geval is de programmeur überhaupt overbodig.) Programmeren vraagt om analyse, inzicht, creatief vermogen.[^2]
 
 
 Dat wat correspondeert aan de bouwfase, is in de softwareontwikkeling een geautomatiseerde stap. Het is het compileren van de code, de *build* (nota bene!). Software is geen fysiek product: handenwerk kent softwareontwikkeling daarom niet.
@@ -68,10 +68,12 @@ Sterker nog: vaak begint softwareontwikkeling bij het schetsen van schermontwerp
 Het bouwen van een huis *moet* in fasen verlopen, omdat het bouwen van een huis een kostbare aangelegenheid is. Wie zonder helder doel een huis begint te bouwen, halverwege erachter komt dat 'ie een ontwerpfout heeft gemaakt, het huis sloopt en met een nieuw idee begint -- is waanzinnig. Toch is dat precies hoe softwareontwikkeling eruit ziet.
 
 
-Wie een gefaseerde aanpak van software voorstaat, ziet over het hoofd dat software bouwen *geen* kostbare aangelegenheid is. Software kan gecompileerd worden met een druk op de knop. Dat biedt ruimte voor experiment en iteratie. Er is geen noodzaak voor een gefaseerde aanpak.
+Wie een gefaseerde aanpak van software voorstaat, ziet over het hoofd dat software bouwen (i.e. *builden*) *geen* kostbare aangelegenheid is. Software kan gecompileerd worden met een druk op de knop. Dat biedt ruimte voor experiment en iteratie. Er is geen noodzaak voor een gefaseerde aanpak.
 
 
 Softwareontwikkeling is geen constructieproces, want softwareontwikkeling is geen fysiek proces. De bouwmetafoor vervormt ons zelfbegrip. Wat wij ontwikkelaars doen, is geen bouwen. Het is ontwerpen.
 
 
 [^1]: [Gojko Adzic](https://gojko.net/) noemt een extreme variant van dat fenomeen "*lizard optimization*", hij schreef er een [boek](https://leanpub.com/lizardoptimization "Gojko Adzic, 'Lizard Optimization: Unlock Product Growth by Engaging Long-Tail Users', LeanPub") over. Hij en [Dave Farley](https://www.continuous-delivery.co.uk/) bespreken het in [deze aflevering](https://open.spotify.com/episode/3c8QzJEPZEhJrmnMEJNYkV?si=91fd37553beb4e83) van de [GOTO Book Club](https://gotopia.tech/bookclub?page=0).
+
+[^2]: Waarmee ik niet bedoel te suggereren dat bouwvakkers niet over deze kwaliteiten (moeten) beschikken.
