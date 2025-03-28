@@ -34,6 +34,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 | <br/>             |                                                      |                                                                  |
 | 16 december 2021  | [Cito](https://www.cito.nl/) (intern)                | *Jezelf ontwikkelen met een blog*                                |
 
+
 [^3]: Lightning talk gebaseerd op [deze blog](/blog/25/03/de-bouwmetafoor/ "'De bouwmetafoor'").
 
 [^2]: Lightning talk gebaseerd op [deze blog](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "'De filosofische geschiedenis van een ontwerpkeuze'").
