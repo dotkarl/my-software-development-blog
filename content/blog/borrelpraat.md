@@ -27,7 +27,7 @@ Met de late [Wittgenstein](https://plato.stanford.edu/entries/wittgenstein/ "'Lu
 Rekenen-zonder-nul is een [taalspel](https://en.wikipedia.org/wiki/Language_game_(philosophy) "'Language game (philosophy)', Wikipedia") en rekenen-met-nul is een extensie daarvan. Rekenen-zonder-nul is een spel dat op zichzelf staat, en is dus niet een incomplete versie van het "eigenlijke" rekenen-met-nul.
 
 
-Die opvatting lijkt tegenintuïtief, omdat het gebruik van *0* voor ons zo vertrouwd is. Maar bedenk: er was ook een tijd vóór negatieve getallen, en een tijd vóór [irrationele getallen](https://en.wikipedia.org/wiki/Irrational_number "'Irrational number', Wikipedia"). Naarmate de concepten nieuwer en minder vertrouwd worden voor ons niet-wiskundigen, komt hun "kunstmatigheid" steeds duidelijker naar voren.
+Die opvatting lijkt tegenintuïtief, omdat het gebruik van *0* voor ons zo vertrouwd is. Maar bedenk: er was ook een tijd vóór negatieve getallen, en een tijd vóór [irrationele getallen](https://en.wikipedia.org/wiki/Irrational_number "'Irrational number', Wikipedia"). Naarmate de concepten nieuwer en minder vertrouwd worden voor ons niet-wiskundigen, komt hun "kunstmatigheid" steeds duidelijker naar voren.[^2]
 
 
 Concepten zijn gereedschappen -- voor ons handelen en voor ons denken. Zoals een hamer ons in staat stelt om tafels en stoelen en kasten te bouwen, stelt *0* ons in staat om over de afwezigheid van appels of peren te praten.
@@ -88,3 +88,5 @@ Het getal 0 is *uitgevonden* -- ja. Maar die uitvinding *ont*dekte een voor ons 
 
 
 [^1]: [Ludwig Wittgenstein](/tags/wittgenstein-ludwig/ "Blogs met de tag 'Wittgenstein, Ludwig'") is mijn filosofische held, zijn portret hangt bij ons op de wc, samen met dat van [Bob Dylan](/blog/23/06/ode-aan-bod-dylan/ "'Ode aan Bob Dylan'") en David Lynch. Ik schrijf graag over hem in relatie tot softwareontwikkeling, bijvoorbeeld [hier](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "'De filosofische geschiedenis van een ontwerpkeuze'"), [hier](/blog/21/08/domain-driven-design-en-ludwig-wittgenstein/ "'Domain-Driven Design en Ludwig Wittgenstein'"), [hier](/blog/23/12/logisch-filosofische-verhandeling/ "'Logisch-filosofische verhandeling'") en [hier](/blog/23/09/pseudofilosofische-onderzoekingen-i-en-ii/ "'Pseudofilosofische onderzoekingen (I & II)'"). En hier.
+
+[^2]: Ik vermoed dat deze invalshoek eveneens geïnspireerd is door [Douglas' Hofstadters](https://en.wikipedia.org/wiki/Douglas_Hofstadter "'Douglas Hofstadter', Wikipedia") beschrijving van [formele systemen](https://en.wikipedia.org/wiki/Formal_system "'Formal system', Wikipedia") in [*Gödel, Escher, Bach*](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach "'Gödel, Escher, Bach', Wikipedia")
