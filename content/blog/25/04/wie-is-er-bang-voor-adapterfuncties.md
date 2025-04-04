@@ -1,8 +1,8 @@
 ---
 title: "Wie is er bang voor adapterfuncties?"
 author: "Karl van Heijster"
-date: 2025-02-07T08:58:01+01:00
-draft: true
+date: 2025-04-04T08:11:54+02:00
+draft: false
 comments: true
 tags: ["code lezen", "intentie van code", "functioneel programmeren", "ontwerppatronen", "pipeline-oriented programming", "primitive obsession", "refactoren", "software ontwikkelen", "waarde"]
 summary: "Adapters zijn een bekend ontwerppatroon in de softwareontwikkeling. Toch kwam deze oplossingsrichting niet onmiddellijk bij me op toen ik een stuk code in onze zoekindex begon te refactoren (om van de oorspronkelijke schrijver nog maar te zwijgen!). In plaats daarvan gaven onze eerste pogingen er blijk van koste wat kost te willen blijven werken met de \"standaard\"-functies. -- Waarom?"
@@ -17,7 +17,7 @@ Code structureren als een [*pipeline*](https://en.wikipedia.org/wiki/Pipeline_(s
 ## Zoekopdracht
 
 
-Laatst deed zich een mooie gelegenheid voor om een *pipeline* te introduceren. Onze code moest een zoekopdracht die een gebruiker invoerde, omzetten naar iets wat onze zoekindex zou kunnen interpreteren. (Zie ook [deze blog](... "'Het ontologische argument'").) De code verving een aantal karakters op basis van verschillende [*regular expressions*](https://en.wikipedia.org/wiki/Regular_expression "'Regular expression', Wikipedia") (RegEx), zette spaties om naar `+`'jes, moest sommige combinaties van zoekwoorden met haakjes (`"`) omarmen.
+Laatst deed zich een mooie gelegenheid voor om een *pipeline* te introduceren. Onze code moest een zoekopdracht die een gebruiker invoerde, omzetten naar iets wat onze zoekindex zou kunnen interpreteren. (Zie ook [deze blog](/blog/25/03/het-ontologische-argument/ "'Het ontologische argument'").) De code verving een aantal karakters op basis van verschillende [*regular expressions*](https://en.wikipedia.org/wiki/Regular_expression "'Regular expression', Wikipedia") (RegEx), zette spaties om naar `+`'jes, moest sommige combinaties van zoekwoorden met haakjes (`"`) omarmen.
 
 
 De code deed wat het moest doen, maar verdiende geen schoonheidsprijs.[^2]
@@ -188,7 +188,7 @@ Ik denk dat het antwoord in de volgende richting moet worden gezocht: adapters v
 Die focus op functionaliteit werpt een schaduw over andere verantwoordelijkheden die we hebben, zoals het *leesbaar* (en dus onderhoudbaar) maken van de werkende code. Wie een te sterke focus heeft op functionaliteit, ziet alle code die "slechts" ten behoeve van leesbaarheid wordt geïntroduceerd als *overhead* -- het introduceren van code omwille van de code.
 
 
-Maar de nadruk op werkende code is te eenzijdig. De waarde die je toevoegt als ontwikkelaar is niet alleen *directe* waarde voor de gebruikers van je applicatie, maar ook *indirecte* waarde door het systeem op zo'n manier te ontwikkelen dat deze eenvoudig aan te passen is als gebruikers om nieuwe functionaliteit vragen.
+Maar de nadruk op werkende code is te eenzijdig. De waarde die je toevoegt als ontwikkelaar is niet alleen *directe* waarde voor de gebruikers van je applicatie, maar ook *indirecte* waarde door het systeem op zo'n manier te ontwikkelen dat deze eenvoudig aan te passen is als gebruikers om nieuwe functionaliteit vragen. Ook ontwikkelaars zijn [stakeholders](/tags/stakeholders/ "Blogs met de tag 'stakeholders'") van het systeem. *Ons* belang is de code zodanig op te zetten dat deze prettig is en blijft om mee te werken. Zo zorgen we dat we de andere stakeholders het best kunnen (blijven) bedienen.
 
 
 [^1]: [*Clean Code*](https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html) van [Robert C. Martin](http://cleancoder.com/products) was het eerste boek dat me daarop wees; het was [mijn favoriete boek van 2020](/blog/21/05/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2020-las/ "'De beste boeken over software ontwikkeling die ik in 2020 las'"). [*The Art of Readable Code*](https://www.oreilly.com/library/view/the-art-of/9781449318482/) van [Dustin Boswell](https://www.linkedin.com/in/dustin-boswell-57406626/) en [Trevor Foucher](https://www.linkedin.com/in/trevor-foucher-628b79/) las ik niet lang daarna en werd nogal ondergesneeuwd door die eerste kennismaking, maar is ook een aanrader.
