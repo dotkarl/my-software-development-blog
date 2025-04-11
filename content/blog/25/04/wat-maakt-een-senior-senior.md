@@ -1,8 +1,8 @@
 ---
 title: "Wat maakt een senior senior?"
 author: "Karl van Heijster"
-date: 2025-02-14T08:42:19+01:00
-draft: true
+date: 2025-04-11T08:35:39+02:00
+draft: false
 comments: true
 tags: ["carrièrepad", "kernwaarden", "leercultuur", "leiderschap", "professionaliteit", "verantwoordelijkheid"]
 summary: "Laat ik de vraag zo stellen: waar is een junior, medior en senior verantwoordelijk voor? Ik hanteer de volgende vuistregel: een junior is ervoor verantwoordelijk *zichzelf* te verbeteren, een medior om *het product* te verbeteren, een senior om z'n *omgeving* te verbeteren."
@@ -20,7 +20,7 @@ Een voor de hand liggend antwoord is: het vaardigheidsniveau van de ontwikkelaar
 De vraag wordt dan: vaardigheid waarin? Die vraag raakt aan de kern [wat softwareontwikkeling nu eigenlijk inhoudt](/tags/software-ontwikkelaar-rol/ "Blogs met de tag 'software ontwikkelaar (rol)'").
 
 
-Een naïef antwoord is: code schrijven. Maar software ontwikkelen is meer dan alleen code schrijven. Het is niet zo dat de ontwikkelaar die de meeste code schrijft, of zelfs wie de beste code schrijft, het meest senior is. Als dat zo zou zijn, dan zouden we ontwikkelaars vandaag nog kunnen vervangen door [AI](/tags/kunstmatige-intelligentie/ "Blogs met de tag 'kunstmatige intelligentie'").
+Een naïef antwoord is: code schrijven. Maar software ontwikkelen is meer dan alleen code schrijven. Het is niet zo dat de ontwikkelaar die de meeste code schrijft (of zelfs wie de beste code schrijft) het meest senior is. Als dat zo zou zijn, dan zouden we ontwikkelaars vandaag nog kunnen vervangen door [AI](/tags/kunstmatige-intelligentie/ "Blogs met de tag 'kunstmatige intelligentie'").
 
 
 {{< asterisk >}}
@@ -29,7 +29,7 @@ Een naïef antwoord is: code schrijven. Maar software ontwikkelen is meer dan al
 De mate waarin een softwaresysteem succesvol is, wordt bepaald door de mate waarin het een bepaald probleem oplost. Software ontwikkelen is een probleem oplossen -- en om een probleem goed op te kunnen lossen, moet je haar eerst doorgronden. 
 
 
-Maar: welk probleem? Of liever: welke problem*en*? Het *essentiële* probleem waar je opdrachtgever mee kampt. De *accidentele* problemen zijn de software-specifieke moeilijkheden die je moet overwinnen om dat essentiële probleem op te kunnen lossen.
+Maar: welk probleem? Of liever: welke problem*en*? Het *essentiële* probleem is dat waar je opdrachtgever mee kampt. De *accidentele* problemen zijn de software-specifieke moeilijkheden die je moet overwinnen om dat essentiële probleem op te kunnen lossen.
 
 
 Een junior ontwikkelaar zal eerst moeten leren de accidentele problemen op te lossen, voordat deze zich bezig kan houden met het essentiële probleem. Als je niet weet hoe je code schrijft, kun je je opdrachtgever nog niet helpen met het oplossen van zijn probleem.
@@ -62,7 +62,7 @@ Laat ik de vraag zo stellen: waar is een junior, medior en senior verantwoordeli
 Ik hanteer de volgende vuistregel: een junior is ervoor verantwoordelijk *zichzelf* te verbeteren, een medior om *het product* te verbeteren, een senior om z'n *omgeving* te verbeteren.
 
 
-De niveaus bouwen op elkaar voort. Het is dus niet zo dat een medior er niet meer verantwoordelijk is om zichzelf te verbeteren, en een senior niet meer verantwoordelijk is voor het product. De verantwoordelijkheden veranderen niet naarmate je groeit als ontwikkelaar; ze breidt zich uit.
+De niveaus bouwen op elkaar voort. Het is dus niet zo dat een medior er niet meer verantwoordelijk is om zichzelf te verbeteren, en een senior niet meer verantwoordelijk is voor het product. De verantwoordelijkheden veranderen niet naarmate je groeit als ontwikkelaar; ze breiden zich uit.
 
 
 {{< asterisk >}}
@@ -74,11 +74,10 @@ Een junior is er verantwoordelijk voor zichzelf te verbeteren, omdat deze pas he
 Een medior is verantwoordelijk voor het verbeteren van het product, omdat deze voldoende accidentele problemen heeft opgelost om zich volledig op de essentiële problematiek te kunnen richten. Maar een medior houdt er natuurlijk niet mee op te leren.
 
 
-Een senior is verantwoordelijk voor het verbeteren van zijn omgeving -- zijn collega's, het [proces](/tags/procesverbetering/ "Blogs met de tag 'procesverbetering'") -- opdat de junioren sneller 
-opklimmen tot medior en de mediors sneller opklimmen tot senior. Hoe beter de omgeving functioneert waarbinnen software wordt ontwikkeld, hoe beter de ontwikkelde software. Maar een senior helpt junioren en medioren ook wanneer ze vastzitten. Hij schrijft ook code, wel degelijk -- maar minder dan vroeger.
+Een senior is verantwoordelijk voor het verbeteren van zijn omgeving -- zijn collega's, het [proces](/tags/procesverbetering/ "Blogs met de tag 'procesverbetering'") -- opdat de junioren sneller opklimmen tot medior en de mediors sneller opklimmen tot senior. Hoe beter de omgeving functioneert waarbinnen software wordt ontwikkeld, hoe beter de ontwikkelde software. Maar een senior helpt junioren en medioren ook wanneer ze vastzitten. Hij schrijft ook code, wel degelijk -- maar minder dan vroeger.
 
 
-Wat ik formuleer in termen van verantwoordelijkheid, zou je ook kunnen formuleren in termen van *impact*. De impact van een junior is lokaal: zichzelf en het eigen leerproces. Die van een medior is  beperkt: de kwaliteit van de code, de implementatie van features. Die van een senior omvangrijk: eerst het team, dan de afdeling, uiteindelijk misschien wel de organisatie.
+Wat ik formuleer in termen van verantwoordelijkheid, zou je ook kunnen formuleren in termen van *impact*. De impact van een junior is lokaal: zichzelf en het eigen leerproces. Die van een medior is beperkt: de kwaliteit van de code, de implementatie van features. Die van een senior omvangrijk: eerst het team, dan de afdeling, uiteindelijk misschien wel de organisatie.
 
 
 {{< asterisk >}}
@@ -87,4 +86,4 @@ Wat ik formuleer in termen van verantwoordelijkheid, zou je ook kunnen formulere
 Een junior bezoekt kennissessies, de medior geeft kennissessies, de senior organiseert kennissessies. 
 
 
-Maar misschien zeg ik dat alleen omdat ik [graag](/tags/boekenclub/ "Blogs met de tag 'boekenclub'") [kennissessies](/tags/developer-meet-up/ "Blogs met de tag 'Developer Meet-up'") organiseer.
+Maar misschien zeg ik dat alleen omdat ik graag [kennissessies](/tags/developer-meet-up/ "Blogs met de tag 'Developer Meet-up'") (en [boekenclubs](/tags/boekenclub/ "Blogs met de tag 'boekenclub'")) organiseer.
