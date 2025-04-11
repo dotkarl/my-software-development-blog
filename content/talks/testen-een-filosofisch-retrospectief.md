@@ -1,7 +1,7 @@
 ---
 title: "Testen: Een filosofisch retrospectief"
 author: "Karl van Heijster"
-date: 2025-03-25T10:14:11+01:00
+date: 2025-04-10T08:52:41+02:00
 draft: false
 comments: true
 tags: ["filosofie", "leermoment", "procesverbetering", "testen"]
