@@ -9,6 +9,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |                   |                                                      |                                                                  |
 | ----------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| 29 april 2025     | [Nimma Codes](https://www.nimma.codes/)              | *Wat is refactoring (volgens Hannah Arendt)?*[^4]                |
 | 10 april 2025     | [Living Documentation Event](https://www.ict.eu/en/events/living-documentation-event-2025) | [*Testing: A philosophical retrospective*](/talks/testen-een-filosofisch-retrospectief/) |
 | 27 maart 2025     | [Cito](https://www.cito.nl/) (intern)                | *Coding != building*[^3]                                         |
 | 25 maart 2025     | [Cito](https://www.cito.nl/) (intern)                | [*Testen: Een filosofisch retrospectief*](/talks/testen-een-filosofisch-retrospectief/) |
@@ -34,6 +35,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 | <br/>             |                                                      |                                                                  |
 | 16 december 2021  | [Cito](https://www.cito.nl/) (intern)                | *Jezelf ontwikkelen met een blog*                                |
 
+[^4]: Lightning talk gebaseerd op [deze](/blog/24/09/refactoring-en-hannah-arendt/ "'Refactoring en Hannah Arendt'") en [deze blog](/blog/24/11/meer-refactoring-en-hannah-arendt/ "'Meer refactoring en Hannah Arendt'").
 
 [^3]: Lightning talk gebaseerd op [deze blog](/blog/25/03/de-bouwmetafoor/ "'De bouwmetafoor'").
 
