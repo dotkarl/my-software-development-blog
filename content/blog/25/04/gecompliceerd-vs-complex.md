@@ -1,8 +1,8 @@
 ---
 title: "Gecompliceerd vs. complex"
 author: "Karl van Heijster"
-date: 2025-02-21T08:51:29+01:00
-draft: true
+date: 2025-04-18T08:57:13+02:00
+draft: false
 comments: true
 tags: ["boeken", "complexiteit", "cynefin", "koppeling", "leermoment", "mentaal model"]
 summary: "\"Wat maakt code complex?\" -- Nee: \"Wat maakt code *nodeloos* (of *accidenteel*) complex?\" Dat is de vraag die centraal staat in Vlad Khononovs *Balancing Coupling in Software Design*. Wat de vraag oproept: wat is *complexiteit* precies?"
@@ -14,13 +14,13 @@ summary: "\"Wat maakt code complex?\" -- Nee: \"Wat maakt code *nodeloos* (of *a
 Wat de vraag oproept: wat is *complexiteit* precies?
 
 
-## Vouwen en omarmen
+## Vouwen en verweven
 
 
 Het lijkt een triviale vraag. Want in het dagelijks leven gebruiken we het woord aan de lopende band. "Complex" betekent *moeilijk*, *lastig*, *ingewikkeld* -- *gecompliceerd*.
 
 
-Maar gooien we hiermee niet twee verschillende dingen op één hoop? Complexe en gecompliceerde dingen zijn beide moeilijk, dat is waar, maar zijn ze op dezelfde manier moeilijk? Khononov merkt op dat beide woorden een verschillende oorsprong hebben in het Latijn hebben: "gecompliceerd" komt van "complicare", wat "vouwen" betekent; "complex" komt van "complectere" en dat betekent "omarmen".
+Maar gooien we hiermee niet twee verschillende dingen op één hoop? Complexe en gecompliceerde dingen zijn beide moeilijk, dat is waar, maar zijn ze op dezelfde manier moeilijk? Khononov merkt op dat beide woorden een verschillende [etymologie](https://en.wikipedia.org/wiki/Etymology "'Etymology', Wikipedia"): "[gecompliceerd](https://www.etymonline.com/word/complicated "'complicated (adj.)', Etymonline")" komt van "complicare", wat "vouwen" betekent; "[complex](https://www.etymonline.com/word/complex "'complex (adj.)', Etymonline")" komt van "complectere" en dat betekent "verweven".
 
 
 Hun respectievelijke oorsprong suggereert de volgende beelden. Gecompliceerde dingen zijn in essentie één, maar het is moeilijk om te zien hoe het in elkaar zit. Complexe dingen zijn daarentegen in essentie samengesteld, een bijeenkomst van verschillende zaken.
@@ -53,13 +53,13 @@ In het complexe domein daarentegen vermoeden we slechts een relatie tussen oorza
 ## Koppeling
 
 
-Khononovs boek heet *Balancing Coupling in Software Design* en dat geeft ons een nogal sterke hint richting het antwoord op onze vraag. Accidentele complexiteit komt voort uit een ongebalanceerde of ongepaste koppeling (*coupling*) tussen twee softwaremodules. In de praktijk betekent dat meestal: twee (of meer) modules zijn sterker aan elkaar gekoppeld dan nodig is. Als de ene wordt aangepast moet de andere mee, ondanks dat er geen duidelijke (domeininhoudelijke) reden voor is waarom dat het geval zou moeten zijn.[^2]
+Khononovs boek heet *Balancing Coupling in Software Design* en dat geeft ons een nogal sterke hint richting het antwoord op onze vraag. Accidentele complexiteit komt voort uit een koppeling (*coupling*) tussen twee softwaremodules. In de praktijk betekent dat meestal: twee (of meer) modules zijn sterker aan elkaar gekoppeld dan nodig is. Als de ene wordt aangepast moet de andere mee, ondanks dat er geen duidelijke (domeininhoudelijke) reden voor is waarom dat het geval zou moeten zijn.[^2]
 
 
 Dat betekent natuurlijk niet dat alle koppeling verkeerd is. Een *volledig* ontkoppeld systeem bestaat uit modules die eenvoudigweg niet met elkaar kunnen communiceren, en die dus niets voor elkaar kunnen krijgen. Koppeling is één van de voorwaarden voor een succesvol systeem.
 
 
-Problemen ontstaan wanneer modules aan elkaar gekoppeld zijn op onverwachte manieren. Denk aan het aanpassen van een private variabele in een class, die opeens voor onverwacht gedrag in een andere class zorgt. -- Wat blijkt: de andere class heeft zichzelf middels [*reflection*](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection) toegang gegeven tot informatie die verborgen zou moeten blijven.
+Problemen ontstaan wanneer modules aan elkaar gekoppeld zijn op onverwachte manieren -- ongebalanceerde of ongepaste koppeling. Denk aan het aanpassen van een private variabele in een class, die opeens voor onverwacht gedrag in een andere class zorgt. -- Wat blijkt: de andere class heeft zichzelf middels [*reflection*](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection) toegang gegeven tot informatie die verborgen zou moeten blijven.
 
 
 ## Complexiteit
