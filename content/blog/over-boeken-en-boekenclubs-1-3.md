@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-04-25T08:37:17+02:00
 draft: true
 comments: true
-tags: []
+tags: ["boeken", "boekenclub"]
 summary: "Het beste werkgerelateerde advies dat ik ooit heb gekregen, kreeg ik van mijn eerste manager. Ik was nog maar net begonnen als softwareontwikkelaar en worstelde met de enorme complexiteit die kwam kijken bij het onderhouden van een *legacy* codebase. Hij zei (ik parafraseer): \"Je hebt de ballen verstand van softwareontwikkeling. Houd de vrijdagen vrij voor zelfstudie, en lees eens een boek.\""
 ---
 
