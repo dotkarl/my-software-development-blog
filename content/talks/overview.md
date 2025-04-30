@@ -9,6 +9,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |                   |                                                      |                                                                  |
 | ----------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| 14 mei 2025       | [TestNet Voorjaarsevenement](https://www.testnet.org/) | *Begin een boekenclub!*                                        |
 | 29 april 2025     | [Nimma Codes](https://www.nimma.codes/)              | *Wat is refactoring (volgens Hannah Arendt)?*[^4]                |
 | 10 april 2025     | [Living Documentation Event](https://www.ict.eu/en/events/living-documentation-event-2025) | [*Testing: A philosophical retrospective*](/talks/testen-een-filosofisch-retrospectief/) |
 | 27 maart 2025     | [Cito](https://www.cito.nl/) (intern)                | *Coding != building*[^3]                                         |
