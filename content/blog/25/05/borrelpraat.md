@@ -84,7 +84,7 @@ Maar softwareontwikkeling zit vol verkeerde abstracties. Vaak zijn het zulke abs
 Het getal 0 is *uitgevonden* -- ja. Maar die uitvinding ont-dekte een voor ons relevant aspect van de werkelijkheid binnen het domein van de getallen (waar het tot dusver be-dekt was), en gaf haar een canonieke uitdrukking. 
 
 
-Wij ontdekten dat we dat aspect van de werkelijkheid met deze uitvinding op een voor ons nuttige manier konden bespreken. -- Iemand nog pils?
+Wij ontdekten dat we dat aspect van de werkelijkheid met deze uitvinding op een voor ons nuttige manier konden behandelen. -- Iemand nog pils?
 
 
 [^1]: [Ludwig Wittgenstein](/tags/wittgenstein-ludwig/ "Blogs met de tag 'Wittgenstein, Ludwig'") is mijn filosofische held, zijn portret hangt bij ons op de wc, samen met dat van [Bob Dylan](/blog/23/06/ode-aan-bod-dylan/ "'Ode aan Bob Dylan'") en David Lynch. Ik schrijf graag over hem in relatie tot softwareontwikkeling, bijvoorbeeld [hier](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "'De filosofische geschiedenis van een ontwerpkeuze'"), [hier](/blog/21/08/domain-driven-design-en-ludwig-wittgenstein/ "'Domain-Driven Design en Ludwig Wittgenstein'"), [hier](/blog/23/12/logisch-filosofische-verhandeling/ "'Logisch-filosofische verhandeling'") en [hier](/blog/23/09/pseudofilosofische-onderzoekingen-i-en-ii/ "'Pseudofilosofische onderzoekingen (I & II)'"). En hier.
