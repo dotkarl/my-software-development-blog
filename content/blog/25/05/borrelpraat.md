@@ -1,10 +1,10 @@
 ---
 title: "Borrelpraat"
 author: "Karl van Heijster"
-date: 2025-03-07T08:28:49+01:00
-draft: true
+date: 2025-05-02T08:31:47+02:00
+draft: false
 comments: true
-tags: ["betekenis", "filosofie", "intentie van code", "Wittgenstein, Ludwig"]
+tags: ["abstracties", "betekenis", "filosofie", "intentie van code", "Wittgenstein, Ludwig"]
 summary: "\"Proost!\" -- en toen begon iemand over de uitvinding van het getal 0, en hoe bizar het is dat er ooit een tijd is geweest dat er geen nul was. Dit is de ultieme borrelpraatvraag: is *0* ontdekt of uitgevonden?"
 ---
 
@@ -39,7 +39,7 @@ Concepten zijn gereedschappen -- voor ons handelen en voor ons denken. Zoals een
 Maar dat perspectief op de zaak impliceert *niet* dat het idee (de intuïtie) dat *0* ontdekt is, er helemaal naast zit. Het *concept* (de notatie en de rol die het in het taalspel speelt) mag dan een uitvinding zijn, zou je kunnen zeggen, maar dat was het concept *uitdrukt* is iets "echts" -- dat blijkt uit het feit dat we er mee kunnen werken.
 
 
-De uitdrukking "ontdekken" is interessant in deze context. Het concept stelt ons in staat om bepaalde aspecten van de werkelijkheid op te doen lichten of te ontsluieren. ([Heidegger](https://plato.stanford.edu/entries/heidegger/ "'Martin Heidegger', Stanford Encyclopedia of Philosophy") schrijft daar onder andere over.) En het tegendeel is natuurlijk ook waar: het concept bedekt of versluiert bepaalde aspecten van de werkelijkheid, bijvoorbeeld omdat ze binnen de context van het taalspel niet relevant zijn. 
+De uitdrukking "ontdekken" is interessant in deze context. Het concept stelt ons in staat om bepaalde aspecten van de werkelijkheid op te doen lichten of te ontsluieren.[^3] En het tegendeel is natuurlijk ook waar: het concept versluiert of bedekt (nota bene!) bepaalde aspecten van de werkelijkheid, bijvoorbeeld omdat ze binnen de context van het taalspel niet relevant zijn. 
 
 
 Toch voelt de formulering vreemd, "nul bestaat echt." Dat wat de zin uit *probeert* te drukken, is ontegenzeggelijk waar. Maar of die woorden in die volgorde daar de juiste voor zijn, valt te betwisten. 
@@ -60,13 +60,13 @@ We moesten een abstractie introduceren om het binnen deze context over afwezighe
 {{< asterisk >}}
 
 
-Abstracties worden ontdekt, geformuleerd, geïntroduceerd -- als softwareontwikkelaars doen we dan aan de lopende band. Een class drukt een idee (concept) uit, en een method op die class ook, en de constellatie van classes die een [aggregaat](https://martinfowler.com/bliki/DDD_Aggregate.html "'D D D_ Aggregate', Martin Fowler") vormt ook, en service die dat aggregaat consumeert ook.
+Abstracties worden ontdekt, geformuleerd, geïntroduceerd, verfijnd -- als softwareontwikkelaars doen we dan aan de lopende band. Een class drukt een idee (concept) uit, en een method op die class ook, en de constellatie van classes die een [aggregaat](https://martinfowler.com/bliki/DDD_Aggregate.html "'D D D_ Aggregate', Martin Fowler") vormt ook, en service die dat aggregaat consumeert ook.
 
 
 Een goede abstractie drukt iets "echts" uit -- dat blijkt uit het feit dat we er mee kunnen werken. Een goede abstractie stelt ons in staat om iets wat voorheen moeilijk of omslachtig was, nu eenvoudig voor elkaar te kunnen krijgen. 
 
 
-Een goede abstractie *ont*dekt de aspecten van de werkelijkheid die voor onze huidige taak relevant zijn. -- Of: *Wij* ontdekken de aspecten van de werkelijkheid die voor onze huidige taak relevant zijn *door* een abstractie te introduceren.
+Een goede abstractie ont-dekt de aspecten van de werkelijkheid die voor onze huidige taak relevant zijn. -- Of: *Wij* ontdekken de aspecten van de werkelijkheid die voor onze huidige taak relevant zijn *door* een abstractie te introduceren.
 
 
 {{< asterisk >}}
@@ -81,12 +81,14 @@ Maar softwareontwikkeling zit vol verkeerde abstracties. Vaak zijn het zulke abs
 {{< asterisk >}}
 
 
-Het getal 0 is *uitgevonden* -- ja. Maar die uitvinding *ont*dekte een voor ons relevant aspect van de werkelijkheid binnen het domein van de getallen (waar het tot dusver *be*dekt was), en gaf haar een canonieke uitdrukking. 
+Het getal 0 is *uitgevonden* -- ja. Maar die uitvinding ont-dekte een voor ons relevant aspect van de werkelijkheid binnen het domein van de getallen (waar het tot dusver be-dekt was), en gaf haar een canonieke uitdrukking. 
 
 
--- Iemand nog pils?
+Wij ontdekten dat we dat aspect van de werkelijkheid met deze uitvinding op een voor ons nuttige manier konden bespreken. -- Iemand nog pils?
 
 
 [^1]: [Ludwig Wittgenstein](/tags/wittgenstein-ludwig/ "Blogs met de tag 'Wittgenstein, Ludwig'") is mijn filosofische held, zijn portret hangt bij ons op de wc, samen met dat van [Bob Dylan](/blog/23/06/ode-aan-bod-dylan/ "'Ode aan Bob Dylan'") en David Lynch. Ik schrijf graag over hem in relatie tot softwareontwikkeling, bijvoorbeeld [hier](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "'De filosofische geschiedenis van een ontwerpkeuze'"), [hier](/blog/21/08/domain-driven-design-en-ludwig-wittgenstein/ "'Domain-Driven Design en Ludwig Wittgenstein'"), [hier](/blog/23/12/logisch-filosofische-verhandeling/ "'Logisch-filosofische verhandeling'") en [hier](/blog/23/09/pseudofilosofische-onderzoekingen-i-en-ii/ "'Pseudofilosofische onderzoekingen (I & II)'"). En hier.
 
-[^2]: Ik vermoed dat deze invalshoek eveneens geïnspireerd is door [Douglas' Hofstadters](https://en.wikipedia.org/wiki/Douglas_Hofstadter "'Douglas Hofstadter', Wikipedia") beschrijving van [formele systemen](https://en.wikipedia.org/wiki/Formal_system "'Formal system', Wikipedia") in [*Gödel, Escher, Bach*](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach "'Gödel, Escher, Bach', Wikipedia").
+[^2]: Ik vermoed dat deze invalshoek eveneens geïnspireerd is door [Douglas Hofstadters](https://en.wikipedia.org/wiki/Douglas_Hofstadter "'Douglas Hofstadter', Wikipedia") beschrijving van [formele systemen](https://en.wikipedia.org/wiki/Formal_system "'Formal system', Wikipedia") in [*Gödel, Escher, Bach*](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach "'Gödel, Escher, Bach', Wikipedia").
+
+[^3]: [Heidegger](https://plato.stanford.edu/entries/heidegger/ "'Martin Heidegger', Stanford Encyclopedia of Philosophy") schrijft daar onder andere over.
