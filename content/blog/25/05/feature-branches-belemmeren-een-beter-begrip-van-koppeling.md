@@ -1,14 +1,14 @@
 ---
 title: "Feature branches belemmeren een beter begrip van koppeling"
 author: "Karl van Heijster"
-date: 2025-03-14T08:51:01+01:00
-draft: true
+date: 2025-05-09T07:51:17+02:00
+draft: false
 comments: true
 tags: ["boeken", "branching", "feature branching", "gitflow", "koppeling", "leermoment", "software ontwikkelen"]
 summary: "Laatst brak een kleine wijziging aan de back-end -- die we zo snel mogelijk richting de testomgeving hadden gebracht -- functionaliteit aan de front-end. Voor mijn collega was het een ideale gelegenheid om zijn *bias* voor Gitflow bevestigd te zien. \"Dit zou nooit gebeurd zijn als we van *feature branches* gebruik hadden gemaakt!\" concludeerde hij. -- En niet onterecht, want het apart houden van de wijziging in kwestie zou de functionaliteit op testomgeving inderdaad intact hebben gehouden."
 ---
 
-Onze lead front-endontwikkelaar is een groot voorstander van [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow "'Gitflow workflow', Atlassian"), een [branchingstratgie](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance "'Adopt a Git branching strategy', Microsoft documentatie") die leunt op het gebruik van [*feature branches*](https://martinfowler.com/bliki/FeatureBranch.html "'Feature branch', Martin Fowler") om nieuwe functionaliteit op te ontwikkelen. 
+Onze lead front-endontwikkelaar is een verdediger van [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow "'Gitflow workflow', Atlassian"), een [branchingstratgie](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance "'Adopt a Git branching strategy', Microsoft documentatie") die leunt op het gebruik van [*feature branches*](https://martinfowler.com/bliki/FeatureBranch.html "'Feature branch', Martin Fowler") om nieuwe functionaliteit op te ontwikkelen. 
 
 
 Het idee is: er is een `develop`-branch, en de code die daar op staat is uitgerold op de testomgeving. Wanneer je een nieuwe functionaliteit *x* wil ontwikkelen, maak je een *feature branch* `x` aan vanaf `develop`, waar je wijzigingen op doorvoert. Pas wanneer die functionaliteit voltooid is, wordt deze teruggemergd naar de `develop`-branch, waardoor de feature automatisch wordt uitgerold op de testomgeving.
@@ -59,7 +59,7 @@ Een gewetensvraag: gaat het overeind houden van de testomgeving boven het opdoen
 Dit is een andere manier om ernaar te kijken: door de testomgeving om zeep te helpen, heeft die kleine wijziging ons iets geleerd over de manier waarop back-end en front-end aan elkaar gekoppeld zijn.
 
 
-In [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024") betoogt [Vlad Khononov](https://vladikk.com/) dat [complexiteit](GECOMPLICEERD_VS_COMPLEX "'Gecompliceerd vs. complex'") in software voortkomt uit dit soort onverwachte koppelingen tussen code. Wie pleit voor het gebruik van *feature branches*, accepteert het bestaan van zulke koppelingen (*viz.* van complexiteit) als onvermijdelijk. En daarmee ontmoedigt diegene om te onderzoeken waar de koppeling precies in zit. 
+In [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024") betoogt [Vlad Khononov](https://vladikk.com/) dat [complexiteit](/blog/25/04/gecompliceerd-vs-complex/ "'Gecompliceerd vs. complex'") in software voortkomt uit dit soort onverwachte koppelingen tussen code. Wie pleit voor het gebruik van *feature branches*, accepteert het bestaan van zulke koppelingen (*viz.* van complexiteit) als onvermijdelijk. En daarmee ontmoedigt diegene om te onderzoeken waar de koppeling precies in zit. 
 
 
 Maar als *feature branches* ons in staat stellen functionaliteit overeind te houden door een beter begrip van koppeling onder het tapijt te vegen, dan is dan in mijn beleving eerder een argument *tegen* het gebruik ervan dan een ervóór.
@@ -72,4 +72,4 @@ Inderdaad: “Dit zou nooit gebeurd zijn als we van *feature branches* gebruik h
 
 [^2]: Het boek dat mij de ogen opende voor deze inefficiëntie, is [*Lean Software Development: An Agile Toolkit*](https://www.oreilly.com/library/view/lean-software-development/0321150783/ "Mary Poppendieck & Tom Poppendieck, 'Lean Software Development: An Agile Toolkit', O'Reilly Inc. 2003") van [Mary en Tom Poppendieck](https://www.leanessays.com/).
 
-[^3]: [Nicole Forsgren](https://nicolefv.com/), [Jez Humble](https://www.linkedin.com/in/jez-humble/) en [Gene Kim](http://www.realgenekim.me/) onderbouwden deze stelling empirisch in [*Accelerate*](https://itrevolution.com/product/accelerate/ "Nicole Forsgren, Jez Humble & Gene Kim, 'Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations', IT Revolution 2018"), [een van de beste boeken die ik vorig jaar over softwareontwikkeling las](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/).
+[^3]: [Nicole Forsgren](https://nicolefv.com/), [Jez Humble](https://www.linkedin.com/in/jez-humble/) en [Gene Kim](http://www.realgenekim.me/) onderbouwden deze stelling empirisch in [*Accelerate*](https://itrevolution.com/product/accelerate/ "Nicole Forsgren, Jez Humble & Gene Kim, 'Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations', IT Revolution 2018"), [een van de beste boeken die ik vorig jaar over softwareontwikkeling las](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/). De volgende stap in de evolutie van *continuous delivery* is *continuous deployment*: het direct uitrollen van elke commit naar de productieomgeving. We lezen er nu [dit boek](https://www.oreilly.com/library/view/continuous-deployment/9781098146719/ "Valentina Servile, 'Continuous Deployment: Enable Faster Feedback, Safer Releases, and More Reliable Software', 'O'Reilly Inc. 2024") over in de [boekenclub](/tags/boekenclub/ "Blogs met de tag 'boekenclub'").
