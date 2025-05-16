@@ -1,7 +1,7 @@
 ---
 title: "De bouwmetafoor gaat niet eens op voor de bouw"
 author: "Karl van Heijster"
-date: 2025-03-28T08:23:09+01:00
+date: 2025-05-23T08:08:38+02:00
 draft: true
 comments: true
 tags: ["aannames", "agile ontwikkeling", "feedback", "leermoment", "mentaal model", "presenteren"]
