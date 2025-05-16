@@ -1,11 +1,11 @@
 ---
 title: "Sabotage!"
 author: "Karl van Heijster"
-date: 2025-03-21T10:48:44+01:00
-draft: true
+date: 2025-05-16T09:12:09+02:00
+draft: false
 comments: true
 tags: ["communicatie", "empathie", "leermoment", "samenwerking", "vergaderen", "vertrouwen"]
-summary: "Onlangs volgde ik een training Deep Democracy -- en werd ik bewust gemaakt van enkele valkuilen en disfunctionele patronen in samenwerking -- voor mijzelf net zozeer als voor mijn collega's. Eén van de interessantste inzichten die ik opdeed hadden te maken met sabotage: het ondermijnen van (een deel van) de groep. Dat kan op allerlei manieren gebeuren, van het maken van (sarcastische) grappen tot roddelen tot tegenwerken of zelfs staken. Het zijn allemaal voorbeelden van \"*ja* zeggen maar *nee* doen.\""
+summary: "Onlangs volgde ik een training Deep Democracy -- en werd ik bewust gemaakt van enkele valkuilen en disfunctionele patronen in samenwerking. Eén van de interessantste inzichten die ik opdeed hadden te maken met sabotage: het ondermijnen van (een deel van) de groep. Dat kan op allerlei manieren gebeuren, van het maken van (sarcastische) grappen tot roddelen tot tegenwerken of zelfs staken. Het zijn allemaal voorbeelden van \"*ja* zeggen maar *nee* doen.\""
 ---
 
 Onlangs volgde ik een training [Deep Democracy](https://deepdemocracy.nl/) -- en net als [toen ik een cursus coaching volgde](/blog/22/07/wat-ik-leerde-over-coachend-begeleiden/ "'Wat ik leerde over coachend begeleiden'"), werd ik bewust gemaakt van enkele valkuilen en disfunctionele patronen in samenwerking -- voor mijzelf net zozeer als voor mijn collega's.
@@ -35,13 +35,13 @@ Sabotage is niet *fout*, hooguit contraproductief. Dit gedrag is menselijk.
 Een voorstel voor het refactoren van de zoekindex (zie bijvoorbeeld [deze blog](/blog/25/03/het-ontologische-argument/ "'Het ontologische argument'")) leidde tot verhitte reacties. De discussie werd kort daarna afgekapt. Achteraf uitte een collega zijn frustratie over de gang van zaken: hij was -- net als ik overigens -- overtuigd van het ongelijk van de ander, maar voelde zich niet gesteund in de discussie. Het onopgeloste meningsverschil leidde tot roddel achteraf.
 
 
-Onlangs heb ik zelf een teambeslissing nog ondermijnd. Ik kon mij niet verenigen met de keuze voor featurebranching (zie [deze blog](FEATURE_BRANCHES_BELEMMEREN)) en hakte mijn eigen feature daarom op in kleine [PR](/tags/pull-requests/ "Blogs met de tag 'pull requests'")'s omdat ik moest en zou bewijzen dat [*trunk based development*](/blog/23/09/doe-je-wel-echt-aan-continuous-integration/ "'Doe je wel écht aan continuous integration?'") een prima alternatief is.
+Onlangs heb ik zelf een teambeslissing nog ondermijnd. Ik kon mij niet verenigen met de keuze voor featurebranching (zie [deze blog](/blog/25/05/feature-branches-belemmeren-een-beter-begrip-van-koppeling/ "'Feature branches belemmeren een beter begrip van koppeling'")) en hakte mijn eigen feature daarom op in kleine [PR](/tags/pull-requests/ "Blogs met de tag 'pull requests'")'s omdat ik moest en zou bewijzen dat [*trunk based development*](/blog/23/09/doe-je-wel-echt-aan-continuous-integration/ "'Doe je wel écht aan continuous integration?'") een prima alternatief is.
 
 
 ## Handvaten
 
 
-Sabotage komt voort uit het gevoel niet gehoord te worden. De training reikte enkele interessante handvaten aan om dit gedrag te voorkomen. Bijvoorbeeld door actief te vragen naar minderheidsstandpunten: "Wat zou een totaal andere manier zijn om dit probleem op te lossen?" En door de vertegenwoordiger van het minderheidsstandpunt uit zijn isolement te halen: "Wie herkent er *iets* van wat degene hier zegt?"
+De training reikte enkele interessante handvaten aan om dit gedrag te voorkomen. Bijvoorbeeld door actief te vragen naar minderheidsstandpunten: "Wat zou een totaal andere manier zijn om dit probleem op te lossen?" En door de vertegenwoordiger van het minderheidsstandpunt uit zijn isolement te halen: "Wie herkent er *iets* van wat degene hier zegt?"
 
 
 Natuurlijk is het niet altijd mogelijk om aan elk standpunt tegemoet te komen. Soms moeten er knopen door worden gehakt, en delft de minderheid het onderspit. Maar dat betekent niet dat hun overwegingen geheel en al terzijde mogen worden geschoven. Een eenvoudige vraag kan helpen: "Wat zou ervoor nodig zijn jou zover te krijgen dat je achter dit besluit staat?" 
