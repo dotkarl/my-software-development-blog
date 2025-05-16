@@ -11,7 +11,7 @@ summary: "De bouw anno nu heeft veel ideeën uit agile en lean geïncorporeerd e
 Software ontwikkelen is [niet hetzelfde als een huis bouwen](/blog/25/03/de-bouwmetafoor/ "'De bouwmetafoor'"), betoogde ik onlangs in een lightning talk.[^1] 
 
 
-De bouwmetafoor suggereert dat [architecten](/tags/software-architect-rol/ "Blogs met de tag 'software architect (rol)'") verantwoordelijk zijn voor het ontwerp, [ontwikkelaars](/tags/software-ontwikkelaar-rol/ "Blogs met de tag 'software ontwikkelaar (rol)'") verantwoordelijk voor de uitvoer, en [testers](/tags/tester-rol/ "Blogs met de tag 'tester (rol)'") voor de inspectie. Het suggereert bovendien een lineair proces, waarin het hele gebouw *eerst* wordt ontworpen, *daarna* wordt gebouwd, en pas *uiteindelijk* wordt geïnspecteerd.
+De bouwmetafoor suggereert dat [architecten](/tags/software-architect-rol/ "Blogs met de tag 'software architect (rol)'") verantwoordelijk zijn voor het ontwerp, [ontwikkelaars](/tags/software-ontwikkelaar-rol/ "Blogs met de tag 'software ontwikkelaar (rol)'") voor de uitvoer, en [testers](/tags/tester-rol/ "Blogs met de tag 'tester (rol)'") voor de inspectie. Het suggereert bovendien een lineair proces, waarin het hele gebouw *eerst* wordt ontworpen, *daarna* wordt gebouwd, en pas *uiteindelijk* wordt geïnspecteerd.
 
 
 ## Mentaal model
@@ -23,10 +23,7 @@ Althans, dat is het [mentale model](/tags/mentaal-model/ "Blogs met de tag 'ment
 Dus niet alleen softwareontwikkeling is niet als het bouwen van een huis -- zelfs het bouwen van een huis blijkt niet als het bouwen van een huis!
 
 
-Dat wijst ons op een interessante eigenschap van mentale modellen: ze kunnen volslagen losgezongen blijken van de realiteit -- en zonder dat we het doorhebben bovendien. Het probleem met de "bouw"-metafoor is dus niet dat we softwareontwikkeling vorm proberen te geven als een constructieproces. 
-
-
-Het is veeleer: dat we softwareontwikkeling vorm proberen te als *het beeld dat wij hebben van* eenconstructieproces. Maar dat dat beeld overeenstemt met de werkelijkheid, kan zomaar een aanname blijken te zijn die weinig met de feitelijke werkelijkheid te maken heeft.
+Dat wijst ons op een interessante eigenschap van mentale modellen: ze kunnen volslagen losgezongen blijken van de realiteit -- en zonder dat we het doorhebben bovendien. Het probleem met de "bouw"-metafoor is dus niet dat we softwareontwikkeling vorm proberen te geven als een constructieproces. Het is veeleer: dat we softwareontwikkeling vorm proberen te als *het beeld dat wij hebben van* eenconstructieproces. Maar dat dat beeld overeenstemt met de werkelijkheid, kan zomaar een aanname blijken te zijn die weinig met de feitelijke werkelijkheid te maken heeft.
 
 
 ## Fictie dicteert
