@@ -38,7 +38,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 [^4]: Lightning talk gebaseerd op [deze](/blog/24/09/refactoring-en-hannah-arendt/ "'Refactoring en Hannah Arendt'") en [deze blog](/blog/24/11/meer-refactoring-en-hannah-arendt/ "'Meer refactoring en Hannah Arendt'").
 
-[^3]: Lightning talk gebaseerd op [deze blog](/blog/25/03/de-bouwmetafoor/ "'De bouwmetafoor'").
+[^3]: Lightning talk gebaseerd op [deze blog](/blog/25/03/de-bouwmetafoor/ "'De bouwmetafoor'") (maar zie ook [deze blog](/blog/25/05/de-bouwmetafoor-gaat-niet-eens-op-voor-de-bouw/ "'De bouwmetafoor gaat niet eens op voor de bouw'")).
 
 [^2]: Lightning talk gebaseerd op [deze blog](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "'De filosofische geschiedenis van een ontwerpkeuze'").
 
