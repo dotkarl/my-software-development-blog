@@ -5,7 +5,7 @@ date: 2025-05-30T08:02:33+02:00
 draft: false
 comments: true
 tags: ["aannames", "boeken", "communicatie", "koppeling", "microservices", "software ontwikkelaar (rol)"]
-summary: "Koppeling is: wanneer een wijziging in het ene (sub)systeem een wijziging in het andere (sub)systeem noodzakelijk maakt. Wanneer softwareontwikkelaars het over koppeling hebben, dan bedoelen we meestal: *in code* aan elkaar gekoppelde (sub)systemen. Maar twee (sub)systemen kunnen ook *zuiver functioneel* aan elkaar gekoppeld zijn, zonder ook maar één regel code te hoeven delen."
+summary: "Koppeling is: wanneer een wijziging in het ene systeem een wijziging in het andere systeem noodzakelijk maakt. Wanneer softwareontwikkelaars het over koppeling hebben, dan bedoelen we meestal: *in code* aan elkaar gekoppelde systemen. Maar twee systemen kunnen ook *zuiver functioneel* aan elkaar gekoppeld zijn, zonder ook maar één regel code te hoeven delen."
 ---
 
 [Koppeling](/tags/koppeling/ "Blogs met de tag 'koppeling'") is: wanneer een wijziging in het ene (sub)systeem een wijziging in het andere (sub)systeem noodzakelijk maakt.[^1] Wanneer softwareontwikkelaars het over koppeling hebben, dan bedoelen we meestal: *in code* aan elkaar gekoppelde (sub)systemen. 
