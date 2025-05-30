@@ -2,7 +2,7 @@
 title: "De bouwmetafoor gaat niet eens op voor de bouw"
 author: "Karl van Heijster"
 date: 2025-05-23T08:08:38+02:00
-draft: true
+draft: false
 comments: true
 tags: ["aannames", "agile ontwikkeling", "feedback", "leermoment", "mentaal model", "presenteren"]
 summary: "De bouw anno nu heeft veel ideeën uit agile en lean geïncorporeerd en heeft daarom tegenwoordig -- grappig genoeg -- meer weg van softwareontwikkeling dan je zou verwachten. Dus niet alleen softwareontwikkeling is niet als het bouwen van een huis -- zelfs het bouwen van een huis blijkt niet als het bouwen van een huis!"
