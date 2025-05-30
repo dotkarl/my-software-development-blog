@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2024-12-13T08:16:52+01:00
 draft: false
 comments: true
-tags: ["domain-driven design", "domeinmodel", "filosofie", "properties", "Wittgenstein, Ludwig"]
+tags: ["domain-driven design", "domeinmodel", "filosofie", "lightning talk", "properties", "Wittgenstein, Ludwig"]
 summary: "Softwareontwikkelaars schrijven niet slechts code, ze scheppen een model van de werkelijkheid. Wat dat betreft staan ze in een lange filosofische traditie. Oftewel: wat kunnen Plato en Wittgenstein ons leren over het modelleren van een (on)geverifieerd e-mailadres?"
 ---
 

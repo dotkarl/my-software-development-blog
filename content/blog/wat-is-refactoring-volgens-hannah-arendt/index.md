@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-04-11T09:04:26+02:00
 draft: true
 comments: true
-tags: ["boeken", "filosofie", "leermoment", "mentaal model", "refactoren", "software ontwikkelaar (rol)", "technische schuld"]
+tags: ["boeken", "filosofie", "leermoment", "lightning talk", "mentaal model", "refactoren", "software ontwikkelaar (rol)", "technische schuld"]
 summary: "Wat kunnen Hannah Arendts filosofische overpeinzingen ons leren over refactoring? Nou, bijvoorbeeld waarom de metafoor van technische schuld een misleidende is. Maar als refactoring niet het afbetalen van technische schuld is, wat is het dan wel? En wat betekent dat voor de rol die refactoring in onze dagelijkse werkzaamheden in mag (of moet?) nemen?"
 ---
 
