@@ -1,12 +1,12 @@
 ---
 title: "Begin een boekenclub!"
 author: "Karl van Heijster"
-date: 2025-04-30T09:13:23+02:00
-draft: true
+date: 2025-05-14T09:13:23+02:00
+draft: false
 comments: true
 tags: ["boeken", "boekenclub", "leercultuur", "samenwerking", "teamcultuur", "werkplezier", "zelfstudie"]
 summary: "Wie software ontwikkelt, leert van zijn fouten. Wie leest over softwareontwikkeling, leert van andermans fouten. Een lust voor lezen is een *cheat code* die je in staat stellen in rap tempo een betere IT-professional te worden."
-speakerdeck: ""
+speakerdeck: "a63c9760e2ce483298c1f16bea11d6cc"
 ---
 
 
@@ -31,3 +31,7 @@ Teamverbeteraars vinden in dit praatje concrete tips om zichzelf en hun collegaâ
 - [Over de boekenclub](/blog/25/02/over-de-boekenclub/)
 - [Lees elke dag twee kwartier over je vak](/blog/21/05/lees-elke-dag-een-kwartier-over-je-vak/)
 - [Wie is verantwoordelijk voor jouw ontwikkeling?](/blog/21/09/wie-is-verantwoordelijk-voor-jouw-ontwikkeling/)
+- Over boeken en boekenclubs (1/3) [binnenkort]
+- Over boeken en boekenclubs (2/3) [binnenkort]
+- Over boeken en boekenclubs (3/3) [binnenkort]
+- Een (verre van complete) lijst boekentips [binnenkort]
