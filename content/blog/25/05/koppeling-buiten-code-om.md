@@ -1,8 +1,8 @@
 ---
 title: "Koppeling buiten code om"
 author: "Karl van Heijster"
-date: 2025-04-04T08:53:08+02:00
-draft: true
+date: 2025-05-30T08:02:33+02:00
+draft: false
 comments: true
 tags: ["aannames", "boeken", "communicatie", "koppeling", "microservices", "software ontwikkelaar (rol)"]
 summary: "Koppeling is: wanneer een wijziging in het ene (sub)systeem een wijziging in het andere (sub)systeem noodzakelijk maakt. Wanneer softwareontwikkelaars het over koppeling hebben, dan bedoelen we meestal: *in code* aan elkaar gekoppelde (sub)systemen. Maar twee (sub)systemen kunnen ook *zuiver functioneel* aan elkaar gekoppeld zijn, zonder ook maar één regel code te hoeven delen."
@@ -11,7 +11,7 @@ summary: "Koppeling is: wanneer een wijziging in het ene (sub)systeem een wijzig
 [Koppeling](/tags/koppeling/ "Blogs met de tag 'koppeling'") is: wanneer een wijziging in het ene (sub)systeem een wijziging in het andere (sub)systeem noodzakelijk maakt.[^1] Wanneer softwareontwikkelaars het over koppeling hebben, dan bedoelen we meestal: *in code* aan elkaar gekoppelde (sub)systemen. 
 
 
-[Vlad Khononov](https://vladikk.com/) beschrijft in [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024") verschillende manieren waarop systemen aan elkaar gekoppeld kunnen zijn. Met name zijn taxonomie van integratiesterkte (zie ook [deze blog](... "'Hoge cohesie, losse koppeling'")) is de moeite van het bestuderen waard. Koppeling is geen kwestie van alles of niets. Systemen kunnen in sterke en minder sterke mate van elkaar afhankelijk zijn. 
+[Vlad Khononov](https://vladikk.com/) beschrijft in [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024") verschillende manieren waarop systemen aan elkaar gekoppeld kunnen zijn. Met name zijn taxonomie van integratiesterkte (zie ook [deze blog](/blog/25/04/hoge-cohesie-losse-koppeling/ "'Hoge cohesie, losse koppeling'")) is de moeite van het bestuderen waard. Koppeling is geen kwestie van alles of niets. Systemen kunnen in sterke en minder sterke mate van elkaar afhankelijk zijn. 
 
 
 Systeem A en B kunnen aan elkaar gekoppeld zijn omdat B gebruik maakt van implementatiedetails van A waar de buitenwereld nooit weet van had mogen hebben. Maar B kan ook gebruik maken van het interne model van A, of van een naar de buitenwereld toe afgesproken integratiecontract. De eerste soort koppeling is sterker dan de tweede, en de tweede is sterker dan de derde. Koppeling beslaat een spectrum van intrusief naar functioneel naar contractmatig.
@@ -23,10 +23,10 @@ Systeem A en B kunnen aan elkaar gekoppeld zijn omdat B gebruik maakt van implem
 Wat impliciet blijft in deze bespreking is het gegeven dat al deze voorbeelden uitgaan van aan elkaar gekoppelde *code*. Maar Khononov wijst erop -- en dat is wat in de discussie rondom koppeling vaak over het hoofd wordt gezien -- dat twee (sub)systemen ook *zuiver functioneel* aan elkaar gekoppeld kunnen zijn, zonder ook maar één regel code te hoeven delen.
 
 
-Als systemen (e.g. twee [microservice](/tags/microservices/ "Blogs met de tag 'microservices'") `OrderService` en `BillingService`), onafhankelijk van elkaar, dezelfde businesslogica implementeren, dan zijn ze aan elkaar gekoppeld. Immers, wil het systeem *als geheel* -- de totaliteit van met elkaar communicerende microservices -- blijven werken, dan moeten alle relevante systemen dezelfde regels hanteren. 
+Als systemen, onafhankelijk van elkaar, dezelfde businesslogica implementeren, dan zijn ze aan elkaar gekoppeld. Immers, wil het systeem *als geheel* -- de totaliteit van met elkaar communicerende systemen -- blijven werken, dan moeten alle relevante (sub)systemen dezelfde regels hanteren. 
 
 
-Als de `OrderService` meent dat een klant korting krijgt bij besteding van €50,-, maar de `BillingService` meent dat dat pas vanaf €75,- geldt, dan is de logica van het systeem geheel inconsistent. Beide systemen werken individueel "correct", maar in hun samenwerking manifesteert zich een bug. De gebruiker van de microservices weet niet waar deze aan toe is.
+Laten we als voorbeeld twee [microservices](/tags/microservices/ "Blogs met de tag 'microservices'") nemen, `OrderService` en `BillingService`. Als de `OrderService` meent dat een klant korting krijgt bij besteding van €50,-, maar de `BillingService` meent dat dat pas vanaf €75,- geldt, dan is de logica van het systeem geheel inconsistent. Beide systemen werken individueel "correct", maar in hun samenwerking manifesteert zich een bug. De gebruiker van de microservices weet niet waar deze aan toe is.
 
 
 ## Communicatiesystemen
