@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/public
+/.vs/my-software-development-blog/config
+/.vs/my-software-development-blog/copilot-chat/04c0a4a8/sessions
+/.vs/my-software-development-blog/CopilotIndices/17.14.734.62261
+/.vs/my-software-development-blog/FileContentIndex
+/.vs/my-software-development-blog/v17
+/.vs
