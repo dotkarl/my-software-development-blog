@@ -1,19 +1,21 @@
-		<footer>
-			{{ if and .Params.comments (gt (len .Site.DisqusShortname) 0) }}
-            <figure class="article-discussion">
-                {{ template "_internal/disqus.html" . }}
-            </figure>
-			{{ end }}
-			<p>
-			{{ $len := (len .Site.Menus.footer)}}
-			{{ range $index, $element := .Site.Menus.footer }}
-				<a href="{{ .URL }}">{{ lower .Name }}</a>
-				{{ if ne (add $index 1) $len }}
-				&middot;
-				{{ end }}
-			{{ end }}
-			</p>
-			<span>
-			    &copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}
-			</span>
-		</footer>
+<footer>
+	{{ with .Site.Params.disqusShortname }}
+	{{ if $.Params.comments }}
+	<figure class="article-discussion">
+		{{ template "_internal/disqus.html" $ }}
+	</figure>
+	{{ end }}
+	{{ end }}
+	<p>
+		{{ $len := (len .Site.Menus.footer)}}
+		{{ range $index, $element := .Site.Menus.footer }}
+		<a href="{{ .URL }}">{{ lower .Name }}</a>
+		{{ if ne (add $index 1) $len }}
+		&middot;
+		{{ end }}
+		{{ end }}
+	</p>
+	<span>
+		&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Params.author }}. {{ i18n "generator" | safeHTML }}
+	</span>
+</footer>
