@@ -80,7 +80,10 @@ Twee dingen: (1) *shots fired*; (2) --
 <br>
 
 
-De karakterisatie refactoring-als-huishouding klonk mij op het moment dat ik 'm voor het eerst hoorde, onmiddellijk een stuk intuïtiever in de oren dan de bekende schuldmetafoor. En inderdaad gebruiken we deze metafoor aan de lopende band, wanneer we zeggen dat we die en die hoek van de code even *op moeten ruimen* omdat deze een *rommeltje* is geworden. ([Kent Becks](https://www.kentbeck.com/) laatste boek gaat over refactoring en heet -- let op! -- [*Tidy First?*](https://www.oreilly.com/library/view/tidy-first/9781098151232/ "Kent Beck, 'Tidy First?: A Personal Exercise in Empirical Software Design', O'Reilly Media, 2023"). Het was [mijn favoriete boek van 2024](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/ "'De beste boeken over software ontwikkeling die ik in 2024 las'").)
+De karakterisatie refactoring-als-huishouding klonk mij op het moment dat ik 'm voor het eerst hoorde, onmiddellijk een stuk intuïtiever in de oren dan de bekende schuldmetafoor. En inderdaad gebruiken we deze metafoor aan de lopende band, wanneer we zeggen dat we die en die hoek van de code even *op moeten ruimen* omdat deze een *rommeltje* is geworden. 
+
+
+([Kent Becks](https://www.kentbeck.com/) laatste boek gaat over refactoring en heet -- let op! -- [*Tidy First?*](https://www.oreilly.com/library/view/tidy-first/9781098151232/ "Kent Beck, 'Tidy First?: A Personal Exercise in Empirical Software Design', O'Reilly Media, 2023"). En [Robert Martins](http://www.cleancoder.com/products) klassieke werk heet niet voor niets [*Clean Code*](https://www.pearson.com/en-us/subject-catalog/p/clean-code-a-handbook-of-agile-software-craftsmanship/P200000009044/9780136083252). Het waren respectievelijk mijn favoriete boeken van [2024](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/ "'De beste boeken over software ontwikkeling die ik in 2024 las'") en [2020](/blog/21/05/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2020-las/ "'De beste boeken over software ontwikkeling die ik in 2020 las'").)
 
 
 Maar dat laat de vraag onbeantwoord: waarom is deze metafoor intuïtiever dan de schuldmetafoor? -- Dat brengt me bij de volgende vraag.
@@ -115,7 +118,7 @@ Wat is het verschil tussen arbeid en werk?
 Arbeid heeft een associatie met pijn en fysieke inspanning, met de last van het bestaan -- denk aan dingen als het land bewerken of bevallen (nota bene: *going into labour*!). De wereld van arbeid is die van het *animal laborans*: het beestachtig bestaan waarin er gebikkeld moet worden om te overleven. Arbeid is een gevecht tegen entropie, zou je kunnen zeggen: er is een constante (of op zijn minst steeds terugkerende) inspanning voor nodig om de machine van het leven draaiende te houden. Dit werkt door in de opvatting van tijd die zo'n bestaan met zich meebrengt: die is cyclisch, hij wordt gekenmerkt door de afwisseling van perioden van inspanning en rust.
 
 
-Werk heeft daarentegen een associatie met het maken van dingen -- het creëren van machines of kunstwerken. Dit is het domein van de *homo faber*: de mens die werktuigen maakt in een poging die last van het bestaan te verminderen. De opvatting van de tijd die deze vorm van inspanning met zich meebrengt is een lineaire: de werkende mens werkt toe[^4] naar een einddoel. Als dat doel eenmaal is behaald, is het einde verhaal wat het werk betreft: de machine doet zijn ding of het kunstwerk wordt geëxposeerd.
+Werk heeft daarentegen een associatie met het maken van dingen -- het creëren van machines of kunstwerken. Dit is het domein van de *homo faber*: de mens die werktuigen maakt in een poging die last van het bestaan te verminderen. De opvatting van de tijd die deze vorm van inspanning met zich meebrengt is een lineaire: de werkende mens werkt toe[^4] naar een einddoel. Als dat doel eenmaal is behaald, is dat einde verhaal wat het werk betreft: de machine doet zijn ding of het kunstwerk wordt geëxposeerd.
 
 
 {{< asterisk >}}
@@ -151,7 +154,7 @@ Waarom is huishouding een betere metafoor voor refactoren dan het afbetalen van 
 Is het belangrijk om refactoring met de juiste metafoor te kaderen? Ik kan alleen voor mezelf spreken: sinds ik refactoring als huishouding ben gaan zien, in plaats van als het terugbetalen van technische schuld, is mijn verhouding tot de praktijk aanzienlijk veranderd.
 
 
-Waar gewerkt wordt, wordt rommel gemaakt -- sterker nog: waar (slechts) *geleefd* wordt, wordt rommel gemaakt. Het hoeft dus niet te verbazen dat de constante stroom aan wijzigingen die we in een codebase doorvoeren, ertoe leiden dat we regelmatig op moeten ruimen. Wie refactoring als huishouding ziet, hoeft zich niet langer te verbazen over de mate waarin "technische schuld" wordt geïntroduceerd in een codebase. Het *is* geen technische schuld, het is code die (nog) niet is opgeruimd -- meer niet.
+Waar gewerkt wordt, wordt rommel gemaakt -- sterker nog: waar (slechts) *geleefd* wordt, wordt rommel gemaakt. Het hoeft dus niet te verbazen dat de constante stroom aan wijzigingen die we in een codebase doorvoeren, ertoe leiden dat we regelmatig op moeten ruimen. Wie refactoring als huishouding ziet, hoeft zich niet langer te verbazen over de mate waarin -- laten we zeggen: *gelegenheid tot refactoring* wordt geïntroduceerd in een codebase. Dat is geen technische schuld, het is code die (nog) niet is opgeruimd -- meer niet.
 
 
 Wie rommel tegenkomt, ruimt het op -- de [*boy scout rule*](https://martinfowler.com/bliki/OpportunisticRefactoring.html "'Opportunistic Refactoring', Martin Fowler"). Dat geldt idealiter voor je eigen code, nadat je een feature hebt geïmplementeerd, maar het geldt ook voor andermans code, voordat je een feature toevoegt. Terugbetaalplannen zijn niet-bestaand omdat ze niet nodig zijn wanneer de code wordt gezien als werkblad in plaats van schuld.
@@ -169,16 +172,16 @@ Sinds ik refactoring als huishouding ben gaan zien, en de metafoor van technisch
 {{< asterisk >}}
 
 
-Toch wil ik niet suggereren dat er helemaal geen plek is voor het idee van technische schuld -- alleen het toepassingsgebied ervan is kleiner dan op voorhand gedacht.[^7] Technische schuld is wanneer de business een beslissing maakt om een bepaalde hoek af te snijden in (de ontwikkeling van) het softwaresysteem *met een concreet doel voor ogen* én *met een plan om de schuld terug te betalen*. 
+Toch wil ik niet suggereren dat er helemaal geen plek is voor het idee van technische schuld -- alleen het toepassingsgebied ervan is kleiner dan op voorhand gedacht.[^7] Technische schuld bestaat daar waar *de business* een beslissing maakt om een bepaalde hoek af te snijden in (de ontwikkeling van) het softwaresysteem *met een concreet doel voor ogen* én *met een plan om de schuld terug te betalen*. 
 
 
-De business kan oordelen: om die ene grote klant binnen te halen (= concreet doel), moeten we feature *x* nú implementeren. De refactoring van het model die ervoor nodig zou zijn om dat goed in het systeem te integreren, slaan we voorlopig over, omdat de tijdspanne voor deze kans zeer beperkt is. Maar zodra de klant eenmaal binnen is, ruimen we tijd in om de refactoring achteraf te doen, waarbij we accepteren dat dat impact heeft op de levertijd van de andere features die op de planning staan  (= terugbetaalplan).
+De business kan oordelen: om die ene grote klant binnen te halen (= concreet doel), moeten we deze feature nú implementeren. De refactoring van het model die ervoor nodig zou zijn om dat goed in het systeem te integreren, slaan we voorlopig over, omdat de tijdspanne voor deze kans zeer beperkt is. Maar zodra de klant eenmaal binnen is, ruimen we tijd in om de refactoring achteraf te doen, waarbij we accepteren dat dat impact heeft op de levertijd van de andere features die op de planning staan  (= terugbetaalplan).
 
 
 Een ontwikkelteam moet alleen met technische schuld akkoord gaan als de schuld verantwoord gemaakt wordt. Zo niet, dan dient het team een ferm <span style="font-variant:small-caps;">nee</span> te verkopen. Technische schuld mag nooit -- *nooit!* -- een excuus zijn om verstandige zaken als [testen](/tags/testen/ "Blogs met de tag 'testen'") of codekwaliteit overboord te gooien. Het feit dat je schuld maakt betekent niet dat je geen [vakman](/tags/vakmanschap/ "Blogs met de tag 'vakmanschap'") meer hoeft te zijn. 
 
 
-[^1]: Deze blog schreef ik ter voorbereiding op een *lightning talk* die ik gaf op [Nimma Codes](https://www.nimma.codes/).
+[^1]: Deze blog schreef ik ter voorbereiding op een *lightning talk* die ik gaf op [Nimma Codes](https://www.nimma.codes/). [Klik hier](/talks/overview/) voor een overzicht van alle praatjes die ik de afgelopen jaren heb gegeven.
 
 [^2]: Het boek schopte het aanvankelijk slechts tot een eervolle vermelding in [de lijst van beste softwareboeken die ik in 2021 las](/blog/21/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2021-las/ "'De beste boeken over software ontwikkeling die ik in 2021 las'"), maar later kwam ik tot inkeer en [concludeerde alsnog](/blog/24/02/een-herwaardering-van-fowlers-refactoring/ "'Een herwaardering van Fowlers Refactoring'") dat *Refactoring* zijn klassiekerstatus dubbel en dwars verdient.
 
