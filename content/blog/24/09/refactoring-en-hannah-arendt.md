@@ -11,7 +11,7 @@ summary: "Yvonne Lam stelt dat er een betere metafoor voorhanden is voor dat wat
 Uit een [praatje](https://www.youtube.com/watch?v=Q91d59tW75s "'Kevlin Henney - Refactoring Is Not Just Clickbait - Joy of Coding 2024', YouTube") van [Kevlin Henney](http://kevlin.tel/)[^1] leen ik de volgende tweet -- die dan weer van [Yvonne Lam](https://x.com/yvonnezlam "@yvonnezlam, X") is:
 
 
-{{< twitter user="yvonnezlam" id="1376628481878990852" >}}
+{{< x user="yvonnezlam" id="1376628481878990852" >}}
 
 
 Lam stelt dat er een betere metafoor voorhanden is voor dat wat we gewoonlijk "[technische schuld](/tags/technische-schuld/ "Blogs met de tag 'technische schuld'")" noemen: huishouding (*housework*).[^2] 

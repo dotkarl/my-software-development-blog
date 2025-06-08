@@ -4,6 +4,7 @@ title = "dotkarl"
 theme = "tale" 
 defaultContentLanguage = "nl"
 disqusShortname = "notkarlmarx"
+ignoreLogs = ['shortcode-x-getremote']
 rssLimit = 20
 [params]
   commentoEnable = true
