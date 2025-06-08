@@ -4,10 +4,4 @@
 {{ end }}
 
 {{ $wordcount := $scratch.Get "wordcount" }}
-{{ printf "%d" $wordcount }}{{ $scratch := newScratch }}
-{{ range (where .Site.RegularPages "Type" "in" (slice "blog")) }}
-{{ $scratch.Add "wordcount" .WordCount }}
-{{ end }}
-
-{{ $wordcount := $scratch.Get "wordcount" }}
-{{ printf "%d" $wordcount }}
+{{ $wordcount }}
