@@ -1,8 +1,8 @@
 ---
 title: "Over boeken en boekenclubs (1/3)"
 author: "Karl van Heijster"
-date: 2025-04-25T08:37:17+02:00
-draft: true
+date: 2025-06-20T07:57:08+02:00
+draft: false
 comments: true
 tags: ["boeken", "boekenclub"]
 summary: "Het beste werkgerelateerde advies dat ik ooit heb gekregen, kreeg ik van mijn eerste manager. Ik was nog maar net begonnen als softwareontwikkelaar en worstelde met de enorme complexiteit die kwam kijken bij het onderhouden van een *legacy* codebase. Hij zei (ik parafraseer): \"Je hebt de ballen verstand van softwareontwikkeling. Houd de vrijdagen vrij voor zelfstudie, en lees eens een boek.\""
@@ -17,7 +17,7 @@ Het beste werkgerelateerde advies dat ik ooit heb gekregen, kreeg ik van mijn ee
 Al zo lang als ik me kan herinneren, hou ik van lezen. -- Hoewel, dat is niet waar. Ik herinner me dat mijn moeder me meenam naar de bibliotheek en me aanspoorde een boek uit te zoeken. Maar ik zeurde: ik wil niet, lezen is stom. Maar mijn moeder hield vol, en om er vanaf te zijn nam ik onder luid protest het kleinste en dunste boekje mee dat ik kon vinden.
 
 
-Eenmaal thuis las ik het in een oogwenk uit. Schoorvoetend vond ik de weg naar mijn moeder en vroeg of we terug konden naar de bibliotheek, want stiekem bleek ik lezen toch wel best leuk te vinden. -- Sindsdien hou ik van lezen. Jeugdboekjes ontgroeide ik al gauw en tegen de tijd dat de middelbare school op zijn eind liep, verorberde ik [*Anna Karenina*](https://en.wikipedia.org/wiki/Anna_Karenina "'Anna Karenina', Wikipedia") en [*Misdaad en Straf*](https://en.wikipedia.org/wiki/Crime_and_Punishment "'Crime and Punishment', Wikipedia") -- niet omdat het moest, maar omdat ik het leuk vond.
+Eenmaal thuis las ik het in een oogwenk uit. Schoorvoetend vond ik de weg naar mijn moeder en vroeg of we terug konden naar de bibliotheek. Stiekem bleek ik lezen toch wel best leuk te vinden. -- Sindsdien hou ik van lezen. Jeugdboekjes ontgroeide ik al gauw en tegen de tijd dat de middelbare school op zijn eind liep, verorberde ik [*Anna Karenina*](https://en.wikipedia.org/wiki/Anna_Karenina "'Anna Karenina', Wikipedia") en [*Misdaad en Straf*](https://en.wikipedia.org/wiki/Crime_and_Punishment "'Crime and Punishment', Wikipedia") -- niet omdat het moest, maar omdat ik het leuk vond.
 
 
 {{< asterisk >}}
@@ -41,7 +41,7 @@ Achteraf denk je: het is niet meer dan logisch dat je de noodzaak van werk combi
 Het boek dat echt mijn ogen opende voor de meerwaarde van vakliteratuur, was [*Clean Code*](https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html "Robert C. Martin, 'Clean Code', Pearson Education 2008") van [Robert Martins]((https://en.wikipedia.org/wiki/Robert_C._Martin) "'Robert C. Martin', Wikipedia"). In [mijn blog over de beste boeken die ik in 2020 las](/blog/21/05/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2020-las/ "'De beste boeken over software ontwikkeling die ik in 2020 las'") schreef ik hierover:
 
 
-> Ik overdrijf niet als ik zeg dat dit boek de manier waarop ik code schrijf, totaal heeft veranderd. Robert "Uncle Bob" Martins codeertips op zichzelf rechtvaardigen de aanschaf van dit boek. Maar *Clean Code* komt pas echt tot leven in het laatste deel, waarin de schrijver stapsgewijs, en aan de hand van zijn eigen principes, een (voor boekbegrippen behoorlijk) stuk code refactort. En dat zonder de aandacht van de lezer ooit los te laten! Verplichte kost voor elke softwareontwikkelaar.
+> Ik overdrijf niet als ik zeg dat dit boek de manier waarop ik code schrijf, totaal heeft veranderd. Robert "*Uncle Bob*" Martins codeertips op zichzelf rechtvaardigen de aanschaf van dit boek. Maar *Clean Code* komt pas echt tot leven in het laatste deel, waarin de schrijver stapsgewijs, en aan de hand van zijn eigen principes, een (voor boekbegrippen behoorlijk) stuk code refactort. En dat zonder de aandacht van de lezer ooit los te laten! Verplichte kost voor elke softwareontwikkelaar.
 
 
 {{< asterisk >}}
@@ -50,7 +50,7 @@ Het boek dat echt mijn ogen opende voor de meerwaarde van vakliteratuur, was [*C
 De op één na belangrijkste les die ik leerde uit *Clean Code*, ging over het belang van [unit tests](/tags/unit-tests/ "Blogs met de tag 'unit tests'"). Geautomatiseerde tests zijn een [vangnet](/blog/22/09/tests-als-vangnet/ "'Tests als vangnet'") die je in staat stellen je code veilig te [refactoren](/tags/refactoren/ "Blogs met de tag 'refactoren'"). Het boek is er heel duidelijk over: [clean code](/tags/clean-code/ "Blogs met de tag 'clean code'") is geteste code; zelfs de prachtigste code is niet schoon als deze niet door tests gedekt wordt (zie ook [deze blog](/blog/24/07/goede-code-is-geteste-code/ "'Goede code is geteste code'")).
 
 
-Ik weet nog dat ik mijn manager enthousiast vertelde over de ideeën in *Clean Code*, en dat hij me aanraadde een stukje in de codebase te zoeken om te refactoren naar die ideeën, en dat hij erbij zei: "Dat hele testverhaal, dat geloof ik wel, daar hoef je van mij niet echt naar te kijken." Stug weigerde ik. Ik refactorde het genereren van een rapport, en dankzij de [karakterisatietests](https://en.wikipedia.org/wiki/Characterization_test "'Characterization test', Wikipedia") die ik er omheen zette, hoefde ik geen enkele keer de applicatie op te starten om snel meters te maken. Die ervaring heeft mijn beeld van softwareontwikkeling diepgaand beïnvloed.
+Ik weet nog dat ik mijn manager enthousiast vertelde over de ideeën in *Clean Code*, en dat hij me aanraadde een stukje in de codebase te zoeken om te refactoren op basis daarvan, en dat hij erbij zei: "Dat hele testverhaal, dat geloof ik wel, daar hoef je van mij niet echt naar te kijken." Stug weigerde ik. Ik refactorde het genereren van een rapport, en dankzij de [karakterisatietests](https://en.wikipedia.org/wiki/Characterization_test "'Characterization test', Wikipedia") die ik er omheen zette, hoefde ik geen enkele keer de applicatie op te starten om snel meters te maken. Die ervaring heeft mijn beeld van softwareontwikkeling diepgaand beïnvloed.
 
 
 {{< asterisk >}}

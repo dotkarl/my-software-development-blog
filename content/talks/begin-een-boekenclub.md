@@ -31,7 +31,7 @@ Teamverbeteraars vinden in dit praatje concrete tips om zichzelf en hun collegaâ
 - [Over de boekenclub](/blog/25/02/over-de-boekenclub/)
 - [Lees elke dag twee kwartier over je vak](/blog/21/05/lees-elke-dag-een-kwartier-over-je-vak/)
 - [Wie is verantwoordelijk voor jouw ontwikkeling?](/blog/21/09/wie-is-verantwoordelijk-voor-jouw-ontwikkeling/)
-- Over boeken en boekenclubs (1/3) [binnenkort]
+- [Over boeken en boekenclubs (1/3)](/blog/25/06/over-boeken-en-boekenclubs-1-3/)
 - Over boeken en boekenclubs (2/3) [binnenkort]
 - Over boeken en boekenclubs (3/3) [binnenkort]
 - Een (verre van complete) lijst boekentips [binnenkort]
