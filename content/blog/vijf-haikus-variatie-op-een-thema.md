@@ -13,9 +13,9 @@ summary: "*mijn code is zo <br> diep, hij veroorzaakt stack- <br> overflowexcep-
 
 mijn code is zo
 
-schoon / als poëzie heb ik
+schoon als poëzie heb ik
 
-haar / gestructureerd
+haar gestructureerd
 
 
 <br>
@@ -67,8 +67,8 @@ knap, zo onethisch poëtisch!
 **(5)**
 
 
-mijn code, onpeil- 
+mijn code onpeil- 
 
-baar, als poëzie zo diep,
+baar als poëzie zo diep
 
 zo -- dieponzinnig
