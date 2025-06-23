@@ -9,6 +9,8 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |                   |                                                      |                                                                  |
 | ----------------- | ---------------------------------------------------- | ---------------------------------------------------------------- |
+| 16 oktober 2025   | [Noordertest](https://www.noordertest.nl/)           | [*Wat zegt deze test?*](/talks/wat-zegt-deze-test/)              |
+| 5 september 2025  | [SpaceRockIT](https://spacerockitfestival.nl/)       | [*De filosofische geschiedenis van een ontwerpkeuze*](/blog/24/12/de-filosofische-geschiedenis-van-een-ontwerpkeuze/ "Blog: 'De filosofische geschiedenis van een ontwerpkeuze'")[^1] |
 | 14 mei 2025       | [TestNet Voorjaarsevenement](https://www.testnet.org/) | [*Begin een boekenclub!*](/talks/begin-een-boekenclub/)        |
 | 29 april 2025     | [Nimma Codes](https://www.nimma.codes/)              | [*Wat is refactoring (volgens Hannah Arendt)?*](/blog/25/06/wat-is-refactoring-volgens-hannah-arendt/ "Blog: 'Wat is refactoring (volgens Hannah Arendt)?'")[^1] |
 | 10 april 2025     | [Living Documentation Event](https://www.ict.eu/en/events/living-documentation-event-2025) | [*Testing: A philosophical retrospective*](/talks/testen-een-filosofisch-retrospectief/) |
