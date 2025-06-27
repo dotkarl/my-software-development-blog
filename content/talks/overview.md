@@ -2,6 +2,7 @@
 title: "Overzicht"
 draft: false
 summary: "Een beknopt overzicht van alle praatjes die ik de afgelopen tijd heb gehouden."
+weight: -1
 ---
 
 Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gelegenheden heb ik de afgelopen jaren een presentatie gehouden:
