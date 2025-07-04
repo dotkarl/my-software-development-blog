@@ -33,5 +33,5 @@ Teamverbeteraars vinden in dit praatje concrete tips om zichzelf en hun collegaâ
 - [Wie is verantwoordelijk voor jouw ontwikkeling?](/blog/21/09/wie-is-verantwoordelijk-voor-jouw-ontwikkeling/)
 - [Over boeken en boekenclubs (1/3)](/blog/25/06/over-boeken-en-boekenclubs-1-3/)
 - [Over boeken en boekenclubs (2/3)](/blog/25/06/over-boeken-en-boekenclubs-2-3/)
-- Over boeken en boekenclubs (3/3) [binnenkort]
+- [Over boeken en boekenclubs (3/3)](/blog/25/07/over-boeken-en-boekenclubs-3-3/)
 - Een (verre van complete) lijst boekentips [binnenkort]
