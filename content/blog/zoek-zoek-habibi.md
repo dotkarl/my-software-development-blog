@@ -174,7 +174,7 @@ Dit is een uitstekende illustratie van de drempelverlagende werking van [kunstma
 De prompts waarmee ik de bovenstaande code heb gegenereerd, zijn zo bekeken niet een vorm van intelligentie, maar een zeer geavanceerde (en personaliseerbare) zoekopdracht: "Hoe implementeer ik een zoekbalk op mijn website die Google gebruikt als index?"
 
 
--- Maar eer dat ik dergelijke zoekfunctionaliteit op *dotkarl* ingebouwd heb, zijn we waarschijnlijk twintig jaar verder. 
+-- Maar eer ik dergelijke zoekfunctionaliteit op deze blog ingebouwd heb, zijn we waarschijnlijk twintig jaar verder. 
 
 
 [^1]: Maar toch: complexer dan ik aanvankelijk had geïmplementeerd. De oorspronkelijke versie kon niet omgaan met tab, bijvoorbeeld.
