@@ -50,6 +50,14 @@ nav {
     text-align: center;
 }
 
+.nav li {
+    padding-right: 16px;
+}
+
+.nav li:last-child {
+    padding-right: 0px;
+}
+
 .newline {
     margin-bottom: 20px;
 }
