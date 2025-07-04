@@ -24,9 +24,9 @@ verleiden me beiden goed stout te doen.
 
 Van 't moment dat je aan me bent verschenen
 
-\- je uitgesplitste schouders, de schoonheid
+-- je uitgesplitste schouders, de schoonheid
 
-van je enigverantwoord'lijke benen -,
+van je enigverantwoord'lijke benen --,
 
 loop ik over van geile verliefdheid.
 
@@ -42,7 +42,7 @@ ik scherp en schoon, in jouw belichaming.
 
 <br>
 
-Mop, je bent waarlijk een inspiratie
+Mop, je bent waarlijk een inspiratie ---
 
 bij 't programmeren. Niet de poëzie.
 
