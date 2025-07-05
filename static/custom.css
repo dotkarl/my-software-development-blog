@@ -10,9 +10,12 @@ footer {
 }
 
 nav {
-    max-width: 800px;
     margin: auto;
     padding: 1rem;
+}
+
+.nav ul {
+    margin: 1rem 0 0.3rem;
 }
 
 .catalogue-item p {
