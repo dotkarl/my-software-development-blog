@@ -46,7 +46,10 @@ Fowler is een [luie programmeur](/tags/luie-programmeur/ "Blogs met de tag 'luie
 ## Implementatie
 
 
-De uiteindelijke code die nodig was om de zoekfunctionaliteit op *dotkarl* mogelijk te maken, ontwikkelde ik met hulp van [GitHub CoPilot](https://github.com/features/copilot). Ik beschreef de AI wat ik wilde hebben, en hij genereerde een voorstel. Ik [testte](/tags/testen/ "Blogs met de tag 'testen'") de functionaliteit handmatig, en beschreef wat me eraan beviel en wat niet. We doorliepen samen enkele iteraties van de oplossing, tot ik een resultaat had dat ik goed genoeg vond:
+De uiteindelijke code die nodig was om de zoekfunctionaliteit op *dotkarl* mogelijk te maken, ontwikkelde ik met hulp van [GitHub CoPilot](https://github.com/features/copilot). Ik beschreef de AI wat ik wilde hebben, en hij genereerde een voorstel. Ik [testte](/tags/testen/ "Blogs met de tag 'testen'") de functionaliteit handmatig, en beschreef wat me eraan beviel en wat niet. We doorliepen samen enkele iteraties van de oplossing, tot ik een resultaat had dat ik goed genoeg vond.
+
+
+De HTML en CSS vormden geen enorme uitdaging:
 
 
 ```html
@@ -67,6 +70,32 @@ De uiteindelijke code die nodig was om de zoekfunctionaliteit op *dotkarl* mogel
          placeholder="Zoeken..." />
 </li>
 ```
+
+```css
+.search-overlay-input {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 1rem;
+  transform: translateX(-50%);
+  width: 320px;
+  max-width: 90vw;
+  padding: 10px 16px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+
+.search-overlay-input.active {
+  display: block;
+}
+```
+
+De bijbehorende JavaScript had wat meer voeten (en iteraties) in de aarde. In de oorspronkelijke versie kon ik de input niet wegklikken, bijvoorbeeld. Ook was het niet mogelijk om de zoekfunctionaliteit zonder muis te kunnen gebruiken.
+
 
 ```js
 document.addEventListener('DOMContentLoaded', () => {
@@ -131,31 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-```css
-.search-overlay-input {
-  display: none;
-  position: fixed;
-  left: 50%;
-  top: 1rem;
-  transform: translateX(-50%);
-  width: 320px;
-  max-width: 90vw;
-  padding: 10px 16px;
-  font-size: 1.1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-  z-index: 9999;
-}
 
-.search-overlay-input.active {
-  display: block;
-}
-```
-
-
-De hierboven beschreven code is niet enorm geavanceerd of complex[^1], maar zelfs wanneer de reikwijdte van het probleem terug is gebracht tot het gebruik van Google, komt er toch ongemerkt meer bij kijken dan je op voorhand denkt.
+De bovenstaande code is niet enorm geavanceerd of complex[^1], maar zelfs wanneer de reikwijdte van het probleem terug is gebracht tot het gebruik van Google, komt er toch ongemerkt meer bij kijken dan je op voorhand denkt.
 
 
 Het is de vraag of ik zonder CoPilot het geduld zou hebben gehad om de boel helemaal uit te zoeken. -- Ik heb het dan niet alleen over het voor elkaar krijgen een zoekopdracht naar Google te versturen, maar ook over de vormgeving van het zoek-icoon, de styling van de componenten, het verbergen van de zoekbalk als je ergens anders klikt, et cetera. 
@@ -174,6 +180,3 @@ De prompts waarmee ik de bovenstaande code heb gegenereerd, zijn zo bekeken niet
 
 
 -- Maar eer ik dergelijke zoekfunctionaliteit op deze blog ingebouwd heb, zijn we waarschijnlijk twintig jaar verder. 
-
-
-[^1]: Maar toch: complexer dan ik aanvankelijk had geïmplementeerd. De oorspronkelijke versie kon niet omgaan met tab, bijvoorbeeld.
