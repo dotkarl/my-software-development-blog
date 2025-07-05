@@ -14,10 +14,6 @@ nav {
     padding: 1rem;
 }
 
-.nav ul {
-    margin: 1rem 0 0.3rem;
-}
-
 .catalogue-item p {
     text-align: justify;
 }
@@ -48,8 +44,24 @@ nav {
     text-align: center;
 }
 
+.nav ul {
+    margin: 1rem 0 0.3rem;
+}
+
 .nav li {
     padding-right: 16px;
+}
+
+.nav li span {
+    vertical-align: middle;
+}
+
+.nav li span svg {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    fill: currentColor;
 }
 
 .nav li:last-child {
