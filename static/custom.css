@@ -15,11 +15,6 @@ nav {
     padding: 1rem;
 }
 
-#darkModeToggle {
-    margin-top: 1rem;
-    margin-right: 1.5rem;
-}
-
 .catalogue-item p {
     text-align: justify;
 }
@@ -88,12 +83,6 @@ nav {
         visibility: hidden;
         padding: 0;
         height: 0px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #darkModeToggle {
-        visibility: hidden;
     }
 }
 

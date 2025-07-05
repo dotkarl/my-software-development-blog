@@ -12,24 +12,37 @@
             <path d="M10.5 3a7.5 7.5 0 015.92 12.18l4.2 4.2a1 1 0 01-1.42 1.42l-4.2-4.2A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/>
         </svg>
       </span>
-
-        <input class="search-overlay-input" type="text" id="search-input" placeholder="Zoeken..." />
+      <input class="search-overlay-input" type="text" id="search-input" placeholder="Zoeken..." />
     </li>
     {{ range .Site.Menus.main }}
         <li>
           <span title=" {{ .Title }}">
-            <a href="{{ .URL }}">
-                {{ .Pre | safeHTML }}
-            </a>
+            <a href="{{ .URL }}">{{ .Pre | safeHTML }}</a>
           </span>
         </li>
     {{ end }}
-
+    <li>
+      <span title="Wissel tussen licht en donker thema">
+          <svg id="menuDarkModeToggle"
+            tabindex="0"
+            aria-hidden="true" 
+            aria-label="Wissel tussen licht en donker thema" 
+            width="20" 
+            height="20" 
+            style="vertical-align:middle; fill:currentColor;" 
+            viewBox="0 0 24 24"
+            role="button">
+            <path d="M12 2a10 10 0 0 0 0 20V2z" fill="currentColor"/>
+            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+      </span>
+    </li>
 </ul>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const icon = document.getElementById('search-icon');
   const input = document.getElementById('search-input');
+  const darkModeToggle = document.getElementById('menuDarkModeToggle');
 
   function showSearchInput() {
     input.classList.add('active');
@@ -62,6 +75,20 @@ document.addEventListener('DOMContentLoaded', () => {
       event.stopPropagation();
     }
   });
+
+  // Dark mode toggle: click and keyboard
+  if (darkModeToggle) {
+    darkModeToggle.addEventListener('click', (event) => {
+      if (typeof toggleDarkMode === 'function') toggleDarkMode();
+    });
+    darkModeToggle.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        if (typeof toggleDarkMode === 'function') toggleDarkMode();
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    });
+  }
 
   // Prevent input click from closing it
   input.addEventListener('click', (event) => {
