@@ -19,6 +19,14 @@ nav {
     padding: 1rem;
 }
 
+table td {
+    padding-right: 1rem;;
+}
+
+table td:first-child, table th:first-child {
+    white-space: nowrap;
+}
+
 .catalogue-time {
     color: var(--default-tint);
     letter-spacing: .5px;
@@ -106,10 +114,6 @@ nav {
 
 .search-overlay-input.active {
     display: block;
-}
-
-.talks-table td:first-child, .talks-table th:first-child {
-    white-space: nowrap;
 }
 
 @media screen and (max-width: 600px) {

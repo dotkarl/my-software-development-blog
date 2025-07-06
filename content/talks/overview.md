@@ -7,7 +7,6 @@ weight: -1
 
 Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gelegenheden heb ik de afgelopen jaren een presentatie gehouden:
 
-
 |          |                                                      |                                                                  |
 | ---------| ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 16-10-25 | [Noordertest](https://www.noordertest.nl/)           | [*Wat zegt deze test?*](/talks/wat-zegt-deze-test/)              |
@@ -38,6 +37,5 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 | 22-09-22 | [Cito](https://www.cito.nl/) (intern)                | *Hoe schrijf ik (nóg) betere tests?*                             |
 | <br/>    |                                                      |                                                                  |
 | 16-12-21 | [Cito](https://www.cito.nl/) (intern)                | *Jezelf ontwikkelen met een blog*                                |
-{: .talks-table }
 
 [^1]: Lightning talk.
