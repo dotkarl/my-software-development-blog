@@ -1,4 +1,4 @@
-body, body * {
+body, body *:not(code):not(code span) {
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
