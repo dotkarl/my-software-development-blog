@@ -1,10 +1,11 @@
+body, body * {
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
 html {
     max-width: 800px;
     margin: auto;
-}
-
-body, body * {
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 main, 
@@ -28,8 +29,11 @@ nav {
     text-align: justify;
 }
 
-.post {
-    padding: 1.5rem 0;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .introduction {
@@ -40,18 +44,6 @@ nav {
 .introduction:hover .catalogue-line,
 .introduction:focus .catalogue-line {
     width: 5rem; 
-}
-
-.rounded {
-    border-radius: 50%;
-    justify-content: center;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 
 .nav ul {
@@ -82,29 +74,42 @@ nav {
     margin-bottom: 20px;
 }
 
+.post {
+    padding: 1.5rem 0;
+}
+
+.post-info span {
+    font-style: initial;
+}
+
+.rounded {
+    border-radius: 50%;
+    justify-content: center;
+}
+
 .search-overlay-input {
-  display: none;
-  position: fixed;
-  left: 50%;
-  top: 1rem;
-  transform: translateX(-50%);
-  width: 320px;
-  max-width: 90vw;
-  padding: 10px 16px;
-  font-size: 1.1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-  z-index: 9999;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-50%);
+    width: 320px;
+    max-width: 90vw;
+    padding: 10px 16px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    z-index: 9999;
 }
 
 .search-overlay-input.active {
-  display: block;
+    display: block;
 }
 
 .talks-table td:first-child, .talks-table th:first-child {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 600px) {
