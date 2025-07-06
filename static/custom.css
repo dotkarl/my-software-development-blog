@@ -3,6 +3,10 @@ html {
     margin: auto;
 }
 
+body, body * {
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
 main, 
 .nav-container,
 footer {
@@ -12,6 +16,12 @@ footer {
 nav {
     margin: auto;
     padding: 1rem;
+}
+
+.catalogue-time {
+    color: var(--default-tint);
+    letter-spacing: .5px;
+    font-family: inherit;
 }
 
 .catalogue-item p {
@@ -91,6 +101,10 @@ nav {
 
 .search-overlay-input.active {
   display: block;
+}
+
+.talks-table td:first-child, .talks-table th:first-child {
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 600px) {

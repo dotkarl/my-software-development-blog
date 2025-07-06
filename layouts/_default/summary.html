@@ -1,6 +1,6 @@
 <a href="{{ .Permalink }}" class="catalogue-item">
     <div>
-        {{ if isset .Params "date" }}<time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>{{ end }}
+        {{ if isset .Params "date" }}<time datetime="{{ .PublishDate }}" class="catalogue-time">{{ .PublishDate.Format "02-01-06" }}</time>{{ end }}
         <h2 class="catalogue-title">{{ .Title }}</h2>
         <div class="catalogue-line"></div>
 

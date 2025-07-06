@@ -8,7 +8,7 @@
         {{- end }}
     </span> &middot; 
     <span>
-        <time datetime="{{ .PublishDate }}">{{ i18n "publishdate" . }}</time>
+        <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "02-01-06" }}</time>
     </span> &middot;
     <span>
         {{ .ReadingTime }}&nbsp;{{ cond (eq .ReadingTime 1) (i18n "minute") (i18n "minutes") }}
