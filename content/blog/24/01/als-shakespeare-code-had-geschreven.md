@@ -10,40 +10,36 @@ summary: "*Zouden jij en ik elkaar zijn sonnetten geven, / als William Shakespea
 
 **Codeklaagzang**
 
-<br>
 
 Zouden jij en ik elkaar zijn sonnetten geven,
-
+<br>
 als William Shakespeare code had geschreven?
-
+<br>
 Zeg maar: brengt `i.Compare(thee, summersDay)`
-
+<br>
 je in vervoering of valt dat wel mee?
 
-<br>
 
 We zouden rijm en metrum verlangen
-
+<br>
 wanneer Dantes Italiaans is vervangen
-
+<br>
 door Java: `if (Enter()) AbandonHope();`
-
+<br>
 doet wat het doet, maar klinkt toch wat goedkoop.
 
-<br>
 
 Ik ben geen poëet, ik schrijf slechts code.
-
+<br>
 Maar 'k dicht even oprecht mijn methoden.
-
+<br>
 Niettemin voor mij geen liefde of roem.
 
+
+Om mijn code word ik -- snik! -- niet bemind.
 <br>
-
-Om mijn code word ik - snik! - niet bemind.
-
 Als ik  `“I love you!“` in de console print
-
+<br>
 antwoordt mijn laptop alleen met gezzz…
 
 <br>

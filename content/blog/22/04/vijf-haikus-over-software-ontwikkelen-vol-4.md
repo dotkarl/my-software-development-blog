@@ -10,12 +10,11 @@ summary: "*De klant heeft altijd / gelijk. Totdat je bouwt wat / de klant voorst
 
 **Les**
 
-<br>
 
 De klant heeft altijd
-
+<br>
 gelijk. Totdat je bouwt wat
-
+<br>
 de klant voorstelde.
 
 <br>
@@ -23,12 +22,11 @@ de klant voorstelde.
 
 **Verschil**
 
-<br>
 
 Herken het verschil:
-
+<br>
 code doet slechts wat je vraagt, 
-
+<br>
 en niet wat jij wil.
 
 <br>
@@ -36,25 +34,23 @@ en niet wat jij wil.
 
 **Review**
 
-<br>
 
 Elke codereview 
-
+<br>
 bewijst: je collega weet
-
-het beter - goddank!
+<br>
+het beter -- goddank!
 
 <br>
 <br>
 
 **Droom**
 
-<br>
 
 Ik droom van code
-
+<br>
 die doet wat-ie moet doen, ‘s nachts
-
+<br>
 ben ik vrij van bugs.
 
 <br>
@@ -62,10 +58,9 @@ ben ik vrij van bugs.
 
 **Hè bah**
 
-<br>
 
 De enige keer
-
+<br>
 dat ik een rood kruisje wil
-
+<br>
 zien, is als ik test.

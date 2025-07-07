@@ -10,50 +10,43 @@ summary: "*Elke vogel zingt zijn lied maar de app werkt nu dus niet. / In de vol
 
 **Midden in een winternacht**
 
-<br>
 
 Midden in een winternacht kwam het telefoontje.
-
+<br>
 SRE stond in de wacht, op een klaag’rig toontje:
 
-<br>
 
 Elke vogel zingt zijn lied maar de app werkt nu dus niet.
-
-In de volle maan, zet je laptop aan.
-
-Tik tik tik, tak tak tak, laat de code stromen:
-
-De fix zal snel komen!
-
 <br>
+In de volle maan, zet je laptop aan.
+<br>
+Tik tik tik, tak tak tak, laat de code stromen:
+<br>
+De fix zal snel komen!
 
 Vloeken klonken overal, geslachtsdelen en ziekten,
-
+<br>
 toen de dev gans geel van gal d’errorlogs in spiekte.
 
-<br>
 
 Elke vogel zingt zijn lied maar de app werkt nu dus niet.
-
+<br>
 In de volle maan, zet je laptop aan.
-
+<br>
 Tik tik tik, tak tak tak, laat de code stromen:
-
+<br>
 De fix zal snel komen!
 
-<br>
 
 Bij het krieken van de dag, voelt de dev zich stom, ja.
-
+<br>
 Want de configuratie miste een puntkomma.
 
-<br>
 
 Elke vogel zingt zijn lied en de app die deed het niet.
-
+<br>
 Veeg nu weg die traan, laat je koffie staan.
-
+<br>
 Klik klik klik, laptop uit, ‘t is tijd om te dromen:
-
+<br>
 *De fix is gekomen!*

@@ -10,12 +10,11 @@ summary: "*schoonheid zit in iets / zo klein als een method die / precies één 
 
 **1**
 
+
+schoonheid zit in iets 
 <br>
-
-schoonheid zit in iets
-  
 zo klein als een method die
-
+<br>
 precies één ding doet
 
 <br>
@@ -23,12 +22,11 @@ precies één ding doet
 
 **2**
 
-<br>
 
 ik schrijf en schrap en
-
+<br>
 als je compileert, schrijf en
-
+<br>
 schrap ik tot je werkt
 
 <br>
@@ -36,12 +34,11 @@ schrap ik tot je werkt
 
 **3**
 
-<br>
 
 het spreekt als ik zwijg
-
+<br>
 want als code kon praten
-
+<br>
 zegt het al alles
 
 <br>
@@ -49,12 +46,11 @@ zegt het al alles
 
 **4**
 
-<br>
 
 pas als het eenvoud
-
+<br>
 ademt, ruikt de code fris
-
+<br>
 uit onze monden
 
 <br>
@@ -62,10 +58,9 @@ uit onze monden
 
 **5**
 
-<br>
 
 opeens besef ik:
-
+<br>
 poëzie en code zijn 
-
+<br>
 één en hetzelfde

@@ -14,12 +14,11 @@ summary: "*Ik ben zó dichtbij / deze bug te fixen sinds / twee dagen of drie.*"
 
 **1.**
 
-<br>
 
 Deze bug? Eitje.
-
+<br>
 Geef me een middagje en
-
+<br>
 de boel is gefixt.
 
 <br>
@@ -27,12 +26,11 @@ de boel is gefixt.
 
 **2.**
 
-<br>
 
 Ik heb hem denk ik
-
+<br>
 bijna. 't Is een kwestie van
-
+<br>
 zeg: een dagje werk.
 
 <br>
@@ -40,12 +38,11 @@ zeg: een dagje werk.
 
 **3.**
 
-<br>
 
 Ik ben zó dichtbij
-
+<br>
 deze bug te fixen sinds
-
+<br>
 twee dagen of drie.
 
 <br>
@@ -53,12 +50,11 @@ twee dagen of drie.
 
 **4.**
 
-<br>
 
 Dit is het moment
-
+<br>
 een moment. Ik kijk in ‘t diep
-
+<br>
 en zij kijkt terug.
 
 <br>
@@ -66,10 +62,9 @@ en zij kijkt terug.
 
 **5.**
 
-<br>
 
 Hey kun je mij hel-
-
-pen? - Even kijken juni-
-
+<br>
+pen? -- Even kijken juni-
+<br>
 o het zit ‘em dáár.

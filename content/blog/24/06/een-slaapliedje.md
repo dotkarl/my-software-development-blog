@@ -10,60 +10,53 @@ summary: "*Slaap, draadje, slaap, / daar buiten loopt een schaap / een millisec.
 
     Thread.Sleep(500);
 
-<br>
 
 *(...2, 3, 4, 5, 6...)*
 
+
+Slaap, draadje, slaap,
 <br>
-
-Slaap, draadje, slaap,
-
 daar buiten loopt een schaap
-
+<br>
 een millisec. of honderd.
-
+<br>
 Maar jij slaapt er vijfhonderd.
-
+<br>
 Slaap, draadje, slaap,
-
+<br>
 daar buiten loopt een schaap.
 
-<br>
 
 *(...121, 122, 123, 124...)*
 
+
+Slaap, draadje, slaap,
 <br>
-
-Slaap, draadje, slaap,
-
 daar buiten loopt een schaap
-
+<br>
 één millisec. of honderd
-
+<br>
 dus polling doet hier wond'ren.
-
+<br>
 Slaap, draadje, slaap,
-
+<br>
 daar buiten loopt een schaap.
 
-<br>
 
 *(...250, 251, 252, 253, 254...)*
 
-<br>
 
 Ontwaak, draadje, ontwaak,
-
+<br>
 daar buiten loopt een schaap
-
+<br>
 een millisec. of honderd.
-
+<br>
 En jij slaapt maar: zo zonde.
-
+<br>
 Ontwaak nou toch, ontwaak.
-
+<br>
 Daar buiten loopt een schaap.
 
-<br>
 
 *(...376, 377, 378, 379...)*

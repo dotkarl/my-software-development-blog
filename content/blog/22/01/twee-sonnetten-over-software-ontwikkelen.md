@@ -10,40 +10,36 @@ summary: "*Stakeholder, u stijgt pas echt in achting / Als u - prijs de Heer voo
 
 **Spaghettisonnetti**
 
-<br>
 
 En ja hoor, zul je altijd zien: net die 
-
+<br>
 Ene bug, juist in jouw mik geschoven,
-
+<br>
 Zit verstopt in kluwen van spaghetti,
-
+<br>
 Gebrouwd door een programmeur die boven
 
-<br>
 
 Van onder niet scheiden kon; als doof en
-
+<br>
 Blind voor zijn lezer, stom ook nog, hettie
-
+<br>
 Schone code in elkaar geschoven:
-
+<br>
 't In pardonlogica omgezetti!
 
-<br>
 
 Wie waagde het zich zo te verlagen;
-
+<br>
 Zich te bezondigen aan minstens elf
-
+<br>
 Flaters, in alle bogen en lagen
 
-<br>
 
 Van dit betonrottend codegewelf?
-
+<br>
 De *blame*-knop wijst uit: jij mag niet klagen,
-
+<br>
 Want de architect, knul, was je mooi zelf.
 
 <br>
@@ -51,38 +47,34 @@ Want de architect, knul, was je mooi zelf.
 
 **Stakeholderkolder**
 
-<br>
 
 Stakeholder, u stijgt pas echt in achting
-
-Als u - prijs de Heer voor dit geluk! - 
-
+<br>
+Als u -- prijs de Heer voor dit geluk! -- 
+<br>
 Inziet wanneer niet de code de bug 
-
+<br>
 Herbergt, maar uw eigen verwachting.
 
-<br>
 
 Natuurlijk, u betaalt en bepaalt dus.
-
+<br>
 Maar soms is het goed om te vertrouwen
-
-\- Ik zie: nu verschieten uw wenkbrauwen -
-
+<br>
+-- Ik zie: nu verschieten uw wenkbrauwen --
+<br>
 Op dat wat men u al in augustus
 
-<br>
 
 Probeerde te zeggen: Doe dat nu niet!
-
+<br>
 Deze programmeur, de arme drommel,
-
+<br>
 Bouwt wat u eist: daarom is het rommel,
-
+<br>
 En nu zit iedereen met het verdriet.
 
-<br>
 
 Grommend, gnuivend sjok ik naar mijn bureau:
-
+<br>
 “Gister moest het zus, morgen moet het zo!”

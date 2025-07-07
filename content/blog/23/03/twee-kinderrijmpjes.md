@@ -10,106 +10,89 @@ summary: "*De wekker van de hacker ging om zes uur. / Het mannetje had ‘n plan
 
 **De wekker van de hacker**
 
-<br>
 
 De wekker van de hacker ging om zes uur.
-
+<br>
 Het mannetje had ‘n plannetje,
 
-<br>
 
 hij hackte de ef-bi-aai, heel fraai
-
+<br>
 met geen phishingmail teveel:
 
-<br>
 
 *Flik, klik maar flink op deze link*
-
+<br>
 *en ontvang twee flessen om die dorst te lessen!*
 
-<br>
 
 Je verwacht het nie’, maar de security-
-
+<br>
 afdeling daar is sindsdien zwaar zuur!
 
-<br>
 
 Jongen, meisje, ga nu gauw slapen 
-
+<br>
 want papa is bezig met scherven rapen.
 
 
-<br>
 <br>
 <br>
 
 
 **Ze hebben de FBI gehackt**
 
-<br>
 
 Ze hebben de FBI gehackt,
-
+<br>
 ik zeg het je, de FBI gehackt!
 
-<br>
 
 Niet door de firewall te omzeilen
-
+<br>
 of de verdedigingsmuur om te keilen 
 
-<br>
 
 of wachtwoorden te kraken
-
+<br>
 om in hun database te raken.
 
-<br>
 
 Ze hebben de FBI gehackt,
-
+<br>
 ik zeg het je, de FBI gehackt!
 
-<br>
 
 Ze stuurden gewoon een mail,
-
+<br>
 ze stuurden er heel veel
 
-<br>
 
 of men een gratis drinkfles zou willen,
-
+<br>
 en dan even hun gegevens hier invullen.
 
-<br>
 
 Ze hebben de FBI gehackt,
-
+<br>
 ik zeg het je, de FBI gehackt!
 
-<br>
 
 De directeur schreeuwt brand en moord!
-
+<br>
 En zo luidt de security officer z’n antwoord:
 
-<br>
 
 Nou treur toch niet te zeer, mijnheer:
-
+<br>
 d'agenten hebben in elk geval geen dorst meer!
 
-<br>
 
 Ze hebben de FBI gehackt,
-
+<br>
 ik zeg het je, de FBI gehackt!
 
 
-<br>
 <br>
 <br>
 

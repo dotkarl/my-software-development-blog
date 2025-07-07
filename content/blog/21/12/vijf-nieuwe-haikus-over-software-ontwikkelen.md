@@ -10,12 +10,11 @@ summary: "*eerst verneuk je het, / daarna fix je de boel; dat / noemen we agile*
 
 **Scrum Master**
 
-<br>
 
 een scrum master is
-
+<br>
 iemand die goed kan zeggen:
-
+<br>
 wat denken jullie?
 
 <br>
@@ -23,12 +22,11 @@ wat denken jullie?
 
 **Product Owner**
 
-<br>
 
 programmeurs moeten
-
+<br>
 keihard coderen; PO’s,
-
+<br>
 die lullen vooral
 
 <br>
@@ -37,12 +35,11 @@ die lullen vooral
 
 **Ontwikkelaars (onder elkaar)**
 
-<br>
 
 gast, deze code 
-
+<br>
 geurt als de binnenkant van 
-
+<br>
 een afvoerputje
 
 <br>
@@ -50,12 +47,11 @@ een afvoerputje
 
 **Donderdagmiddagborrel**
 
-<br>
 
 mijn tests zijn kapot
-
-gegaan - net als wij gister-
-
+<br>
+gegaan -- net als wij gister-
+<br>
 avond, kolere
 
 <br>
@@ -63,10 +59,9 @@ avond, kolere
 
 **Samengevat**
 
-<br>
 
 eerst verneuk je het,
-
+<br>
 daarna fix je de boel; dat
-
+<br>
 noemen we agile

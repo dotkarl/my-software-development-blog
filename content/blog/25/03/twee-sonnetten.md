@@ -10,79 +10,76 @@ summary: "*De grenzen van Java, kerel, / zijn de grenzen van mijn wereld. / Daar
 
 **Carmen codico-philosophicus**
 
-<br>
 
 Voor mij eindigt de wereld niet
-
-bij het ware of onware,
-
-maar in een ledig grijs gebied
-
-waar je geen ding kunt ontwaren.
-
 <br>
+bij het ware of onware,
+<br>
+maar in een ledig grijs gebied
+<br>
+waar je geen ding kunt ontwaren.
+<br>
+
 
 Dat terwijl voor die drommels geldt:
-
-menig uitstap resulteerde
-
-bij uitzond'ring teleurgesteld
-
-in 't ongedefinieerde.
-
 <br>
+menig uitstap resulteerde
+<br>
+bij uitzond'ring teleurgesteld
+<br>
+in 't ongedefinieerde.
+<br>
+
 
 De grenzen van Java, kerel,
-
-zijn de grenzen van mijn wereld.
-
-Daarom kan ik leven met `null`.
-
 <br>
+zijn de grenzen van mijn wereld.
+<br>
+Daarom kan ik leven met `null`.
+<br>
+
 
 Maar 'n JavaScript-ontwikkelaar
-
+<br>
 z'n wereldje vind ik maar naar.
-
+<br>
 Want `undefined`, da's flauwekul.
 
+
 <br>
 <br>
+
 
 **Fabels**
 
-<br>
 
 De codecompiler vertaalt steeds
-
+<br>
 de veelvoud aan variabelen 
-
+<br>
 en functies in eenduidige reeks-
-
+<br>
 en nullen-enen, schrijft fabels in
 
-<br>
 
 computertaal die processoren
-
+<br>
 zwetend doen zuchten op zoek naar
-
+<br>
 zwoele afkoeling, reactoren
-
+<br>
 smelt zijn codepoëzie zomaar
 
-<br>
 
 zonder pardon. Wie zoveel reken-
-
+<br>
 kracht vraagt weet wat hij verlangt van zijn
-
+<br>
 slaaf, zo iemand vindt crashes een teken: 
-
+<br>
 ikke zo groot, machientje zo klein.
 
-<br>
 
 Is het niet moeilijk dichter te zijn
-
+<br>
 bij een CPU z'n zielepijn?

@@ -10,12 +10,11 @@ summary: "*er is maar één ding / dat mijn code kan breken: / een eindgebruiker
 
 **Een ding**
 
-<br>
 
 er is maar één ding
-
+<br>
 dat mijn code kan breken:
-
+<br>
 een eindgebruiker
 
 <br>
@@ -23,12 +22,11 @@ een eindgebruiker
 
 **Herinnering**
 
-<br>
 
 mijn laptop, blazend
-
+<br>
 als een kind in een cartridge
-
+<br>
 terwijl ik debug
 
 <br>
@@ -36,12 +34,11 @@ terwijl ik debug
 
 **Bloesem**
 
-<br>
 
 de lach van iemand
-
+<br>
 die, idealiter, je werk 
-
+<br>
 nooit op zal merken
 
 <br>
@@ -49,12 +46,11 @@ nooit op zal merken
 
 **Tuin**
 
-<br>
 
 mijn code is mijn 
-
+<br>
 tuin, ik ben vooral onkruid
-
+<br>
 aan het wieden dus
 
 <br>
@@ -62,27 +58,27 @@ aan het wieden dus
 
 **Vriend**
 
-<br>
 
 mijn beste vriend is
-
-Google, die kent mij beter
-
+<br>
+google, die kent mij beter
+<br>
 dan ik mezelf ken
 
 <br>
-<br>
+
 
 ## +1
 
+
 <br>
+
 
 **Dit is een haiku**
 
-<br>
 
 vijf lettergrepen
-
+<br>
 dan zeven lettergrepen
-
+<br>
 ten slotte weer vijf
