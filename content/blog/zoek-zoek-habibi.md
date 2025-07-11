@@ -53,21 +53,34 @@ De HTML en CSS vormden geen enorme uitdaging:
 
 
 ```html
-<li id="search-menu-item" 
-    style="position:relative;">
-  <svg id="search-icon" 
-       tabindex="0"
-       role="button"
-       aria-label="Zoeken"
-       aria-expanded="false"
-       style="cursor:pointer; width:20px; height:20px; vertical-align:middle; fill:currentColor;"
-       viewBox="0 0 24 24">
-    <path d="M10.5 3a7.5 7.5 0 015.92 12.18l4.2 4.2a1 1 0 01-1.42 1.42l-4.2-4.2A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/>
-  </svg>
-  <input id="search-input"
-         class="search-overlay-input" 
-         type="text"
-         placeholder="Zoeken..." />
+<li>
+  <span title ="Zoeken">
+  <span title ="Zoeken">
+    <svg id="search-icon" 
+      tabindex="0"
+      role="button"
+      aria-label="Zoeken"
+      aria-expanded="false"
+      viewBox="0 0 24 24">
+        <circle cx="11" 
+          cy="11" 
+          r="7"
+          stroke="currentColor" 
+          stroke-width="2.5" 
+          fill="none"/>
+        <line x1="16.5" 
+          y1="16.5" 
+          x2="21" 
+          y2="21" 
+          stroke="currentColor" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+    </svg>
+  </span>
+  <input id="search-input" 
+    class="search-overlay-input" 
+    type="text" 
+    placeholder="Zoeken..." />
 </li>
 ```
 
