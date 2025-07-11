@@ -1,0 +1,15 @@
+{{ $date := .Get "date" }}
+<span id="blogging-since"></span>
+ <script>
+  (function() {
+    const start = new Date('{{ $date }}');
+    const now = new Date();
+    const msPerDay = 24 * 60 * 60 * 1000;
+    const days = Math.floor((now - start) / msPerDay);
+    const weeks = Math.floor(days / 7);
+    const months = Math.floor((now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth()));
+    const years = Math.floor(months / 12);
+    document.getElementById('blogging-since').textContent =
+      `${days} dagen (${weeks} weken / ${months} maanden / ${years} jaar)`;
+  })();
+</script>

@@ -3,6 +3,9 @@ title: "Statistieken voor nerds"
 draft: false
 ---
 
+Aan het bloggen sinds {{< stats/bloggingsince date="2021-04-09T15:54:15+02:00" >}}.
+
+
 Totaal aantal blogs: {{< stats/totalpostcount section="blog" >}}.
 
 
