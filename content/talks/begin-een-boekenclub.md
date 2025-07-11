@@ -34,4 +34,4 @@ Teamverbeteraars vinden in dit praatje concrete tips om zichzelf en hun collegaâ
 - [Over boeken en boekenclubs (1/3)](/blog/25/06/over-boeken-en-boekenclubs-1-3/)
 - [Over boeken en boekenclubs (2/3)](/blog/25/06/over-boeken-en-boekenclubs-2-3/)
 - [Over boeken en boekenclubs (3/3)](/blog/25/07/over-boeken-en-boekenclubs-3-3/)
-- Een (verre van complete) lijst boekentips [binnenkort]
+- [Een (verre van complete) lijst boekentips](/blog/25/07/een-verre-van-complete-lijst-boekentips/)
