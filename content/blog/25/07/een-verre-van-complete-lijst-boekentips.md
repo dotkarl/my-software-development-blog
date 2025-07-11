@@ -1,20 +1,20 @@
 ---
 title: "Een (verre van complete) lijst boekentips"
 author: "Karl van Heijster"
-date: 2025-05-16T11:41:28+02:00
-draft: true
+date: 2025-07-11T02:46:26+02:00
+draft: false
 comments: true
 tags: ["boeken", "carrièrepad", "zelfstudie"]
 summary: "Ter voorbereiding op een praatje, heb ik de lijst aan softwareboeken die ik de afgelopen jaren heb gelezen eens goed doorgelopen. Het resultaat zou als referentiemateriaal kunnen dienen voor een opleidingstraject van junioren binnen een organisatie, of kan als inspiratie worden gebruikt voor een boekenclub, of als gewoon een lijst goede boeken voor wie zijn kennis over softwareontwikkeling bij wil spijkeren."
 ---
 
-Ter voorbereiding op een [praatje](BEGIN_EEN_BOEKENCLUB "'Begin een boekenclub!'") over de [boekenclub](/tags/boekenclub/ "Blogs met de tag 'boekenclub'"), heb ik de lijst aan softwareboeken die ik de afgelopen jaren heb gelezen eens goed doorgelopen. Het resultaat zou als referentiemateriaal kunnen dienen voor een opleidingstraject van junioren binnen een organisatie, of kan als inspiratie worden gebruikt voor een boekenclub, of als gewoon een lijst goede boeken voor wie zijn kennis over softwareontwikkeling bij wil spijkeren.
+Ter voorbereiding op een [praatje](/talks/begin-een-boekenclub/ "'Begin een boekenclub!'") over de [boekenclub](/tags/boekenclub/ "Blogs met de tag 'boekenclub'"), heb ik de lijst aan softwareboeken die ik de afgelopen jaren heb gelezen eens goed doorgelopen. Het resultaat zou als referentiemateriaal kunnen dienen voor een opleidingstraject van junioren binnen een organisatie, of kan als inspiratie worden gebruikt voor een boekenclub, of als gewoon een lijst goede boeken voor wie zijn kennis over softwareontwikkeling bij wil spijkeren.
 
 
 Dit is geen complete lijst van alle boeken die de moeite waard zijn om te lezen; integendeel. De lijst is verre van compleet: hij beperkt zich tot boeken die ik zelf gelezen heb. (Maar: hier en daar heb ik de tweede editie gepakt van boeken waarvan ik zelf alleen de eerste editie heb gelezen.)
 
 
-In wat volgt heb ik ze geordend in drie categorieën: junior, medior en senior. Binnen de categorieën houd ik een alfabetische volgorde aan op achternaam van de (eerstgenoemde) auteur. De grenzen tussen de categorieën zijn in de praktijk uiteraard vaag.
+In wat volgt heb ik ze geordend in drie categorieën: junior, medior en senior (zie ook [deze blog](/blog/25/04/wat-maakt-een-senior-senior/ 'Wat maakt een senior senior?')). Binnen de categorieën houd ik een alfabetische volgorde aan op achternaam van de (eerstgenoemde) auteur. De grenzen tussen de categorieën zijn in de praktijk uiteraard vaag.
 
 
 Zelf heb ik de boeken niet in deze volgorde gelezen. Je hoeft niet per se een senior te zijn om de boeken in de senior-categorie te lezen, en omgekeerd kan het voor senioren ook geen kwaad om boeken in de junior-categorie te (her)lezen.
