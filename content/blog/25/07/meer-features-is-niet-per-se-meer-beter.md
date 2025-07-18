@@ -1,8 +1,8 @@
 ---
 title: "Meer features is niet (per se) meer beter"
 author: "Karl van Heijster"
-date: 2025-05-30T08:12:08+02:00
-draft: true
+date: 2025-07-18T07:59:07+02:00
+draft: false
 comments: true
 tags: ["beroepsdeformatie", "evolutie", "technische schuld"]
 summary: "Een tijd terug las ik *The Selfish Gene* van bioloog Richard Dawkins. Omdat ik een beroepsdeformatie heb, deed het me aan softwareontwikkeling denken."
@@ -35,7 +35,7 @@ Deze kijk op de zaken veronderstelt een harmonieus beeld van de natuur. Individu
 Maar de groepsselectiehypothese is wankel, zegt Dawkins. Het evenwicht in zo'n groep altruïsten zou al snel verstoord worden wanneer een "egoïstische" mutatie zijn intrede zou doen. Deze mutant zou genadeloos misbruik maken van het altruïstisch gedrag van zijn groepsgenoten ten faveure van zijn eigen genen. Het gevolg is dat er binnen de kortste keren geen altruïsten meer overblijven om van te profiteren.
 
 
-Hij biedt een alternatieve verklaring: het is *in het belang van het gen* om zich in tijden van schaarste niet voort te planten. Genen die dit gedrag vertonen, kunnen op de langere termijn beter overleven. 
+Dawkins biedt een alternatieve verklaring: het is *in het belang van het gen* om zich in tijden van schaarste niet voort te planten. Genen die dit gedrag vertonen, kunnen op de langere termijn beter overleven. 
 
 
 In tijden van schaarste is de kans groot dat de nakomelingen zullen sterven, en dat de moeder verzwakt of overlijdt tijdens het opvoeden van de jongen. In zulke gevallen kan het verstandig zijn te wachten op beter tijden, zodat het individu op een later moment gezonder nageslacht kan produceren. Het gedrag dat we zien is geen vorm van altruïsme, maar een strategisch uitstel van de voortplanting. Soms is het verstandig je (nog) niet voort te planten. 
@@ -50,10 +50,13 @@ Wat heeft dit met softwareontwikkeling te maken? -- Vergelijk het eens met het b
 Het lijkt voor de hand liggend voor een team om zoveel mogelijk features op te willen leveren. Hun Product Owner (PO) houdt de backlog nauwlettend in de gaten en probeert zoveel mogelijk [Product Backlog Items (PBI's)](/tags/product-backlog-items/ "Blogs met de tag 'product backlog item'") de [Sprint in te slepen](/tags/sprint-planning/ "Blogs met de tag 'sprint planning'"). En dat doet de PO natuurlijk niet voor niets. [Stakeholders](/tags/stakeholders/ "Blogs met de tag 'stakeholders'") en eindgebruikers zitten hem (of haar) achter de broek om die nieuwe functionaliteit op te leveren waar ze zo dringend op zitten te wachten. Bovendien, de meeste ontwikkelaars willen graag helpen, ze zijn gemotiveerd om hun klanten zo goed mogelijk te bedienen. 
 
 
-Maar *rücksichtlos* nieuwe functionaliteit bouwen is een antipatroon dat we de [*feature factory*](https://www.scrum.org/resources/blog/escaping-feature-factory "'Escaping the Feature Factory', Stefan Wolpers @ Scrum.org") noemen. Teams die als featurefabriek opereren *lijken* productief -- gemeten naar het aantal PBI's dat ze aftikken --, maar hebben vaak weinig oog voor de onderliggende wensen van hun klanten. Sterker nog, een overdaad aan features kan zelfs negatief uitpakken voor de beleving van het systeem. Het systeem doet zo veel dat het onduidelijk is welk probleem het nu precies oplost. Bovendien brengt hun eenzijdige focus op het gedrag van de code ten koste van de structuur, de kwaliteit van de software in gevaar. 
+Maar *rücksichtlos* nieuwe functionaliteit bouwen is een antipatroon dat we de [*feature factory*](https://www.scrum.org/resources/blog/escaping-feature-factory "'Escaping the Feature Factory', Stefan Wolpers @ Scrum.org") noemen. Teams die als featurefabriek opereren *lijken* productief -- gemeten naar het aantal PBI's dat ze aftikken. Maar hebben vaak weinig oog voor de onderliggende wensen van hun klanten. Sterker nog, een overdaad aan features kan zelfs negatief uitpakken voor de beleving van het systeem. Het systeem doet zo veel dat het onduidelijk is welk probleem het nu precies oplost. Bovendien brengt hun eenzijdige focus op het gedrag van de code ten koste van de structuur, de kwaliteit van de software in gevaar. 
 
 
-Deze problemen verergeren naarmate het team in zwaarder weer komt. Als de omstandigheden verslechteren en de deadlines hetzelfde blijven, zal het op hetzelfde tempo blijven produceren van nieuwe features uiteindelijk leiden tot een onbetaalbare [technische schuld](/tags/technische-schuld/ "Blogs met de tag 'technische schuld'"). Dezelfde logica op het voortplanten in tijden van schaarste is van toepassing op het bouwen van nieuwe features. Het is verstandiger af en toe een stap terug te doen en te wachten op betere tijden.
+Deze problemen verergeren naarmate het team in zwaarder weer komt. Als de omstandigheden verslechteren en de deadlines hetzelfde blijven, zal het op hetzelfde tempo blijven produceren van nieuwe features uiteindelijk leiden tot een onbetaalbare [technische schuld](/tags/technische-schuld/ "Blogs met de tag 'technische schuld'"). De featurefabriek put het team uit. De schuld wordt zo zwaar dat het instort: mensen raken overspannen of gaan op zoek naar een nieuwe baan, en de mensen die blijven worstelen zich door ononderhoudbare code heen. En dan kan het überhaupt geen features meer produceren.
+
+
+Dezelfde logica op het voortplanten in tijden van schaarste is van toepassing op het bouwen van nieuwe features. Af en toe is het verstandiger een stap terug te doen en te wachten op betere tijden.
 
 
 [^1]: Het is niet de eerste keer dat evolutionaire bespiegelingen me tot nadenken stemden. Het lezen van [*Darwin's Dangerous Idea*](https://en.wikipedia.org/wiki/Darwin%27s_Dangerous_Idea "'Darwin's Dangerous Idea', Wikipedia") van [Daniel Dennett](https://en.wikipedia.org/wiki/Daniel_Dennett "'Daniel Dennett', Wikipedia") dreef me er al eerder toe [deze](/blog/23/09/coderen-met-luchthaken-en-hijskranen/ "'Coderen met luchthaken en hijskranen'") en [deze blog](/blog/23/10/evolutionair-programmeren/ "'Evolutionair programmeren'") te schrijven. Evolutie en softwareontwikkeling kennen paralellen die het waard zijn te onderzoeken.
