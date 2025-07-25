@@ -22,6 +22,7 @@ Geautomatiseerde tests verhogen de kwaliteit van een systeem en houden ontwikkel
 
 
 - [TestNet Najaarsevenement](https://www.testnet.org/), 9 oktober 2024
+- [Noordertest](https://www.noordertest.nl/), 16 oktober 2025
 
 
 ## Gerelateerde blogs
