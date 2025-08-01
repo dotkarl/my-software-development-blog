@@ -1,5 +1,5 @@
 ---
-title: "Zoek zoek habibi"
+title: "Zoek en gij zult vinden"
 author: "Karl van Heijster"
 date: 2025-07-04T08:15:59+02:00
 draft: true
@@ -54,7 +54,6 @@ De HTML en CSS vormden geen enorme uitdaging:
 
 ```html
 <li>
-  <span title ="Zoeken">
   <span title ="Zoeken">
     <svg id="search-icon" 
       tabindex="0"
