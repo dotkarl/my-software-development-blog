@@ -1,8 +1,8 @@
 ---
 title: "Gaan we snel genoeg?"
 author: "Karl van Heijster"
-date: 2025-06-06T11:36:52+02:00
-draft: true
+date: 2025-08-01T08:06:44+02:00
+draft: false
 comments: true
 tags: ["druk", "software ontwikkelaar (rol)", "software ontwikkelen", "vakmanschap", "verantwoordelijkheid"]
 summary: "Sinds kort ben ik in van team gewisseld. Sinds die wissel mag ik mezelf met recht *full stack developer* noemen. Ik ben verantwoordelijk voor de back-end, de front-end -- de database, de infrastructuur, security -- de requirementsanalyse, de tests... Je kunt je voorstellen: het kan even duren voordat een (ogenschijnlijk) eenvoudige feature afgerond is. Af en toe maakt een knagend schuldgevoel zich dan ook meester van me: *gaan we snel genoeg?*"
@@ -20,7 +20,7 @@ Je kunt je voorstellen: het kan even duren voordat een (ogenschijnlijk) eenvoudi
 {{< asterisk >}}
 
 
-De vraag is natuurlijk: vergeleken met wat? -- In het licht van de verwachte deadline? Maar: waar is die op gebaseerd? Toch zeker op dat wat we verwachten af te krijgen binnen een redelijke tijd. Maar waar is die verwachting op gebaseerd? Op onze collectieve ervaringen van softwareontwikkeling. Maar die ervaringen zijn op teams van meer dan één persoon gebaseerd.
+De vraag is natuurlijk: vergeleken met wat? -- In het licht van de verwachte deadline? Maar: waar is die op gebaseerd? Toch zeker op dat wat we verwachten af te krijgen binnen een redelijke tijd. Maar waar is die verwachting op gebaseerd? Op onze collectieve ervaringen van softwareontwikkeling. Maar die ervaringen zijn gebaseerd op teams van meer dan één persoon.
 
 
 Meer nog: ze zijn gebaseerd op teams waarin verschillende specialisaties vertegenwoordigd zijn. Ik kan redelijk snel een stuk logica aan de back-end uitcoderen -- dat is mijn specialisatie --, maar aan de front-end loop ik regelmatig met de simpelste taak te hannessen. Ik weet hoe [SQL](/tags/sql/ "Blogs met de tag 'SQL'")-databases werken, maar het is een tijd geleden dat ik er een vanuit het niets uit de grond heb gestampt. Geautomatiseerde buildpipelines heb ik zelfs nog nooit helemaal zelf hoeven opzetten.
@@ -35,7 +35,7 @@ Snel ging die eerste feature niet -- maar tjonge, het is lang geleden dat ik zov
 Je vergelijkt met een *verwachting*. Je vergelijkt met iets wat zich niet in de werkelijk bevindt, maar in je hoofd. 
 
 
-In werkelijkheid zal een taak het altijd afleggen tegen haar verloop in je hoofd. Want om een taak af te ronden in je hoofd hoeft er helemaal niets gebeuren. En wat er al helemaal niet gebeurt, zijn alle tegenslagen die je onderweg tegenkomt waarvan je niet eens wist dat je ze niet wist.
+In werkelijkheid zal een taak het altijd afleggen tegen haar verloop in je hoofd. Want om een taak af te ronden in je hoofd hoeft er helemaal niets gebeuren. En wat zich al helemaal niet in je hoofd afspeelt, zijn alle tegenslagen die je onderweg tegenkomt waarvan je niet eens wist dat je ze niet wist.
 
 
 Je wil graag naar de volgende feature -- dat begrijp ik. Dat is omdat je je voor kunt stellen dat de huidige feature al is afgerond. Maar hij is nog niet afgerond. -- Dat hij *werkt* hoeft niet eens te betekenen dat hij is afgerond. 
@@ -71,13 +71,13 @@ Om objecten op te kunnen slaan en op te kunnen vragen, is het niet nodig om eers
 Wat is het criterium voor succes? -- Het moet werken, uiteraard, en het moet werken zonder ten onder te gaan aan [bugs](/tags/bugs/ "Blogs met de tag 'bugs'"). -- De vraag is: *wat* moet werken, precies? Het systeem met alle features die we bij elkaar gebrainstormd hebben? (Het systeem zoals in je hoofd.) -- Je kunt de vraag ook zo stellen: wat hoeft *niet* te werken, wil dit systeem een succes zijn? 
 
 
--- Na de eerste twee features, het opslaan van een object en deze tonen in een lijst, besloten we om niet op de ingeslagen weg voort te gaan. We schoven het tonen van een detailscherm en het verwijderen van dat object naar achteren te schuiven. Want het was belangrijker dat een ander object ook kon worden opgeslagen, en kon worden gekoppeld aan dat eerste object. Als we konden bewijzen dat we dat foutloos konden doen, dan hadden we bewezen dat het systeem meerwaarde zou bieden ten opzichte van het huidige handmatige proces.
+-- Na de eerste twee features, het opslaan van een object en deze tonen in een lijst, besloten we om niet op de ingeslagen weg voort te gaan. We schoven het tonen van een detailscherm naar achteren, net als het verwijderen van dat object. Want het was belangrijker dat een ander object ook kon worden opgeslagen, en kon worden gekoppeld aan dat eerste object. Als we konden bewijzen dat we dat foutloos konden doen, dan hadden we bewezen dat het systeem meerwaarde zou bieden ten opzichte van het huidige handmatige proces.
 
 
 {{< asterisk >}}
 
 
-De vraag was de verkeerde. Het is niet: *Gaan we snel genoeg?* Die vraag nodigt uit te haasten, te beknibbelen op kwaliteit. Het verleidt ons om het aantal lagen waar een systeem uit bestaat ongerechtvaardigd terug te brengen tot het zuiver functionele, en daarmee ons [vakmanschap](/tags/vakmanschap/ "Blogs met de tag 'vakmanschap'") overboord te gooien. 
+Je zou je af kunnen vragen: is de vraag die ik mezelf stelde wel de juiste? Het is niet: *Gaan we snel genoeg?* Die vraag nodigt uit te haasten, te beknibbelen op kwaliteit. Het verleidt ons om het aantal lagen waar een systeem uit bestaat ongerechtvaardigd terug te brengen tot het zuiver functionele, en daarmee ons [vakmanschap](/tags/vakmanschap/ "Blogs met de tag 'vakmanschap'") overboord te gooien. 
 
 
 De vraag is veeleer: *Zijn we met het juiste bezig?* -- waarbij "juiste" betekent: het belangrijkste, dat wat het meeste waarde levert in het licht van het probleem dat we op proberen te lossen. Zo ja, dan hoeven we ons er niet druk om te maken dat de minder belangrijke dingen nog niet af zijn -- ze zijn immers *minder belangrijk*.
@@ -86,4 +86,4 @@ De vraag is veeleer: *Zijn we met het juiste bezig?* -- waarbij "juiste" beteken
 De tegenstelling wordt vaak zo gekarakteriseerd: het juiste doen (*doing the right thing*) in plaats van het juist doen (*doing the thing right*). Maar je hebt natuurlijk ook nog: het juiste juist doen (*doing the right thing right*) -- als dat toch eens zou kunnen!
 
 
-[^1]: Natuurlijk ben ik niet *letterlijk* de enige persoon in het team; een team bestaat uit meer dan alleen ontwikkelaars. Ook aangehaakt zijn: een UX'er, een PO, een [architect](/tags/software-architect-rol/ "Blogs met de tag 'software architect (rol)'") en een manager.
+[^1]: Natuurlijk ben ik niet *letterlijk* de enige persoon in het team; een team bestaat uit meer dan alleen ontwikkelaars. Ook aangehaakt zijn: een UX'er, een PO, een [architect](/tags/software-architect-rol/ "Blogs met de tag 'software architect (rol)'") en een manager. -- En op moment van publicatie is er al een tweede ontwikkelaar aangehaakt, joepie!
