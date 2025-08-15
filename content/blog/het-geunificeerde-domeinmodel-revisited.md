@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-08-15T09:17:01+02:00
 draft: true
 comments: true
-tags: []
+tags: ["domeinmodel", "filosofie"]
 summary: "Binnen applicatie *a* is het zinvol om van conceptitems te spreken, binnen applicatie *b* niet. Binnen applicatie *b* is het zinvol om van de P-waarde (moeilijkheidsgraad) van een item te spreken, binnen applicatie *a* niet. Heeft het(zelfde) woord \"item\" dan dezelfde betekenis in binnen de context van beide applicaties, of niet? Moet het `Item` in het geünificeerde domeinmodel de property's `IsConcept` of `PValue` bevatten? "
 ---
 
