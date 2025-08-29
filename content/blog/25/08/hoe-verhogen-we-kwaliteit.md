@@ -1,8 +1,8 @@
 ---
 title: "Hoe verhogen we kwaliteit?"
 author: "Karl van Heijster"
-date: 2025-06-27T09:38:34+02:00
-draft: true
+date: 2025-08-29T09:02:16+02:00
+draft: false
 comments: true
 tags: ["bedrijfscultuur", "druk", "kernwaarden", "kwaliteit", "vakmanschap", "verantwoordelijkheid", "zorg"]
 summary: "Er is een werkgroep opgericht voor softwarekwaliteit -- elke twee weken heb ik 'n meeting in mijn agenda staan die *Software kwaliteit werkgroep* heet en de misplaatste overdaad aan spaties is gekmakend maar ik kan het goed van me afzetten. Onlangs kwam onze enterprise architect langs en hij zei allerlei zinnige dingen waar je het onmogelijk mee oneens kunt zijn maar waar ik toch een paar honderd woorden lang over ga emmeren."
@@ -23,7 +23,7 @@ Hoe creëer je een onderhoudbaar systeem? Door het [KISS-principe](https://en.wi
 De eigenlijke lijst was een stuk langer, maar je begrijpt het idee. 
 
 
-Met al het bovenstaande ben ik het hartgrondig eens -- zowel met de vuistregels als met de waarschuwing dat je deze ook te ver door kunt voeren. Kwalitatieve software ontwikkelen (maar ook: kwalitatief software ontwikkelen) beslaat het volgen van vuistregels plus de wetenschap wanneer je van die vuistregels af moet wijken. 
+Met al het bovenstaande ben ik het hartgrondig eens -- zowel met de vuistregels als met de waarschuwing dat je deze ook te ver door kunt voeren. Kwalitatieve software ontwikkelen (maar ook: kwalitatief softwareontwikkelen) beslaat het volgen van vuistregels plus de wetenschap wanneer je van die vuistregels af moet wijken. 
 
 
 ## Afwijken
@@ -74,4 +74,4 @@ Kwalitatieve software is het natuurlijk gevolg van een bepaalde [cultuur](/tags/
 
 [^3]: Natuurlijk is dat niet altijd zo geweest, zie bijvoorbeeld [deze blog](/blog/23/04/tijdreis/). Helaas zijn er vandaag de dag nog altijd meer dan genoeg teams waarin de kwaliteit van het programmeren door een kritieke ondergrens zakt, met alle gevolgen van dien.
 
-[^4]: En misschien ligt daar onder nog een tweede probleem, bijvoorbeeld het idee dat refactoren het systeem langere tijd in gebroken staat achterhoudt en daarom niet samen kan gaan met het opleveren van features. Dat zou een totale misvatting van het idee van refactoring inhouden, zie bijvoorbeeld [deze blog](/blog/25/06/wat-is-refactoring-volgens-hannah-arendt/ "'Wat is refactoring (volgens Hannah Arendt)?'").
+[^4]: En misschien ligt daar onder nog een tweede probleem, bijvoorbeeld het idee dat refactoren het systeem langere tijd in gebroken staat houdt en daarom niet samen kan gaan met het opleveren van features. Dat zou een totale misvatting van het idee van refactoring inhouden, zie bijvoorbeeld [deze blog](/blog/25/06/wat-is-refactoring-volgens-hannah-arendt/ "'Wat is refactoring (volgens Hannah Arendt)?'").
