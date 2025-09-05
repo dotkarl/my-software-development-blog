@@ -1,14 +1,14 @@
 ---
 title: "Zoek en gij zult vinden"
 author: "Karl van Heijster"
-date: 2025-07-04T08:15:59+02:00
-draft: true
+date: 2025-09-05T07:37:40+02:00
+draft: false
 comments: true
 tags: ["dotkarl", "kunstmatige intelligentie", "luie programmeur", "software ontwikkelen"]
-summary: "Soms duurt het ruim vier jaar voordat je er eindelijk aan toekomt -- maar: *dotkarl* kent eindelijk de mogelijkheid om mijn blogs te doorzoeken. *Woohoo!*"
+summary: "Soms duurt het ruim vier jaar voordat je eraan toekomt -- maar: *dotkarl* kent nu eindelijk de mogelijkheid om blogs te doorzoeken. *Woohoo!*"
 ---
 
-Soms duurt het ruim vier jaar voordat je er eindelijk aan toekomt -- maar: *dotkarl* kent eindelijk de mogelijkheid om mijn blogs te doorzoeken.
+Soms duurt het ruim vier jaar voordat je eraan toekomt -- maar: *dotkarl* kent nu eindelijk de mogelijkheid om blogs te doorzoeken.
 
 
 <br>
@@ -25,7 +25,7 @@ Waarom heeft dit me zoveel tijd gekost? Eerlijk gezegd wist ik heel lang niet ho
 In [*Hugo in Action*](https://www.manning.com/books/hugo-in-action "Atishay Jain, 'Hugo in Action', Manning 2022") leek ik een oplossing te hebben gevonden. In het voorbeeld van dat boek wordt een library gebruikt die je website indexeert en het resultaat daarvan meestuurt naar de browser. Het doorzoeken van de website zou dan gebruik maken van die lokale index. -- Maar de luie ontwikkelaar in me nam het over, en ik redeneerde: maar daarmee zou ik een afhankelijkheid introduceren van een *third party*, en die afhankelijkheid zou ik dan weer bij moeten houden, en ik heb helemaal geen zin om regelmatig onderhoud te (moeten) plegen aan mijn blog. 
 
 
-Trouwens, zó nodig hoef *ik* nu ook weer niet een zoekfunctionaliteit te hebben, zei ik tegen mezelf. De enige momenten dat ik mijn blog wil doorzoeken, is als ik onder het schrijven wil linken naar eerdere blogs ([deze](/blog/25/05/borrelpraat/ "'Borrelpraat'") bijvoorbeeld). Maar om dat voor elkaar te krijgen kan ik ook de markdown doorzoeken in [Visual Studio Code](https://code.visualstudio.com/). Dus de feature belandde op een todo-lijstje en verdween uiteindelijk uit mijn zicht.
+Trouwens, zó nodig hoef *ik* nu ook weer niet een zoekfunctionaliteit te hebben, zei ik tegen mezelf. De enige momenten dat ik mijn blog wil doorzoeken, is als ik onder het schrijven wil linken naar een [eerdere blog](/blog/25/05/borrelpraat/ "'Borrelpraat'"). Maar om dat voor elkaar te krijgen kan ik ook de markdown doorzoeken in [Visual Studio Code](https://code.visualstudio.com/). Dus de feature belandde op een todo-lijstje en verdween uiteindelijk uit mijn zicht.
 
 
 ## Martin Fowler
@@ -34,7 +34,7 @@ Trouwens, zó nodig hoef *ik* nu ook weer niet een zoekfunctionaliteit te hebben
 Daar kwam verandering in toen ik op een dag wat informatie zocht op [de website van Martin Fowler](https://martinfowler.com/). De zoekbalk op zijn homepagina leidde me naar -- Google, waar de zoekterm vergezeld ging met een eenvoudige kwalificatie: `site:martinfowler.com`.
 
 
-Aanvankelijk schoot ik in de lach, volgens mij. Het verbaasde me dat zo'n grote naam als Martin Fowler zo -- wat is het woord? -- *achteloos* met deze functionaliteit op zijn website om was gegaan. Zou juist hij de gelegenheid niet aangegrepen moeten hebben om een mooie (want ongetwijfeld veelvuldig [gerefactorde](/blog/24/02/een-herwaardering-van-fowlers-refactoring/ "'Een herwaardering van Fowlers Refactoring'")) oplossing uit te programmeren? Het gaf me een gevoel van haast plaatsvervangende schaamte.
+Aanvankelijk schoot ik in de lach, als ik me het goed herinner. Het verbaasde me dat zo'n grote naam als Martin Fowler zo -- wat is het woord? -- *achteloos* met deze functionaliteit op zijn website om was gegaan. Zou juist hij de gelegenheid niet aangegrepen moeten hebben om een mooie (want ongetwijfeld veelvuldig [gerefactorde](/blog/24/02/een-herwaardering-van-fowlers-refactoring/ "'Een herwaardering van Fowlers Refactoring'")) oplossing uit te programmeren? Het gaf me haast een gevoel van plaatsvervangende schaamte.
 
 
 Maar dat gevoel verdween al gauw. Want je kunt zeggen wat je wil: het deed wat het moest doen. Sterker nog, het deed dat op een ~~schaamteloos~~ bewonderenswaardig eenvoudige manier. Ga maar na: waarom zou je de moeite nemen om je website zelf te indexeren? Google doet het toch al voor je -- en beter dan jij ooit zou kunnen, waarschijnlijk. Waarom zou je in hemelsnaam *geen* gebruik maken van die al bestaande indexering?
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 
-De bovenstaande code is niet enorm geavanceerd of complex[^1], maar zelfs wanneer de reikwijdte van het probleem terug is gebracht tot het gebruik van Google, komt er toch ongemerkt meer bij kijken dan je op voorhand denkt.
+De bovenstaande code is niet enorm geavanceerd of complex, maar zelfs wanneer de reikwijdte van het probleem terug is gebracht tot het gebruik van Google, komt er toch ongemerkt meer bij kijken dan je op voorhand denkt.
 
 
 Het is de vraag of ik zonder CoPilot het geduld zou hebben gehad om de boel helemaal uit te zoeken. -- Ik heb het dan niet alleen over het voor elkaar krijgen een zoekopdracht naar Google te versturen, maar ook over de vormgeving van het zoek-icoon, de styling van de componenten, het verbergen van de zoekbalk als je ergens anders klikt, et cetera. 
@@ -191,4 +191,4 @@ Dit is een uitstekende illustratie van de drempelverlagende werking van [kunstma
 De prompts waarmee ik de bovenstaande code heb gegenereerd, zijn zo bekeken niet een vorm van intelligentie, maar een zeer geavanceerde (en personaliseerbare) zoekopdracht: "Hoe implementeer ik een zoekbalk op mijn website die Google gebruikt als index?"
 
 
--- Maar eer ik dergelijke zoekfunctionaliteit op deze blog ingebouwd heb, zijn we waarschijnlijk twintig jaar verder. 
+-- Maar eer ik kunstmatig intelligente zoekfunctionaliteit op deze blog ingebouwd heb, zijn we waarschijnlijk twintig jaar verder. 
