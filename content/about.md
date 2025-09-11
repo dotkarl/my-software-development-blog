@@ -3,7 +3,7 @@ title: "Over mij"
 draft: false
 ---
 
-<img class="rounded center" src="karl-van-heijster.jpg" width="300" />
+<img class="rounded center" src="/images/profile-picture-sm.jpg" width="300" />
 <br/>
 
 
