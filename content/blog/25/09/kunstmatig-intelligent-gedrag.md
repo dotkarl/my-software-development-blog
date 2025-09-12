@@ -1,8 +1,8 @@
 ---
 title: "(Kunstmatig) intelligent gedrag"
 author: "Karl van Heijster"
-date: 2025-07-11T01:21:03+02:00
-draft: true
+date: 2025-09-12T08:41:32+02:00
+draft: false
 comments: true
 tags: ["boeken", "filosofie", "kunstmatige intelligentie"]
 summary: "Het immitatiespel van Alan Turing, ook wel bekend als de Turingtest, werd gedurende zijn eerste receptie als een behavioristisch argument geïnterpreteerd. Het gedachte-experiment werd opgevat als een voorstel om intelligentie te definiëren als het kunnen voeren van een gesprek."
@@ -36,7 +36,7 @@ Als ik iemand vraag hoe het gaat, en diegene zegt: "Wel oké", dan ga ik ervan u
 {{< asterisk >}}
 
 
-Ik denk dat de meeste mensen zouden zeggen dat de huidige generatie van [*large language models*](https://en.wikipedia.org/wiki/Large_language_model "'Large language model', Wikipedia") (LLMs) voor de Turingtest zouden slagen. Maar ze slagen in zekere zin ook niet. [ChatGPT](https://chatgpt.com/) blijft netjes antwoord geven op mijn prompts, ook wanneer ik de domste vragen blijf stellen. Een echt mens zou op een gegeven moment zeggen: "Karl, nou is het wel even genoeg geweest." Dat geeft weg dat de LLM niet menselijk is.
+Ik denk dat de meeste mensen zouden zeggen dat de huidige generatie van [*large language models*](https://en.wikipedia.org/wiki/Large_language_model "'Large language model', Wikipedia") (LLMs) voor de Turingtest zouden slagen. Maar ze slagen in zekere zin ook niet. [ChatGPT](https://chatgpt.com/) blijft netjes antwoord geven op mijn prompts, ook wanneer ik keer op keer maar de domste vragen blijf stellen. Een echt mens zou op een gegeven moment zeggen: "Karl, nou is het wel even genoeg geweest." Dat geeft weg dat de LLM niet menselijk is.
 
 
 Mensen raken vermoeid, machines niet. Mensen vinden elkaar vermoeiend, machines niet. -- Maar dat bewijst alleen dat een machine niet menselijk is. Het bewijst niet dat een machine niet intelligent is.
@@ -51,7 +51,7 @@ Er zijn -- grofweg -- twee soorten [behaviorisme](https://plato.stanford.edu/ent
 De eerste baseert zich op het werk van [B.F. Skinner](https://en.wikipedia.org/wiki/B._F._Skinner "'B. F. Skinner', Wikipedia") en zegt: bij het (wetenschappelijk) bestuderen van psychologische verschijnselen, dienen we ons te beperken tot observeerbaar gedrag. Dus als iemand pijn heeft, dan is de data waar we mee werken: dat diegene een bepaalde uitdrukking op zijn of haar gezicht heeft, dat diegene "Au!" roept, dat diegene zich terugtrekt als je de pijnlijke plek aanraakt, etc..
 
 
-De bekendste vertegenwoordiger van de tweede soort behaviorisme is [Gilbert Ryle](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy"), met name zijn [*The Concept of Mind*](https://en.wikipedia.org/wiki/The_Concept_of_Mind "'The Concept of Mind', Wikipedia").[^1] Het filosofisch behaviorisme zegt: de woorden waarmee we psychologische verschijnselen beschrijven, verwijzen naar het observeerbaar gedrag. Dus "pijn" *is" het hebben van een bepaalde uitdrukking, "Au!" roepen, je terugtrekken als iemand de pijnlijke plek aanraakt, etc..
+De bekendste vertegenwoordiger van de tweede soort behaviorisme is [Gilbert Ryle](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy"), met name in [*The Concept of Mind*](https://en.wikipedia.org/wiki/The_Concept_of_Mind "'The Concept of Mind', Wikipedia").[^1] Het filosofisch behaviorisme zegt: de woorden waarmee we psychologische verschijnselen beschrijven, verwijzen naar het observeerbaar gedrag. Dus "pijn" *is* het hebben van een bepaalde uitdrukking, "Au!" roepen, je terugtrekken als iemand de pijnlijke plek aanraakt, etc..
 
 
 Als de Turingtest een behavioristisch argument is, is het dan een psychologisch of een filosofisch behavioristisch argument?
