@@ -43,6 +43,7 @@ In *Balancing Coupling in Software Design* bespreekt hij de begrippen *koppeling
 
 Khononovs bespreking is theoretisch sterk onderbouwd. Wanneer hij stelt dat een goed begrip van dit begrippenpaar dient om complexiteit te beteugelen, dan volgt daarop een uitgebreide analyse van [wat complexiteit nu eigenlijk betekent](/blog/25/04/gecompliceerd-vs-complex/ "'Gecompliceerd vs. complex'"). En als het hoofdonderwerp daarna aan bod komt, presenteert hij niet één model van koppeling-en-cohesie, maar wel drie. En daarbij laat hij het niet na om na te gaan hoe de zwakke plekken van het ene de inspiratiebron vormden voor de sterke kanten van het [nieuwste model](/blog/25/04/hoge-cohesie-losse-koppeling/ "'Hoge cohesie, losse koppeling'"). 
 
+
 Maar het boek is geen zuiver theoretische denkoefening. De ideeën erin worden uitgebreid geïllustreerd met praktische voorbeelden. Ik twijfel er niet aan dat wie dit boek leest, betere classes zal schrijven, betere componenten zal ontwerpen, en een beter inzicht in (*legacy*) systemen zal ontwikkelen. Dit is zonder twijfel een moderne klassieker in ons vakgebied.
 
 
