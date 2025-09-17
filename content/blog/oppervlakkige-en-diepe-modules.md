@@ -8,7 +8,7 @@ tags: ['boeken', 'clean code']
 summary: "Eén van de interessantste ideeën die John Ousterhout naar voren brengt in *A Philosophy of Software Design*, is de notie van oppervlakkige en diepe modules. Een module is oppervlakkig als deze veel (onnodige) complexiteit aan de gebruiker van de module openbaart. Ze is diep als ze die complexiteit juist verbergt."
 ---
 
-Eén van de interessantste ideeën die [John Ousterhout](https://en.wikipedia.org/wiki/John_Ousterhout "'John Ousterhout', Wikipedia") naar voren brengt in [*A Philosophy of Software Design*](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201 "John Ousterhout, 'A Philosophy of Software Design, 2nd Edition' @ Amazon.com"), is de notie van oppervlakkige en diepe modules. Een module is oppervlakkig als deze veel (onnodige) complexiteit aan de gebruiker van de module openbaart. Ze is diep als ze die complexiteit juist verbergt.
+Eén van de interessantste ideeën die [John Ousterhout](https://en.wikipedia.org/wiki/John_Ousterhout "'John Ousterhout', Wikipedia") naar voren brengt in [*A Philosophy of Software Design*](https://web.stanford.edu/~ouster/cgi-bin/aposd.php "John Ousterhout, 'A Philosophy of Software Design, 2nd Edition'"), is de notie van oppervlakkige en diepe modules. Een module is oppervlakkig als deze veel (onnodige) complexiteit aan de gebruiker van de module openbaart. Ze is diep als ze die complexiteit juist verbergt.
 
 Visueel ziet dat er zo uit, waarbij je je voor moet stellen dat de bovenkant van de rechthoeken hetgeen is waar de gebruiker mee interacteert:
 
