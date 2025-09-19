@@ -1,8 +1,8 @@
 ---
 title: "De vergeten tester"
 author: "Karl van Heijster"
-date: 2025-07-11T08:35:38+02:00
-draft: true
+date: 2025-09-19T08:22:28+02:00
+draft: false
 comments: true
 tags: ["samenwerking", "software ontwikkelaar (rol)", "testen", "tester (rol)", "verantwoordelijkheid"]
 summary: "Twee dingen kunnen tegelijkertijd waar zijn. (1) Ik vind de tester de belangrijkste rol hebben in het team. (2) Ik wil geen tester in het team. -- Ik wil haast zeggen: de rol van de tester is te belangrijk om bij een tester neer te leggen, maar die uitspraak is makkelijk te misinterpreteren en nodeloos provocerend. En toch..."
@@ -23,7 +23,7 @@ Ze zegt: daar ga ik over nadenken. Twee uur later hoor ik dat ik een nieuw team 
 {{< asterisk >}}
 
 
-We maakten een [*proof of concept*](/tags/proof-of-concept/ "Blogs met de tag 'proof of concept'") -- dat wil zeggen: -- eh... nou ja, *ik* maakte een *proof of concept*, want ik was de enige ontwikkelaar in dit nu nog embryonale team. (Zie ook [deze blog](GAAN_WE_SNEL_GENOEG "'Gaan we snel genoeg?'").) Ik zit opnieuw tegenover mijn manager, en tegenover een provisoir Product Owner, en naast een softwarearchitect. We gaan de *proof of concept* aan de hogere echelons van het management presenteren, zij zullen beslissen of het project van de grond gaat komen of niet.
+We maakten een [*proof of concept*](/tags/proof-of-concept/ "Blogs met de tag 'proof of concept'") -- dat wil zeggen: -- eh... nou ja, *ik* maakte een *proof of concept*, want ik was de enige ontwikkelaar in dit nu nog embryonale team. (Zie ook [deze blog](/blog/25/08/gaan-we-snel-genoeg/ "'Gaan we snel genoeg?'").) Ik zit opnieuw tegenover mijn manager, en tegenover een provisoir Product Owner, en naast een softwarearchitect. We gaan de *proof of concept* aan de hogere echelons van het management presenteren, zij zullen beslissen of het project van de grond gaat komen of niet.
 
 
 En zo ja, met wat voor team gaan we dat doen? -- "Een architect," zegt de architect. -- "En een Product Owner," zegt de Product Owner. -- "En een ontwikkelaar," stem ik in. "Misschien twee." "Een back-ender en een front-ender," knikt de rest. "Of twee full-stackers, wat je wil." 
@@ -77,7 +77,7 @@ Beck zegt: "*Come on.*" Een test is een test. En hij heeft gelijk -- maar tegeli
 Uit het voorgaande volgt *niet* dat testers overbodig zijn -- dat is niet de reden waarom ik ervoor pleitte om geen tester in het team te hebben.
 
 
-De manier waarop de testers (in elk geval de testers waar ik mee heb gewerkt) hun rol invullen is inefficiënt. Ze nemen een taak op zich van het schrijven van geautomatiseerde tests. Maar die taak is eigenlijk de verantwoordelijkheid van de ontwikkelaar. Programmeren en testen zijn twee kanten van dezelfde munt. Door die innerlijk verweven taken uit elkaar te trekken, introduceren ze overdrachtsmomenten met onnodig lange [feedbackloops](/blog/23/11/drie-feedbackloops-die-verbeteren-met-unit-tests/ "'Drie feedbackloops die verbeteren met unit tests'"). Dit is een [erfenis van waterval](/blog/23/11/erfenissen-van-waterval/ "'Erfenissen van waterval'")
+De manier waarop de testers (in elk geval de testers waar ik mee heb gewerkt) hun rol invullen is inefficiënt. Ze nemen de taak op zich van het schrijven van geautomatiseerde tests. Maar die taak is eigenlijk de verantwoordelijkheid van de ontwikkelaar. Programmeren en testen zijn twee kanten van dezelfde munt. Door die innerlijk verweven taken uit elkaar te trekken, introduceren ze overdrachtsmomenten met onnodig lange [feedbackloops](/blog/23/11/drie-feedbackloops-die-verbeteren-met-unit-tests/ "'Drie feedbackloops die verbeteren met unit tests'"). Dit is een [erfenis van waterval](/blog/23/11/erfenissen-van-waterval/ "'Erfenissen van waterval'")
 
 
 Maar inefficiëntie is niet eens het grootste probleem van deze opzet. Door de testtaak van de ontwikkelaar over te nemen, ontnemen ze de ontwikkelaar zijn verantwoordelijkheid. Deze taakverdeling communiceert (bedoeld of onbedoeld?) het volgende: "Jij ontwikkelaar bent niet te vertrouwen met de verantwoordelijkheid werkende code op te leveren. We betalen een andere persoon grof geld om jouw werk te controleren, zo weinig vertrouwen hebben we in je."
