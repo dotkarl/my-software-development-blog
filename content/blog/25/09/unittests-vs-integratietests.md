@@ -1,8 +1,8 @@
 ---
 title: "Unittests vs. integratietests"
 author: "Karl van Heijster"
-date: 2025-07-18T09:12:02+02:00
-draft: true
+date: 2025-09-26T08:31:33+02:00
+draft: false
 comments: true
 tags: ["integratietests", "testpiramide", "unit tests"]
 summary: "Integratietests worden veelal gedefinieerd in contrast met unittests. Als we unittests beschouwen we als tests die (een eenheid van) gedrag testen, dan volgt daaruit dat integratietests *niet* het testen van gedrag als doel hebben. Integratietests verifiëren niet de *inhoud van* subsystemen, maar de *interactie tussen* subsystemen."
