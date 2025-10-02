@@ -82,7 +82,7 @@ In die zin hebben ze veel weg van [ontwerppatronen](https://www.karlvanheijster.
 ## Vragen
 
 
-Dus de volgende keer als je je afvraagt: wat doet deze variabele hier precies? - stel jezelf dan eens de volgende vragen: is het een contante? Wordt er hier tijdelijk iets opslagen, misschien? Of wordt er op een conditie gecheckt?
+Dus de volgende keer als je je afvraagt: wat doet deze variabele hier precies? - stel jezelf dan eens de volgende vragen: is het een constante? Wordt er hier tijdelijk iets opslagen, misschien? Of wordt er op een conditie gecheckt?
 
 
 En als je collega je tijdens een code review het vuur aan de schenen legt, zeg dan: "Dit is een *walker* (of een *gatherer* of een *organizer*). Misschien geven die twintig ontwikkelaars in de toekomst dan wel twintig keer hetzelfde antwoord wanneer ze worden gevraagd naar de rol van een variabele!
