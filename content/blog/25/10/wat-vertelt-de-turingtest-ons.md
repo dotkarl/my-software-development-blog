@@ -1,8 +1,8 @@
 ---
 title: "Wat vertelt de Turingtest ons?"
 author: "Karl van Heijster"
-date: 2025-07-19T08:47:56+02:00
-draft: true
+date: 2025-10-03T08:21:58+02:00
+draft: false
 comments: true
 tags: ["boeken", "filosofie", "kunstmatige intelligentie", "recensies"]
 summary: "Stel, een proefpersoon zou via een computerterminal twee gesprekken voeren: één met een mens, en één met een machine. Als hij niet zou kunnen onderscheiden welke van zijn gesprekspartners de menselijke is en welke de machine, dan kunnen we de machine redelijkerwijs \"intelligent\" noemen. Dit experiment is in de literatuur de Turingtest gaan heten, en wordt zowel geprezen als verguisd. Maar wat vertelt de Turingtest ons nu precies? Dat is het onderwerp van Bernardo Gonçalves' essaybundel *The Turing Test Argument*."
@@ -29,7 +29,7 @@ In het oorspronkelijke artikel, maar ook in andere geschriften, werpt de wiskund
 Maar wat zegt de Turingtest dan wel? Gonçalves beantwoordt die vraag door de test in zijn historische context te plaatsen. Turings artikel was een zet in een polemiek die in zijn tijd speelde over de vraag of machines kunnen denken of niet. Conservatiever denkers meenden publiekelijk van niet. En in de context van hun tijd is dat helemaal geen opzienbarende opvatting. Hun mentaal model van machines werd gevormd door logge apparaten van ratelend staal, die op mechanische wijze één specifieke taak volbrachten.
 
 
-Een machine kan nooit meer doen dan wat de ontwerper ervan heeft voorzien, betoogde wiskundige [Douglas Hartree](https://en.wikipedia.org/wiki/Douglas_Hartree "'Douglas Hartree', Wikipedia").  Regelgeleide activiteiten als schaken zouden ze misschien ooit kunnen, viel [Michael Polyani](https://en.wikipedia.org/wiki/Michael_Polanyi "'Michael Polyani', Wikipedia"), een andere wiskundige, hem bij, maar zoiets “echt” intelligents als een gesprek voeren, dat was uitgesloten. Neuroloog [Geoffrey Jefferson](https://en.wikipedia.org/wiki/Geoffrey_Jefferson "'Geoffrey Jefferson', Wikipedia") impliceerde daarnaast, aan de hand van een voorbeeld met een mechanische schildpad, dat de geslachtelijke identiteit van een mens of dier essentieel was om voor *the real deal* door te kunnen gaan.
+Een machine kan nooit meer doen dan wat de ontwerper ervan heeft voorzien, betoogde wiskundige [Douglas Hartree](https://en.wikipedia.org/wiki/Douglas_Hartree "'Douglas Hartree', Wikipedia"). Regelgeleide activiteiten als schaken zouden ze misschien ooit kunnen, viel [Michael Polyani](https://en.wikipedia.org/wiki/Michael_Polanyi "'Michael Polyani', Wikipedia"), een andere wiskundige, hem bij, maar zoiets "echt" intelligents als een gesprek voeren, dat was uitgesloten. Neuroloog [Geoffrey Jefferson](https://en.wikipedia.org/wiki/Geoffrey_Jefferson "'Geoffrey Jefferson', Wikipedia") impliceerde daarnaast, aan de hand van een voorbeeld met een mechanische schildpad, dat de geslachtelijke identiteit van een mens of dier essentieel was om voor *the real deal* door te kunnen gaan.
 
 
 De Turingtest is een poging deze argumenten te weerleggen. Gonçalves toont in zijn boek aan dat Turing in zijn artikel continu varieert met de opzet van zijn test om deze argumenten te ontzenuwen. Een goed -- en veelal weggeredeneerd of over het hoofd gezien -- voorbeeld daarvan is de variant waarin de proefpersoon moet achterhalen welke van zijn twee gesprekspartners een vrouw is. Het is een weerlegging van het idee dat hormonen onze geslachtelijke identiteit bepalen: een groot deel van typisch mannelijk of vrouwelijk gedrag is aangeleerd en dus ook te simuleren. De Turingtest is dus een [gedachte-experiment](https://plato.stanford.edu/entries/thought-experiment/ "'Thought Experiments', Stanford Encyclopedia of Philosophy") in de traditie van [Galileo](https://plato.stanford.edu/entries/galileo/ "'Galileo Galilei' Stanford Encyclopedia of Philosophy"): een beeldend argument dat als vanzelfsprekend vastgeroeste denkbeelden in vraag stelt.
@@ -41,18 +41,18 @@ De Turingtest is een poging deze argumenten te weerleggen. Gonçalves toont in z
 ## Ironie
 
 
-Maar de vraag is en blijft: kan een machine nu denken of niet? Dat hangt af van wat we onder  denken" verstaan. In Gonçalves’ weergave van het argument, maakt Turing wel degelijk een fundamenteel onderscheid tussen de manier waarop mensen denken (*think<sub>1</sub>*) en de manier waarop machines dat doen (*think<sub>2</sub>*). Machines zitten fundamenteel anders in elkaar dat mensen. Hun onderliggende hardware is discreet, bijvoorbeeld, daar waar onze *wetware* continu is. Ze zullen daarom nooit op dezelfde manier denken als mensen. 
+Maar de vraag is en blijft: kan een machine nu denken of niet? Dat hangt af van wat we onder "denken" verstaan. In Gonçalves’ weergave van het argument, maakt Turing wel degelijk een fundamenteel onderscheid tussen de manier waarop mensen denken (*think<sub>1</sub>*) en de manier waarop machines dat doen (*think<sub>2</sub>*). Machines zitten fundamenteel anders in elkaar dan mensen. Hun onderliggende hardware is discreet, bijvoorbeeld, daar waar onze *wetware* continu is. Ze zullen daarom nooit op dezelfde manier denken als mensen. 
 
 
 Maar beweren dat machines identiek moeten zijn in hun denken aan mensen, is een chauvinistisch argument; daar kan een machine nooit van winnen. Dat is precies waarom Turing in de opening van zijn artikel de hierboven gestelde vraag als onzinnig wegzette, en zijn test voorstelde ter vervanging. De vraag of machines kunnen denken nodigt uit tot essentialistische definities van "denken", die de *think<sub>1</sub>* ten onrechte tot de enige "echte" vorm van intelligentie bombarderen.[^2] De Turingtest stelt geen alternatieve definitie van intelligentie voor, maar tracht die manier van redeneren te ontzenuwen als oneerlijk en irrationeel.
 
 
-De Turingtest stelt ons – op een zekere ironische toon – de vraag: wat voor gronden hebben we voor onze superioriteitsgevoelens, wanneer machines net zo vaardig, net zo ogenschijnlijk intelligent zijn als wij? 
+De Turingtest stelt ons -- op een zekere ironische toon -- de vraag: wat voor gronden hebben we voor onze superioriteitsgevoelens, wanneer machines net zo vaardig, net zo ogenschijnlijk intelligent zijn als wij? 
 
 
 *Deze recensie verscheen ook op [Boekenkrant.com](https://boekenkrant.com/).*
 
 
-[^1]: Zie [deze blog](KUNSTMATIG_INTELLIGENT_GEDRAG "'Kunstmatig intelligent gedrag'"). Wat bij kan hebben gedragen aan deze interpretatie, is dat [Gilbert Ryle](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy"), de bekendste vertegenwoordiger van het filosofisch behaviorisme, op dat moment de hoofdredacteur van tijdschrift [*Mind*](https://en.wikipedia.org/wiki/Mind_%28journal%29 "'Mind (journal)', Wikipedia") was, waar het artikel in verscheen.
+[^1]: Zie [deze blog](/blog/25/09/kunstmatig-intelligent-gedrag/ "'Kunstmatig intelligent gedrag'"). Wat bij kan hebben gedragen aan deze interpretatie, is dat [Gilbert Ryle](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy"), de bekendste vertegenwoordiger van het filosofisch behaviorisme, op dat moment de hoofdredacteur van tijdschrift [*Mind*](https://en.wikipedia.org/wiki/Mind_%28journal%29 "'Mind (journal)', Wikipedia") was, waar Turings artikel in verscheen.
 
 [^2]: Zelf maakte ik me ook schuldig aan dit argument in [deze recensie](/blog/22/06/is-kunstmatige-intelligentie-wel-echt-intelligent/ "'Is kunstmatige intelligentie wel écht intelligent?'") van [Guido van der Knaaps](https://www.linkedin.com/in/guido-van-der-knaap/) toegankelijke [*Van Aristoteles tot algoritme: Filosofie van kunstmatige intelligentie*](https://www.boomfilosofie.nl/product/100-10536_Van-Aristoteles-tot-algoritme "Guido van der Knaap, 'Van Aristoteles tot algoritme: Filosofie van kunstmatige intelligentie', Boom 2022").
