@@ -1,4 +1,4 @@
-body, body *:not(code):not(code span) {
+body, body *:not(code):not(code span):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
     font-family: Arial, sans-serif;
 }
 
