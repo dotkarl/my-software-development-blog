@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-10-10T13:12:07+02:00
 draft: true
 comments: true
-tags: []
+tags: ['continuous delivery', 'sprint retrospective', 'trunk-based development']
 summary: "Op het virtuele bord van onze Retrospective verscheen in de kolom <span style=\"font-variant:small-caps;\">kan beter</span> een sticky met maar één woord erop: 'trunk'. Na een aardige tijd *trunk-based* te hebben ontwikkeld, bekende een collega de werkwijze nog altijd niet helemaal onder de knie te hebben."
 ---
 
