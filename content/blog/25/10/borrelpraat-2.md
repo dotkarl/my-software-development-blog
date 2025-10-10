@@ -1,11 +1,11 @@
 ---
 title: "Borrelpraat #2"
 author: "Karl van Heijster"
-date: 2025-08-01T08:24:55+02:00
-draft: true
+date: 2025-10-10T08:47:35+02:00
+draft: false
 comments: true
 tags: ["communicatie", "falen", "feedback", "leermoment", "psychologische veiligheid", "samenwerking", "software ontwikkelen", "teamcultuur", "verantwoordelijkheid"]
-summary: "Hij dronk cola, ik een biertje -- maar verder zitten we op één lijn. Het duurde niet lang voordat het over de zoekindex ging -- altijd die verdomde zoekindex. \"Dat is al vanaf het begin een pijnpunt,\" wist ik te vertellen. \"En ik ben zelf onderdeel van het probleem geweest.\""
+summary: "Hij dronk cola, ik een biertje -- maar verder zitten we op één lijn. Het duurde niet lang voordat het over de zoekindex ging -- altijd die verdomde zoekindex. \"Dat is al vanaf het begin een pijnpunt,\" bekende ik. \"En ik ben zelf onderdeel van het probleem geweest.\""
 ---
 
 # Of: De kwestie feedback
@@ -14,7 +14,7 @@ summary: "Hij dronk cola, ik een biertje -- maar verder zitten we op één lijn.
 Het leuke aan zo'n borrel, nou, dat is de ~~alcohol~~ ~~bitterballen~~ [borrelpraat](/blog/25/05/borrelpraat/ "'Borrelpraat'"). 
 
 
-Hij dronk cola, ik een biertje -- maar verder zitten we op één lijn. Hij was bezig een waanzinnig complexe [SQL](/tags/sql/ "Blogs met de tag 'SQL'")-query om te schrijven; ik wist over welke hij het had, en ik wist wie 'm geschreven had. Hij glimlachte scheef: "Als ik die naam in de [*git history*](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History "'Git Basics - Viewing the Commit History', Git") tegenkom, dan weet ik dat ik op moet letten."
+Hij dronk cola, ik een biertje -- maar verder zitten we op één lijn. Hij was bezig een waanzinnig complexe [SQL](/tags/sql/ "Blogs met de tag 'SQL'")-query om te schrijven; ik wist over welke hij het had, en ik wist wie 'm geschreven had. Hij glimlachte scheef: "Als ik die naam tegenkom in de [*git history*](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History "'Git Basics - Viewing the Commit History', Git"), dan weet ik dat ik op moet letten."
 
 
 "Hij was van de school: [*move fast and break things*](https://en.wikipedia.org/wiki/Move_fast_and_break_things "'Move fast and break things', Wikipedia")," herinnerde ik me. Waarde leveren kon 'ie heel goed, maar het leverde niet altijd de eenvoudigste code op. 
@@ -29,7 +29,7 @@ Als je snel gaat, is het makkelijk om de zaken moeilijk te maken. Juist om de bo
 Hij had mijn plek overgenomen [toen ik verhuisde naar een ander team](/blog/25/08/gaan-we-snel-genoeg/ "'Gaan we snel genoeg?'") -- althans, zo zou je het kunnen zeggen. We bezagen de code dus vanuit verschillende perspectieven: ik in retrospectief; hij er middenin.
 
 
-Het duurde niet lang voordat het over de zoekindex ging -- altijd die verdomde zoekindex.[^1] "Dat is al vanaf het begin een pijnpunt," wist ik te vertellen. "En ik ben zelf onderdeel van het probleem geweest."
+Het duurde niet lang voordat het over de zoekindex ging -- altijd die verdomde zoekindex.[^1] "Dat is al vanaf het begin een pijnpunt," bekende ik. "En ik ben zelf onderdeel van het probleem geweest."
 
 
 We hadden het idee opgevat om (delen van) de informatie in onze applicatie in een aparte zoekindex van [Azure Cognitive Search](https://en.wikipedia.org/wiki/Azure_Cognitive_Search "'Azure Cognitive Search', Wikipedia") op te slaan om redenen die destijds heel logisch klonken, maar die we niet helemaal uit hadden gedacht. Een collega had een *proof of concept* gedaan en het zag er veelbelovend uit.
@@ -65,7 +65,7 @@ Maar ik heb ook op directere manieren bijgedragen aan problemen waar het team no
 Ik ben niet degene die deze *library* in de codebase geïntroduceerd heeft, maar ik was er wel een enthousiast gebruiker van. Destijds las ik [*Functional Programming in C#*](https://www.manning.com/books/functional-programming-in-c-sharp-second-edition) van [Enrico Buonanno](https://twitter.com/la_yumba) ([mijn favoriete boek van 2022](/blog/22/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2022-las/ "'De beste boeken over software ontwikkeling die ik in 2022 las'")) en bracht maar wat graag de ideeën die ik daarin las in de praktijk.[^2] 
 
 
-De omslag van [objectgeoriënteerd](/tags/objectgeoriënteerd-programmeren/) naar functioneel programmeren is stimulerend en uitdagend. Ik kan het elke ontwikkelaar aanraden zich beide paradigma's eigen te maken: het zal je vermogen om problemen met code op te lossen aanzienlijk vergroten. Maar je kunt je afvragen of het verstandig is om die denkbeweging te maken in de code die je schrijft in opdracht van je werkgever. 
+De omslag van [objectgeoriënteerd](/tags/objectgeoriënteerd-programmeren/) naar functioneel programmeren is stimulerend en uitdagend. Ik kan het elke ontwikkelaar aanraden zich beide paradigma's eigen te maken: het zal je vermogen om problemen met code op te lossen aanzienlijk vergroten. Maar je kunt je afvragen of het verstandig is om die denkbeweging te maken in de code die je schrijft in teamverband en in opdracht van je werkgever. 
 
 
 Het probleem daarvan is niet dat de code op zichzelf er slechter van wordt. Het probleem zit 'm in de onderhoudbaarheid van die code, en dan met name in de mate waarin je teamgenoten -- de teamgenoten die die omslag (nog) niet of niet volledig hebben gemaakt -- jouw code aan kunnen passen wanneer dat nodig is.
@@ -76,7 +76,7 @@ Dit is geen nieuwe les. [Toen ik opmerkte](/blog/24/07/imperatieve-options/ "Imp
 
 > [D]enk goed na over wat het betekent voor een team wanneer je functionele (i.e. declaratieve) programmeertechnieken introduceert in een traditioneel objectgeoriënteerde (i.e. imperatieve) omgeving. (...)
 >
-> Functioneel programmeren vraagt niet alleen een andere manier van programmeren dan objectgeoriënteerd programmeren, het vraagt om een andere manier van denken. – Is het team bereid om zich die nieuwe manier van denken eigen te maken? Zijn ze zich überhaupt bewust van het feit dat ze dat zullen moeten doen? En is er ruimte om hen daarin te begeleiden?
+> Functioneel programmeren vraagt niet alleen een andere manier van programmeren dan objectgeoriënteerd programmeren, het vraagt om een andere manier van denken. -- Is het team bereid om zich die nieuwe manier van denken eigen te maken? Zijn ze zich überhaupt bewust van het feit dat ze dat zullen moeten doen? En is er ruimte om hen daarin te begeleiden?
 > 
 > Softwareontwikkeling is een ten diepste sociale aangelegenheid. Hoe plezierig het ook is om mooiere code te schrijven dankzij nieuwe technieken, je mag nooit uit het oog verliezen dat er ook andere mensen voor nodig zijn om die code te kunnen blijven onderhouden.
 
@@ -84,9 +84,7 @@ Dit is geen nieuwe les. [Toen ik opmerkte](/blog/24/07/imperatieve-options/ "Imp
 En eerder, [nadat ik op de *pyramid of doom* bedwong](/blog/24/02/callback-hell/ "'Callback hell'"):
 
 
-> [H]oe elegant en leesbaar het resultaat ook is, functionele C# is verre van idiomatische C#. Wat gebeurt er wanneer mijn teamgenoten een bug in mijn code lokaliseren? Kunnen ze deze nog zonder hulp (of zonder onnodig lange debugsesies) oplossen? En wat gebeurt er wanneer het team een nieuwe collega mag verwelkomen? Begrijpt deze wat er hier gebeurt? Wat als ‘ie vers is afgestudeerd van de hogeschool? En als ‘ie een doorgewinterde C#-veteraan is?
->
-> 
+> [H]oe elegant en leesbaar het resultaat ook is, functionele C# is verre van idiomatische C#. Wat gebeurt er wanneer mijn teamgenoten een bug in mijn code lokaliseren? Kunnen ze deze nog zonder hulp (of zonder onnodig lange debugsesies) oplossen? En wat gebeurt er wanneer het team een nieuwe collega mag verwelkomen? Begrijpt deze wat er hier gebeurt? Wat als 'ie vers is afgestudeerd van de hogeschool? En als 'ie een doorgewinterde C#-veteraan is?
 
 
 Een duiveltje op mijn linkerschouder[^3] bracht me er in dat specifieke geval toe alsnog een PR aan te maken voor deze oplossingsrichting. Mijn redenering was: als het voor mijn teamgenoten onbegrijpelijk is wat ik hier doe, dan neem ik aan dat te zullen horen tijdens de [*code review*](/tags/code-reviews/ "Blogs met de tag 'code reviews'").
@@ -126,6 +124,6 @@ De kater, zeggen ze, komt later. Het leuke aan zo'n borrel, dat is de borrelpraa
 
 [^2]: Lessen van die praktijkervaringen zijn in bijvoorbeeld [deze](/blog/24/05/functioneel-denken-een-praktijkvoorbeeld/ "'Functioneel denken: een praktijkvoorbeeld'") en [deze blog](/blog/24/09/bind-map-en-match/ "'Bind, Map en Match'") te vinden.
 
-[^3]: Ik vervolgde de bovenstaande passage als volgt: <blockquote><p>Ik zal eerlijk zijn. Hoe mooi ik functionele code ook vind, ik weet niet of het nu per se zo’n goede keus was om mijn code op die manier te schrijven.</p><p>Maar het duiveltje op mijn linkerschouder voegt daaraan toe: maar zo lang niemand me tegenhoudt, zal ik er mee doorgaan. Het engeltje aan de rechterkant brengt hoopvol in dat het team, net als ikzelf, er misschien nog wat van opsteekt.</p></blockquote> Zeg het maar: oprechte verheffingspoging of louter ijdelheid? 
+[^3]: Ik vervolgde de bovenstaande passage als volgt: <blockquote><p>Ik zal eerlijk zijn. Hoe mooi ik functionele code ook vind, ik weet niet of het nu per se zo'n goede keus was om mijn code op die manier te schrijven.</p><p>Maar het duiveltje op mijn linkerschouder voegt daaraan toe: maar zo lang niemand me tegenhoudt, zal ik er mee doorgaan. Het engeltje aan de rechterkant brengt hoopvol in dat het team, net als ikzelf, er misschien nog wat van opsteekt.</p></blockquote> Zeg het maar: oprechte verheffingspoging of louter ijdelheid? 
 
-[^4]: Het zullen ongetwijfeld ervaringen als deze zijn geweest die me ertoe brachten [deze blog](HOE_VERHOGEN_WE_KWALITEIT) te schrijven.
+[^4]: Het zullen ongetwijfeld ervaringen als deze zijn geweest die me ertoe brachten [deze blog](/blog/25/08/hoe-verhogen-we-kwaliteit/ "'Hoe verhogen we kwaliteit?'") te schrijven.
