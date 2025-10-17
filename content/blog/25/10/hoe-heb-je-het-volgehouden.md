@@ -1,8 +1,8 @@
 ---
 title: "Hoe heb je het volgehouden?"
 author: "Karl van Heijster"
-date: 2025-08-08T08:23:57+02:00
-draft: true
+date: 2025-10-17T08:53:32+02:00
+draft: false
 comments: true
 tags: ["falen", "leren", "procesverbetering", "samenwerking", "teamcultuur", "verandering", "werkplezier"]
 summary: "Software ontwikkelen is niet makkelijk, het is van zichzelf al niet makkelijk en het wordt nog moeilijker omdat je met mensen werkt en mensen zijn nooit makkelijk."
