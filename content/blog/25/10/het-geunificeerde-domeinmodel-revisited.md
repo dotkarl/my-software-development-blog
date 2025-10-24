@@ -1,8 +1,8 @@
 ---
 title: "Het geünificeerde domeinmodel, revisited"
 author: "Karl van Heijster"
-date: 2025-08-15T09:17:01+02:00
-draft: true
+date: 2025-10-24T09:24:58+02:00
+draft: false
 comments: true
 tags: ["domeinmodel", "filosofie"]
 summary: "Binnen applicatie *a* is het zinvol om van conceptitems te spreken, binnen applicatie *b* niet. Binnen applicatie *b* is het zinvol om van de P-waarde (moeilijkheidsgraad) van een item te spreken, binnen applicatie *a* niet. Heeft het(zelfde) woord \"item\" dan dezelfde betekenis in binnen de context van beide applicaties, of niet? Moet het `Item` in het geünificeerde domeinmodel de property's `IsConcept` of `PValue` bevatten? "
@@ -17,7 +17,7 @@ Laten we zeggen dat applicatie *a* verantwoordelijk is voor het construeren van 
 Als applicatie *a* het over een item *x* heeft, en applicatie *b* heeft het over een item *x*, dan hebben ze het, zou je zeggen, over hetzelfde. En ze zouden dus ook hetzelfde model moeten gebruiken om dat ding te beschrijven.
 
 
-De vooronderstelling is hier: een woord heeft één betekenis -- misschien niet altijd in de praktijk, maar wel in principe. Het item van applicatie *a* is hetzelfde item van applicatie *b*. 
+De vooronderstelling is hier: een woord heeft één betekenis -- misschien niet altijd in de praktijk (bijvoorbeeld in het geval van [homoniemen](https://nl.wikipedia.org/wiki/Homoniem "'Homoniem', Wikipedia")), maar wel in principe. Het item van applicatie *a* is hetzelfde item van applicatie *b*. 
 
 
 {{< asterisk >}}
