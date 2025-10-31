@@ -1,8 +1,8 @@
 ---
 title: "Oppervlakkige en diepe modules"
 author: "Karl van Heijster"
-date: 2025-08-29T09:17:46+02:00
-draft: true
+date: 2025-10-31T08:25:06+01:00
+draft: false
 comments: true
 tags: ['boeken', 'clean code']
 summary: "Eén van de interessantste ideeën die John Ousterhout naar voren brengt in *A Philosophy of Software Design*, is de notie van oppervlakkige en diepe modules. Een module is oppervlakkig als deze veel (onnodige) complexiteit aan de gebruiker van de module openbaart. Ze is diep als ze die complexiteit juist verbergt."
@@ -25,7 +25,7 @@ Visueel ziet dat er zo uit, waarbij je je voor moet stellen dat de bovenkant van
     |_|
 
 
-## Codevoorbeeld: een oppervlakkige module
+## Een oppervlakkige module
 
 Stel, je schrijft een interface die een externe bibliotheek wrapt. (Maar let op, deze concepten zijn niet beperkt tot deze *use case*; wat geldt voor externe bibliotheken geldt net zozeer voor je eigen code.) 
 
@@ -46,7 +46,7 @@ De method verbergt nauwelijks, misschien zelfs geen enkele complexiteit voor de 
 Deze module is oppervlakkig omdat alle implementatiedetails zich "aan de oppervlakte" bevinden.
 
 
-## Codevoorbeeld: een diepe module
+## Een diepe module
 
 
 Dit is een dieper variant:
@@ -73,13 +73,13 @@ De method verbergt complexiteit op verschillende manieren.
 Ten eerste verbergt het bepaalde inputs van de externe bibliotheek. Een gebruiker hoeft zich niet te bekommeren om de waarden van `arg2` en `arg3`, want binnen de context waarin deze wrapper is geschreven weten we dat de opgegeven default waarde altijd de juiste is.
 
 
-Ten tweede beperkt het de variabiliteit van de geopenbaarde input door er een `enum` van te maken. Een `string` kan een oneindig aantal waarden hebben, maar niet alle waarden zijn (binnen de context waarin de wrapper gebruikt gaat worden) valide. De `enum` communiceert heel duidelijk wat binnen de reikweidte van valide waarden valt.
+Ten tweede beperkt het de variabiliteit van de input door een `enum` van de overgebleven parameter van te maken. Een `string` kan een oneindig aantal waarden hebben, maar niet alle waarden zijn (binnen de context waarin de wrapper gebruikt gaat worden) valide. De `enum` communiceert heel duidelijk wat binnen de reikweidte van valide waarden valt.
 
 
 Ten derde verbergt het de output van de externe bibliotheek. In plaats van het oorspronkelijke object, inclusief alle niet-relevante properties en methods, terug te geven aan de gebruiker, geeft het een maatwerkobject terug dat alle informatie bevat die de gebruiker nodig heeft, en niet meer dan dat. 
 
 
-Deze module is diep omdat alleen de voor de gebruiker relevante informatie zich aan de oppervlakte bevindt. De overige implementatiedetails bevinden zich "onder de oppervlakte" -- in de method zelf, achter de functiesignatuur.
+Deze module is diep omdat alleen de voor de gebruiker relevante informatie zich aan de oppervlakte bevindt. De irrelevante details, de implementatiedetails dus, bevinden zich "onder de oppervlakte" -- in de method zelf, achter de functiesignatuur.
 
 
 ## Een ander perspectief
@@ -106,7 +106,7 @@ Maar er is ook een positief argument voor kleine methods. Er is in dezen een rel
 Is het beter om enkele grote modules -- grote classes met grote methods -- te hebben waarvan de delen impliciet zijn, of veel kleine maar expliciet gelabelde kleine modules?
 
 
-Het is uiteraard onmogelijk om die vraag *in abstracto* te beantwoorden (zie ook [deze blog](/blog/25/08/hoe-verhogen-we-kwaliteit/ 'Hoe verhogen we kwaliteit?')), en dat ben ik ook niet van plan om te doen. Belangrijker dan antwoord geven op de vraag, is begrijpen waarom beide kampen pleiten voor hun respectievelijke aanpak. Dat stelt ons als ontwikkelaars in staat om elke keer opnieuw de afweging te maken: wil ik deze module in dit geval verdiepen of juist vervlakken?
+Het is uiteraard onmogelijk om die vraag *in abstracto* te beantwoorden (zie ook [deze blog](/blog/25/08/hoe-verhogen-we-kwaliteit/ 'Hoe verhogen we kwaliteit?')), en dat ben ik ook niet van plan. Belangrijker dan antwoord geven op de vraag, is begrijpen waarom beide kampen pleiten voor hun respectievelijke aanpak. Dat stelt ons als ontwikkelaars in staat om elke keer opnieuw de afweging te maken: wil ik deze module in dit geval verdiepen of juist vervlakken?
 
 
 Softwareontwikkeling is geen mechanistische bezigheid. Coderen heeft soms ook wat weg van kunst.
