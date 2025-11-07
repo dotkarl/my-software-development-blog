@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-08-15T08:52:19+02:00
 draft: false
 comments: true
-tags: ["continuous delivery", "contracttesten", "end to end testen", "program increment planning", "testen"]
+tags: ["continuous delivery", "continuous deployment", "contracttesten", "end to end testen", "program increment planning", "testen"]
 summary: "De laatste PI-planning stond er een interessante sessie op de agenda: 'Releasen als het spannend wordt'. De titel intrigeerde ons. Met de boekenclub lazen we op dat moment *Continuous Deployment* van Valentina Servile, dus de hele notie van een *spannende release* deed de wenkbrauwen fronsen. Waar kwam dit gevoel vandaan?"
 ---
 

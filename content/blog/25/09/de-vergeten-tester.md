@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-09-19T08:22:28+02:00
 draft: false
 comments: true
-tags: ["samenwerking", "software ontwikkelaar (rol)", "testen", "tester (rol)", "verantwoordelijkheid"]
+tags: ["continuous deployment", "samenwerking", "software ontwikkelaar (rol)", "testen", "tester (rol)", "verantwoordelijkheid"]
 summary: "Twee dingen kunnen tegelijkertijd waar zijn. (1) Ik vind de tester de belangrijkste rol hebben in het team. (2) Ik wil geen tester in het team. -- Ik wil haast zeggen: de rol van de tester is te belangrijk om bij een tester neer te leggen, maar die uitspraak is makkelijk te misinterpreteren en nodeloos provocerend. En toch..."
 ---
 

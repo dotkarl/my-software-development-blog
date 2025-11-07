@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2025-08-01T08:06:44+02:00
 draft: false
 comments: true
-tags: ["druk", "software ontwikkelaar (rol)", "software ontwikkelen", "vakmanschap", "verantwoordelijkheid"]
+tags: ["continuous deployment", "druk", "software ontwikkelaar (rol)", "software ontwikkelen", "vakmanschap", "verantwoordelijkheid"]
 summary: "Sinds kort ben ik in van team gewisseld. Sinds die wissel mag ik mezelf met recht *full stack developer* noemen. Ik ben verantwoordelijk voor de back-end, de front-end -- de database, de infrastructuur, security -- de requirementsanalyse, de tests... Je kunt je voorstellen: het kan even duren voordat een (ogenschijnlijk) eenvoudige feature afgerond is. Af en toe maakt een knagend schuldgevoel zich dan ook meester van me: *gaan we snel genoeg?*"
 ---
 
