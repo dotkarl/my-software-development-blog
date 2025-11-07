@@ -1,5 +1,5 @@
 ---
-title: "'Trunk'"
+title: "\"Trunk\""
 author: "Karl van Heijster"
 date: 2025-10-10T13:12:07+02:00
 draft: true
