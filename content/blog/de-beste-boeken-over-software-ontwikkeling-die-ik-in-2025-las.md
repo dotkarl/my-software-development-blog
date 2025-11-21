@@ -74,7 +74,13 @@ Enkele van mijn persoonlijke favorieten: wijzig je code in kleine commits, behan
 ### 5. Mary Poppendieck & Tom Poppendieck - [*Lean Software Development: An Agile Toolkit*](https://www.oreilly.com/library/view/lean-software-development/0321150783/ "Mary Poppendieck & Tom Poppendieck, 'Lean Software Development: An Agile Toolkit', O'Reilly Inc. 2003")
 
 
-... [kan nog iets anders worden?]
+Een stukgelezen exemplaar van dit boek heeft letterlijk jarenlang in (of op) de kast gestaan bij mijn werkgever, het stond er al toen onze werkplekken nog op de eerste verdieping waren en onze softwarebibliotheek uit niet meer dan een handvol managementboeken bestond. De oubollige cover heeft me altijd afgeschrokken en dat is jammer, want *Lean Software Development* is absoluut een klassieker in het genre en staat vol met wijze lessen die vandaag de dag nog van toepassing zijn. Het minimaliseren van *work in progress* is er bijvoorbeeld zo eentje die ik uit dit boek opdeed. 
+
+
+Maar het belangrijkste inzicht dat Mary en Tom Poppendieck me gaven, zat 'm in de praktijk van *value stream mapping*. Daarbij wordt in beeld gebracht wat het proces is van idee naar implementatie -- en wat de verhouding is tussen de tijd dat er daadwerkelijk wat gebeurt en de tijd dat men op elkaar zit te wachten. Wanneer je vanuit die invalshoek naar het werk kijkt, wordt ineens duidelijk hoe zinloos het is om je werk zo te organiseren dat iedereen altijd maar *bezig* is. Verstandiger is om je af te vragen: hoe organiseer je je werk zodanig dat je het snelst waarde levert? 
+
+
+Laat het een waarschuwing zijn: wie *Lean Software Development* eenmaal heeft gelezen kan de enorme hoeveelheid verspilling in zijn of haar team nooit meer ont-zien!
 
 
 ## Eervolle vermeldingen
