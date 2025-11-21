@@ -1,8 +1,8 @@
 ---
 title: "23 introducties"
 author: "Karl van Heijster"
-date: 2025-10-03T08:45:38+02:00
-draft: true
+date: 2025-11-21T08:24:42+01:00
+draft: false
 comments: true
 tags: ['presenteren']
 summary: "Onlangs sprak ik op Noordertest, een testconferentie in Groningen. Een aantal weken van tevoren kreeg ik een verzoek in mijn mail om een pakkend tekstje te schrijven waarmee ik kon worden geïntroduceerd. -- Ik schreef er drieëntwintig."
@@ -237,6 +237,15 @@ Karl van Heijster heeft de opdracht gekregen in maximaal vijfhonderd tekens iets
 
 
 Wie is Karl van Heijster? We zullen het nooit weten. Dames en heren, graag een hartelijk applaus voor: Karl van Heijster!
+
+
+{{< asterisk >}}
+
+
+## Postscript
+
+
+Uiteindelijk: de zaalvoorzitter keek naar het kaartje, humde, en verzon ter plekke zelf een introductie. Je verzint het niet. 
 
 
 [^1]: De daad bij het woord: [Wittgenstein heeft zijn eigen tag](/tags/wittgenstein-ludwig/ "Blogs met de tag 'wittgenstein, ludwig'") op dit blog.
