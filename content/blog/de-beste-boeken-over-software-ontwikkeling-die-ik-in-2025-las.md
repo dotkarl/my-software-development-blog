@@ -85,7 +85,8 @@ Laat het een waarschuwing zijn: wie *Lean Software Development* eenmaal heeft ge
 
 ## Eervolle vermeldingen
 
-- John Ousterhout - [*A Philosophy of Software Design*](https://web.stanford.edu/~ouster/cgi-bin/aposd.php "John Ousterhout, 'A Philosophy of Software Design, 2nd Edition'")
+- John Ousterhout - [*A Philosophy of Software Design*](https://web.stanford.edu/~ouster/cgi-bin/aposd.php "John Ousterhout, 'A Philosophy of Software Design, 2nd Edition', Yaknyam Press 2021")
 - Kent Beck - [*Test-Driven Development: By Example*](https://www.oreilly.com/library/view/test-driven-development/0321146530/ "Kent Beck, 'Test-Driven Development: By Example', Addison-Wesley Professional 2002")
 - Cate Huston - [*The Engineering Leader: Strategies for Scaling Teams and Yourself*](https://www.oreilly.com/library/view/the-engineering-leader/9781098154059/ "Cate Huston, 'The Engineering Leader: Strategies for Scaling Teams and Yourself', O'Reilly Inc. 2024")
-- Piotr Sarna & Cynthia Dunlop - [*Writing for Developers: Blogs that get read*](https://www.manning.com/books/writing-for-developers "Piotr Sarna & Cynthia Dunlop, 'Writing for Developers: Blogs that get read', Manning")
+- Piotr Sarna & Cynthia Dunlop - [*Writing for Developers: Blogs that get read*](https://www.manning.com/books/writing-for-developers "Piotr Sarna & Cynthia Dunlop, 'Writing for Developers: Blogs that get read', Manning 2025")
+- Mark Cole - [*Being at Work: Using Existentialism to Make Sense of Your Organisational Life*](https://www.routledge.com/Being-at-Work-Using-Existentialism-to-Make-Sense-of-Your-Organisational-Life/Cole/p/book/9781032953892 "Mark Cole, 'Being at Work: Using Existentialism to Make Sense of Your Organisational Life', Routledge 2025").
