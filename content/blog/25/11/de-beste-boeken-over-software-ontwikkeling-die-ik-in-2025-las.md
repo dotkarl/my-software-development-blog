@@ -1,17 +1,14 @@
 ---
 title: "De beste boeken over software ontwikkeling die ik in 2025 las"
 author: "Karl van Heijster"
-date: 2025-09-12T14:42:48+02:00
-draft: true
+date: 2025-11-28T08:06:25+01:00
+draft: false
 comments: true
 tags: ["boeken", "toplijsten"]
 summary: "*A* leidt tot *B* en *B* leidt tot *C*, dus als we *C* willen, moeten we *A*. Dat is hoe ons denken er normaal gesproken ongeveer uitziet, en dat is helemaal prima. Maar ja, weet je, de werkelijkheid werkt dus niet zo. Want in de werkelijkheid leidt *A* niet alleen tot *B* maar ook tot *D*, *E* en *F*, en dat zijn dingen die een negatieve impact op *C* (en *B* en misschien ook op *A*) hebben. Soms is het zelfs beter om *A* en *B* helemaal niet te doen, of juist het tegenovergestelde, als we *C* willen bereiken. Dat is hoe de werkelijkheid wél werkt. Maar ja, ga dat maar eens aan je collega's uitleggen."
 ---
 
-Daar gaan we weer!
-
-
-(Klik voor [2020](/blog/21/05/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2020-las/ "'De beste boeken over software ontwikkeling die ik in 2020 las'"), [2021](/blog/21/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2021-las/ "'De beste boeken over software ontwikkeling die ik in 2021 las'"), [2022](/blog/22/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2022-las/ "'De beste boeken over software ontwikkeling die ik in 2022 las'"), [2023](/blog/23/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2023-las/ "'De beste boeken over software ontwikkeling die ik in 2023 las'") en [2025](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/ "'De beste boeken over software ontwikkeling die ik in 2024 las'"). Zie ook mijn [verre van complete lijst aan boekentips](/blog/25/07/een-verre-van-complete-lijst-boekentips/ "'Een (verre van complete) lijst boekentips'"))
+Na [2020](/blog/21/05/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2020-las/ "'De beste boeken over software ontwikkeling die ik in 2020 las'"), [2021](/blog/21/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2021-las/ "'De beste boeken over software ontwikkeling die ik in 2021 las'"), [2022](/blog/22/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2022-las/ "'De beste boeken over software ontwikkeling die ik in 2022 las'"), [2023](/blog/23/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2023-las/ "'De beste boeken over software ontwikkeling die ik in 2023 las'") en [2024](/blog/24/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2024-las/ "'De beste boeken over software ontwikkeling die ik in 2024 las'"), mag ik nu eindelijk weer zeggen: daar gaan we weer! (Zie ook mijn [verre van complete lijst aan boekentips](/blog/25/07/een-verre-van-complete-lijst-boekentips/ "'Een (verre van complete) lijst boekentips'"))
 
 
 ## Top 1 - 5 
@@ -74,7 +71,7 @@ Enkele van mijn persoonlijke favorieten: wijzig je code in kleine commits, behan
 ### 5. Mary Poppendieck & Tom Poppendieck - [*Lean Software Development: An Agile Toolkit*](https://www.oreilly.com/library/view/lean-software-development/0321150783/ "Mary Poppendieck & Tom Poppendieck, 'Lean Software Development: An Agile Toolkit', O'Reilly Inc. 2003")
 
 
-Een stukgelezen exemplaar van dit boek heeft letterlijk jarenlang in (of op) de kast gestaan bij mijn werkgever, het stond er al toen onze werkplekken nog op de eerste verdieping waren en onze softwarebibliotheek uit niet meer dan een handvol managementboeken bestond. De oubollige cover heeft me altijd afgeschrokken en dat is jammer, want *Lean Software Development* is absoluut een klassieker in het genre en staat vol met wijze lessen die vandaag de dag nog van toepassing zijn. Het minimaliseren van *work in progress* is er bijvoorbeeld zo eentje die ik uit dit boek opdeed. 
+Een stukgelezen exemplaar van dit boek heeft letterlijk jarenlang in (of op) de kast gestaan bij mijn werkgever, het stond er al toen onze werkplekken nog op de eerste verdieping waren en onze softwarebibliotheek uit niet meer dan een handvol managementboeken bestond. De oubollige cover heeft me altijd afgeschrokken en dat is jammer, want *Lean Software Development* is absoluut een klassieker en staat vol met wijze lessen die vandaag de dag nog van toepassing zijn. Het minimaliseren van *work in progress* is er bijvoorbeeld zo eentje die ik uit dit boek opdeed. 
 
 
 Maar het belangrijkste inzicht dat Mary en Tom Poppendieck me gaven, zat 'm in de praktijk van *value stream mapping*. Daarbij wordt in beeld gebracht wat het proces is van idee naar implementatie -- en wat de verhouding is tussen de tijd dat er daadwerkelijk wat gebeurt en de tijd dat men op elkaar zit te wachten. Wanneer je vanuit die invalshoek naar het werk kijkt, wordt ineens duidelijk hoe zinloos het is om je werk zo te organiseren dat iedereen altijd maar *bezig* is. Verstandiger is om je af te vragen: hoe organiseer je je werk zodanig dat je het snelst waarde levert? 
