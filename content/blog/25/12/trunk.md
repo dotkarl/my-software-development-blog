@@ -1,8 +1,8 @@
 ---
 title: "\"Trunk\""
 author: "Karl van Heijster"
-date: 2025-10-10T13:12:07+02:00
-draft: true
+date: 2025-12-05T07:21:24+01:00
+draft: false
 comments: true
 tags: ["continuous delivery", "continuous deployment", "sprint retrospective", "trunk-based development"]
 summary: "Op het virtuele bord van onze Retrospective verscheen in de kolom <span style=\"font-variant:small-caps;\">kan beter</span> een sticky met maar één woord erop: 'trunk'. Na een aardige tijd *trunk-based* te hebben ontwikkeld, bekende een collega de werkwijze nog altijd niet helemaal onder de knie te hebben."
@@ -29,7 +29,7 @@ Zo lang je die aanname, die overtuiging niet loslaat, dan is *continuous deploym
 Begrijp me niet verkeerd, het is een heel begrijpelijke aanname. De meeste ontwikkelaars anno nu -- ik ook -- zijn opgegroeid in een wereld waarin er wordt gewerkt met [*pull requests*](/tags/pull-requests/ "Blogs met de tag 'pull requests'") (PRs). Die manier van werken schrijft voor: trek een nieuwe branch van de main branch, doe daar je wijzigingen op, en zodra je wijzigingen compleet zijn, merge die branch dan terug. 
 
 
-Binnen die wereld is het idee dat features pas gemergd worden volstrekt gerechtvaardigd. Sterker nog, de hele bestaansreden van [feature branches](/tags/feature-branching/ "Blogs met de tag 'feature branching'") zit 'm in het gescheiden houden van voltooide van onvoltooide code. 
+Binnen die wereld is het idee dat features pas gemergd worden als ze af zijn, volstrekt gerechtvaardigd. Sterker nog, de hele bestaansreden van [feature branches](/tags/feature-branching/ "Blogs met de tag 'feature branching'") zit 'm in het gescheiden houden van voltooide van onvoltooide code. 
 
 
 Maar het is belangrijk om te beseffen: die overtuiging komt voort uit een conventie, en zodra je die conventie laat varen, dien je de overtuiging eveneens los te laten. Het probleem van mijn collega, was dat hij met het [mentale model](/tags/mentaal-model/ "Blogs met de tag 'mentaal model'") van feature branches toepaste op de realiteit van *trunk-based development* en *continuous deployment*.
@@ -53,7 +53,7 @@ Je kunt wel honderd keer per dag naar productie deployen, zo lang je gebruikers 
 'Het klinkt heel eenvoudig, wat je zegt,' zei hij. 'Maar in de praktijk blijft het toch lastig.'
 
 
-'Dat klopt,' antwoordde ik, 'totdat je het doorhebt.
+'Dat klopt,' antwoordde ik. 'Totdat je het doorhebt.'
 
 
-[^1]: Hoe dat op een veilige manier kan, wordt uitgebreid uiteengezet in [*Continuous Deployment*](https://www.oreilly.com/library/view/continuous-deployment/9781098146719/ "Valentina Servile, 'Continuous Deployment: Enable Faster Feedback, Safer Releases, and More Reliable Software', O'Reilly Media Inc. 2024") van [Valentina Servile](https://www.linkedin.com/in/valentina-servile/), [één van mijn favoriete boeken van 2025](LINK_HERE_PLEASE). Toen hij in het team begon, gaf ik hem mijn exemplaar van het boek, maar hij heeft het, helaas, niet gelezen.
+[^1]: Hoe dat op een veilige manier kan, wordt uitgebreid uiteengezet in [*Continuous Deployment*](https://www.oreilly.com/library/view/continuous-deployment/9781098146719/ "Valentina Servile, 'Continuous Deployment: Enable Faster Feedback, Safer Releases, and More Reliable Software', O'Reilly Media Inc. 2024") van [Valentina Servile](https://www.linkedin.com/in/valentina-servile/), [één van mijn favoriete boeken van 2025](/blog/25/11/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2025-las/ "'De beste boeken over software ontwikkeling die ik in 2025 las'"). Toen hij in het team begon, gaf ik hem mijn exemplaar van het boek. Maar twee maanden later gaf hij het me terug, helaas ongelezen.
