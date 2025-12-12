@@ -3,6 +3,7 @@ body, body *:not(code):not(code span):not(h1):not(h2):not(h3):not(h4):not(h5):no
 }
 
 html {
+    font-size: 16px;
     max-width: 800px;
     margin: auto;
 }
