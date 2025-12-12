@@ -1,20 +1,20 @@
 ---
 title: "Gegenereerde tests"
 author: "Karl van Heijster"
-date: 2025-10-17T10:36:44+02:00
-draft: true
+date: 2025-12-12T08:04:42+01:00
+draft: false
 comments: true
 tags: ["kunstmatige intelligentie", "testen", "test-driven development"]
-summary: "Als ik collega's spreek over de voordelen van LLMs, dan is meestal één van de eerste toepassingen die ze voor zich zien: achteraf tests laten genereren door AI. Ik begrijp waar die behoefte vandaan komt. Want tests achteraf schrijven is een rotklusje. Op dat moment denk je als ontwikkelaar namelijk al te weten dat je code doet wat 'ie moet doen. Zulke tests fungeren als een soort administratie van de handmatige tests die je tot die conclusie leidden. En wie houdt er nu van zijn administratie bijwerken? -- En toch geloof ik niet dat het een goed idee is om AI in te zetten om tests te genereren. "
+summary: "Als ik collega's spreek over de voordelen van LLMs, dan is meestal één van de eerste toepassingen die ze voor zich zien: tests laten genereren door AI. Ik begrijp waar die behoefte vandaan komt. Want tests achteraf schrijven is een rotklusje. Achteraf denk je als ontwikkelaar namelijk al te weten dat je code doet wat 'ie moet doen. Zulke tests fungeren als een soort administratie van de handmatige tests die je tot die conclusie leidden. En wie houdt er nu van zijn administratie bijwerken? -- En toch geloof ik niet dat het een goed idee is om AI in te zetten om tests te genereren. "
 ---
 
 Wie me kent, weet dat ik een voorstander ben van [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) (tot vervelens toe). En toch, zal ik bekennen, heb ik het wel eens gedaan: achteraf tests laten genereren door [AI](/tags/kunstmatige-intelligentie/ "Blogs met de tag 'kunstmatige intelligentie'").
 
 
-En ik ben niet de enige. Als ik collega's spreek over de voordelen van [*large language models*](https://en.wikipedia.org/wiki/Large_language_model "'Large language model', Wikipedia") (LLMs), dan is meestal één van de eerste toepassingen die ze voor zich zien: achteraf tests laten genereren door AI.
+En ik ben niet de enige. Als ik collega's spreek over de voordelen van [*large language models*](https://en.wikipedia.org/wiki/Large_language_model "'Large language model', Wikipedia") (LLMs), dan is meestal één van de eerste toepassingen die ze voor zich zien: tests laten genereren door AI.
 
 
-Ik begrijp waar die behoefte vandaan komt. Want tests achteraf schrijven is een rotklusje. (Ik sprak erover in [dit praatje](/talks/testen-een-filosofisch-retrospectief/ "'Testen: Een filosofisch retrospectief'").) Op dat moment denk je als ontwikkelaar namelijk al te weten dat je code doet wat 'ie moet doen. Zulke tests fungeren als een soort administratie van de handmatige tests die je tot die conclusie leidden. 
+Ik begrijp waar die behoefte vandaan komt. Want tests achteraf schrijven is een rotklusje. (Ik sprak erover in [dit praatje](/talks/testen-een-filosofisch-retrospectief/ "'Testen: Een filosofisch retrospectief'").) Achteraf denk je als ontwikkelaar namelijk al te weten dat je code doet wat 'ie moet doen. Zulke tests fungeren als een soort administratie van de handmatige tests die je tot die conclusie leidden. 
 
 
 En wie houdt er nu van zijn administratie bijwerken? Waarom zou je zo'n werk in hemelsnaam *niet* uitbesteden aan een machine?
