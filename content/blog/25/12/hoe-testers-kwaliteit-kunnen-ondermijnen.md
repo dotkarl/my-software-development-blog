@@ -1,8 +1,8 @@
 ---
 title: "Hoe testers kwaliteit kunnen ondermijnen"
 author: "Karl van Heijster"
-date: 2025-10-24T10:36:46+02:00
-draft: true
+date: 2025-12-19T08:22:36+01:00
+draft: false
 comments: true
 tags: ["complexiteit", "testen", "verantwoordelijkheid"]
 summary: "Een complex systeem is een systeem waarin het onmogelijk is om te voorspellen wat de relatie is tussen oorzaak en gevolg. Om die reden worden complexe systemen vaak gekenmerkt door tegenintuïtiviteit. Een ontwikkelteam kan worden gezien een complex systeem. Dus het verbeteren van een ontwikkelteam wordt gekenmerkt door tegenintuïtiviteit."
@@ -20,7 +20,7 @@ De kortste verbinding tussen *a* en *b* is in een complex systeem, bij wijze van
 ## Ontwikkelteam
 
 
-Een ontwikkelteam kan worden gezien een complex systeem. (Over het algemeen geldt: een systeem met mensen erin is een complex systeem, want mensen zijn op zichzelf al complexe systemen.) Dus het verbeteren van een ontwikkelteam wordt gekenmerkt door tegenintuïtiviteit.
+Een ontwikkelteam kan worden gezien een complex systeem. (Over het algemeen houd ik de volgende vuistregel aan: een systeem met mensen erin is een complex systeem. Want mensen laten zich nooit vangen in eenvoudige modellen van oorzaak en gevolg.) Dus het verbeteren van een ontwikkelteam wordt gekenmerkt door tegenintuïtiviteit.
 
 
 Stel, dit is je probleem. Je werkt in een organisatie waarin er grote druk op een ontwikkelteam staat om nieuwe features op te leveren. De ontwikkelaars werken zich in de rondte, maar de kwaliteit van het softwaresysteem[^2] dat ze produceren, is ondermaats. Het is traag en bevat een grote hoeveelheid bugs. 
@@ -41,6 +41,6 @@ De kwaliteit van de software daalt als gevolg van het aannemen van een tester. (
 De oplossing voor dit probleem is niet: het aannemen van nog meer testers. -- Maar wat is die dan wel? Denk tegenintuïtief!
 
 
-[^1]: Ik ontleen de term, tesamen met de systeemtheoretische benadering, aan [Diana Montalions](https://montalion.com/) [*Learning Systems Thinking*](https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/ "Diana Montalion, 'Learning Systems Thinking: Essential Nonlinear Skills and Practices for Software Professionals', O'Reilly Media, 2024"), mijn [favoriete boek van 2025](BESTE_BOEKEN_VAN_2025 "'De beste boeken over software ontwikkeling die ik in 2025 las'").
+[^1]: Ik ontleen de term, tezamen met de systeemtheoretische benadering, aan [Diana Montalions](https://montalion.com/) [*Learning Systems Thinking*](https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/ "Diana Montalion, 'Learning Systems Thinking: Essential Nonlinear Skills and Practices for Software Professionals', O'Reilly Media, 2024"), mijn [favoriete boek van 2025](/blog/25/11/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2025-las/ "'De beste boeken over software ontwikkeling die ik in 2025 las'").
 
-[^2]: Dit kan op zichzelf ook weer een complex systeem zijn. Sterker nog, in dit specifieke voorbeeld is het redelijk dit te veronderstellen. Zie [Vlad Khononovs](https://vladikk.com/) [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024"), mijn [op één na favoriete boek van 2025](BESTE_BOEKEN_VAN_2025 "'De beste boeken over software ontwikkeling die ik in 2025 las'"), voor een uitgebreide analyse.
+[^2]: Dit kan op zichzelf ook weer een complex systeem zijn. Sterker nog, in dit specifieke voorbeeld is het redelijk dit te veronderstellen. Zie [Vlad Khononovs](https://vladikk.com/) [*Balancing Coupling in Software Design*](https://www.pearson.com/en-us/subject-catalog/p/balancing-coupling-in-software-design-successful-software-architecture-in-general-and-distributed-systems/P200000000372/9780137353576 "Vlad Khononov, 'Balancing Coupling in Software Design: Universal Design Principles for Architecting Modular Software Systems', Addison-Wesley Professional 2024"), mijn [op één na favoriete boek van 2025](/blog/25/11/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2025-las/ "'De beste boeken over software ontwikkeling die ik in 2025 las'"), voor een uitgebreide analyse.
