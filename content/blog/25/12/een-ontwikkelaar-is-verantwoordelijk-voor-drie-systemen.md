@@ -1,8 +1,8 @@
 ---
 title: "Een ontwikkelaar is verantwoordelijk voor drie systemen"
 author: "Karl van Heijster"
-date: 2025-10-31T10:08:32+01:00
-draft: true
+date: 2025-12-26T07:24:41+01:00
+draft: false
 comments: true
 tags: ["agile ontwikkeling", "communicatie", "continuous delivery", "feedback", "refactoren", "samenwerking", "software ontwikkelaar (rol)", "sprint retrospective", "sprint review", "systeemdenken", "verantwoordelijkheid"]
 summary: "Ik weet niet meer waar ik de inval had, onder de douche of op de wc of tijdens het tanden poetsen (duidelijk is in elk geval dat het op de badkamer was): *een ontwikkelaar is verantwoordelijk voor (ten minste) drie systemen.*"
@@ -32,13 +32,13 @@ Wie geen verantwoordelijkheid neemt voor het gedrag van de code, produceert een 
 Er is een tweede systeem, systeem<sub>2</sub>, waar de ontwikkelaar zorg voor draagt. Dat is *het team dat de code onderhoudt*. -- Huh?
 
 
-In [*Learning Systems Thinking*](https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/ "Diana Montalion, 'Learning Systems Thinking: Essential Nonlinear Skills and Practices for Software Professionals', O'Reilly Media, 2024") ([mijn favoriete boek van afgelopen jaar](DE_BESTE_BOEKEN)) definieert [Diana Montalion](https://montalion.com/) "*system*"  als volgt:
+In [*Learning Systems Thinking*](https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/ "Diana Montalion, 'Learning Systems Thinking: Essential Nonlinear Skills and Practices for Software Professionals', O'Reilly Media, 2024") ([mijn favoriete boek van afgelopen jaar](/blog/25/11/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2025-las/ "'De beste boeken over software ontwikkeling die ik in 2025 las'")) definieert [Diana Montalion](https://montalion.com/) "*system*"  als volgt:
 
 
 > *A group of interrelated hardware, software, people, organization(s), and other elements that interact and/or interdepend to serve a shared purpose.*
 
 
-Systemen beperken zich in deze definitie dus expliciet niet tot hard- of softwaresystemen. Ook een ontwikkelteam is een groep onderling verbonden mensen die met elkaar interacteren en van elkaar afhankelijk zijn om een gezamenlijk doel te bereiken. Hun doel is: software produceren (die op zijn beurt weer een ander doel dient). En omdat de technieken -- de computers, de software, de programmeertaal, etc. -- waarmee deze groep mensen hun doel probeert te bereiken, ook onderdeel is van dat geheel, spreekt men vaak van een team als een [sociotechnisch systeem](https://en.wikipedia.org/wiki/Sociotechnical_system "'Sociotechnical system', Wikipedia").
+Systemen beperken zich in deze definitie dus expliciet niet tot hard- of softwaresystemen. Ook een ontwikkelteam is een groep onderling verbonden mensen die met elkaar interacteren en van elkaar afhankelijk zijn om een gezamenlijk doel te bereiken. Hun doel is: software produceren (die op zijn beurt weer een ander doel dient). En omdat de technieken -- de computers, de software, de programmeertaal, etc. -- waarmee deze groep hun doel probeert te bereiken, ook onderdeel is van dat geheel, spreekt men vaak van een team als een [sociotechnisch systeem](https://en.wikipedia.org/wiki/Sociotechnical_system "'Sociotechnical system', Wikipedia").
 
 
 De kwaliteit van de opgeleverde applicatie is afhankelijk van de kwaliteit van het ontwikkelteam. Als systeem<sub>1</sub> onvolkomenheden bevat, als deze bijvoorbeeld stikt van de bugs, dan is dat een teken dat er een probleem is met systeem<sub>2</sub>. Het zou bijvoorbeeld kunnen dat er onderling te weinig wordt [gecommuniceerd](/tags/communicatie/ "Blogs met de tag 'commuicatie'"), waardoor de front- en back-end van interpretatie verschillen over wat een bepaalde feature behelst. Of het zou kunnen dat de ontwikkelaars de tester overspoelen met werk, waardoor deze fouten over het hoofd ziet.[^1] Of het zou kunnen dat een gebrek aan [psychologische veiligheid](/tags/psychologische-veiligheid/ "Blogs met de tag 'psychologische'") ervoor zorgt dat collega's niet worden aangesproken op onbegrijpelijke of ondermaatse code (zie ook [deze blog](/blog/25/10/borrelpraat-2/ "'Borrelpraat #2'")).
@@ -68,7 +68,7 @@ In een [agile](/tags/agile-ontwikkeling/ "Blogs met de tag 'agile ontwikkeling'"
 Maar ook hier geldt: het is niet zo dat het vergaren van feedback beperkt mag of moet blijven tot formele Review-momenten. Er zijn ook andere manieren om feedback op te halen. Je zou monitoring in kunnen bouwen op het gebruik van je applicatie. Als je een feature vervolgens [A/B-test](https://en.wikipedia.org/wiki/A/B_testing "'A/B testing', Wikipedia"), dan vormt het gebruik door de eindgebruikers van de applicatie *zelf* het feedbackmoment.
 
 
-En onthoud: feedback is tweerichtingsverkeer. Een ander communicatiemiddel binnen systeem<sub>3</sub> is de frequentie waarmee je codewijzigingen deployt en beschikbaar maakt. Laat ik uit mijn eigen ervaring putten. In mijn vorige team, was dit een stroperig proces. Een stakeholder meldde bijvoorbeeld een bug, die kwam op een lijst terecht; die lijst werd wekelijks doorgeploegd en geprioriteerd; dan kwam deze op de backlog terecht; als er een fix werd gevonden, ging die naar de testomgeving; daar keek de tester er naar; wanneer die de fix goed bevonden had, ging deze naar de acceptatieomgeving; daar mocht een stakeholder er naar kijken, en pas als die zijn oké had gegeven, werd de fix op productie uitgerold. 
+Een ander communicatiemiddel binnen systeem<sub>3</sub> is de frequentie waarmee je codewijzigingen deployt en beschikbaar maakt. Laat ik uit mijn eigen ervaring putten. In mijn vorige team was dit een stroperig proces. Een stakeholder meldde bijvoorbeeld een bug, die kwam op een lijst terecht; die lijst werd wekelijks doorgeploegd en geprioriteerd; dan kwam deze op de backlog terecht; als er een fix werd gevonden, ging die naar de testomgeving; daar keek de tester er naar; wanneer die de fix goed bevonden had, ging deze naar de acceptatieomgeving; daar mocht een stakeholder er naar kijken, en pas als die zijn oké had gegeven, werd de fix op productie uitgerold. 
 
 
 [Sindsdien ben ik van team gewisseld.](/blog/25/08/gaan-we-snel-genoeg/ "'Gaan we snel genoeg?'") Dit is hoe we het nu doen: als er een bug binnenkomt, dan laten we vallen waar we mee bezig zijn en reproduceren we de bug met een test. Zodra die (aanvankelijk falende) test laten we slaagt, rollen we de fix meteen uit op de productieomgeving.
