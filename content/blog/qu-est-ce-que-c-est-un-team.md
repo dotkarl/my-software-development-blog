@@ -38,7 +38,7 @@ Hij denkt even na en lacht. Zo had hij er nog niet naar gekeken.
 {{< asterisk >}}
 
 
-Donderdag. In de boekenclub lezen we [*The Phoenix Project*](https://itrevolution.com/product/the-phoenix-project/ "Gene Kim, Kevin Behr & George Spafford, 'The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win', IT Revolution 2013") (een aanrader!). Er ontstaat een discussie over de vraag: wat is het voordeel van een multidisciplinair team?
+Donderdag. In de [boekenclub](/tags/boekenclub/ "Blogs met de tag 'boekenclub'") lezen we [*The Phoenix Project*](https://itrevolution.com/product/the-phoenix-project/ "Gene Kim, Kevin Behr & George Spafford, 'The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win', IT Revolution 2013") (een aanrader!). Er ontstaat een discussie over de vraag: wat is het voordeel van een multidisciplinair team?
 
 
 "Het zorgt ervoor dat de lijntjes kort blijven," overweegt een collega. "Als we iets van een Ops'er nodig hebben, dan kunnen we 'm zó aanschieten, en dan weet 'ie waar we mee bezig zijn. In plaats van dat we een ticket aan moeten maken in een systeem dat dan twee dagen blijft liggen omdat diegene nog met twintig andere dingen bezig is. Het voorkomt dat we dingen over de schutting gooien."
