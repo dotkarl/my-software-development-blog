@@ -1,8 +1,8 @@
 ---
 title: "Veranderen doet pijn"
 author: "Karl van Heijster"
-date: 2025-11-14T08:48:20+01:00
-draft: true
+date: 2026-01-09T08:24:21+01:00
+draft: false
 comments: true
 tags: ['bedrijfscultuur', 'leermoment', 'scrum', 'verandering']
 summary: "Er gebeurde iets interessants, onlangs tijdens een bijeenkomst van het strategietraject waar ik mezelf volledig uit vrije wil mee heb opgezadeld. We werden gewezen op een deadline -- en schoten in een kramp. Onze eerste reactie was: \"Dat is te vroeg, het is nog niet af!\""
@@ -41,7 +41,7 @@ Zulke reacties missen het punt van Sprints. Het doel van een Sprint is niet een 
 De truc zit ‘m erin je te beseffen dat *het niet (alleen) gaat om het product dat je oplevert, maar om het gesprek wat je faciliteert door het tonen van het huidige brokje.*
  
 
-(Een Sprint is ook een middel om de ontwikkelaar te forceren om elke twee weken software op te leveren die, in theorie althans, onmiddellijk kan worden gereleased naar eindgebruikers. Maar alleen als de stakeholders op basis van de [Sprint Review](/tags/sprint-review/ "Blogs met de tag 'sprint review'") (of een ander feedbackmoment) concluderen: dit is, hoewel nog niet compleet, wel goed genoeg om in gebruik te kunnen nemen. En dat vraagt weer een andere vaardigheid: je werk op zo'n manier inrichten dat elk brokje na uiterlijk twee weken in gebruik kan worden genomen. Zie ook [deze blog](HET_INCREMENT_HET_CADEAUTJE).)
+(Een Sprint is ook een middel om de ontwikkelaar te forceren om op zijn minst elke twee weken software op te leveren die, in theorie althans, onmiddellijk kan worden gereleased naar eindgebruikers. Maar alleen als de stakeholders op basis van de [Sprint Review](/tags/sprint-review/ "Blogs met de tag 'sprint review'") (of een ander feedbackmoment) concluderen: dit is, hoewel nog niet compleet, wel goed genoeg om in gebruik te kunnen nemen. En dat vraagt weer een andere vaardigheid: je werk op zo'n manier inrichten dat elk brokje na uiterlijk twee weken in gebruik kan worden genomen. Zie ook [deze blog](/blog/26/01/de-increment-het-cadeautje/ "'De increment, het cadeautje'").)
 
 
 ## Ongemak
