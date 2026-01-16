@@ -1,14 +1,14 @@
 ---
 title: "Een verbetering (?) in onze pipeline"
 author: "Karl van Heijster"
-date: 2025-11-21T08:32:46+01:00
-draft: true
+date: 2026-01-16T08:10:01+01:00
+draft: false
 comments: true
 tags: ['build pipelines', 'continuous delivery', 'trunk-based development']
 summary: "De verbetering was eenvoudig: rol niet meer altijd alles uit, maar kijk naar de wijziging in de laatste commit. Bevindt die zich in de front-end, rol dan de front-end uit; bevindt die zich in de back-end, dan de back-end. Simpel, duidelijk, efficiënt: iedereen blij. -- Maar wat we over het hoofd hadden gezien: *merges*. Help! Probleem!"
 ---
 
-In de [popcultuur](/blog/25/02/softwareontwikkeling-is-een-popcultuur-maar-hoeft-dat-niet-te-zijn/ "'Softwareontwikkeling is een popcultuur (maar hoeft dat niet te zijn)'") die ons vakgebied kenmerkt (zie ook [deze blog](/blog/25/02/wat-houdt-ons-tegen-continu-te-leveren/ "'Wat houdt ons tegen continu te leveren?'")), is de rijke set aan ontwikkelpraktijken waar [*continuous delivery*](/tags/continuous-delivery/ "Blogs met de tag 'continuous delivery'") uit bestaat, platgeslagen tot het hebben van een geautomatiseerde [*build & deployment pipeline*](https://martinfowler.com/bliki/DeploymentPipeline.html "'Deployment Pipeline', Martin Fowler"). Maar het gaat er bij *continuous delivery* helemaal niet om dat je een pipeline hebt, het gaat erom dat je je werk op zo'n manier opdeelt dat je continu in kleine brokjes [waarde](/tags/waarde/ "Blogs met de tag 'waarde'") kunt leveren. *Continuous delivery* is: zorg dat elke [commit](https://git-scm.com/docs/git-commit "'git-commit', Git") een werkende instantie van het systeem vertegenwoordigt én zo klein mogelijk is én meteen naar productie kan worden uitgerold.[^1]
+In de [popcultuur](/blog/25/02/softwareontwikkeling-is-een-popcultuur-maar-hoeft-dat-niet-te-zijn/ "'Softwareontwikkeling is een popcultuur (maar hoeft dat niet te zijn)'") die ons vakgebied kenmerkt (zie ook [deze blog](/blog/25/02/wat-houdt-ons-tegen-continu-te-leveren/ "'Wat houdt ons tegen continu te leveren?'")), is de rijke set aan ontwikkelpraktijken waar [*continuous delivery*](/tags/continuous-delivery/ "Blogs met de tag 'continuous delivery'") uit bestaat, platgeslagen tot het hebben van een geautomatiseerde [*build & deployment pipeline*](https://martinfowler.com/bliki/DeploymentPipeline.html "'Deployment Pipeline', Martin Fowler"). Maar het gaat er bij *continuous delivery* helemaal niet om dat je een pipeline hebt, het gaat erom dat je je werk op zo'n manier vormgeeft dat je continu in kleine brokjes [waarde](/tags/waarde/ "Blogs met de tag 'waarde'") kunt leveren. *Continuous delivery* is: zorg dat elke [commit](https://git-scm.com/docs/git-commit "'git-commit', Git") een werkende instantie van het systeem vertegenwoordigt én zo klein mogelijk is én meteen naar productie kan worden uitgerold.[^1]
 
 
 ## Onderhoud
@@ -26,13 +26,13 @@ Maar het is, als ik eerlijk ben, wel een behoorlijk inefficiënte pipeline. Dat 
 ## Probleem!
 
 
-Een collega van me voerde onlangs precies deze pipelineoptimalistie door. De implementatie was enorm eenvoudig: rol niet meer altijd alles uit, maar kijk naar de wijziging in de laatste commit. Bevindt die zich in de front-end, rol dan de front-end uit; bevindt die zich in de back-end, dan de back-end. Simpel, duidelijk, efficiënt: iedereen blij. 
+Een collega van me voerde onlangs precies deze pipelineoptimalistie door. De implementatie was simpel: rol niet meer altijd alles uit, maar kijk naar de wijziging in de laatste commit. Bevindt die zich in de front-end, rol dan de front-end uit; bevindt die zich in de back-end, dan de back-end. Simpel, duidelijk, efficiënt: iedereen blij. 
 
 
 Maar wat we over het hoofd hadden gezien: [*merges*](https://git-scm.com/docs/git-merge "'git-merge', Git"). Stel nu dat je enkele wijzigingen hebt gedaan aan de back-end en je commit(s) wil *pushen* naar *trunk*. Zo lang jouw versie up to date is met de laatste versie op *trunk*, is dat geen probleem. Jouw wijzigingen aan de back-end worden dan uitgerold en de front-end blijft zoals die is. 
 
 
-Maar als je lokale *branch* achterloopt op *trunk*, dan gebeurt er iets anders. Dan [*pull*](https://git-scm.com/docs/git-pull "'git-pull', Git") je eerst de laatste versie en wordt er een *merge commit* aangemaakt op jouw *branch*. In die *commit* zitten de laatste wijzigingen van de front-end. Als je deze *commit* nu naar *trunk* *pusht*, dan ziet de pipeline: er is iets gewijzigd aan de front-end *en niet aan de back-end*. En dus gaat deze alleen de front-end opnieuw uitrollen.
+Maar als je lokale *branch* achterloopt op *trunk*, dan gebeurt er iets anders. Dan [*pull*](https://git-scm.com/docs/git-pull "'git-pull', Git") je eerst de laatste versie en wordt er een *merge commit* aangemaakt op jouw *branch*.[^2] In die *commit* zitten de laatste wijzigingen van de front-end. Als je deze *commit* nu naar *trunk* *pusht*, dan ziet de pipeline: er is iets gewijzigd aan de front-end *en niet aan de back-end*. En dus gaat deze alleen de front-end opnieuw uitrollen.
 
 
 Help! Probleem!
@@ -71,7 +71,9 @@ Ik realiseerde me iets, naar aanleiding van deze episode. We zijn, als softwareo
 Het zijn onze verwachtingen die een situatie *als probleem* aan ons presenteren. Maar als we die verwachtingen los kunnen laten, dan blijft er slechts een situatie over, een gebeuren. En als je dat gebeuren ademruimte geeft, dan opent zich de mogelijkheid om het geheel van een andere kant te bezien -- en iets nieuws te leren.
 
 
-Het je eigen maken van een andere manier van werken, vraagt van je ingesleten gewoonten te herzien, hoe tegenintuïtief of [pijnlijk](VERANDEREN_DOET_PIJN "'Veranderen doet pijn'") dat soms ook mag zijn.
+Het je eigen maken van een andere manier van werken, vraagt van je ingesleten gewoonten te herzien, hoe tegenintuïtief of [pijnlijk](/blog/26/01/veranderen-doet-pijn/ "'Veranderen doet pijn'") dat soms ook mag zijn.
 
 
 [^1]: Het jongere broertje van *continuous delivery*, [*continuous deployment*](/tags/continuous-deployment/ "Blogs met de tag 'continuous deployment'") is: dat alles én rol daadwerkelijk uit naar productie.
+
+[^2]: Althans, als je een `git pull` doet en niet `git pull --rebase`. [Deze video](https://www.youtube.com/watch?v=xN1-2p06Urc "'Never* use git pull', Philomatic @ YouTube") leerde me echter dat je [*rebase*](https://git-scm.com/docs/git-rebase "'git-rebase', Git") prima als standaard integratiemechanisme kan nemen en alleen terug hoeft te vallen op de normale manier bij conflicten. Hiervoor is het wel nodig dat je Git op de commandline gebruikt, want de [IDE](https://nl.wikipedia.org/wiki/Integrated_development_environment "'Integrated development environment', Wikipedia") *rebaset* niet.
