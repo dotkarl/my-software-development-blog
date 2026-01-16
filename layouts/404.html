@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<main>
+    <div class="post">
+        <h1 class="post-title">Oeps!</h1>
+        <div class="post-line"></div>
+        <p style="margin: 0 0 0">De pagina die je zoekt bestaat niet. Misschien kan ik je interesseren voor een van de volgende blogs?</p>
+    </div>
+
+    {{ $blogs := shuffle (where .Site.RegularPages "Section" "blog") }}
+    {{ $years := slice }}
+    {{ $selected := slice }}
+
+    {{ range $blogs }}
+        {{ $year := .Date.Format "2006" }}
+        {{ if not (in $years $year) }}
+            {{ $years = $years | append $year }}
+            {{ $selected = $selected | append . }}
+        {{ end }}
+        {{ if eq (len $selected) 3 }}
+            {{ break }}
+        {{ end }}
+    {{ end }}
+
+    {{ range $selected }}
+        {{ .Render "summary" }}
+    {{ end }}
+
+</main>
+
+{{ end }}
