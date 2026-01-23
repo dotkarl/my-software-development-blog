@@ -49,7 +49,7 @@ Code die weinig complex is en weinig domeinsignificantie heeft, en met weinig an
 \- Deze code is de moeite van het testen niet waard.
 
 
-Weinig complexe code die met veel classes interacteert, noemt Khorikov *controllers* (2). Dit zijn classes wiens doel het is om de samenwerking van bepaalde objecten (met hoge complexiteit of domeinsignificantie) te orchestreren. Denk aan services die data ophalen om ze vervolgens aan een [message bus](https://www.enterpriseintegrationpatterns.com/MessageBus.html) door te spelen. 
+Weinig complexe code die met veel classes interacteert, noemt Khorikov *controllers* (2). Dit zijn classes wiens doel het is om de samenwerking van bepaalde objecten (met hoge complexiteit of domeinsignificantie) te orkestreren. Denk aan services die data ophalen om ze vervolgens aan een [message bus](https://www.enterpriseintegrationpatterns.com/MessageBus.html) door te spelen. 
 
 
 \- Deze code dient te worden geïntegratietest.
@@ -79,7 +79,7 @@ Je moet deze code niet testen. Je moet deze code uitsplitsen. De businesslogica 
 De complexe tests waren een signaal: deze code is niet goed ontworpen, hij schendt het [Single-Responsibility Principe](https://en.wikipedia.org/wiki/Single-responsibility_principle) (SRP). Goed ontworpen methods, classes, modules bevatten businesslogica - en alleen maar businesslogica -, of ze coördineren de businesslogica. (Zie ook [deze blog](/blog/22/08/scheid-data-ophalen-van-data-manipuleren/).)
 
 
-Andersom werkt het ook: als tests zich haast vanzelfsprekend laten schrijven, dan is dat een teken dat de code goed is opgezet. Ook testcode can *clean* zijn - in de zin dat ze het [*principle of least surprise*](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) respecteren. En ironisch genoeg houden ze de productiecode daar net zo *clean* mee.
+Andersom werkt het ook: als tests zich haast vanzelfsprekend laten schrijven, dan is dat een teken dat de code goed is opgezet. Ook testcode kan *clean* zijn - in de zin dat ze het [*principle of least surprise*](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) respecteren. En ironisch genoeg houden ze de productiecode daar net zo *clean* mee.
 
 
 ## Het bruggetje[^2]
@@ -97,7 +97,7 @@ Hoewel, dat is niet *precies* de cirkel van TDD. Die ziet er, in mijn beleving, 
 
 3. **Je laat deze zo simpel mogelijk slagen.** Denk nog niet na over de optimale implementatie van de code. Je eerste prioriteit is de zojuist geschreven (falende) test naar groen te krijgen. Er is een tijd van implementeren, en een tijd van je code opschonen.
 
-4. **Schoon je code op.** Refactoren is een op zichzelf staande stap in het proces van een softwareontwikkelaar. Wie tegelijkertijd features implementeert en de bestaande code refactort, schendt het SRP - ik bedoel: de variant van het SRP die in onze gedragscode is vastgelegd. (We hebben nog een gedragscode, maar die zouden we wel moeten hebben, en daar zou een variant van het SRP een rol in moeten hebben.)
+4. **Schoon je code op.** Refactoren is een op zichzelf staande stap in het proces van een softwareontwikkelaar. Wie tegelijkertijd features implementeert en de bestaande code refactort, schendt het SRP - ik bedoel: de variant van het SRP die in onze gedragscode is vastgelegd. (We hebben nog geen gedragscode, maar die zouden we wel moeten hebben, en daar zou een variant van het SRP een rol in moeten hebben.)
 
 5. **Ga terug naar 1.**
 
@@ -126,7 +126,7 @@ Maar wie TDD't, heeft dat probleem niet. Je denkt éérst nadenkt over dat wat j
 (Hoor je al de test zichzelf al schrijven?)
 
 
-De uitkomst van dat denkproces leg je vast in een test. Een zo simpel mogelijke test. Die test wordt niet gehinderd door enig implementatiedetail. Die test is vanzelfsprekendsprekend. 
+De uitkomst van dat denkproces leg je vast in een test. Een zo simpel mogelijke test. Die test wordt niet gehinderd door enig implementatiedetail. Die test is vanzelfsprekend. 
 
 
 Je weet hoe die tests eruitzien. Het is een unittest voor domeinobjecten, het is een integratietest voor controllers.
