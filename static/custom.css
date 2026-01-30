@@ -116,6 +116,17 @@ table td:first-child, table th:first-child {
     display: block;
 }
 
+.slide {
+    height: 100vh;
+    overflow: auto;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
 @media screen and (max-width: 600px) {
     .not-on-mobile {
         visibility: hidden;
