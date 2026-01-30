@@ -1,8 +1,8 @@
 ---
 title: "(Overpeinzingen)"
 author: "Karl van Heijster"
-date: 2025-11-28T11:03:43+01:00
-draft: true
+date: 2026-01-30T08:20:38+01:00
+draft: false
 comments: true
 tags: ["bedrijfscultuur", "procesverbetering", "teamcultuur"]
 summary: "*Je zegt: het is een kennisprobleem. Daar ben ik het niet mee oneens. Maar volgens mij heb 'm dan nog niet helemaal. Het gebrek aan kennis is een symptoom van een dieper liggend probleem. Vraag je af: hoe kan het dat iemand na zoveel jaar ervaring* deze *code schrijft, en* op deze manier *ook?*"
