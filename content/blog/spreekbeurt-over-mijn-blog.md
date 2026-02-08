@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2026-01-30T10:13:22+01:00
 draft: true
 comments: true
-tags: []
+tags: ["bloggen", "dotkarl", "lightning talk"]
 summary: "Hallo allemaal. Welkom bij mijn spreekbeurt. Mijn spreekbeurt gaat over mijn blog. Mijn blog is te vinden op www&#46;karlvanheijster&#46;com. Dat is ook mijn naam. Ik heet Karl van Heijster. Dus met spaties en zonder \"wee-wee-wee\" en \"punt-com\". (Ik zeg het er maar bij, niet dat jullie denken dat ik www&#46;karlvanheijster&#46;com heet. Excuses voor het ongemak.)"
 ---
 
