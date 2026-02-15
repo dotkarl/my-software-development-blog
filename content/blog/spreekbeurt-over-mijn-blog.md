@@ -155,7 +155,7 @@ Zo wordt elke* blog een succes!
 
 <div class="slide" tabindex="0">
 <details>
-<summary>Soms is een blog een <a href="/blog/25/06/wat-is-refactoring-volgens-hannah-arendt/">finale uiteenzetting</a>.<br> Andere keren een <a href="/blog/24/11/bugs-zijn-defecten/">associatieve worsteling</a>.</summary>
+<summary>Soms is een blog een <a href="/blog/25/06/wat-is-refactoring-volgens-hannah-arendt/">weloverwogen uiteenzetting</a>.<br> Andere keren een <a href="/blog/24/11/bugs-zijn-defecten/">associatieve braindump</a>.</summary>
 
 Er is geen goed of fout.
 
