@@ -1,11 +1,11 @@
 ---
 title: "Spreekbeurt over mijn blog"
 author: "Karl van Heijster"
-date: 2026-01-30T10:13:22+01:00
-draft: true
+date: 2026-02-20T08:10:57+01:00
+draft: false
 comments: true
 tags: ["bloggen", "dotkarl", "lightning talk"]
-summary: "Hallo allemaal. Welkom bij mijn spreekbeurt. Mijn spreekbeurt gaat over mijn blog. Mijn blog is te vinden op www&#46;karlvanheijster&#46;com. Dat is ook mijn naam. Ik heet Karl van Heijster. Dus met spaties en zonder \"wee-wee-wee\" en \"punt-com\". (Ik zeg het er maar bij, niet dat jullie denken dat ik www&#46;karlvanheijster&#46;com heet. Excuses voor het ongemak.)"
+summary: "Hallo allemaal. Welkom bij mijn spreekbeurt. Mijn spreekbeurt gaat over mijn blog. Mijn blog is te vinden op www&#46;karlvanheijster&#46;com. Dat is ook mijn naam. Ik heet Karl van Heijster. Dus met spaties en zonder \"wee-wee-wee\" en \"punt-com\". (Ik zeg het er maar bij, niet dat jullie denken dat ik www&#46;karlvanheijster&#46;com heet.) (Excuses voor het ongemak.)"
 ---
 
 <div class="slide" tabindex="0">
@@ -36,8 +36,6 @@ Wie heeft er al een blog?
 
 En wie schrijft ook daadwerkelijk blogs? 
 
-Waarom zou je überhaupt willen bloggen?
-
 </details>
 </div>
 
@@ -66,22 +64,20 @@ Ik schrijf elke week een blog over wat mij op dat moment bezighoudt op het gebie
 <details>
 <summary>En <a href="https://github.com/dotkarl/my-software-development-blog">zo</a> aan de achterkant.</summary>
 
-
 Mijn blog is een eenvoudige statische website, gegenereerd met [Hugo](https://gohugo.io/).
 
-De inhoud van de website is niet meer dan een reeks Markdown-bestanden. Hier genereert Hugo HTML-pagina's van. 
+De achterkant van de website is weinig meer dan een reeks Markdown-bestanden. Hier genereert Hugo HTML-pagina's van. 
 
 Ik gebruik het thema [Tale](https://github.com/EmielH/tale-hugo/ "'Tale', EmielH @ GitHub") met wat CSS-tweaks.
 
 Vanuit technisch oogpunt is deze blog volstrekt oninteressant.
-
 
 </details>
 </div>
 
 
 <div class="slide" tabindex="0">
-(Allemaal leuk en wel maar) waarom zou je überhaupt bloggen?
+(Allemaal leuk en wel maar)<br>waarom zou je überhaupt bloggen?
 </div>
 
 
@@ -105,9 +101,11 @@ Deze strategie zal daarom onvermijdelijk tot frustratie en teleurstelling leiden
 <details>
 <summary>Bloggen debugt je denken.</summary>
 
+Een blog is een middel om je ideeën te scherpen.
+
 De beste toets om na te gaan of je iets begrijpt, is het uit te leggen aan een ander.
 
-Als je blog, formuleer je jouw begrip van een idee.
+Als je blogt, formuleer je jouw begrip van een idee.
 
 Een idee concreet onder woorden brengen, is de snelste manier om erachter te komen waar de gaten in je kennis zitten.
 
