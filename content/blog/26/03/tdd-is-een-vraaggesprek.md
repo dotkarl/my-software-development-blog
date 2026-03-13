@@ -1,8 +1,8 @@
 ---
 title: "TDD is een vraaggesprek"
 author: "Karl van Heijster"
-date: 2026-01-09T10:18:15+01:00
-draft: true
+date: 2026-03-13T07:25:48+01:00
+draft: false
 comments: true
 tags: ["beroepsdeformatie", "filosofie", "test-driven development"]
 summary: "Plato's dialogen zijn toegankelijk, inzichtelijk en vaak ook ontzettend grappig. Eén van de redenen waarom ze vandaag de dag nog zo goed leesbaar zijn, zit 'm in die dialoogvorm. Het spel van vraag en antwoord geeft leven aan Plato's filosofische onderzoekingen, het voorkomt dat het een droge uiteenzetting wordt van argumenten en conclusies. Omdat ik nu eenmaal een beroepsdeformatie heb, kon ik het onder het lezen niet nalaten aan Test-Driven Development te denken. Want ook TDD is een soort van vraaggesprek, en ook TDD geeft leven aan het oplossen van een programmeertaak."
@@ -20,7 +20,7 @@ Op een dag hakte ik de knoop door -- en het viel me honderd procent mee. Plato's
 Omdat ik nu eenmaal een [beroepsdeformatie](/tags/beroepsdeformatie/ "Blogs met de tag 'beroepsdeformatie'") heb, kon ik het onder het lezen niet nalaten aan [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) te denken. Want ook TDD is een soort van vraaggesprek, en ook TDD geeft leven aan het oplossen van een programmeertaak.
 
 
-TDD is een spel van vraag en antwoord. De vraag wordt gesteld in de vorm van een test. De test vraag: "Hé systeem, kun jij, ik zeg maar wat, een `3` omzetten naar `"Fizz"`?" -- "En een `5` omzetten naar `"Buzz"`, kun je dat?"[^1] 
+TDD is een spel van vraag en antwoord. De vraag wordt gesteld in de vorm van een test. De test vraagt: "Hé systeem, kun jij, ik zeg maar wat, een `3` omzetten naar `"Fizz"`?" -- "En een `5` omzetten naar `"Buzz"`, kun je dat?"[^1] 
 
 
 En het systeem antwoordt, zodra de test wordt gerund -- aanvankelijk "Nee", uiteindelijk "Jazeker!", en soms, als er een regressie optreedt: "Niet meer." TDD verlevendigt het oplossen van een programmeertaak, omdat het de programmeur laat wisselen tussen het perspectief van de ondervrager en ondervraagde. 
