@@ -1,8 +1,8 @@
 ---
 title: "Moeten refactorings ook gereviewd worden?"
 author: "Karl van Heijster"
-date: 2026-01-16T15:53:12+01:00
-draft: true
+date: 2026-03-20T07:16:24+01:00
+draft: false
 comments: true
 tags: ["boeken", "code reviews", "refactoren"]
 summary: "Niet elke codewijziging is gelijk. Sommige wijzigingen veranderen het gedrag van een systeem. Andere wijzigingen, refactorings, veranderen alleen de structuur en laten het gedrag gelijk. Zoals de meeste teams hun werk inrichten, met *pull requests* en formele code reviews, wordt elke wijziging door twee paar ogen bekeken. Maar is dat wel nodig?"
