@@ -11,7 +11,9 @@ summary: "Yvonne Lam stelt dat er een betere metafoor voorhanden is voor dat wat
 Uit een [praatje](https://www.youtube.com/watch?v=Q91d59tW75s "'Kevlin Henney - Refactoring Is Not Just Clickbait - Joy of Coding 2024', YouTube") van [Kevlin Henney](http://kevlin.tel/)[^1] leen ik de volgende tweet -- die dan weer van [Yvonne Lam](https://x.com/yvonnezlam "@yvonnezlam, X") is:
 
 
-{{< x user="yvonnezlam" id="1376628481878990852" >}}
+<br>
+<img class="center" src="yvonne-lam-refactoring-as-housework.png" alt="Yvonne Lam: My theory of tech debt is that housework is the correct metaphor for the thing we call tech debt, but we can't use it because tech has been made up of people who don't do housework, or manage housework being done." />
+<br>
 
 
 Lam stelt dat er een betere metafoor voorhanden is voor dat wat we gewoonlijk "[technische schuld](/tags/technische-schuld/ "Blogs met de tag 'technische schuld'")" noemen: huishouding (*housework*).[^2] 
