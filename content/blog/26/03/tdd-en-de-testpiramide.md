@@ -1,8 +1,8 @@
 ---
 title: "TDD en de testpiramide"
 author: "Karl van Heijster"
-date: 2026-01-23T11:49:05+01:00
-draft: true
+date: 2026-03-27T08:03:21+01:00
+draft: false
 comments: true
 tags: ["clean code", "integratietests", "end to end tests", "test-driven development", "testen", "testpiramide", "unit tests"]
 summary: "Ik ruimde een boekenkast in op het werk, toen een collega me vroeg of ik wist hoe je een call naar een *keyed service* uit de `IServiceProvider` mockt. Nee, niet direct, zei ik. Maar waarom zou je dat überhaupt willen? Vanaf daar ontspon er een gesprek over Test-Driven Development, het ontwerp van code en de verschillende delen van de testpiramide."
@@ -20,7 +20,7 @@ Vanaf daar ontspon er een gesprek over [Test-Driven Development](/tags/test-driv
 ## TDD het (niet)
 
 
-Ik raad iedereen te pas en te onpas aan om te TDD'en, precies om dit soort situaties te voorkomen. Door de test te schrijven vóórdat je aan de implementatie begint, wordt het praktisch onmogelijk om code te schrijven die moeilijk te testen is, zoals classes die de halve wereld als afhankelijkheid nodig hebben. 
+Ik raad iedereen te pas en te onpas aan om te TDD'en, precies om dit soort situaties te voorkomen. Door de test te schrijven vóórdat je aan de implementatie begint, wordt het praktisch onmogelijk om code te schrijven die moeilijk te testen is. Want ja, een class die de halve wereld als afhankelijkheid nodig heeft, is moeilijk te testen. 
 
 
 Maar TDD heeft een stijle leercurve. Het is een lastige techniek als je het niet gewend bent om programmeren op die manier aan te vliegen. Wat niet helpt, is dat de meeste voorbeelden van TDD zich op pure domeinlogica richten. Maar in dit geval ging het niet alleen om het uitprogrammeren van *business rules*, maar ook over het ophalen van data. 
@@ -60,3 +60,6 @@ Het helpt je dus om scherp zicht te houden op de verschillende soorten code die 
 
 
 Dat is waarom men zegt: [TDD is (ook) een ontwerpdiscipline](/blog/22/08/test-driven-development-is-een-ontwerpdiscipline/ "'Test-driven development is een ontwerpdiscipline'"). Logisch ook, want [tests zijn (of: kunnen fungeren als) een ontwerpmiddel](/blog/22/09/tests-als-ontwerpmiddel/ "'Tests als ontwerpmiddel'"). De tests geven feedback op het ontwerp. Als je ze schrijft terwijl je de code ontwikkelt, geleiden ze je ontwerp naar een zinvolle decompositie. Als je ze achteraf schrijft, vertellen ze je in hoeverre je gekozen decompositie succesvol was.
+
+
+Als de set up van je test een enorme lap code beslaat -- aan rechtstreekse afhankelijkheden óf via een `IServiceProvider` --, dan moet je terug naar de tekentafel. "Luister naar je test," zei ik, "die vertelt je dat de verschillende verantwoordelijkheden je ontwerp nog niet voldoende van elkaar gescheiden zijn. Wat zijn die verantwoordelijkheden? Dát is de vraag die je jezelf moet stellen, niet hoe je *keyed services* mockt."
