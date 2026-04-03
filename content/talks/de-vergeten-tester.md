@@ -6,7 +6,7 @@ draft: true
 comments: true
 tags: []
 summary: "Testen is cruciaal voor softwarekwaliteit. En toch, toen ik de kans kreeg een nieuw agile softwareteam samen te stellen, \"vergat\" ik de tester. Hoe verklaren we deze paradox? Hoe kan een tester tegelijkertijd zó belangrijk en toch ongewenst zijn?"
-speakerdeck: ""
+speakerdeck: "a428a7050a2a43789d1309477487d966"
 ---
 
 
