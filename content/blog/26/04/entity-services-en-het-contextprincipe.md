@@ -1,8 +1,8 @@
 ---
 title: "Entity services en het contextprincipe"
 author: "Karl van Heijster"
-date: 2026-02-06T08:57:38+01:00
-draft: true
+date: 2026-04-03T09:06:12+02:00
+draft: false
 comments: true
 tags: ["domain-driven design", "filosofie", "microservices", "Wittgenstein, Ludwig"]
 summary: "Een domein bestaat uit een aantal entiteiten. Voor een webwinkel zijn dat dingen als *product*, *winkelwagentje* en *bestelling*. Zulke entiteiten verwachten we terug te vinden in onze code: `Product`, `ShoppingCart` en `Order`. In veel codebases vinden we, naast deze entiteiten, corresponderende objecten: services. De logica rondom een *product* wordt afgehandeld in de `ProductService`, die van een *winkelwagentje* in een `ShoppingCartService` -- en waar je de logica voor een *bestelling* kunt vinden, kun je vast wel raden. Het gedachteloos introduceren van dit soort *entity services* is me een doorn in het oog."
@@ -17,7 +17,7 @@ In veel codebases vinden we, naast deze entiteiten, corresponderende objecten: s
 ## Antipatroon
 
 
-Het gedachteloos introduceren van dit soort [*entity services*](https://www.michaelnygard.com/blog/2017/12/the-entity-service-antipattern/ "'The Entity Service Antipattern', Michael Nygard") is me een doorn in het oog. Vaak bestaat zo'n service voor een groot deel uit *boiler plate* code, getuige de vele *pass through*-methods, waar [John Ousterhout](https://en.wikipedia.org/wiki/John_Ousterhout "'John Ousterhout', Wikipedia") terecht op afgeeft in [*A Philosophy of Software Design*](https://web.stanford.edu/~ouster/cgi-bin/aposd.php "John Ousterhout, 'A Philosophy of Software Design, 2nd Edition'"). Zulke methods weinig meer dan objecten uit de database rechtstreeks doorspelen naar de bovenliggende laag. Dat is al erg genoeg.
+Het gedachteloos introduceren van dit soort [*entity services*](https://www.michaelnygard.com/blog/2017/12/the-entity-service-antipattern/ "'The Entity Service Antipattern', Michael Nygard") is me een doorn in het oog. Vaak bestaat zo'n service voor een groot deel uit *boiler plate* code, getuige de vele *pass through*-methods, waar [John Ousterhout](https://en.wikipedia.org/wiki/John_Ousterhout "'John Ousterhout', Wikipedia") terecht op afgeeft in [*A Philosophy of Software Design*](https://web.stanford.edu/~ouster/cgi-bin/aposd.php "John Ousterhout, 'A Philosophy of Software Design, 2nd Edition'"). Zulke methods doen weinig meer dan objecten uit de database rechtstreeks doorspelen naar de bovenliggende laag. Dat is al erg genoeg.
 
 
 Maar de situatie verbetert nauwelijks wanneer businesslogica zijn weg vindt naar zulke services. Ze zijn een vergaarbak voor verschillende operaties, een excuusbrief voor ontwikkelaars om niet na te hoeven denken over zinvolle abstracties. 
@@ -32,7 +32,7 @@ De situatie wordt zo mogelijk nog erger wanneer de services gedachteloos in een 
 ## Betekenis
 
 
-Ik geloof -- maar dat is, vergeef me, natuurlijk omdat ik filosofie heb gestudeerd -- dat de bron van dit idee ligt in de veronderstelling dat een woord op zichzelf een betekenis heeft. Wat, op zich, zou je denken, een heel redelijke veronderstelling is. Ga maar na: als je een woordenboek openslaat, wat vind je daar dan? Een lijst, jawel, woorden, op alfabetische volgorde nog wel, met daarachter hun betekenis. Dus als we het woordenboek mogen geloven, heeft een woord op zichzelf een betekenis.
+Ik geloof -- maar dat is, vergeef me, natuurlijk omdat ik [filosofie](/tags/filosofie/ "Blogs met de tag 'filosofie'") heb gestudeerd -- dat de bron van dit idee best wel fundamenteel is, namelijk de veronderstelling dat *een woord op zichzelf een betekenis heeft*. Wat, op zich, zou je denken, een heel redelijke veronderstelling is. Ga maar na: als je een woordenboek openslaat, wat vind je daar dan? Een lijst, jawel, woorden, op alfabetische volgorde nog wel, met daarachter hun betekenis. Dus als we het woordenboek mogen geloven, heeft een woord op zichzelf een betekenis.
 
 
 Dat beeld van betekenis impliceert dat de betekenis van een zin wordt opgebouwd uit de betekenis van woorden. Woorden zijn de atomen, als het ware, die samen een betekenismolecuul vormen, dat is dan de zin. Maar bekijk de volgende zin eens:
@@ -56,10 +56,10 @@ Taalfilosoof [Gottlob Frege](https://plato.stanford.edu/entries/frege/ "'Gottlog
 Mijn stelling is: *entity services* veronderstellen dat woorden atomaire betekenisdragers zijn. Daarom denkt een programmeur van zo'n service dat het zin heeft om over een *product* of *winkelwagentje* of *bestelling* *an sich* te praten. En waar vindt dat gesprek plaats? In hun respectievelijke services.
 
 
-Maar de betekenis van die woorden is niet eenduidig. Afhankelijk van de context, verkrijgen bepaalde eigenschappen van een *product* relevantie en worden andere juist betekenisloos. Een afbeelding van het *product* is relevant voor de (potentiële) koper ervan, maar niet voor de instantie die het op de post doet. Andersom kan die instantie zeer geïnteresseerd zijn in het gewicht van het *product*, maar dat zal de koper een zorg zijn. In een centrale `ProductService` worden beide [stakeholders](/tags/stakeholders/ "Blogs met de tag 'stakeholders'") bediend -- dat is hoe zo'n service een vergaarbak van functionaliteit wordt.
+Maar de betekenis van die woorden is niet eenduidig. Afhankelijk van de context, verkrijgen bepaalde eigenschappen van een *product* relevantie en worden andere juist betekenisloos. Een afbeelding van het *product* is relevant voor de (potentiële) koper ervan, maar niet voor de instantie die het op de post doet. Andersom kan die instantie zeer geïnteresseerd zijn in het gewicht van het *product*, maar dat zal de koper een worst wezen (in elk geval voor sommige producten). In een centrale `ProductService` worden beide [stakeholders](/tags/stakeholders/ "Blogs met de tag 'stakeholders'") bediend -- dat is hoe zo'n service een vergaarbak van functionaliteit wordt.
 
 
-Of er een directe lijn kan worden getrokken van Frege naar [Eric Evans](https://www.domainlanguage.com/), durf ik niet te zeggen. Maar het is vanuit filosofisch oogpunt niet vreemd dat hij in [*Domain-Driven Design*](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/ "'Domain-Driven Design: Tackling Complexity in the Heart of Software', Eric Evans") van [*bounded contexts*](https://www.martinfowler.com/bliki/BoundedContext.html) spreekt. Hij heeft het contextprincipe gepopulariseerd in de wereld van softwareontwikkeling, zou je kunnen zeggen -- maar aan het aantal *entity services* te beoordelen, hebben we nog een lange weg te gaan.
+Of er een directe lijn kan worden getrokken van Frege naar [Eric Evans](https://www.domainlanguage.com/), durf ik niet te zeggen. Maar het is vanuit filosofisch oogpunt niet vreemd dat hij in [*Domain-Driven Design*](https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/ "'Domain-Driven Design: Tackling Complexity in the Heart of Software', Eric Evans") van [*bounded contexts*](https://www.martinfowler.com/bliki/BoundedContext.html) spreekt. Evans heeft het contextprincipe gepopulariseerd in de wereld van softwareontwikkeling, zou je kunnen zeggen -- maar aan het aantal *entity services* te beoordelen, hebben we nog een lange weg te gaan.
 
 
 [^1]: Natuurlijk, dit voorbeeld maakt gebruik van een toevallige eigenschap van de taal, namelijk dat 'bank' een [homoniem](https://nl.wikipedia.org/wiki/Homoniem "'Homoniem', Wikipedia") is. Die eigenschap maakt ambiguïteit in de taal expliciet. Maar het punt van het contextprincipe blijft staan, ook buiten deze toevalligheid om. De [*Philosophical Investigations*](https://en.wikipedia.org/wiki/Philosophical_Investigations "'Philosophical Investigations', Wikipedia") van [Ludwig Wittgenstein](https://plato.stanford.edu/entries/wittgenstein/ "'Ludwig Wittgenstein', Stanford Encyclopedia op Philosophy") werkt dit punt uit met de metafoor van [familiegelijkenis](https://en.wikipedia.org/wiki/Family_resemblance "'Family resemblance', Wikipedia").
