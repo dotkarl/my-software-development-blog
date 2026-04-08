@@ -9,8 +9,8 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |          |                                                      |                                                                  |
 | ---------| ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 16-04-26 | [Cito](https://www.cito.nl/) (intern)                | *De vergeten tester*                                             |
-| 07-04-26 | [TestMass](https://www.testmass.org/)                | *De vergeten tester*                                             |
+| 16-04-26 | [Cito](https://www.cito.nl/) (intern)                | [*De vergeten tester*](/talks/de-vergeten-tester/)               |
+| 07-04-26 | [TestMass](https://www.testmass.org/)                | [*De vergeten tester*](/talks/de-vergeten-tester/)               |
 | 11-03-26 | [FutureTech](https://futuretech.nl/)                 | [*What is refactoring (according to Hannah Arendt)?*](/blog/25/06/what-is-refactoring-according-to-hannah-arendt/ "Blog: 'What is refactoring (according to Hannah Arendt)?'")[^1] |
 | 24-02-26 | [Nimma Codes](https://www.nimma.codes/)              | [*Spreekbeurt over mijn blog*](/blog/26/02/spreekbeurt-over-mijn-blog/ "Blog: 'Spreekbeurt over mijn blog'") [^1] |
 | <br/>    |                                                      |                                                                  |

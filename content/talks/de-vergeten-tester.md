@@ -1,10 +1,10 @@
 ---
 title: "De vergeten tester"
 author: "Karl van Heijster"
-date: 2025-10-24T11:53:56+02:00
-draft: true
+date: 2026-04-07T08:51:38+02:00
+draft: false
 comments: true
-tags: []
+tags: ["samenwerking", "software ontwikkelaar (rol)", "systeemdenken", "testen", "tester (rol)"]
 summary: "Testen is cruciaal voor softwarekwaliteit. En toch, toen ik de kans kreeg een nieuw agile softwareteam samen te stellen, \"vergat\" ik de tester. Hoe verklaren we deze paradox? Hoe kan een tester tegelijkertijd zó belangrijk en toch ongewenst zijn?"
 speakerdeck: "a428a7050a2a43789d1309477487d966"
 ---
