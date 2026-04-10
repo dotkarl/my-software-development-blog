@@ -1,8 +1,8 @@
 ---
 title: "Uitrollen, vlak voor de demo"
 author: "Karl van Heijster"
-date: 2026-02-13T08:32:12+01:00
-draft: true
+date: 2026-04-10T08:05:41+02:00
+draft: false
 comments: true
 tags: ["bugs", "continuous delivery", "feedback", "koppeling", "leermoment", "samenwerking", "software ontwikkelen", "sprint review", "teamcultuur", "verantwoordelijkheid"]
 summary: "\"Ik vind dat we niet meer uit moeten rollen vlak voor een demo,\" zei een collega, \"dat vond ik nogal spannend.\" Liever had hij zichzelf nog wat extra tijd gegeven om zekerheid te krijgen dat de wijziging niet onbedoeld dingen stuk had gemaakt. Ik begrijp het sentiment van waaruit deze opmerking ontspringt. Maar het is in mijn beleving de verkeerde diagnose van de situatie."
@@ -29,10 +29,10 @@ Het hoeft niet te verbazen, dat deze gang van zaken werd besproken op onze [Spri
 Ik begrijp het sentiment van waaruit deze opmerking ontspringt. Maar het is in mijn beleving de verkeerde diagnose van de situatie.
 
 
-De oplossing voor het gevoel van onzekerheid is niet: dan maar niet uitrollen een halfuur vóór de demo. Het meest voor de hand liggende probleem van deze aanpak is natuurlijk dat het de bug in stand zou hebben gehouden, met een rampzalige demo tot gevolg. 
+De oplossing voor het gevoel van onzekerheid is niet: dan maar niet uitrollen een halfuur vóór de demo. Het meest voor de hand liggende probleem van deze aanpak is natuurlijk dat het de bug in stand zou hebben gehouden, met als gevolg dat onze demo onbedoeld een showcase zou worden van hoe goed we foutmeldingen aan eindgebruikers presenteren. 
 
 
-Maar een minstens zo groot probleem, is dat het het eigenlijke probleem *verbergt* in plaats van oplost. De feitelijke uitrol is niet de bron van onzekerheid. De onzekerheid zit 'm in het feit dat je niet de omgeving hebt gecreëerd waarin je erop kunt vertrouwen dat een uitrol probleemloos verloopt. Meestal betekent dat: ik heb geen vertrouwen in mijn testsuite, de [dekking](/tags/testcoverage/ "Blogs met de tag 'testcoverage'") daarvan is niet hoog genoeg.
+Maar een minstens zo groot probleem, is dat het het eigenlijke probleem *verbergt* in plaats van oplost. De feitelijke uitrol is niet de bron van onzekerheid. De onzekerheid zit 'm in het feit dat we -- klaarblijkelijk -- nog niet de omgeving hebben gecreëerd waarin je erop kunt vertrouwen dat een uitrol probleemloos verloopt. Meestal betekent dat: ik heb geen vertrouwen in mijn testsuite, de [dekking](/tags/testcoverage/ "Blogs met de tag 'testcoverage'") daarvan is niet hoog genoeg.
 
 
 ## Altijd presentabel
@@ -50,7 +50,7 @@ Let wel: dit betekent niet dat de code nooit bugs zal bevatten. Bugs zijn een fe
 ## Kleine stappen
 
 
-Natuurlijk, je fixt liever niet een halfuur vóór de Review nog bugs, dat is niet onterecht om te stellen. Maar het probleem zit 'm niet in de uitrol, het zit 'm in het moment van integratie tussen front- en back-end. Het probleem dat wij als team hebben, is dat de front-enders aan de slag gaan tegen een [gemockte](/tags/mocks/ "Blogs met de tag 'mocks'") [API](/tags/web-apis/ "Blogs met de tag 'web api's'"), totdat de front-end helemaal klaar is. En de back-enders gaan aan de slag op basis van het contract dat we hebben afgesproken, totdat de back-end helemaal klaar is. En dan, helemaal op het eind, dan gaan we eens kijken of de puzzelstukjes op elkaar passen, of we elkaar niet verkeerd begrepen hebben en de *edge cases* op dezelfde manier hebben geïnterpreteerd.
+Natuurlijk, je fixt liever niet een halfuur vóór de Review nog bugs, dat is niet onterecht om te stellen. Maar het probleem zit 'm niet in de uitrol, het zit 'm, in ons geval, in het moment van integratie tussen front- en back-end. Het probleem dat wij als team hebben, is dat de front-enders aan de slag gaan tegen een [gemockte](/tags/mocks/ "Blogs met de tag 'mocks'") [API](/tags/web-apis/ "Blogs met de tag 'web api's'"), totdat de front-end helemaal klaar is. En de back-enders gaan aan de slag op basis van het contract dat we hebben afgesproken, totdat de back-end helemaal klaar is. En dan, helemaal op het eind, dan gaan we eens kijken of de puzzelstukjes op elkaar passen, of we elkaar niet verkeerd begrepen hebben en de *edge cases* op dezelfde manier hebben geïnterpreteerd.
 
 
 We werken in te grote stappen -- misschien niet wat het opbouwen van ons eigen stukje betreft, maar wel wat betreft de integratie van die stukjes. [Onze functietitels hebben ons begrip van onze taak vervormd](/blog/26/02/functietitels-vervormen-de-werkelijkheid/ "'Functietitels vervormen de werkelijkheid'"), tot op het punt dat we denken dat we verantwoordelijk zijn voor slechts één stukje, in plaats van voor de puzzel als geheel. 
