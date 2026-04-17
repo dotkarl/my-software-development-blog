@@ -1,8 +1,8 @@
 ---
 title: "Bezwaren tegen continuous deployment"
 author: "Karl van Heijster"
-date: 2026-02-20T10:17:56+01:00
-draft: true
+date: 2026-04-17T08:30:38+02:00
+draft: false
 comments: true
 tags: ["continuous deployment", "continuous integration", "procesverbetering"]
 summary: "*Continuous deployment* is: elke commit gaat meteen naar productie. Er is geen testomgeving, er is geen acceptatieomgeving; er zijn geen lang levende branches behalve de *main* branch, en die is gelijk met productie. -- Waanzin! wil je roepen, dat kan nooit werken! -- Oké. Waarom niet?"
@@ -83,6 +83,9 @@ Een tweede manier om de codekwaliteit hoog te houden is door continu te [refacto
 Bovendien, de kwaliteit heeft minder te lijden als er wordt gewerkt in kleine stapjes. Elk stapje biedt een rustpunt waarop de keuze kan worden gemaakt om op te ruimen voordat er een nieuw stapje wordt gezet.
 
 
+[Andre Laforgia](https://substack.com/@a4al6a "Andrea Laforgia @ Substack") zet in [deze blog](https://a4al6a.substack.com/p/stop-using-pull-requests "'Stop Using Pull Requests', Andrea's Substack") overtuigend uiteen waarom PR's een antipatroon zijn, en schetst betere alternatieven.
+
+
 {{< asterisk >}}
 
 
@@ -110,7 +113,7 @@ Erger nog, blijkbaar is de onzekerheid structureel. Hij is ingbakken in jullie w
 Ook hier geldt: *continuous deployment* maakt dysfunctionaliteit zichtbaar. De zekerheid dat een tester je werk controleert, ontneemt je van de prikkel de kwaliteit van je werk te verhogen opdat deze controleslag niet meer nodig is.
 
 
-Waarom ben je onzeker over je werk? Waarschijnlijk omdat je in te grote stappen werkt. Het is je vergeven als je de complete feature, die je in één klap probeert te mergen, niet meer kan overzien. Werken in heel veel, veel kleinere stappen brengt focus aan in je werk: deze commit beoogt alleen *dit* te bereiken, en ik weet zeker dat het werkt, want *daar* is een test voor geschreven.
+Waarom ben je onzeker over je werk? Waarschijnlijk omdat je in te grote stappen werkt. Het is je vergeven als je de (implicaties van een) complete feature, die je in één klap probeert te mergen, niet meer kan overzien. Werken in heel veel, veel kleinere stappen brengt focus aan in je werk: deze commit beoogt alleen *dit* te bereiken, en ik weet zeker dat het werkt, want *daar* is een test voor geschreven.
 
 
 Een andere reden om onzeker te zijn over je werk is dat je überhaupt te weinig aan testautomatisering doet (of aan monitoring achteraf). Breng die lacunes op orde, doe dat samen met je tester, en de noodzaak voor de controle achteraf wordt gestaag minder groot.
@@ -131,7 +134,7 @@ Je vindt [datamigraties](/tags/datamigratie/ "Blogs met de tag 'datamigratie'") 
 Dat ziet er ongeveer zo uit. Stel, je wil het type van een kolom wijzigen. Allereerst, voeg een nieuwe kolom toe van het beoogde type, maak deze nullable (en commit)​. Schrijf data naar oude én nieuwe kolom (en commit). Lees data uit nieuwe kolom; gebruik oude als fallback bij null-waarden (commit)​. Migreer oude data naar nieuwe kolom (commit)​. Valideer dat, al dan niet *run time*, dat de data die je uit de nieuwe kolom leest, de juiste waarden hebben. Zo niet, val dan terug op de oude waarden (commit). Maak de nieuwe kolom niet-nullable (commit)​. Lees alleen uit nieuwe kolom (commit)​. Schrijf alleen naar nieuwe kolom (commit)​. Verwijder oude kolom (commit).
 
 
-Dat is niet complexer dan de grote datamigraties die je gewend bent, het is slechts explicieter. Elk klein stapje is veilig, en het geheel daarom ook.
+Dat is niet complexer dan de grote datamigraties die je gewend bent, de stappen zijn slechts explicieter. Elk klein stapje is veilig, en het geheel daarom ook.
 
 
 {{< asterisk >}}
@@ -170,7 +173,7 @@ Maar je zult er ook nooit klaar voor worden, als je het niet probeert.
 Gedrag volgt structuur, niet andersom.
 
 
-Als je claimt dat je eerst je gedrag moet veranderen, voordat je *continuous deployment* kan implementeren, dan stel je voor om: een heel team tegen de huidige manier van werken in te laten werken, om, als ze hebben bewezen dat ze systematische prikkels kunnen negeren, systematische prikkels te introduceren die hun belonen voor het gedrag dat ze nu al vertonen.
+Als je claimt dat je eerst je gedrag moet veranderen, voordat je *continuous deployment* kan implementeren, dan stel je voor om: een heel team tegen de huidige manier van werken in te laten werken. Vervolgens, als ze hebben bewezen systematische prikkels te kunnen negeren, introduceer je systematische prikkels die hun belonen voor het gedrag dat ze nu al vertonen.
 
 
 Ja. Dat is ook een manier om het te doen.
