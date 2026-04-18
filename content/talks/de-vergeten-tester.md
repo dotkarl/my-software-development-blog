@@ -25,6 +25,7 @@ Na deze sessie herken je schadelijke dynamieken in je eigen team, en weet je hoe
 
 - [TestMass](https://www.testmass.org/), 7 april 2026
 - Developer Meet-up @ [Cito](https://www.cito.nl/) (intern), 16 april 2026
+- [TestNet Voorjaarsevenement](https://www.testnet.org/), 6 mei 2026
 
 
 ## Gerelateerde blogs
