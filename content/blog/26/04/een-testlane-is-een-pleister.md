@@ -1,8 +1,8 @@
 ---
 title: "Behoefte aan een testlane"
 author: "Karl van Heijster"
-date: 2026-02-27T12:08:41+01:00
-draft: true
+date: 2026-04-24T07:36:29+02:00
+draft: false
 comments: true
 tags: ["lean", "samenwerking", "testen"]
 summary: "Als we met z'n allen met één ding bezig zijn, dan is onmiddellijk, voor iedereen, zichtbaar wat er al getest is en wat niet. Een *testlane* is een lapmiddel voor het eigenlijke probleem: dat we onvoldoende samenwerken. Daardoor weten we niet wie wat al heeft gedaan. Dáárom heb je behoefte aan een middel om daar inzicht in te verkrijgen."
@@ -17,7 +17,7 @@ summary: "Als we met z'n allen met één ding bezig zijn, dan is onmiddellijk, v
 -- O ja? Waarom?
 
 
-"Ik kan niet zien wat al getest is en wat niet."
+"Ik kan niet zien wat al [getest](/tags/testen/ "Blogs met de tag 'testen'") is en wat niet."
 
 
 -- Die behoefte is valide. Maar dat betekent niet dat we een *testlane* nodig hebben.
@@ -48,3 +48,12 @@ Het is een inzicht uit de [*Lean*](/tags/lean/ "Blogs met de tag 'lean'")-filoso
 
 
 Een *testlane* is een pleister.
+
+
+## Postscript
+
+
+Sindsdien testen we, zodra we iets menen te hebben wat te presenteren valt aan onze stakeholders, met z'n allen een feature. Het werkt wonderwel: de gezamenlijke testsessie brengt iedereen op de hoogte van de huidige functionaliteit, en de blikken van al die verschillende teamleden helpen onvoorziene *edge cases* boven water te krijgen.
+
+
+Mijns inziens kunnen we deze goede gewoonte nog naar een hoger niveau tillen door nóg eerder samen te werken. Maar ik mag niet zeuren, we hebben een stap in de juiste richting gezet.
