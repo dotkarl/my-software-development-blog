@@ -1,8 +1,8 @@
 ---
 title: "Een tip voor testers"
 author: "Karl van Heijster"
-date: 2026-01-23T10:29:45+01:00
-draft: true
+date: 2026-05-01T07:40:07+02:00
+draft: false
 comments: true
 tags: ["software ontwikkelaar (rol)", "testen", "tester (rol)"]
 summary: "Elke softwareontwikkelaar weet dat hij zijn werk goed moet testen. Waarom glippen de meest voor de hand liggende bugs er dan toch doorheen? Omdat testen bij testers is belegd. Dat klinkt voor programmeurs verleidelijk efficiënt: waarom tijd besteden aan het schrijven van tests als iemand het werk toch nog naloopt? Deze taakverdeling nodigt uit tot lagere codekwaliteit en legt de pijn daarvan bij testers."
