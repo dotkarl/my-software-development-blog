@@ -1,8 +1,8 @@
 ---
 title: "Worsteling"
 author: "Karl van Heijster"
-date: 2026-03-06T08:02:47+01:00
-draft: true
+date: 2026-05-08T07:51:41+02:00
+draft: false
 comments: true
 tags: ["continuous deployment", "presenteren", "verandering"]
 summary: "We betoogden tegen verschillende omgevingen voor ontwikkel, test, acceptatie en productie: dat is duur en bovendien nodeloos complex. Er is maar één omgeving die ertoe doet: productie. Maar om de wijzigingen naar productie klein en veilig te houden, kunnen we functionaliteit verbergen. -- \"Dat is valsspelen!\" riep iemand in het publiek, de wanhoop nabij. \"Je hebt nu alsnog een testomgeving, alleen dan op productie!\""
@@ -116,7 +116,7 @@ Dat is [ons patroon](/blog/26/01/veranderen-doet-pijn/ "'Veranderen doet pijn'")
 Je springt en mist en springt en mist en springt en mist, en je leert elke keer. Maar het begint met de overtuiging: dat het kan.
 
 
-En pas later, veel later realiseer je: het gaat erom dat ik er kan komen, niet dat ik dat al springend doe.
+En pas later, veel later realiseer je: het gaat erom dat ik er kan komen, niet dat ik dat springend doe.
 
 
 [^1]: Een bekentenis: ik heb mijn hele leven aangenomen dat het een citaat van een of andere Verlichtingsdenker moet zijn geweest, maar het blijkt dus uit de Bijbel te komen; 1 Tessalonicenzen 5:21-22.
