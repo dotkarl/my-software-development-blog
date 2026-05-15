@@ -1,8 +1,8 @@
 ---
 title: "Postmoderne code"
 author: "Karl van Heijster"
-date: 2026-03-13T11:45:14+01:00
-draft: true
+date: 2026-05-15T10:50:50+02:00
+draft: false
 comments: true
 tags: ["clean code", "immutability", "intentie van code", "null"]
 summary: "Een collega stuurde me een code-snippet door met de vraag: Karl, hoe zit het met de *nullability* van deze property? Ik moest er enorm om lachen, want het antwoord op die vraag verschoof al naar gelang mijn ogen over die ene regel gleden. Alsof ik naar een postmodern kunstwerk keek, bedoeld om op interessante manieren te verwarren."
