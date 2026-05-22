@@ -1,8 +1,8 @@
 ---
 title: "Een tester of praten"
 author: "Karl van Heijster"
-date: 2026-03-20T08:28:29+01:00
-draft: true
+date: 2026-05-22T07:37:34+02:00
+draft: false
 comments: true
 tags: ["aannames", "communicatie", "kwaliteit", "samenwerking", "teamcultuur", "tester (rol)"]
 summary: "Wij hebben geen tester in ons team. Niet omdat ik niet van testers hou (ik hou van testers), maar omdat het verkeerd gebruik van een tester dysfunctionele patronen in een team verbergt en in stand houdt."
@@ -11,10 +11,10 @@ summary: "Wij hebben geen tester in ons team. Niet omdat ik niet van testers hou
 [Wij hebben geen tester in ons team.](/blog/25/09/de-vergeten-tester/ "'De vergeten tester'") Niet omdat ik niet van [testers](/tags/tester-rol/ "Blogs met de tag 'tester (rol)'") hou (ik hou van testers), maar omdat het verkeerd gebruik van een tester dysfunctionele patronen in een team verbergt en in stand houdt. 
 
 
-Een voorbeeld van zo'n patroon is: ik, de ontwikkelaar, schrijf code, en jij, de tester, gaat na of het doet wat het moet doen. Dit is <span style="font-variant:small-caps;">nonsens</span>. Het is jouw [verantwoordelijkheid](/tags/verantwoordelijkheid/ "Blogs met de tag 'verantwoordelijkheid'") als ontwikkelaar om te [bewijzen](EEN_TIP_VOOR_TESTERS "'Een tip voor testers'") dat je code doet wat het moet doen, niet aan een ander om dat na te gaan.
+Een voorbeeld van zo'n patroon is: ik, de ontwikkelaar, schrijf code, en jij, de tester, gaat na of het doet wat het moet doen. Dit is <span style="font-variant:small-caps;">nonsens</span>. Het is jouw [verantwoordelijkheid](/tags/verantwoordelijkheid/ "Blogs met de tag 'verantwoordelijkheid'") als ontwikkelaar om te [bewijzen](/blog/26/05/een-tip-voor-testers/ "'Een tip voor testers'") dat je code doet wat het moet doen, niet aan een ander om dat na te gaan.
 
 
-De overtuiging die aan het patroon ten grondslag ligt, is: ik, de ontwikkelaar, ben verantwoordelijk voor het ontwikkelen, en jij, de tester, bent verantwoordelijk voor het testen. Dit is <span style="font-variant:small-caps;">onjuist</span>. Testen zijn een middel om de [kwaliteit](/tags/kwaliteit/ "Blogs met de tag 'kwaliteit'") van een systeem te waarborgen. Als zodanig zijn ze een verantwoordelijkheid van het team als geheel, en dus ook van de ontwikkelaar.
+De overtuiging die aan het patroon ten grondslag ligt, is: ik, de ontwikkelaar, ben verantwoordelijk voor het ontwikkelen, en jij, de tester, bent verantwoordelijk voor het testen. Dit is <span style="font-variant:small-caps;">onjuist</span>. Tests zijn een middel om de [kwaliteit](/tags/kwaliteit/ "Blogs met de tag 'kwaliteit'") van een systeem te waarborgen. Als zodanig zijn ze een verantwoordelijkheid van het team als geheel, en dus ook van de ontwikkelaar.
 
 
 ## Een Retrospective
