@@ -21,13 +21,17 @@ Aan het eind van deze sessie weet je welke vragen je moet stellen voor een gesla
 Een team dat de edele kunst van het pull request beheerst, voorkomt bugs en technische schuld. Zo'n team kan zich concentreren op waar het om draait: waarde leveren voor de klant!
 
 
+{{<youtube id="f0fi25s5d8M" title="Karl van Heijster - The art of the pull request @ T-DOSE 2024" >}}
+<br>
+
+
 ## Wanneer?
 
 
 - Developer Meet-up @ [Cito](https://www.cito.nl/) (intern), 24 augustus 2023
 - Pizzasessie @ [4Dotnet](https://www.4dotnet.nl/) (intern), 7 september 2023
 - [devNetNoord](https://devnetnoord.nl/), 26 oktober 2023 
-- [T-DOSE](https://t-dose.org/2024/), 2 juni 2024
+- [T-DOSE](https://t-dose.org/2024/), 2 juni 2024 ([video](https://www.youtube.com/watch?v=f0fi25s5d8M&t=2662s "'Karl van Heijster - The art of the pull request' @ YouTube"))
 
 
 ## Gerelateerde blogs
