@@ -1,8 +1,8 @@
 ---
 title: "Conservatieve verandering"
 author: "Karl van Heijster"
-date: 2026-03-27T08:45:34+01:00
-draft: true
+date: 2026-05-29T07:30:24+02:00
+draft: false
 comments: true
 tags: ["continuous deployment", "pull requests", "testen", "verandering"]
 summary: "Hoe weet je of je het goed doet? Dat het niet beter kan? Ik ben van mening dat het onze professionele plicht is om van tijd tot tijd onze manieren van werken om te gooien. Omdat ik denk dat er betere manieren zijn, maar ook en vooral omdat we niet weten of de huidige manier van werken de beste is, als we deze niet regelmatig in vraag stellen. -- Maar dan: *de anderen*."
@@ -14,7 +14,7 @@ Hoe weet je of je het goed doet? Dat het niet beter kan? Ik ben van mening dat h
 Dat wekt misschien de indruk dat ik een progressief karakter heb, dat ik iemand ben die alles helemaal anders wil, die een drang heeft naar constante [verandering](/tags/verandering/ "Blogs met de tag 'verandering'"). Dat is helemaal niet het geval. Verandering maakt me onrustig. Maar ik weet dat verandering nodig is om niet vast te roesten.
 
 
-Maar dan: *de anderen* -- en ook: mijn ongeduld, mijn eigen onrealistische, op lucht gebaseerde verwachting dat *de anderen* mijn denkproces kunnen en willen volgen, als ik het maar zo nauwgezet mogelijk uitleg. Het enige waar ik nog slechter mee om kan gaan dan verandering is weerstand tegen de nodige verandering. Soms [worstel](WORSTELING "'Worsteling'") ik daarmee.
+Maar dan: *de anderen* -- en ook: mijn ongeduld, mijn eigen onrealistische, op lucht gebaseerde verwachting dat *de anderen* mijn denkproces kunnen en willen volgen, als ik het maar zo nauwgezet mogelijk uitleg. Het enige waar ik nog slechter mee om kan gaan dan verandering is weerstand tegen de nodige verandering. Soms [worstel](/blog/26/05/worsteling/ "'Worsteling'") ik daarmee.
 
 
 ## Vertaling
@@ -23,7 +23,7 @@ Maar dan: *de anderen* -- en ook: mijn ongeduld, mijn eigen onrealistische, op l
 Begrijp me niet verkeerd, ik geloof niet *de anderen* dom zijn. Integendeel, ik weet dat ze het niet zijn. Wat ze doen, is een voorstel voor iets nieuws vertalen naar iets bekends -- en dan gaat het mis.
 
 
-Ik pleit tegen het idee dat een tester mijn werk controleert (bijvoorbeeld in [dit praatje](DE_VERGETEN_TESTER "'De vergeten tester'")). Dat vinden *de anderen* waanzin. Dan glippen er toch allemaal bugs doorheen! roepen ze. Je hebt toch een tweede set ogen nodig! -- Maar ik bestrijd niet de waarde van een tweede set ogen, ik onderschrijf die juist. Ik pleit ertegen dat die tweede set ogen *achteraf* komt kijken of ik mijn werk wel heb gedaan. Dat is, als je het mij vraagt, veel te laat. Zou ik de tester niet veel beter vooraf kunnen vragen me te helpen de testcases op te stellen die ik moet automatiseren? 
+Ik pleit tegen het idee dat een tester mijn werk controleert (bijvoorbeeld in [dit praatje](/talks/de-vergeten-tester/ "'De vergeten tester'")). Dat vinden *de anderen* waanzin. Dan glippen er toch allemaal bugs doorheen! roepen ze. Je hebt toch een tweede set ogen nodig! -- Maar ik bestrijd niet de waarde van een tweede set ogen, ik onderschrijf die juist. Ik pleit ertegen dat die tweede set ogen *achteraf* komt kijken of ik mijn werk wel heb gedaan. Dat is, als je het mij vraagt, veel te laat. Zou ik de tester niet veel beter vooraf kunnen vragen me te helpen de testcases op te stellen die ik moet automatiseren? 
 
 
 Ik pleit voor het afschaffen van [*pull requests*](/tags/pull-requests/ "Blogs met de tag 'pull requests'") (PR's).[^1] Dat vinden *de anderen* waanzin. Dat is een schending van het vier ogen-principe! We moeten toch kennis delen! -- Maar je hebt toch geen PR's nodig om kennis te delen? Je kunt ook naast elkaar zitten en de review doen terwijl je de code schrijft. Dan deel je de kennis onmiddellijk én je voorkomt regelmatig dat de ander een doodlopend pad in slaat. En het komt de kwaliteit van de oplossing ook nog eens ten goede.
