@@ -4,7 +4,7 @@ author: "Karl van Heijster"
 date: 2026-05-29T07:45:19+02:00
 draft: true
 comments: true
-tags: []
+tags: ["code reviews", "presenteren", "pull requests", "samenwerking"]
 summary: "Het praatje dat ik in 2024 op T-DOSE gaf, *The art of the pull request*, is onlangs op YouTube verschenen. Gezien mijn houding naar *pull requests* de afgelopen twee jaar is veranderd, leek het me een mooie gelegenheid om die ideeën nog eens te overdenken."
 ---
 
