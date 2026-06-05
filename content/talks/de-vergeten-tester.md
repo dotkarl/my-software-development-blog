@@ -38,4 +38,4 @@ Na deze sessie herken je schadelijke dynamieken in je eigen team, en weet je hoe
 - [Een ontwikkelaar is verantwoordelijk voor drie systemen](/blog/25/12/een-ontwikkelaar-is-verantwoordelijk-voor-drie-systemen/)
 - [Een tip voor testers](/blog/26/05/een-tip-voor-testers/)
 - [Een tester of praten](/blog/26/05/een-tester-of-praten/)
-- De twee doelen van een ontwikkelteam [binnenkort]
+- [Twee doelen van een ontwikkelteam](/blog/26/06/twee-doelen-van-een-ontwikkelteam/)

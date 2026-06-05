@@ -1,8 +1,8 @@
 ---
-title: "De twee doelen van een ontwikkelteam"
+title: "Twee doelen van een ontwikkelteam"
 author: "Karl van Heijster"
-date: 2026-04-04T10:00:45+02:00
-draft: true
+date: 2026-06-05T07:52:16+02:00
+draft: false
 comments: true
 tags: ["filosofie", "software ontwikkelaar (rol)", "samenwerking", "systeemdenken", "teamcultuur", "tester (rol)"]
 summary: "Een softwareontwikkelteam heeft, *in abstracto*, twee doelen: vernieuwing en veiligheid. Een team bestaat daarom, zou je kunnen stellen, uit twee delen: ontwikkelaars en testers. Deze conceptualisatie van een ontwikkelteam is het gevolg van een vorm van reductionisme. Maar een team valt niet te reduceren tot haar samenstellende delen. Ze bestaat uit haar samenstellende delen *plus hun vormen van interactie*."
@@ -14,10 +14,10 @@ summary: "Een softwareontwikkelteam heeft, *in abstracto*, twee doelen: vernieuw
 1.1. Vernieuwing wil zeggen: de software moet nieuwe problemen oplossen of bestaande problemen beter oplossen dan voorgaande implementaties. Dit doel wordt bereikt door nieuwe features toe te voegen of bestaande features te veranderen.
 
 
-1.2. Veiligheid wil zeggen: de software moet wat het doet goed doen. Bestaande features mogen geen [bugs](/tags/bugs/ "Blogs met de tag 'bugs'") bevatten, en nieuwe features mogen de werking van bestaande features niet op onverwachte manieren omverwerpen.
+1.2. Veiligheid wil zeggen: de software moet dat wat het doet, goed doen. Bestaande features mogen geen [bugs](/tags/bugs/ "Blogs met de tag 'bugs'") bevatten, en nieuwe features mogen de werking van bestaande features niet op onverwachte manieren omverwerpen.
 
 
-1.3. Deze doelen staan op gespannen voet met elkaar. Maximaal inzetten op vernieuwing brengt de veiligheid in gevaar: er worden zoveel mogelijk nieuwe features toegevoegd zonder acht te slaan op de effecten daarvan op bestaande features. Maximaal inzetten op veiligheid brengt vernieuwing in gevaar: de eenvoudigste manier om veiligheid te garanderen is niets aan de software te veranderen.[^2]
+1.3. Deze doelen staan op gespannen voet met elkaar. Maximaal inzetten op vernieuwing brengt de veiligheid in gevaar: er worden zoveel mogelijk nieuwe features toegevoegd zonder acht te slaan op de effecten daarvan op het systeem als geheel. Maximaal inzetten op veiligheid brengt vernieuwing in gevaar: de eenvoudigste manier om veiligheid te garanderen is niets aan de software te veranderen.[^2]
 
 
 {{< asterisk >}}
@@ -74,7 +74,7 @@ summary: "Een softwareontwikkelteam heeft, *in abstracto*, twee doelen: vernieuw
 {{< asterisk >}}
 
 
-6.0 De twee doelen van het team hebben hun rechtmatige plek op het niveau van het gehele team, niet op een lager niveau. 
+6.0 De twee doelen van het team hebben hun rechtmatige plek op het niveau van het team als geheel, niet op een lager niveau. 
 
 
 [^1]: Dit inzicht ontleen ik aan [*The DevOps Handbook*](https://itrevolution.com/product/the-devops-handbook-second-edition/ "Gene Kim, Jez Humble, Patrick Debois, John Willis, Nicole Forsgren, 'The DevOps Handbook (Second Edition)', IT Revolution, 2021"). Vernieuwing wordt daar gekoppeld aan het *dev*-gedeelte; veiligheid aan *ops*.
