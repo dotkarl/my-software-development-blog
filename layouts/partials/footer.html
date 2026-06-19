@@ -2,7 +2,7 @@
 	{{ with .Site.Params.disqusShortname }}
 	{{ if $.Params.comments }}
 	<figure class="article-discussion">
-		{{ template "_internal/disqus.html" $ }}
+		{{ partial "disqus.html" $ }}
 	</figure>
 	{{ end }}
 	{{ end }}
