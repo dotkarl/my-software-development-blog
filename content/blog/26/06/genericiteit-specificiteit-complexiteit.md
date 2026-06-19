@@ -1,8 +1,8 @@
 ---
 title: "Genericiteit, specificiteit, complexiteit"
 author: "Karl van Heijster"
-date: 2026-04-17T10:22:32+02:00
-draft: true
+date: 2026-06-19T06:15:32+02:00
+draft: false
 comments: true
 tags: ["complexiteit", "eenvoud", "filosofie", "intentie van code"]
 summary: "Je zegt, alsof instinctief: een generieke component is beter dan een specifieke component, want een generieke component is herbruikbaar. Maar dat veronderstelt dat je weet welk deel van de verantwoordelijkheden generiek is en welke specifiek, en dat je deze netjes van elkaar kunt scheiden. Een specifieke component is eenvoudiger dan een generieke component, want een specifieke component hoeft alleen maar in specifieke omstandigheden te werken. Over het algemeen geldt: eenvoudig is beter dan complex. Dus is een specifieke component dan niet beter dan een generieke?"
@@ -35,7 +35,7 @@ Een specifieke component is eenvoudiger dan een generieke component, want een sp
 Een generieke component is beter *als* de abstractie die deze component biedt, een ware abstractie is, dat wil zeggen: als deze in niet-specifieke taal helder communiceert wat er gebeurt in het specifieke geval.
 
 
-Een generieke component veronderstelt een ander begrip, een diepgaander begrip van het probleem dan een specifieke component. Het kunnen maken van een generieke component veronderstelt dat jij het essentiële van het accidentele kunt scheiden.
+Een generieke component veronderstelt een ander begrip, een diepgaander begrip van het probleem dan een specifieke component. Het kunnen maken van een generieke component veronderstelt dat jij [het essentiële van het accidentele](https://en.wikipedia.org/wiki/No_Silver_Bullet "'No Silver Bullet', Wikipedia") kunt scheiden.
 
 
 Is het essentiële gescheiden van het accidentele in deze component? -- Beide zitten door elkaar. *Dat* is wat de component zo complex maakt.
@@ -62,7 +62,7 @@ De complexiteit ontstaat doordat ons denken, nu nog, verward is. Als wij ons den
 {{< asterisk >}}
 
 
-Softwareontwikkeling is, voor mij, altijd een kwestie geweest van het vastleggen van begrip in code. Dat het systeem vervolgens ook blijkt te werken, is, zou ik soms willen zeggen, mooi meegenomen. Het werkt *omdat* ik het probleem begrepen heb.
+Softwareontwikkeling is, voor mij, altijd een kwestie geweest van [het vastleggen van begrip in code](https://gwern.net/doc/cs/algorithm/1985-naur.pdf "'Programming as Theory Building', Peter Nauer"). Dat het systeem vervolgens ook blijkt te werken, is, zou ik soms willen zeggen, mooi meegenomen. Het werkt *omdat* ik het probleem begrepen heb.
 
 
 'Het werkt, maar vraag me niet waarom.' -- Het werkt *in dit geval*, maar vraag me niet waarom. Als het *altijd* zou werken, maar vraag me niet waarom, dan zou dat niet minder dan een wonder zijn.
