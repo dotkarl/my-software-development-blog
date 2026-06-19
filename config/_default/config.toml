@@ -3,18 +3,25 @@ languageCode = "nl-NL"
 title = "dotkarl"
 theme = "tale" 
 defaultContentLanguage = "nl"
-disqusShortname = "notkarlmarx"
 ignoreLogs = ['shortcode-x-getremote']
 rssLimit = 20
+
+[services]
+  [services.disqus]
+    shortname = "notkarlmarx"
+
 [params]
-  commentoEnable = true
+  disqusShortname = "notkarlmarx"
   author = "Karl van Heijster"
   css = ["custom.css"]
   description = "Software Ontwikkelen met Karl van Heijster"
+
 [author]
   name = "Karl van Heijster"
+
 [taxonomies]
   tag = "tags"
+
 [menu]
   [[menu.main]]
     identifier = "tags"
@@ -58,6 +65,7 @@ rssLimit = 20
     title = "Tags"
     url = "/tags/"
     weight = 5
+    
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
