@@ -1,8 +1,8 @@
 ---
 title: "AI vs. ontwikkelaars"
 author: "Karl van Heijster"
-date: 2026-05-22T08:47:53+02:00
-draft: true
+date: 2026-07-10T09:28:24+02:00
+draft: false
 comments: true
 tags: ["kunstmatige intelligentie", "kwaliteit", "software ontwikkelaar (rol)"]
 summary: "Kijk uit, merkte mijn manager op: een groot deel van haar sollicitanten was aan het solliciteren geslagen precies *omdat* hun huidige werkgever vol op AI had ingezet. De ontwikkelaars voelden zich niet meer thuis in die nieuwe wereld. Ze hadden er een hekel aan enkel nog code te reviewen, ze wilden weer terug code met de hand te schrijven. Hebben die ontwikkelaars het mis? Blijven zij achter?"
@@ -11,7 +11,7 @@ summary: "Kijk uit, merkte mijn manager op: een groot deel van haar sollicitante
 Mijn manager had laatst zes sollicitanten achter elkaar op één dag. Ze vroeg, uitgeput, of ik het oké vond als we ons voortgangsgesprek even een weekje verzetten.
 
 
-De dag erop hadden we een gesprek met onze directrice. Hoe ziet de afdeling, vroeg ik, er over een paar jaar uit in jouw idealbeeld? Het duurde, weinig verrassend, niet lang voordat het gesprek ging over het gebruik van [kunstmatige intelligentie](/tags/kunstmatige-intelligentie/ "Blogs met de tag 'kunstmatige intelligentie'") (AI).
+De dag erop hadden we een gesprek met de directrice van de IT-afdeling. Hoe ziet de afdeling, vroeg ik, er over een paar jaar uit in jouw idealbeeld? Het duurde, weinig verrassend, niet lang voordat het gesprek ging over het gebruik van [kunstmatige intelligentie](/tags/kunstmatige-intelligentie/ "Blogs met de tag 'kunstmatige intelligentie'") (AI).
 
 
 Het is niet controversieel te stellen dat AI de inhoud van ons vakgebied de komende jaren ingrijpend zal veranderen. Stemmen die menen te weten hoe die verandering eruit gaat ziet, wantrouw ik, maar dat er een verandering plaatsvindt, staat buiten kijf.
@@ -32,7 +32,7 @@ Hebben die ontwikkelaars het mis? Blijven zij achter?[^1]
 ## Twee soorten ontwikkelaars
 
 
-Het is de vraag: wat voor ontwikkelaars waren het, die sollicitanten? Er zijn ontwikkelaars die plezier halen uit het ambacht van het coderen. Zij houden van het proces van code schrijven, eraan schaven tot het mooi is of perfect uitdrukt wat het wil zeggen.
+Het is de vraag: wat voor [ontwikkelaars](/tags/software-ontwikkelaar-rol/ "Blogs met de tag 'software ontwikkelaar (rol)'") waren het, die sollicitanten? Er zijn ontwikkelaars die plezier halen uit het ambacht van het coderen. Zij houden van het proces van code schrijven, eraan schaven tot het mooi is of perfect uitdrukt wat het wil zeggen.
 
 
 Zulke ontwikkelaars hebben een probleem. AI dreigt de financiële waarde van hun drijfveer te reduceren tot nul. Hoewel ik sympathie heb voor deze groep, reken ik mezelf er niet toe.
@@ -65,16 +65,16 @@ Programmeurs formuleerden hun begrip traditioneel in code. Wie zijn begrip van h
 Ik heb mij gefocust op het soort ontwikkelaar dat bij ons solliciteerde. Maar misschien is dat niet terecht, of op zijn minst onvolledig.
 
 
-Ze zeggen: AI is een versneller. Dat betekent: als je je zaken goed op orde hebt, dan biedt het een snelweg naar kwalitatieve software. Maar: als je zaken niet in orde zijn, dan zul je in sneltreinvaart een puinhoop produceren. 
+Ze zeggen: AI is een versneller. Dat betekent: als je je zaken goed op orde hebt, dan biedt het een snelweg naar [kwalitatieve](/tags/kwaliteit/ "Blogs met de tag 'kwaliteit'") software. Maar: als je zaken niet in orde zijn, dan zul je in sneltreinvaart een puinhoop produceren. 
 
 
 En wie ooit een handgeschreven puinhoop heeft moeten opruimen, weet hoe enorm de uitdaging is dáár al iets werkbaars van te kleien.
 
 
-Zouden die bedrijven waar onze sollicitanten vandaan komen, hebben ingezet op AI voordat ze hun zaakjes op orde hadden? En zijn het de ontwikkelaars -- de ontwikkelaars die begrijpen dat snelheid slechts duurzaam kan zijn met goede code -- zijn het die ontwikkelaars die daar de prijs voor betalen?
+Zouden die bedrijven waar onze sollicitanten vandaan komen, hebben ingezet op AI voordat ze hun zaakjes op orde hadden? En zijn het de ontwikkelaars -- de ontwikkelaars die begrijpen dat snelheid slechts duurzaam kan zijn met goede code -- zijn het die ontwikkelaars díe daar de prijs voor betalen?
 
 
-Zou ik, in zo'n context, niet net zo zeer mijn CV afstoffen?
+Zou ik, in zo'n context, niet net zozeer mijn CV afstoffen?
 
 
 [^1]: Ik durf het oprecht niet te zeggen, ik ben van de stempel [*choose boring technology*](https://mcfunley.com/choose-boring-technology "Dan McKinley, 'Choose Boring Technology'"). Het is aan anderen om de fouten te maken, het is aan mij om ervan te leren.
