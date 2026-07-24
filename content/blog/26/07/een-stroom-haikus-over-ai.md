@@ -1,8 +1,8 @@
 ---
 title: "Een stroom haiku's (over AI)"
 author: "Karl van Heijster"
-date: 2026-06-05T09:52:27+02:00
-draft: true
+date: 2026-07-24T08:15:50+02:00
+draft: false
 comments: true
 tags: ["kunstmatige intelligentie", "poëzie"]
 summary: "*de robot codeert / in een eindeloze loop / zonder plaspauze // schrijf mijn liefje schrijf / stort je hart uit en ziel al / thans dat wat je hebt // de code groeit wild / ik snap het niet maar het werkt / door en door en door*"
