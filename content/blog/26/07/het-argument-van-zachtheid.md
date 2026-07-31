@@ -1,8 +1,8 @@
 ---
 title: "Het argument van zachtheid"
 author: "Karl van Heijster"
-date: 2026-06-12T10:17:14+02:00
-draft: true
+date: 2026-07-31T07:53:00+02:00
+draft: false
 comments: true
 tags: ["kwaliteit", "test-driven development", "testen"]
 summary: "Wat maakt goede software goed? De hint zit in de naam: *soft*ware. Software moet *zacht* zijn, dat wil zeggen: het moet makkelijk te veranderen zijn. -- Goede software is makkelijk te veranderen software."
@@ -44,10 +44,10 @@ Conclusie: goede software is software die is ontwikkeld middels TDD.
 *(a)* Goede software is natuurlijk niet *alleen* software die makkelijk aan te passen is: "goed" is een te losse kwalificatie hier. Software bestaat binnen de context van een breder [systeem](/tags/systeemdenken/ "Blogs met de tag 'systeemdenken'"). Goede software is bijvoorbeeld ook: software die een bestaand probleem oplost binnen dat systeem. Software die een niet-bestaand probleem oplost, is niet goed, in de zin dat ze niet [waardevol](/tags/waarde/ "Blogs met de tag 'waarde'") is.
 
 
-Als ik spreek over "goede software", dan bedoel ik "goed *als* software". Software die (nu) een bestaand probleem oplost maar die niet makkelijk te veranderen is, is "goed" in de ze van waardevol, maar zij vervult haar potentieel als software niet.
+Als ik spreek over "goede software", dan bedoel ik "goed *als* software". Software die (nu) een bestaand probleem oplost maar die niet makkelijk te veranderen is, is "goed" in de zin van waardevol, maar zij vervult haar potentieel als software niet.
 
 
-Software bestaat binnen de context van een breder systeem, dat klopt. Maar dat systeem verandert continu, niet in de laatste plaats dankzij de software zelf, en die verandering is een fundamenteel onderdeel van het systeem. ([Barry O'Reilly](https://www.linkedin.com/in/barry-o-reilly-b924657/ "Barry O'Reilly @ LinkedIn")'s fundamentele kritiek op de bestaande praktijk van softwarearchitectuur is dat ze dit gegeven niet onderkent.)
+Waarom is goede software veranderbaar? Omdat het systeem waarbinnen ze opereert, continu verandert, niet in de laatste plaats dankzij de software zelf, en die verandering is een fundamenteel onderdeel van het systeem. ([Barry O'Reilly](https://www.linkedin.com/in/barry-o-reilly-b924657/ "Barry O'Reilly @ LinkedIn")'s fundamentele kritiek op de bestaande praktijk van softwarearchitectuur is dat ze dit gegeven niet onderkent.)
 
 
 {{< asterisk >}}
