@@ -35,7 +35,7 @@ Vastlegging van de namen van co-auteur(s) gaat middels de [`Co-authored-by`-trai
 
 
 ```bash
-$ git commit -m "feat(feature) <longer description of work done>
+$ git commit -m "feat(feature): <longer description of work done>
 >
 > Co-authored-by: John Doe <john.doe@company.com>
 > Co-authored-by: Jane Doe <jane.doe@company.com>"
@@ -52,7 +52,7 @@ Vastlegging van de namen van de reviewer(s) gaat middels de `Reviewed-by`-traile
 
 
 ```bash
-$ git commit -m "refactor(feature) <longer description of work done>
+$ git commit -m "refactor(feature): <longer description of work done>
 >
 > Reviewed-by: John Doe <john.doe@company.com>"
 ```
