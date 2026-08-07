@@ -1,8 +1,8 @@
 ---
 title: "Voorkomen vs. genezen"
 author: "Karl van Heijster"
-date: 2026-06-20T09:29:47+02:00
-draft: true
+date: 2026-08-07T07:30:48+02:00
+draft: false
 comments: true
 tags: ["bugs", "continuous deployment", "test-driven development", "vertrouwen"]
 summary: "Ze zeggen: voorkomen is beter dan genezen. Maar is dat wel zo? -- In mijn vorige team besteedden we veel tijd aan het voorkomen van bugs. Ontwikkelaars rolden hun werk uit op de testomgeving en testers liepen de functionaliteit na op zoek naar bugs. Zodra de tester akkoord was, werd het werk op de acceptatieomgeving uitgerold en liepen acceptanten uit de business de functionaliteit na op bugs. Zodra de acceptanten akkoord waren, werd het op naar de productieomgeving uitgerold -- en klaagden de gebruikers steen en been over alle bugs."
@@ -38,7 +38,7 @@ Je zou de conclusie kunnen trekken: ook ernstige bugs moeten het geijkte proces 
 Het hierboven beschreven proces is geoptimaliseerd voor controle op fouten. In mijn huidige team hanteren we een ander proces, [*continuous deployment*](/tags/continuous-deployment/ "Blogs met de tag 'continuous deployment'"): elke commit wordt onmiddellijk uitgerold op de productieomgeving. 
 
 
-Om continu te kunnen deployen, moet je zeker weten dat elke commit een werkende versie van het systeem vertegenwoordigd. Elke wijziging in gedrag moet daarom voorafgegaan worden door een geautomatiseerde test die bewijst dat het systeem inderdaad dat gedrag vertoont. Een systeem dat met [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) wordt ontwikkeld, hoeft niet per se minder fouten te bevatten dan een systeem dat op de "traditionele" manier wordt ontwikkeld (hoewel het in mijn ervaring wel degelijk minder fouten bevat). Een van de grote voordelen van TDD is dat het vastlegt wat het systeem in elk geval wél doet.
+Om continu te kunnen deployen, moet je zeker weten dat elke commit een werkende versie van het systeem vertegenwoordigt. Elke wijziging in gedrag moet daarom voorafgegaan worden door een geautomatiseerde test die bewijst dat het systeem inderdaad dat gedrag vertoont. Een systeem dat met [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) wordt ontwikkeld, hoeft niet per se minder fouten te bevatten dan een systeem dat op de "traditionele" manier wordt ontwikkeld (hoewel het in mijn ervaring wel degelijk minder fouten bevat). Een van de grote voordelen van TDD is dat het vastlegt wat het systeem in elk geval wél doet.
 
 
 Maar tests bewijzen niet dat een systeem geen bugs bevat -- en kunnen dat ook niet.[^2] Ook met deze manier van werken, zullen er dus bugs doorheen glippen. Zoals ik zei, bugs horen bij het leven. De manier waarop deze worden afgehandeld, verschilt echter fundamenteel van de bovenstaande proces. Er hoeft namelijk geen onderscheid te worden gemaakt tussen kritieke en minder ernstige bugs. Elke bugfix volgt hetzelfde proces: je schrijft een test die de bug reproduceert, je zorgt dat de test slaagt, en je rolt de wijziging uit naar de productieomgeving.
