@@ -1,8 +1,8 @@
 ---
 title: "Procesbeschrijving pair programming"
 author: "Karl van Heijster"
-date: 2026-07-24T09:03:13+02:00
-draft: true
+date: 2026-08-21T08:32:46+02:00
+draft: false
 comments: true
 tags: ["code reviews", "documentatie", "pair programming", "pull requests"]
 summary: "In mijn team werken we niet met *pull requests*. Maar hoe werken we dan? Onze security officer vroeg me een procesbeschrijving op te stellen, deels om de auditers mee tevreden te stellen en deels om kennis te delen. "
