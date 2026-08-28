@@ -1,8 +1,8 @@
 ---
 title: "PR's vs. pairs"
 author: "Karl van Heijster"
-date: 2026-07-24T10:11:03+02:00
-draft: true
+date: 2026-08-28T07:49:26+02:00
+draft: false
 comments: true
 tags: ["code reviews", "pair programming", "pull requests", "samenwerking"]
 summary: "Je maakt een branch, je wijzigt de code. Je maakt een *pull request* (PR) aan om deze te integreren in de *main* branch. Voordat die code toegestaan wordt, moet deze eerst door een collega worden bekeken. Pas als deze zijn zegening heeft gegeven, mag de code worden geïntegreerd. -- Vanwaar deze opzet?"
@@ -17,10 +17,10 @@ Vanwaar deze opzet? -- 'Omdat je niet *zomaar elke* codewijziging toe wil staan.
 {{< asterisk >}}
 
 
-Maar is dat wat je hier doet? De huidige opzet gaat verder: 'ik wil *geen enkele* codewijziging zomaar toestaan.' Is dat redelijk?
+Maar is dat wat je hier doet? De huidige opzet gaat verder: 'Ik wil *geen enkele* codewijziging zomaar toestaan.' Is dat redelijk?
 
 
-Stel dat ik een typefout ontdek, zou ik die dan niet door mogen voeren? Of stel dat ik wat verdwaalde regels witruimte weg wil halen. Of stel dat ik wat witregels toe wil voegen om de code wat overzichtelijker te maken. Zijn dat wijzigingen die ik expliciet wil hebben goedgekeurd, voordat ze mogen worden geïntegreerd?
+Stel dat ik een typfout ontdek, zou ik die dan niet door mogen voeren? Of stel dat ik wat verdwaalde regels witruimte weg wil halen. Of stel dat ik wat witregels toe wil voegen om de code wat overzichtelijker te maken. Zijn dat wijzigingen die ik expliciet wil hebben goedgekeurd, voordat ze mogen worden geïntegreerd?
 
 
 {{< asterisk >}}
@@ -38,13 +38,16 @@ Ook dat klinkt niet onredelijk. -- Of wel soms? In een context waarin je in een 
 Ik zoek niet naar een principieel antwoord op die vraag. Het zou per team kunnen verschillen. Het ene team is volwassen genoeg om ontwikkelaars die afweging te laten maken. In het andere team zou het tot wanorde leiden.
 
 
-De vraag wordt dan: hoe creëren we het ene team en niet het andere? -- Iemand die opereert in een context van wantrouwen, heeft geen prikkel om het onderscheid te leren maken of zelfs maar te herkennen. Die doet zijn wijzigingen en laat de ander beslissen of het triviaal is of substantieel. Diegene traint deze spier niet.
+De vraag wordt dan: hoe creëren we het ene team en niet het andere? -- Iemand die opereert in een context van wantrouwen, heeft geen prikkel om het onderscheid te leren maken of zelfs maar te herkennen. Die doet zijn wijzigingen en laat de ander beslissen of het triviaal is of substantieel. 
+
+
+Diegene traint zijn spier niet. Diegene ontwikkelt geen intuïtie om triviaal van substantieel te kunnen onderscheiden.
 
 
 {{< asterisk >}}
 
 
-'Je voorbeelden zijn misleidend en eenzijdig. Er is een grijs gebied tussen een typefout en een gedragswijziging. De impact van een [refactoring](/tags/refactoren/ "Blogs met de tag 'refactoren'") is niet altijd op voorhand in te schatten.' -- Dat is waar. Maar leidt die observatie automatisch tot een systeem van wantrouwen en controle? 
+'Je voorbeelden zijn misleidend en eenzijdig. Er is een grijs gebied tussen een typfout en een gedragswijziging. De impact van een [refactoring](/tags/refactoren/ "Blogs met de tag 'refactoren'") is niet altijd op voorhand in te schatten.' -- Dat is waar. Maar leidt die observatie automatisch tot een systeem van wantrouwen en controle? 
 
 
 Een review is een perspectiefwisseling. *Ik* kan van perspectief wisselen en mijn eigen werk beoordelen. Maar ik heb blinde vlekken. Ik kan het niet alleen. 
@@ -56,7 +59,7 @@ Een review is een perspectiefwisseling. *Ik* kan van perspectief wisselen en mij
 'Maar diegene treedt zelf ook op als reviewer. Hij zou wat hij in die rol leert, kunnen toepassen op de manier waarop hij het schrijven van zijn code structureert.' -- Je denkt aan het scheiden van refactorings en functionele wijzigingen, bijvoorbeeld.[^2]
 
 
-Dat is waar, dat kan. Maar waarom ben ik dat in de praktijk nog zo weinig tegengekomen? -- Een ontwikkelaar werkt in zijn eentje, hij ploetert tot het werkt. Welke prikkel heeft hij om te reflecteren op zijn manier van werken?
+Dat is waar, dat kan. Maar waarom ben ik dat in de praktijk nog zo weinig tegengekomen? -- Een ontwikkelaar werkt [in zijn eentje](/blog/24/11/waarom-wil-carl-niet-pairen/ "'Waarom wil Carl niet pairen?'"), hij ploetert tot het werkt. Welke prikkel heeft hij om te reflecteren op zijn manier van werken?
 
 
 {{< asterisk >}}
@@ -65,7 +68,7 @@ Dat is waar, dat kan. Maar waarom ben ik dat in de praktijk nog zo weinig tegeng
 'We hebben een proces. Het proces is: jij stelt een wijziging voor en ik beoordeel de wijziging.' -- Prima. -- 'We hebben dat proces gecodificeerd in een systeem dat ons in staat stelt los van elkaar te kunnen werken.' -- O jee.
 
 
-Het is één ding als we naast elkaar zitten en jij stelt iets voor en ik zeg: 'heb je hier aan gedacht?' Het is iets anders als we elkaar niet zien en jij stelt iets voor, en je maakt het, en je bent er twee, drie dagen aan kwijt, en dan kom ik, en dan constateer ik: 'je hebt hier niet aan gedacht.'
+Het is één ding als we naast elkaar zitten en jij stelt iets voor en ik zeg: 'Heb je hier aan gedacht?' Het is iets anders als we elkaar niet zien en jij stelt iets voor, en je maakt het, en je bent er twee, drie dagen aan kwijt, en dan kom ik, en dan constateer ik: 'Je hebt hier niet aan gedacht.'
 
 
 {{< asterisk >}}
@@ -83,10 +86,10 @@ Het systeem is gebouwd op grotere wijzigingen dan dat. Maar dat verlangt van ons
 'Dus [samenwerken](/tags/samenwerking/ "Blogs met de tag 'samenwerking'") valt te verkiezen boven alleen werken.' Maar waarom? Alleen om de [fouten](/tags/falen/ "Blogs met de tag 'falen'") eerder te ontdekken? 
 
 
-In samenwerking leer je van elkaar. Samenwerking je dwingt je eigen patronen te zien -- en eventueel herzien. Als je samenwerkt, moet je je verantwoorden: 'waarom doe je het zo?'
+In samenwerking leer je van elkaar. Samenwerking je dwingt je eigen patronen te zien -- en eventueel herzien. Als je samenwerkt, moet je je verantwoorden: 'Waarom doe je het zo?'
 
 
-De vraag die bij PR's wordt gesteld is een heel andere: 'waarom heb je het zo gedaan?' De vraag waar een PR je toe verleidt, gaat over het eindresultaat. -- De vraag van een [*pairing*](/tags/pair-programming/ "Blogs met de tag 'pair programming'")-partner, gaat over het proces.
+De vraag die bij PR's wordt gesteld is een heel andere: 'Waarom heb je het zo gedaan?' De vraag waar een PR je toe verleidt, gaat over het eindresultaat. -- De vraag van een [*pairing*](/tags/pair-programming/ "Blogs met de tag 'pair programming'")-partner, gaat over het proces.
 
 
 {{< asterisk >}}
