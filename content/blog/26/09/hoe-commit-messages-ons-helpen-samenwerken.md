@@ -2,7 +2,7 @@
 title: "Hoe commit messages ons helpen samenwerken"
 author: "Karl van Heijster"
 date: 2026-09-04T07:13:53+02:00
-draft: true
+draft: false
 comments: true
 tags: ["code reviews", "documentatie", "git", "pair programming", "samenwerking", "trunk-based development"]
 summary: "Wie met PR's werkt, werkt met elk groen vinkje zijn administratie bij: *die* ontwikkelaar heeft de code geschreven en *deze* ontwikkelaar heeft die code gereviewd. De rolverdeling wordt automatisch in een systeem vastgelegd. Zoiets hadden wij niet -- niet automatisch."
