@@ -1,7 +1,7 @@
 ---
 title: "Hoe commit messages ons helpen samenwerken"
 author: "Karl van Heijster"
-date: 2026-07-31T09:15:30+02:00
+date: 2026-09-04T07:13:53+02:00
 draft: true
 comments: true
 tags: ["code reviews", "documentatie", "git", "pair programming", "samenwerking", "trunk-based development"]
@@ -20,7 +20,7 @@ Zoiets hadden wij niet -- niet automatisch. Maar teruggaan naar PR's wilden we[^
 Die blog is [*Four Eyes Without Pull Requests*](https://a4al6a.substack.com/p/four-eyes-without-pull-requests "'Four Eyes Without Pull Requests', Andrea Laforgia"). Daarin stelt hij voor om de administratie bij te houden in [commit-trailers](https://git-scm.com/docs/git-interpret-trailers "'git-interpret-trailers Documentation', Git").[^2] Elke *commit message* moet afsluiten met een (of meerdere) trailer(s) die vastleggen wie de co-auteur (in geval van *pairing*) of reviewer (in geval van solo werk) van die specifieke commit was. 
 
 
-Deze werkwijze heb ik vastgelegd in een [procesbeschrijving voor *pair programming*](PROCESBESCHRIJVING_PAIR_PROGRAMMING, "'Procesbeschrijving pair programming'").
+Deze werkwijze heb ik vastgelegd in een [procesbeschrijving voor *pair programming*](/blog/26/08/procesbeschrijving-pair-programming/, "'Procesbeschrijving pair programming'").
 
 
 ## Validatie
