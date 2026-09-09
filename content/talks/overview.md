@@ -9,6 +9,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |          |                                                      |                                                                  |
 | ---------| ---------------------------------------------------- | ---------------------------------------------------------------- |
+| 22-10-26 | [Noordertest](https://www.noordertest.nl/)           | [*De vergeten tester*](/talks/de-vergeten-tester/)[^2]           |
 | 04-09-26 | [SpaceRockIT](https://spacerockitfestival.nl/)       | [*De vergeten tester*](/talks/de-vergeten-tester/)               |
 | 15-06-26 | [Cito](https://www.cito.nl/) (intern)                | [*De vergeten tester*](/talks/de-vergeten-tester/)               |
 | 06-05-26 | [TestNet Voorjaarsevenement](https://www.testnet.org/) | [*De vergeten tester*](/talks/de-vergeten-tester/)             |
@@ -47,3 +48,5 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 | 16-12-21 | [Cito](https://www.cito.nl/) (intern)                | *Jezelf ontwikkelen met een blog*                                |
 
 [^1]: Lightning talk.
+
+[^2]: Keynote.

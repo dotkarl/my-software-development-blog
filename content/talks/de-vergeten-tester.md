@@ -28,6 +28,7 @@ Na deze sessie herken je schadelijke dynamieken in je eigen team, en weet je hoe
 - [TestNet Voorjaarsevenement](https://www.testnet.org/), 6 mei 2026
 - PI-planning @ [Cito](https://www.cito.nl) (intern), 15 juni 2026
 - [SpaceRockIT](https://spacerockitfestival.nl/), 4 september 2026
+- [Noordertest](https://www.noordertest.nl/) <span style="font-variant:small-caps;">keynote</span>, 22 oktober 2026
 
 
 ## Gerelateerde blogs
