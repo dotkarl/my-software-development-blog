@@ -36,6 +36,7 @@ Na deze sessie herken je schadelijke dynamieken in je eigen team, en weet je hoe
 
 - [De vergeten tester](/blog/25/09/de-vergeten-tester/)
 - [Hoe testers kwaliteit kunnen ondermijnen](/blog/25/12/hoe-testers-kwaliteit-kunnen-ondermijnen/)
+- [Het argument van zachtheid](/blog/26/07/het-argument-van-zachtheid/)
 - [Een ontwikkelaar is verantwoordelijk voor drie systemen](/blog/25/12/een-ontwikkelaar-is-verantwoordelijk-voor-drie-systemen/)
 - [Een tip voor testers](/blog/26/05/een-tip-voor-testers/)
 - [Een tester of praten](/blog/26/05/een-tester-of-praten/)
