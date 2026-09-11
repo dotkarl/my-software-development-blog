@@ -1,8 +1,8 @@
 ---
 title: "Wanneer update je je dependencies?"
 author: "Karl van Heijster"
-date: 2026-08-07T08:51:57+02:00
-draft: true
+date: 2026-09-11T08:19:53+02:00
+draft: false
 comments: true
 tags: ["third party code", "onderhoud", "software ontwikkelaar (rol)", "werkplezier", "zorg"]
 summary: "Jouw code is niet jouw code. Jouw code is een onderdeel van een compleet ecosysteem aan code. Jouw code is afhankelijk van een onbezonnen hoeveelheid *third party libraries*. Jouw code is waarschijnlijk het kleinste deel van je eigenlijke codebase. Al die andere code moet je ook onderhouden. Niet door er zelf wijzigingen aan door te voeren, maar door deze afhankelijkheden regelmatig te updaten. Wanneer is het beste moment om dat te doen?"
@@ -29,7 +29,7 @@ Dat is hoe ik het doe, althans. Ik begin elke ochtend met de vraag: zijn er nog 
 Zo ging het niet altijd, natuurlijk. Er was een tijd dat ik helemaal niet omkeek naar de afhankelijkheden van mijn codebase. Dat was een luxe die ik me kon veroorloven omdat anderen dat deden. 
 
 
-Althans, ik meende dat anderen dat deden. Toen kwamen we erachter dat zus of zo niet mogelijk was, omdat we dit en dat package gebruikten dat nog drie *majors* achterliep. Dan voerden we de update door, brak er van alles, scholden we erop los, pasten de code aan, zaten met de handen in het haar -- en dan werd het vrijdag en als we dat probleem opgelost hadden, waren we heel tevreden met onszelf.
+Althans, ik *dacht* dat anderen dat deden. Toen kwamen we erachter dat zus of zo niet mogelijk was, omdat we dit en dat package gebruikten dat nog drie *majors* achterliep. Dan voerden we de update door, brak er van alles, scholden we erop los, pasten de code aan, zaten met de handen in het haar -- en dan werd het vrijdag en als we dat probleem opgelost hadden, waren we heel tevreden met onszelf.
 
 
 En dan konden we eindelijk beginnen het ons *eigenlijke* werk.
@@ -71,7 +71,7 @@ En genoeg ochtenden dat er geen vuiltje aan de lucht is.
 Softwareontwikkeling werkt het best in heel veel, heel kleine stappen.[^1] Dat geldt voor de code die je zelf schrijft, maar ook voor het onderhoud aan de code die je alleen maar gebruikt. 
 
 
-Want kleine stappen kennen een laag risico. Heel veel kleine stappen kennen, alles bij elkaar opgeteld, dus ook een laag risico. Grote stappen kennen een hoog risico. Eén à twee grote stappen kennen dus ook een groot risico.
+Want kleine stappen kennen een laag risico. Heel veel kleine stappen kennen, alles bij elkaar opgeteld, dus ook een laag risico. Grote stappen kennen een hoog risico. Eén à twee grote stappen kennen dus ook een hoog risico.
 
 
 [Als softwareontwikkelaar](/tags/software-ontwikkelaar-rol/ "Blogs met de tag 'software ontwikkelaar (rol)'") is het niet alleen je taak om code te schrijven. Het is ook je taak code te onderhouden. En ja, nieuwe code bouwen is leuk, leuker dan onderhoud, meestal. Maar er valt wat te zeggen voor het vinden van plezier in onderhoud -- of op zijn minst: de wil omstandigheden te creëren waarin onderhoud niet onnodig pijnlijk is.
