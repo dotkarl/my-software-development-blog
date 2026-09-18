@@ -1,8 +1,8 @@
 ---
 title: "Duplicatie en veranderlijkheid"
 author: "Karl van Heijster"
-date: 2026-08-07T10:13:56+02:00
-draft: true
+date: 2026-09-18T08:11:59+02:00
+draft: false
 comments: true
 tags: ["DRY", "infrastructuur", "onderhoudbaarheid", "tijd"]
 summary: "Toen ik met vakantie ging, kreeg onze junior, met hulp van een externe partij, de taak onze infrastructuur te herstructureren naar gestandaardiseerde componenten. Hij deed dat eerst voor onze acceptatieomgeving. Daarna was het tijd voor de productieomgeving. De vraag was nu: dupliceren we de Bicep-bestanden van onze acceptatieomgeving, of parameteriseren we die bestanden zodat ze voor beide omgevingen werken?"
@@ -20,13 +20,13 @@ Daarna was het tijd voor productie. De vraag was nu: dupliceren we de [Bicep](ht
 ## Complexiteit
 
 
-Ik ben een ontwikkelaar, ik ben opgegroeid met [DRY](/tags/dry/ "Blogs met de tag 'DRY'") -- *Don't Repeat Yourself* --, dus mijn eerste omgeving was: parameteriseren natuurlijk! Maar tot mijn verbazing pleitte onze contactpersoon van de externe partij voor duplicatie. Parameteriseren zou de complexiteit van de code te zeer richting ononderhoudbaarheid stuwen.
+Ik ben een ontwikkelaar, ik ben opgegroeid met [DRY](/tags/dry/ "Blogs met de tag 'DRY'") -- *Don't Repeat Yourself* --, dus mijn eerste ingeving was: parameteriseren natuurlijk! Maar tot mijn verbazing pleitte onze contactpersoon van de externe partij voor duplicatie. Parameteriseren zou de complexiteit van de code te zeer richting ononderhoudbaarheid stuwen.
 
 
-Maar in het ideale geval, wierp ik tegen, verschillen de onderdelen van onze infrastructuur alleen in hun *postfixes*: `acc` versus `prod`. In het ideale geval wel, gaf hij toe, maar de praktijk wijst uit dat het nooit zo eenvoudig is. En de trucjes die ervoor nodig zijn één bron van waarheid te houden, hoewel individueel misschien insignifant, stapelen zich snel op.
+Maar in het ideale geval, wierp ik tegen, verschillen de onderdelen van onze infrastructuur alleen in hun *postfixes*: `acc` versus `prd`. In het ideale geval wel, gaf hij toe, maar de praktijk wijst uit dat het nooit zo eenvoudig is. En de trucjes die ervoor nodig zijn één bron van waarheid te houden, hoewel individueel misschien insignifant, stapelen zich snel op.
 
 
-Duplicatie betekent: *what you see is what you get.* Geen mentale gymnastiek benodigd: je hoeft maar naar de Bicep van `prod` te kijken om te zien wat er op productie staat.
+Duplicatie betekent: *what you see is what you get.* Geen mentale gymnastiek benodigd: je hoeft maar naar de Bicep van `prd` te kijken om te zien wat er op productie staat.
 
 
 ## Verandering
