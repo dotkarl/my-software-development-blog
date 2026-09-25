@@ -19,13 +19,13 @@ Ik schrijf een document<br>
 waarin ik uitleg<br>
 zo rustig mogelijk<br>
 aan architecten nota bene<br>
-waarom koppeling
+waarom je geen
 
 
-ongewenst is,<br>
+*commodity* moet bouwen,<br>
 zodat ze dat<br>
-terzijde kunnen leggen,<br>
-zij hoeven er niet<br>
+terzijde kunnen leggen.<br>
+Zij hoeven er niet<br>
 mee te leven immers.
 
 
