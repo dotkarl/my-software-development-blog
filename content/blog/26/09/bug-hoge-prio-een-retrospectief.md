@@ -1,8 +1,8 @@
 ---
 title: "Bug, hoge prio (een retrospectief)"
 author: "Karl van Heijster"
-date: 2026-08-14T08:45:37+02:00
-draft: true
+date: 2026-09-25T07:28:46+02:00
+draft: false
 comments: true
 tags: ["bugs", "communicatie", "continuous deployment", "management", "samenwerking", "teamcultuur", "trunk-based development"]
 summary: "Ze zeggen, elk probleem is ook een communicatieprobleem. Dit is een communicatieprobleem. De ontwikkelaar communiceert niet. De tester communiceert niet. De ops'er communiceert niet. De enige die communiceert is de ontwikkelaar die, vanuit het bevindingenoverleg, trouw de bugs meldt. -- Maar: hoe communiceert de teamleider?"
@@ -47,7 +47,7 @@ Maar: hoe communiceert de teamleider? Ze [rekent erop](/tags/aannames/ "Blogs me
 Misschien is de verwachting helder gecommuniceerd, misschien niet. Duidelijk is dat de verwachting opnieuw onder woorden moet worden gebracht: "Bij bugs met hoge prioriteit verwacht ik om de *x* uur een update. Maakt niet uit of er een oplossing is gevonden of niet, na zoveel tijd verwacht ik een update. Daarna verwacht ik een update als een fix inderdaad gevonden is. Ik verwacht een update als de tester de fix goed- of afkeurt. Ik verwacht een update als de bug is uitgerold." 
 
 
-En ook: "Ik verwacht niet alleen dat *ik* daarover geïnformeerd wordt. Ik verwacht dat *de melder van de bug* daarover geïnformeerd wordt." En ook: "Ik verwacht dat er zus en zo gecommuniceerd wordt" -- bijvoorbeeld in een specifieke chatgroep.
+En ook: "Ik verwacht niet alleen dat *ik* daarover geïnformeerd wordt. Ik verwacht dat *de melder van de bug* daarover geïnformeerd wordt." En ook: "Ik verwacht dat er zus en zo gecommuniceerd wordt" -- bijvoorbeeld in een specifieke kanaal op Teams.
 
 
 Bestaat er een draaiboek voor dergelijke bugs? Wellicht loont het zich dit niet alleen te bespreken, maar ook [vast te leggen](/tags/documentatie/ "Blogs met de tag 'documentatie'").
@@ -56,7 +56,7 @@ Bestaat er een draaiboek voor dergelijke bugs? Wellicht loont het zich dit niet 
 {{< asterisk >}}
 
 
-Maar dat is maar één vorm van communicatie. Let ook op de manieren waarop teamleden met elkaar communiceren -- of niet juist. De ontwikkelaar draagt het controleren van de fix over aan de tester. De tester draagt de uitrol over aan de ops'er. Elke overdracht introduceert frictie. De ontwikkelaar is klaar; de fix staat in de wacht tot de tester eraan toekomt. De tester is klaar; de fix staat in de wacht tot de ops'er hem uitrolt. 
+Maar dat is maar één vorm van communicatie. Let ook op de manieren waarop teamleden met elkaar communiceren -- of juist niet. De ontwikkelaar draagt het controleren van de fix over aan de tester. De tester draagt de uitrol over aan de ops'er. Elke overdracht introduceert frictie. De ontwikkelaar is klaar; de fix staat in de wacht tot de tester eraan toekomt. De tester is klaar; de fix staat in de wacht tot de ops'er hem uitrolt. 
 
 
 En ondertussen wacht de melder van de bug tot hij verder kan.
@@ -89,7 +89,7 @@ We zijn te lief voor elkaar. Maar dat is niet lief voor elkaar.
 {{< asterisk >}}
 
 
-Het is een [cultureel](/tags/teamcultuur/ "Blogs met de tag 'teamcultuur'") probleem, natuurlijk, en cultuur is mensenwerk. Maar mensen worden gestuurd door systemen, hun context bepaalt hun gedrag.
+Het is een [cultureel](/tags/teamcultuur/ "Blogs met de tag 'teamcultuur'") probleem, natuurlijk, en cultuur is mensenwerk. Maar mensen worden gestuurd door systemen en de prikkels die zij introduceren, hun context bepaalt hun gedrag.
 
 
 De ontwikkelaar debugt en fixt op een aparte branch. De branch is het domein van de ontwikkelaar. Eenmaal klaar, rolt hij zijn codewijziging uit naar de testomgeving. De testomgeving is het domein van de tester. Eenmaal klaar, geeft hij een seintje aan de ops'er om de wijziging door te zetten. De productieomgeving is het domein van de ops'er.
