@@ -1,8 +1,8 @@
 ---
 title: "Vijf dynamieken van een goed functionerend team"
 author: "Karl van Heijster"
-date: 2026-08-21T08:42:35+02:00
-draft: true
+date: 2026-10-02T08:46:39+02:00
+draft: false
 comments: true
 tags: ["betekenis", "psychologische veiligheid", "teamcultuur"]
 summary: "Uit een onderzoek van Google uit 2015 blijken de volgende vijf dynamieken het meest bij te dragen aan een goed functionerend team: (1) psychologische veiligheid; (2) betrouwbaarheid; (3) structuur en helderheid; (4) betekenis, en (5) impact."
