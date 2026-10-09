@@ -1,14 +1,14 @@
 ---
 title: "Voorbeeldarchitectuur"
 author: "Karl van Heijster"
-date: 2026-08-28T08:46:38+02:00
-draft: true
+date: 2026-10-09T08:01:48+02:00
+draft: false
 comments: true
 tags: ["code reviews", "eenvoud", "leercultuur", "procesverbetering", "samenwerking", "software architect (rol)", "teamcultuur"]
-summary: "Een collega in een ander team is bezig een oude applicatie te vernieuwen. Hij een andere senior en ik om zijn opzetje voor een nieuwe structuur te reviewen. Zelf had ik, merkte ik, geen sterke meningen over de code -- of liever: de implementatie. Zit er een goed vangnet omheen? Dan geloof ik het wel. Ik had tegen het eind van de sessie één vraag: \"Is de complexiteit van de code in verhouding met de complexiteit van het probleem?\""
+summary: "Een collega in een ander team is bezig een oude applicatie te vernieuwen. Hij vroeg een andere senior en ik om zijn opzetje voor een nieuwe structuur te reviewen. Zelf had ik, merkte ik, geen sterke meningen over de code -- of liever: de implementatie. Zit er een goed vangnet omheen? Dan geloof ik het wel. Ik had tegen het eind van de sessie één vraag: \"Is de complexiteit van de code in verhouding met de complexiteit van het probleem?\""
 ---
 
-Een collega in een ander team is bezig een [oude applicatie](/tags/legacy-code/ "Blogs met de tag 'legacy code'") te vernieuwen. Hij een andere senior en ik om zijn opzetje voor een nieuwe structuur te [reviewen](/tags/code-reviews/ "Blogs met de tag 'code reviews'"). Mijn collega nam de muis en grasduinde in de code. "Waarom een apart project voor de interfaces? Waarom niet de interfaces in het project zelf?" "[*Vertical slices*](https://www.jimmybogard.com/vertical-slice-architecture/ "'Vertical Slice Architecture', Jimmy Bogard"), zie ik. Mooi." "Hier gebruiken jullie een [*result*-patroon](https://en.wikipedia.org/wiki/Result_type "'Result type', Wikipedia")? Daar zijn wij juist vanaf gestapt." Dat soort dingen.
+Een collega in een ander team is bezig een [oude applicatie](/tags/legacy-code/ "Blogs met de tag 'legacy code'") te vernieuwen. Hij vroeg een andere senior en ik om zijn opzetje voor een nieuwe structuur te [reviewen](/tags/code-reviews/ "Blogs met de tag 'code reviews'"). Mijn collega nam de muis en grasduinde in de code. "Waarom een apart project voor de interfaces? Waarom niet de interfaces in het project zelf?" "[*Vertical slices*](https://www.jimmybogard.com/vertical-slice-architecture/ "'Vertical Slice Architecture', Jimmy Bogard"), zie ik. Mooi." "Hier gebruiken jullie een [*result*-patroon](https://en.wikipedia.org/wiki/Result_type "'Result type', Wikipedia")? Daar zijn wij juist vanaf gestapt." Dat soort dingen.
 
 
 Zelf had ik, merkte ik, geen sterke meningen over de code -- of liever: de implementatie. Zit er een goed [vangnet](/blog/22/09/tests-als-vangnet/ "'Tests als vangnet'") omheen? Dan geloof ik het wel. Wie zijn code opbouwt gesteund door een goede [test](/tags/testen/ "Blogs met de tag 'testen'") suite, kan met de structuur nog alle kanten op. Ik had tegen het eind van de sessie één vraag: "Is de [complexiteit](/tags/complexiteit/ "Blogs met de tag 'complexiteit'") van de code in verhouding met de complexiteit van het probleem?"
@@ -17,10 +17,10 @@ Zelf had ik, merkte ik, geen sterke meningen over de code -- of liever: de imple
 ## Beste simpele systeem voor nu
 
 
-Niet toevallig hadden we twee weken eerder [Dan Norths](https://dannorth.net/) [*Best Simple System for Now*](https://dannorth.net/blog/best-simple-system-for-now/ "'Best Simple System for Now', Dan North")[^1] gelezen bij de [boekenclub](/tags/boekenclub/ "Blogs met de tag 'boekenclub'"). Zijn these is eenvoudig: bouw een zo eenvoudig mogelijk maar kwalitatief voldoende systeem precies doet wat het nu moet doen. Op het moment dat je het uit moet breiden, zal duidelijk worden wat je waar moet aanpassen om die uitbreiding te kunnen ondersteunen. Je bouwt dan een nieuw zo goed mogelijk simpel systeem voor nu -- tot je uiteindelijk een zo goed mogelijk systeem hebt dat precies complex genoeg is om het probleem op te kunnen lossen.
+Niet toevallig hadden we twee weken eerder [Dan Norths](https://dannorth.net/) [*Best Simple System for Now*](https://dannorth.net/blog/best-simple-system-for-now/ "'Best Simple System for Now', Dan North")[^1] gelezen bij de [boekenclub](/tags/boekenclub/ "Blogs met de tag 'boekenclub'"). Zijn these is eenvoudig: bouw een zo eenvoudig mogelijk systeem van goede kwaliteit dat precies doet wat het nu moet doen. Op het moment dat je het uit moet breiden, zal duidelijk worden wat je waar moet aanpassen om die uitbreiding te kunnen ondersteunen. Je bouwt dan een nieuw zo goed mogelijk simpel systeem voor nu -- tot je uiteindelijk een zo goed mogelijk systeem hebt dat precies complex genoeg is om het probleem op te kunnen lossen.
 
 
-Mijn collega gaf toe, sommige dingen waren *over-engineerd* voor wat het nu moest doen. Maar, verdedigde hij (en niet helemaal onterecht): we hebben de oude applicatie als voorbeeld, we weten dat zus en zo er aan zal komen! Bovendien, het doel van zijn opzet was niet louter de feature implementeren; het was een voorbeeld presenteren van hoe de code kon worden opgezet om de problemen van het oude systeem te voorkomen.
+Mijn collega gaf toe, sommige dingen waren *over-engineerd* voor wat het nu moest doen. Maar, verdedigde hij (en niet helemaal onterecht): we hebben de oude applicatie als voorbeeld, we weten dat zus en zo er aan zal komen! Bovendien, het doel van zijn opzet was niet louter de feature implementeren; het was een voorbeeld van hoe de code kon worden opgezet om de problemen van het oude systeem te voorkomen.
 
 
 De zorgen die schuilgaan achter het willen opstellen van zo'n voorbeeldarchitectuur zijn valide. Een team dat het -- sluimerend -- niet eens is over de inrichting van een codebase, zal een chaotische rommel produceren. De ene ontwikkelaar stopt logica in *services*, de andere in [domeinobjecten](/tags/domeinmodel/ "Blogs met de tag 'domeinmodel'"), en de volgende propt alles in één lange [procedurele](/tags/procedureel-programmeren/ "Blogs met de tag 'procedureel programmeren'") [functie](/tags/functies/ "Blogs met de tag 'functies'"). Je wil vangrails introduceren om die situatie te voorkomen.
@@ -32,7 +32,7 @@ De zorgen die schuilgaan achter het willen opstellen van zo'n voorbeeldarchitect
 Het probleem met dit soort vangrails is dat ze op termijn altijd gaan knellen -- dat is althans mijn ervaring. Aan de start van ons eigen moderniseringstraject besloten wij een eenvoudige gelaagde applicatie op te zetten. Maar na verloop van tijd merkten we dat [we allerlei services geïntroduceerd hadden](/blog/26/04/entity-services-en-het-contextprincipe/ "'Entity services en het contextprincipe'") die de overstap naar *vertical slices* bemoeilijkten.
 
 
-Het probleem was: voor we het wisten hadden we *enorm* veel code in de ene opzet, en zou een migratie op basis van voortschreidend inzicht veel tijd kosten. En de ontwikkelaars vroegen zich af waar het nu mis was gegaan: ze hadden toch immers netjes de voorbeeldarchitectuur gevolgd? Waarom was de complexiteit hen dan toch weer boven het hoofd gegroeid?
+Het probleem was: voor we het wisten hadden we *enorm* veel code in de ene opzet, en zou een migratie op basis van voortschrijdend inzicht veel tijd kosten. En de ontwikkelaars vroegen zich af waar het nu mis was gegaan: ze hadden toch immers netjes de voorbeeldarchitectuur gevolgd? Waarom was de complexiteit hen dan toch weer boven het hoofd gegroeid?
 
 
 ## Eindresultaat
