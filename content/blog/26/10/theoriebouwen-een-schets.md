@@ -1,8 +1,8 @@
 ---
 title: "Theoriebouwen (een schets)"
 author: "Karl van Heijster"
-date: 2026-09-11T08:33:46+02:00
-draft: true
+date: 2026-10-16T07:55:37+02:00
+draft: false
 comments: true
 tags: ["filosofie", "software ontwikkelaar (rol)", "software ontwikkelen"]
 summary: "Wat is programmeren? Een voor de hand liggend antwoord is: een programma schrijven. Wie tekst oplevert die door een compiler kan worden omgezet naar machine-instructies, die kunnen worden uitgevoerd om een bepaald doel te bereiken -- die programmeert. Programmeren wordt in deze schets gekenmerkt door het opgeleverde eindproduct: het programma."
@@ -56,7 +56,7 @@ Welk antwoord acht jij het meest plausibel?
 Naur zit ferm in kamp <span style="font-variant:small-caps;">nee</span>. Programmeren is theoriebouwen. Een *essentieel* onderdeel van programmeren is dat de programmeur een bepaald inzicht opdoet over datgeen waar hij mee bezig is.
 
 
-De vraag is dan: wat is een theorie? Naur, in navolging van [Gilbert Ryles](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy") [*The Concept of Mind*](https://en.wikipedia.org/wiki/The_Concept_of_Mind "'The Concept of Mind', Wikipedia")[^2]:
+De vraag is dan: wat is een theorie? Naur, in navolging van [Gilbert Ryles](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy")[^2] [*The Concept of Mind*](https://en.wikipedia.org/wiki/The_Concept_of_Mind "'The Concept of Mind', Wikipedia"):
 
 
 > *[A] person who has or posesses a theory (...) knows how to do certain things and in addition can support the actual doing with explanations, justifications, and answers to queries, about the activity of concern.*
@@ -71,16 +71,16 @@ De programmeur (of: "programmeur"?) die louter instructies op heeft gevolgd, hee
 {{< asterisk >}}
 
 
-Een collega van me parafraseerde "theorie", niet onterecht, als "domeinkennis". Maar pas op voor een mogelijke equivocatie. "Domeinkennis" kan betekenen: "kennis van het probleemdomein" en "kennis van het oplossingsdomein". De theorie waar Naur het over heeft, verwijst naar beide.
+Een collega van me parafraseerde "theorie", niet onterecht, als "domeinkennis". Maar pas op voor een mogelijke equivocatie. "Domeinkennis" kan betekenen: "kennis van het probleemdomein" en "kennis van het oplossingsdomein". Naur maakt dat onderscheid niet, en de theorie waar hij het over heeft, verwijst dus in zekere zin naar beide tegelijk.
 
 
-In zijn algemene karakterisatie van de theorie van een programmeur, lijkt Naur vooral de nadruk te leggen op het probleemdomein:
+Naurs algemene karakterisatie van de theorie van een programmeur, zou gelezen kunnen worden als betreffende beide soorten domein:
 
 
 > *[W]hat has to be built by the programmer is a theory of how certain affairs of the world will be handled by, or supported by, a computer program.*
 
 
-Maar wanneer hij de drie manieren beschrijft waarop de theorie van de programmeur eventuele [documentatie](/tags/documentatie/ "Blogs met de tag 'documentatie'") overstijgt, lijkt het tussen beide te oscileren. De eerste verwijst in mijn beleving naar het probleemdomein; de derde naar het oplossingsdomein; en de tweede zou je in het licht van beide kunnen interpreteren:
+Maar wanneer hij de drie manieren beschrijft waarop de theorie van de programmeur eventuele [documentatie](/tags/documentatie/ "Blogs met de tag 'documentatie'") overstijgt, lijkt het tussen beide te oscileren. De eerste verwijst in mijn beleving meer naar het probleemdomein; de derde naar het oplossingsdomein; en de tweede zou je in het licht van beide kunnen interpreteren:
 
 
 > *1) The programmer having the theory of the program can explain how the solution relates to the affairs of the world that it helps handle.* (...)
@@ -105,7 +105,7 @@ Leuk, dat theoriebouwen. En vooruit, wellicht bouwen programmeurs inderdaad een 
 Hier doet Naur iets verstandigs: hij beschouwt programmeren in het licht van "*what actually happens to programs and the teams of programmers dealing with them*". En wat zien we wanneer we naar programmeren in de praktijk kijken? Dat het aanpassen van het programma een constante is:
 
 
-> *[A]t least with certain kinds of large programs,* the continued adaption, modification, and correction of errors in them, *is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are closely and continuously connected with them.* (Mijn cursivering)
+> [A]t least with certain kinds of large programs, *the continued adaption, modification, and correction of errors* in them, is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are *closely and continuously connected* with them. (Mijn cursivering)
 
 
 Programma's kennen geen eindpunt waarop ze *klaar* zijn; hooguit een punt waarop ze opgegeven worden. Tot het zo ver is, zal het programma moeten worden aangepast.[^3] Om een programma aan te kunnen passen -- zonder er een enorme puinhoop van te maken -- is het nodig om een theorie ervan op te hebben gebouwd.
