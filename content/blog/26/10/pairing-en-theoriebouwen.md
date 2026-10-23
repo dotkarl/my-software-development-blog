@@ -1,8 +1,8 @@
 ---
 title: "Pairing en theoriebouwen"
 author: "Karl van Heijster"
-date: 2026-09-11T11:23:38+02:00
-draft: true
+date: 2026-10-23T08:02:45+02:00
+draft: false
 comments: true
 tags: ["efficiëntie", "pair programming", "samenwerking", "software ontwikkelaar (rol)", "software ontwikkelen"]
 summary: "Waarom zou je aan *pair programming* doen? Dan doen twee mensen het werk van één, dat is toch vreselijk inefficiënt! -- Die zienswijze veronderstelt dat het doel van programmeren is om een werkend programma te produceren. Maar een werkend programma maakt nog geen goede software. Goede software is *soft*: eenvoudig aan te passen naar veranderende eisen en wensen."
@@ -28,4 +28,4 @@ Maar *pairing* is niet alleen wenselijk bij nieuwe teamleden. Ook wanneer ervare
 
 [^1]: Ik vroeg me in 2023 al af: [*Is pair programming minder efficiënt?*](/blog/23/01/is-pair-programming-minder-efficient/) In die blog richt ik mijn pijlen op de onuitgesproken premisse dat de code die door een *pair* wordt opgeleverd niet wezenlijk anders is dan van die van een solist.
 
-[^2]: Naur ontleent de term aan [Gilbert Ryles](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy") [*The Concept of Mind*](https://en.wikipedia.org/wiki/The_Concept_of_Mind "'The Concept of Mind', Wikipedia"). Een theorie betekent, kort gezegd, het vermogen (intelligent) gedrag te verklaren, rechtvaardigen en te duiden in een bredere context. Zie ook [deze blog](THEORIEBOUWEN_EEN_SCHETS "Theoriebouwen (een schets)").
+[^2]: Naur ontleent de term aan [Gilbert Ryles](https://plato.stanford.edu/entries/ryle/ "'Gilbert Ryle', Stanford Encyclopedia of Philosophy") [*The Concept of Mind*](https://en.wikipedia.org/wiki/The_Concept_of_Mind "'The Concept of Mind', Wikipedia"). Een theorie betekent, kort gezegd, het vermogen (intelligent) gedrag te verklaren, rechtvaardigen en te duiden in een bredere context. Zie ook [deze blog](/blog/26/10/theoriebouwen-een-schets/ "Theoriebouwen (een schets)").
