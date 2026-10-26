@@ -1,7 +1,7 @@
 ---
 title: "De vergeten tester"
 author: "Karl van Heijster"
-date: 2026-08-04T07:50:09+02:00
+date: 2026-10-22T10:39:09+01:00
 draft: false
 comments: true
 tags: ["samenwerking", "software ontwikkelaar (rol)", "systeemdenken", "testen", "tester (rol)"]
