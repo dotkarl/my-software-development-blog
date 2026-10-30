@@ -9,6 +9,7 @@ Ik deel mijn inzichten graag op usergroups en conferenties. Bij de volgende gele
 
 |          |                                                      |                                                                  |
 | ---------| ---------------------------------------------------- | ---------------------------------------------------------------- |
+| 26-11-26 | [Tech & Bites](https://www.meetup.com/techandbites/events/317159516/) | [*Wat zegt deze test?*](/talks/wat-zegt-deze-test/)              |
 | 22-10-26 | [Noordertest](https://www.noordertest.nl/)           | [*De vergeten tester*](/talks/de-vergeten-tester/)[^2]           |
 | 04-09-26 | [SpaceRockIT](https://spacerockitfestival.nl/)       | [*De vergeten tester*](/talks/de-vergeten-tester/)               |
 | 15-06-26 | [Cito](https://www.cito.nl/) (intern)                | [*De vergeten tester*](/talks/de-vergeten-tester/)               |
