@@ -1,8 +1,8 @@
 ---
 title: "Mijmering"
 author: "Karl van Heijster"
-date: 2026-09-18T11:46:13+02:00
-draft: true
+date: 2026-10-30T08:04:27+01:00
+draft: false
 comments: true
 tags: ["koppeling", "poëzie", "software architect (rol)", "vergaderen"]
 summary: "*Toen ik jong was / was er een baard, / hij zat in meetings / continu. / Nu ben ik hem.*"
@@ -17,15 +17,14 @@ Nu ben ik hem.
 
 Ik schrijf een document<br>
 waarin ik uitleg<br>
-zo rustig mogelijk<br>
+zo koel en kalm als kan<br>
 aan architecten nota bene<br>
-waarom je geen
+waarom je geen *comm*-
 
-
-*commodity* moet bouwen,<br>
-zodat ze dat<br>
-terzijde kunnen leggen.<br>
-Zij hoeven er niet<br>
+*oddity* moet bouwen.<br>
+Zodat ze dadelijk dat<br>
+terzijde kunnen leggen,<br>
+zij hoeven er niet<br>
 mee te leven immers.
 
 
