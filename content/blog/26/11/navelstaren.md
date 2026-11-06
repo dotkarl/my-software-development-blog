@@ -1,8 +1,8 @@
 ---
 title: "Navelstaren"
 author: "Karl van Heijster"
-date: 2026-09-25T11:59:45+02:00
-draft: true
+date: 2026-11-06T08:04:25+01:00
+draft: false
 comments: true
 tags: ["bedrijfscultuur", "politiek", "samenwerking", "software ontwikkelaar (rol)", "teamcultuur", "verantwoordelijkheid"]
 summary: "Het jochie is nu *lead developer*. -- Wat betekent dat? Ik heb minder met code, tegenwoordig. Ik codeer nog wel, natuurlijk, elke dag. Maar mijn focus heeft zich verlegd van het produceren van zo goed mogelijke code, naar het produceren van een team dat zo goed mogelijke code produceert. Mijn rol is: ervoor zorgen dat iedereen op dezelfde lijn zit. De lijn is: wat ik in de loop der jaren heb geleerd wat de lijn zou moeten zijn."
@@ -23,7 +23,7 @@ Mijn rol is: ervoor zorgen dat iedereen op dezelfde lijn zit. De lijn is: wat ik
 Met iedereen in mijn team heb ik eens in de zoveel weken een halfuurtje. Om te kijken hoe het met ze gaat, waar ze tegenaan lopen. Om na te gaan of onze verwachtingen in elkaars verlengde liggen. Of zij iets anders of beter kunnen doen. Of *ik* iets anders of beter kan doen. 
 
 
-Het is interessant: geef mensen een halfuurtje van je aandacht, en ze weten je de rest van de tijd ook makkelijker te vinden. Dan vragen ze: "Hoe moet ik *zus* aanpakken?" En dan zeg ik: "Wat probeer je te bereiken?" En dan zeggen ze: "*Zo*." En dan komen we tot de conclusie: "Maar dan hoef je helemaal niet *zus*." En dan zijn we allebei blij.
+Het is interessant: geef mensen een halfuurtje van je aandacht, en ze weten je de rest van de tijd ook makkelijker te vinden. Dan vragen ze: "Hoe moet ik *zus* aanpakken?" En dan zeg ik: "Wat probeer je te bereiken?" En dan zeggen ze: "*Zo*." En dan komen we tot de conclusie: "Maar dan hoef je helemaal niet *zus*." En dan zijn we allebei blij. (Meestal zijn we allebei blij.)
 
 
 Vaak is mijn rol: te vragen of *dat* werkelijk het probleem is dat je op wil lossen. Of: het probleem dat je *nu* op wil lossen. Jarenlang oefenen met [Test-Driven Development](/tags/test-driven-development/ "Blogs met de tag 'test-driven development'") (TDD) heeft me geleerd een probleem in kleine brokjes op te hakken. En de brokjes te wegen op een schaal van belangrijkheid.
@@ -56,7 +56,7 @@ En ik denk dat ik zie wat ik zie.
 Het is ook *de politiek*, dat komt er ook bij kijken. Jeetje, wat een politiek!
 
 
-Het is ook dat: wil ik over de politiek schrijven? De politiek, de politiek: dat is doordeweeks al vermoeiend genoeg, wil ik daar ook nog de vrijdagochtend aan besteden?
+Het is ook dat: wil ik over de politiek schrijven? De politiek, de politiek: dat is doordeweeks al vermoeiend genoeg, wil ik daar ook nog de vrijdagochtend aan kwijt?
 
 
 Het is: dat je argument na argument aandraagt voor -- daar gaan we het verder niet over hebben -- en dat daar niks mee gedaan wordt. Men vraagt, doe anders een [*proof of concept*](/tags/proof-of-concept/ "Blogs met de tag 'proof of concept'") (POC). Dus je zet je over je bezwaren heen, en de POC levert je nog vijf nieuwe bezwaren aan.
