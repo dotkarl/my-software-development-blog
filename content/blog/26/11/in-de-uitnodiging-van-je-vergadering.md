@@ -1,8 +1,8 @@
 ---
 title: "In de uitnodiging van je vergadering"
 author: "Karl van Heijster"
-date: 2026-10-02T10:49:17+02:00
-draft: true
+date: 2026-11-13T08:12:45+01:00
+draft: false
 comments: true
 tags: ["communicatie", "vergaderen"]
 summary: "Ik werd uitgenodigd van een vergadering van vijf uur. Vijf uur! Dat is niet normaal. Dat is ondoenlijk. Dat is een misdaad tegen de menselijkheid! -- Althans, als de insteek is om vijf uur lang echt te, eh, vergaderen. Ik neem aan dat dat niet de insteek is. Toch? Zeg me alsjeblieft dat dat niet de insteek is."
