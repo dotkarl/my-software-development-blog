@@ -1,17 +1,17 @@
 ---
 title: "AI-tekst vs. AI-code"
 author: "Karl van Heijster"
-date: 2026-10-09T08:47:19+02:00
-draft: true
+date: 2026-11-20T08:03:30+01:00
+draft: false
 comments: true
 tags: ["communicatie", "kernwaarden", "kunstmatige intelligentie", "mentaal model"]
 summary: "Het heeft iets gênants wanneer ogenschijnlijk intelligente mensen AI-gegenereerde teksten presenteren als hun eigen ideeën -- zeker (maar niet uitsluitend) als het opzichtig gegenereerd is. Maar waarom vind ik dat? Immers, ik genereer ook tekst met hulp van AI -- alleen is de tekst die ik genereer *code*, en code schrijven is, nota bene, mijn werk, of toch op z'n minst een deel ervan. Ben ik dan geen vreselijke hypocriet?"
 ---
 
-Ik ben niet zo naïef (of vergeetachtig) te denken dat [LinkedIn](https://www.linkedin.com/) ooit een fijne plek is geweest -- een broedplek waar getalenteerde professionals hun weloverwogingen meningen over hun vakgebied met elkaar deelden, zoiets. Maar, en ik zeg nu vast niks controversieels, sinds de opkomst van LLM's is het niet meer hetzelfde. De hoeveelheid gegenereerde lucht die dagelijks op LinkedIn de lucht in wordt geslingerd, is stuitend, en de zekerheid waarmee die nonsens wordt gedebiteerd is om te huilen zo lachwekkend.
+Ik ben niet zo naïef (of vergeetachtig) te denken dat [LinkedIn](https://www.linkedin.com/) ooit een fijne plek is geweest -- een broedplek waar getalenteerde professionals hun weloverwogingen meningen over hun vakgebied met elkaar deelden, zoiets. Maar, en ik zeg nu vast niks controversieels, sinds de opkomst van LLM's is het niet meer hetzelfde. De hoeveelheid gegenereerde lucht die dagelijks op LinkedIn de ether in wordt geslingerd, is stuitend, en de zekerheid waarmee die nonsens wordt gedebiteerd is om te huilen zo lachwekkend.
 
 
-Het heeft iets gênants wanneer ogenschijnlijk intelligente mensen AI-gegenereerde teksten presenteren als hun eigen ideeën -- zeker (maar niet uitsluitend) als het opzichtig gegenereerd is. Maar waarom vind ik dat? Immers, ik genereer ook tekst met hulp van AI -- alleen is de tekst die ik genereer *code*, en code schrijven is, nota bene, mijn werk, of toch op z'n minst een deel ervan. Ben ik dan geen vreselijke hypocriet?[^1]
+Het heeft iets gênants wanneer ogenschijnlijk intelligente mensen [AI](/tags/kunstmatige-intelligentie/ "Blogs met de tag 'kunstmatige intelligentie'")-gegenereerde teksten presenteren als hun eigen ideeën -- zeker (maar niet uitsluitend) als het opzichtig gegenereerd is. Maar waarom vind ik dat? Immers, ik genereer ook tekst met hulp van AI -- alleen is de tekst die ik genereer *code*, en code schrijven is, nota bene, mijn werk, of toch op z'n minst een deel ervan. Ben ik dan geen vreselijke hypocriet?[^1]
 
 
 {{< asterisk >}}
@@ -35,7 +35,7 @@ Je zou kunnen stellen: beide zijn beide vehikels om ideeën over te brengen. Bij
 Maar anders dan tekst, is code niet een *eindproduct*. 
 
 
-De code is primair een middel: om een bepaald probleem op te lossen. Code is utilitair, een noodzakelijk kwaad; dat wat we moeten doen om een ander doel te bereiken. Fantastisch onderhoudbare code die geen probleem oplost, is waardeloze code. Code lost een probleem op en brengt *daarnaast* een idee over, opdat ze in de toekomst aangepast kan worden dat en andere problemen op te blijven lossen.[^3]
+De code is primair een middel: om een bepaald probleem op te lossen. Code is utilitair, een noodzakelijk kwaad; dat wat we moeten doen om een ander doel te bereiken. Fantastisch onderhoudbare code die geen probleem oplost, is waardeloze code. Code lost een probleem op en brengt *daarnaast* een idee over, opdat ze in de toekomst aangepast kan worden en andere problemen op kan lossen.[^3]
 
 
 Misschien kun je het zo zeggen: de code is accidenteel. Als het probleem op een andere (maar even eenvoudige) manier kan worden opgelost, dan is dat een even goede oplossing.
@@ -62,10 +62,10 @@ Daarom is het gênant wanneer iemand een idee verkondigt in een vorm die door AI
 Maar het is ook niet zo simpel: code genereren goed, teksten genereren slecht.
 
 
-Ik heb wel eens een e-mail genereerd omdat ik de tijd en zin niet kon vinden om een formulering te vinden. Maar: die e-mail was louter utlitair; hij bevatte een verzoek, diplomatisch verwoord. Het was geen uiting van mijn eigen overtuigingen.
+Ik heb wel eens een e-mail genereerd omdat ik de tijd en zin niet kon vinden om de juiste formulering te vinden. Maar: die e-mail was louter utlitair; hij bevatte een verzoek, diplomatisch verwoord. Het was geen uiting van mijn eigen overtuigingen.
 
 
-Anderszijds: er zijn delen van de code die ik nooit door AI zou laten generen, omdat het handmatig uitschrijven van deze code essentieel voor het kunnen doen van mijn werk. Denk aan het opstellen van een logisch [domeinmodel](/tags/domeinmodel/ "Blogs met de tag 'domeinmodel'"). Het creëren van zo'n model is instrumenteel in het bouwen van een theorie die me in staat stelt met domeinexperts te communiceren.
+Anderszijds: er zijn delen van de code die ik nooit door AI zou laten generen, omdat het handmatig uitschrijven van deze code instrumenteel is voor het goed kunnen doen van mijn werk. Denk aan het opstellen van een logisch [domeinmodel](/tags/domeinmodel/ "Blogs met de tag 'domeinmodel'"). Het creëren van zo'n model is een oefening in het [bouwen van een theorie](/blog/26/10/theoriebouwen-een-schets/ "'Theoriebouwen (een schets)'") die me in staat stelt met domeinexperts te communiceren.
 
 
 {{< asterisk >}}
@@ -74,17 +74,17 @@ Anderszijds: er zijn delen van de code die ik nooit door AI zou laten generen, o
 Dan: waar leiden deze overwegingen naartoe? Het lukt me niet altijd mijn gedachten in een coherente richting te dwingen. -- Is dat zo erg? Het maakt me mens. 
 
 
-Wie een mooi rond, coherent verhaal wil, vraagt het maar aan AI om te genereren. 
+Wie een mooi rond, coherent verhaal wil, vraagt het maar aan AI. 
 
 
 [^1]: Het antwoord is en moet zijn: ja. Maar de vraag is: ook wat dit onderwerp aangaat?
 
-[^2]: Het citaat komt uit [*Refactoring*](https://martinfowler.com/books/refactoring.html "'Refactoring: Improving the Design of Existing Code (Second Edition)', Martin Fowler (with Kent Beck), Addison Wesley 2019"), dat crimineel onderschatte door het slechts een eervolle vermelding te geven in [mijn toplijst van dat jaar](/blog/21/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2021-las/ "'De beste boeken over software ontwikkeling die ik in 2021 las'"). In 2024 zette ik mijn fout recht in [deze blog](/blog/24/02/een-herwaardering-van-fowlers-refactoring/ "'Een herwaardering van Fowlers Refactoring'").
+[^2]: Het citaat komt uit [*Refactoring*](https://martinfowler.com/books/refactoring.html "'Refactoring: Improving the Design of Existing Code (Second Edition)', Martin Fowler (with Kent Beck), Addison Wesley 2019"), dat ik crimineel onderschatte door het slechts een eervolle vermelding te geven in [mijn toplijst van 2021](/blog/21/12/de-beste-boeken-over-software-ontwikkeling-die-ik-in-2021-las/ "'De beste boeken over software ontwikkeling die ik in 2021 las'"). In 2024 zette ik mijn fout recht in [deze blog](/blog/24/02/een-herwaardering-van-fowlers-refactoring/ "'Een herwaardering van Fowlers Refactoring'").
 
 [^3]: Ik heb het hier over software die in een businesscontext wordt ontwikkeld. Maar: andere contexten zijn denkbaar. [Sam Aaron](https://sam.aaron.name/) benadert software in [dit praatje](https://www.youtube.com/watch?v=RAd5RkuZPb4 "Beyond Sonic Pi: Tau5 & the Art of Coding with AI • Sam Aaron • GOTO 2025 @ YouTube") als een middel tot zelfexpressie, waarmee hij zichzelf in [een humanistische programmeercultuur](/blog/26/07/de-geschiedenis-van-programmeerculturen/ "'De geschiedenis van programme(ercultu)ren'") positioneert. 
 
 [^4]: De formulering is bewust vaag, omdat teksten verschillende dingen kunnen overbrengen. Informatieve teksten brengen informatie over, maar een verhalende tekst niet per se. Zo'n tekst zou bijvoorbeeld primair ter vermaak kunnen dienen. Als het verhaal *dat* over weet te brengen, dan is het een geslaagde tekst, zonder dat er een ander doel mee hoeft te worden vervuld.
 
-[^5]: In [dit opiniestuk](https://maartenboudry.be/2026/09/waarom-ai-proza-parasiteert-op-de-welwillendheid-van-de-lezer.html "'Waarom AI-proza parasiteert op de welwillendheid van de lezer', Maarten Boudry, 24 september 2026") van filosoof [Maarten Boudry](https://maartenboudry.be/) over dit onderwerp, kon ik me prima vinden.
+[^5]: In [dit opiniestuk](https://maartenboudry.be/2026/09/waarom-ai-proza-parasiteert-op-de-welwillendheid-van-de-lezer.html "'Waarom AI-proza parasiteert op de welwillendheid van de lezer', Maarten Boudry, 24 september 2026") over dit onderwerp, van filosoof [Maarten Boudry](https://maartenboudry.be/), kon ik me prima vinden.
 
 [^6]: Welke dynamiek bracht Rob Jetten ertoe AI te gebruiken om over te brengen [hoe indrukwekkend kamp Westerbork wel niet is](https://www.instagram.com/p/DaBGOUmgota/)? Wie geïnteresseerd is in die vraag, doet er goed aan de video's op [Carefree Wandering](https://www.youtube.com/@carefreewandering) te bekijken, het YouTubekanaal van filosoof [Hans-Georg Moeller](https://fah.um.edu.mo/hans-georg-moeller/). Zijn notie van [*profilicity*](https://www.youtube.com/watch?v=fk2PpmlxIfA "Profilicity: The Definition @ YouTube") is zeer verhelderend in deze context.
