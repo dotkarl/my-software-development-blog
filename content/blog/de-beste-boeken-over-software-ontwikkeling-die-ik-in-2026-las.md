@@ -63,5 +63,5 @@ Een codebase is zo goed als het team dat haar onderhoudt. Dus de opdracht is: ee
 
 
 * Kim Scott - [*Radical Candor: How to Get What You Want by Saying What You Mean*](https://www.radicalcandor.com/the-book)
-* Michael	Lopp - [*The Software Developer's Career Handbook: A Guide to Navigating the Unpredictable*](https://www.oreilly.com/library/view/the-software-developers/9781098116668/)
+* Michael Lopp - [*The Software Developer's Career Handbook: A Guide to Navigating the Unpredictable*](https://www.oreilly.com/library/view/the-software-developers/9781098116668/)
 * Gene Kim - [*The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data*](https://itrevolution.com/product/the-unicorn-project/)
