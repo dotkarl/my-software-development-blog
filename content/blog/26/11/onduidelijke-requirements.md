@@ -1,8 +1,8 @@
 ---
 title: "Onduidelijke requirements"
 author: "Karl van Heijster"
-date: 2026-10-16T08:41:02+02:00
-draft: true
+date: 2026-11-27T08:17:10+01:00
+draft: false
 comments: true
 tags: ["agile ontwikkeling", "software ontwikkelaar (rol)", "requirements"]
 summary: "\"Jullie zijn pleasers. Maar als de requirements onduidelijk zijn, dan moeten jullie de armen over elkaar doen en zeggen: *business*, stel maar betere requirements op, en tot die tijd doen wij helemaal niks!\" -- Jeuk! Gruwel! Dat is zo ontzettend *niet* hoe ik mijn werk opvat!"
@@ -29,7 +29,7 @@ Onze opdracht is: zet een zo klein mogelijke stap die waarde levert, en check da
 Je zegt, de *business* moet heldere requirements aanleveren. Dat *kunnen* ze niet, zelfs al zouden ze het willen! Je [stakeholders](/tags/stakeholders/ "Blogs met de tag 'stakeholders'") weten niet *precies* wat het probleem is en ze weten al helemaal niet wat de beste oplossingsrichting zou zijn -- dat laatste niet eens *precies*, gewoon: helemaal niet. 
 
 
-Dat is niet een verwijt naar de stakeholders toe: het is geen onwil of luiheid. De enige manier om hun probleem te doorgronden zonder te experimenteren is zonder zo waanzinnig lang te analyseren dat, tegen de tijd dat ze klaar zijn met hun analyse, ze zijn ingehaald door de werkelijkheid. Ze *kunnen* het niet omdat de context dat niet toestaat.
+Dat is niet een verwijt naar de stakeholders toe: het is geen onwil of luiheid. De enige manier om hun probleem te doorgronden zonder te experimenteren is zo waanzinnig lang te analyseren dat, tegen de tijd dat ze klaar zijn met hun analyse, ze zijn ingehaald door de werkelijkheid. Ze *kunnen* het niet omdat de context dat niet toestaat.
 
 
 Het hele argument veronderstelt dat je het op te lossen probleem tijdig kunt doorgronden met je hoofd. Die veronderstelling verwerp ik.
