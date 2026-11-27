@@ -1,7 +1,7 @@
 ---
 title: "Wat zegt deze test?"
 author: "Karl van Heijster"
-date: 2025-10-16T09:21:42+02:00
+date: 2026-11-26T11:30:25+01:00
 draft: false
 comments: true
 tags: []
